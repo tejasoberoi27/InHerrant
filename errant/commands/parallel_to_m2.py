@@ -2,12 +2,7 @@ import argparse
 from contextlib import ExitStack
 import errant
 
-#import cProfile
-
 def main():
-#    pr = cProfile.Profile()
-#    pr.enable()
-
     # Parse command line args
     args = parse_args()
     print("Loading resources...")

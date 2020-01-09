@@ -375,7 +375,7 @@ def exact_reordering(o_toks, c_toks):
 # Spacy only finds lemma for its predicted POS tag. Sometimes these are wrong,
 # so we also consider alternative POS tags to improve chance of a match.
 def same_lemma(o_tok, c_tok):
-    # Basic lemmatisation for spacy >= 2 if people insist
+    # Basic lemmatisation for spacy >= 2 (avoids an error at least)
     if spacy.__version__ != "1.9.0":
         if o_tok.lemma == c_tok.lemma:
             return True
