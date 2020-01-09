@@ -39,18 +39,18 @@ python3 -m spacy download en
 ```
 This will create and activate a new python3 environment called `errant_env` in the current directory. `pip` will then install ERRANT, [spaCy v1.9.0](https://spacy.io/), [NLTK](http://www.nltk.org/), [python-Levenshtein](https://pypi.org/project/python-Levenshtein/) and spaCy's default English model in this environment. You can deactivate the environment at any time by running `deactivate`, but must remember to activate it again whenever you want to use ERRANT.  
 
-#### ERRANT and spaCy 2
-
-ERRANT was originally designed to work with spaCy v1.9.0 and so only officially supports this version. We nevertheless tested ERRANT v2.1.0 with spaCy v2.2.3 and found it to be over **4x slower and ~2% less accurate**. 
-
-This is mainly because spaCy 2 uses a neural system to trade speed for accuracy (see the [official spaCy benchmarks](https://spacy.io/usage/facts-figures#spacy-models)), but also because certain Universal POS tag mappings changed, and so some ERRANT rules no longer work as intended. Although we could offset the accuracy loss by modifying ERRANT rules for the new POS mappings, there is nothing we can do about the significant speed loss, and so do not recommend spaCy 2 for use with ERRANT at this time. 
-
 #### BEA-2019 Shared Task
 
 ERRANT v2.0.0 was designed to be fully compatible with the [BEA-2019 Shared Task](https://www.cl.cam.ac.uk/research/nl/bea2019st/). If you want to directly compare against the results in the shared task, you should make sure to install ERRANT v2.0.0 as newer versions may produce slightly different scores.  
 ```
 pip3 install errant==2.0.0
 ```
+
+#### ERRANT and spaCy 2
+
+ERRANT was originally designed to work with spaCy v1.9.0 and so only officially supports this version. We nevertheless tested ERRANT v2.1.0 with spaCy v2.2.3 and found it to be **over 4x slower and ~2% less accurate**. 
+
+This is mainly because spaCy 2 uses a neural system to trade speed for accuracy (see the [official spaCy benchmarks](https://spacy.io/usage/facts-figures#spacy-models)), but also because some Universal POS tag mappings changed, and so certain ERRANT rules no longer worked as intended. Although we could offset the accuracy loss by modifying ERRANT rules for the new POS mappings, there is nothing we can do about the significant speed loss, and so do not recommend spaCy 2 with ERRANT at this time. 
 
 ## Source Install
 
@@ -229,6 +229,10 @@ The error type string.
 
 `edit`.**to_m2**(id=0)  
 Format the edit for an output M2 file. `id` is the annotator id.	
+
+## Development for Other Languages
+
+If you want to develop ERRANT for other languages, you should mimic the `errant/en` directory structure. For example, ERRANT for French should import a merger from `errant.fr.merger` and a classifier from `errant.fr.classifier` that respectively have equivalent `get_rule_edits` and `classify` methods. You will also need to add `'fr'` to the list of supported languages in `errant/__init__.py`.
 
 # Contact
 
