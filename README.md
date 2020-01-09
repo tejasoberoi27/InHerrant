@@ -1,4 +1,4 @@
-# ERRANT v2.0.0
+# ERRANT v2.1.0
 
 This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:
 
@@ -37,11 +37,15 @@ source errant_env/bin/activate
 pip3 install errant
 python3 -m spacy download en
 ```
-This will create and activate a new python3 environment called `errant_env` in the current directory. `pip` will then install ERRANT, [spaCy v1.9.0](https://spacy.io/), [NLTK](http://www.nltk.org/) and spaCy's default English model in this environment. You can deactivate the environment at any time by running `deactivate`, but must remember to activate it again whenever you want to use ERRANT.  
+This will create and activate a new python3 environment called `errant_env` in the current directory. `pip` will then install ERRANT, [spaCy v1.9.0](https://spacy.io/), [NLTK](http://www.nltk.org/), [python-Levenshtein](https://pypi.org/project/python-Levenshtein/) and spaCy's default English model in this environment. You can deactivate the environment at any time by running `deactivate`, but must remember to activate it again whenever you want to use ERRANT.  
 
-**Note: ERRANT does not support spaCy 2 at this time**. spaCy 2 POS tags are slightly different from spaCy 1 POS tags and so ERRANT rules, which were designed for spaCy 1, may not always work with spaCy 2.  
+#### ERRANT and spaCy 2
 
-### BEA-2019 Shared Task
+ERRANT was originally designed to work with spaCy v1.9.0 and so only officially supports this version. We nevertheless tested ERRANT v2.1.0 with spaCy v2.2.3 and found it to be over **4x slower and ~2% less accurate**. 
+
+This is mainly because spaCy 2 uses a neural system to trade speed for accuracy (see the [official spaCy benchmarks](https://spacy.io/usage/facts-figures#spacy-models)), but also because certain Universal POS tag mappings changed, and so some ERRANT rules no longer work as intended. Although we could offset the accuracy loss by modifying ERRANT rules for the new POS mappings, there is nothing we can do about the significant speed loss, and so do not recommend spaCy 2 for use with ERRANT at this time. 
+
+#### BEA-2019 Shared Task
 
 ERRANT v2.0.0 was designed to be fully compatible with the [BEA-2019 Shared Task](https://www.cl.cam.ac.uk/research/nl/bea2019st/). If you want to directly compare against the results in the shared task, you should make sure to install ERRANT v2.0.0 as newer versions may produce slightly different scores.  
 ```
@@ -98,7 +102,7 @@ All these scripts also have additional advanced command line options which can b
 
 #### Runtime
 
-In terms of speed, ERRANT processes ~155 sents/sec in the fully automatic edit extraction and classification setting, but ~1000 sents/sec in the classification setting alone. These figures were calculated on an Intel Core i5-6600 @ 3.30GHz machine, but results will vary depending on how different/long the original and corrected sentences are.  
+In terms of speed, ERRANT processes ~500 sents/sec in the fully automatic edit extraction and classification setting, but ~1000 sents/sec in the classification setting alone. These figures were calculated on an Intel Core i5-6600 @ 3.30GHz machine, but results will vary depending on how different/long the original and corrected sentences are.  
 
 ## API
 

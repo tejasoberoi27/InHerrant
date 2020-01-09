@@ -2,7 +2,12 @@ import argparse
 from contextlib import ExitStack
 import errant
 
+#import cProfile
+
 def main():
+#    pr = cProfile.Profile()
+#    pr.enable()
+
     # Parse command line args
     args = parse_args()
     print("Loading resources...")
@@ -45,6 +50,9 @@ def main():
                         out_m2.write(edit.to_m2(cor_id)+"\n")
             # Write a newline when we have processed all corrections for each line
             out_m2.write("\n")
+            
+#    pr.disable()
+#    pr.print_stats(sort="time")
 
 # Parse command line args
 def parse_args():
