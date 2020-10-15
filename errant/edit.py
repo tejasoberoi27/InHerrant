@@ -1,6 +1,5 @@
 # ERRANT edit class
 class Edit:
-
     # Input 1: An original text string parsed by spacy
     # Input 2: A corrected text string parsed by spacy
     # Input 3: A token span edit list: [o_start, o_end, c_start, c_end]
@@ -9,13 +8,14 @@ class Edit:
         # Orig offsets, spacy tokens and string
         self.o_start = edit[0]
         self.o_end = edit[1]
-        self.o_toks = orig[self.o_start:self.o_end]
-        self.o_str = self.o_toks.text if self.o_toks else ""
+        self.o_toks = orig.tokens[self.o_start:self.o_end]
+        self.o_str = [tok.text if tok else "" for tok in self.o_toks]
         # Cor offsets, spacy tokens and string
         self.c_start = edit[2]
         self.c_end = edit[3]
-        self.c_toks = cor[self.c_start:self.c_end]
-        self.c_str = self.c_toks.text if self.c_toks else ""
+        self.c_toks = cor.tokens[self.c_start:self.c_end]
+        self.c_str = [tok.text if tok else "" for tok in self.c_toks ]
+        # self.c_str = self.c_toks.text if self.c_toks else ""
         # Error type
         self.type = type
 
