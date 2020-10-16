@@ -30,13 +30,17 @@ if __name__ == '__main__':
     for i, orig in enumerate(doc1.sentences):
         cor = next(target_iterator)
         # print(orig,cor)
-        o_low = orig.tokens
-        c_low = cor.tokens
-        cur = char_cost(o_low[3], c_low[3])
-        print(o_low[3],c_low[3],"cost: "+str(cur))
-    #     cor = next(target_iterator)
-    #     lev = True
-    #     alignment = align(orig, cor, lev)
-    #     print(alignment)
+        # o_low = orig.tokens
+        # c_low = cor.tokens
+        # cur = char_cost(o_low[3], c_low[3])
+        # print(o_low[3],c_low[3],"cost: "+str(cur))
+        #cor = next(target_iterator)
+        lev = True
+        alignment = align(orig, cor, lev)
+        print(alignment)
 
+        edits = annotator.annotate(orig, cor, True , "all-split") # lev = True, merging strategy = all_split
+        print("Number of edits: %d" % len(edits))
+        for x in edits:
+            print(x)
 
