@@ -19,6 +19,7 @@ def load(lang, nlp=None):
     merger = import_module("errant.%s.merger" % lang)
 
     # Load language edit classifier
+    print("Location: errant.%s.classifier" % lang)
     classifier = import_module("errant.%s.classifier" % lang)
 
     # The Hindi classifier needs stanza

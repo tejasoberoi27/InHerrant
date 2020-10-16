@@ -54,26 +54,31 @@ def process_seq(seq, alignment):
         # Ignore ranges that do NOT contain a substitution.
         if "S" not in ops[start:end + 1]: continue
         # Get the tokens in orig and cor. They will now never be empty.
-        o = alignment.orig[seq[start][1]:seq[end][2]]
-        c = alignment.cor[seq[start][3]:seq[end][4]]
-        # Merge possessive suffixes: [friends -> friend 's]
-        if o[-1].tag_ == "POS" or c[-1].tag_ == "POS":
-            return process_seq(seq[:end - 1], alignment) + \
-                   merge_edits(seq[end - 1:end + 1]) + \
-                   process_seq(seq[end + 1:], alignment)
+        o = alignment.orig.tokens[seq[start][1]:seq[end][2]]
+        c = alignment.cor.tokens[seq[start][3]:seq[end][4]]
+
+        ''' possessive suffixes not present in Hindi '''
+        # # Merge possessive suffixes: [friends -> friend 's]
+        # if o[-1].tag_ == "POS" or c[-1].tag_ == "POS":
+        #     return process_seq(seq[:end - 1], alignment) + \
+        #            merge_edits(seq[end - 1:end + 1]) + \
+        #            process_seq(seq[end + 1:], alignment)
+
+        ''' Case change not present in Hindi '''
         # Case changes
-        if o[-1].lower == c[-1].lower:
-            # Merge first token I or D: [Cat -> The big cat]
-            if start == 0 and (len(o) == 1 and c[0].text[0].isupper()) or \
-                    (len(c) == 1 and o[0].text[0].isupper()):
-                return merge_edits(seq[start:end + 1]) + \
-                       process_seq(seq[end + 1:], alignment)
-            # Merge with previous punctuation: [, we -> . We], [we -> . We]
-            if (len(o) > 1 and is_punct(o[-2])) or \
-                    (len(c) > 1 and is_punct(c[-2])):
-                return process_seq(seq[:end - 1], alignment) + \
-                       merge_edits(seq[end - 1:end + 1]) + \
-                       process_seq(seq[end + 1:], alignment)
+        # if o[-1].lower == c[-1].lower:
+        #     # Merge first token I or D: [Cat -> The big cat]
+        #     if start == 0 and (len(o) == 1 and c[0].text[0].isupper()) or \
+        #             (len(c) == 1 and o[0].text[0].isupper()):
+        #         return merge_edits(seq[start:end + 1]) + \
+        #                process_seq(seq[end + 1:], alignment)
+        #     # Merge with previous punctuation: [, we -> . We], [we -> . We]
+        #     if (len(o) > 1 and is_punct(o[-2])) or \
+        #             (len(c) > 1 and is_punct(c[-2])):
+        #         return process_seq(seq[:end - 1], alignment) + \
+        #                merge_edits(seq[end - 1:end + 1]) + \
+        #                process_seq(seq[end + 1:], alignment)
+
         # Merge whitespace/hyphens: [acat -> a cat], [sub - way -> subway]
         s_str = sub("['-]", "", "".join([tok.lower_ for tok in o]))
         t_str = sub("['-]", "", "".join([tok.lower_ for tok in c]))

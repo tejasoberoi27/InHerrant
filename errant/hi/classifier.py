@@ -6,7 +6,7 @@ import spacy.symbols as POS
 
 # Load Hunspell word list
 def load_word_list(path):
-    with open(path) as word_list:
+    with open(path,encoding="utf8") as word_list:
         return set([word.strip() for word in word_list])
 
 # Load Universal Dependency POS Tags map file.

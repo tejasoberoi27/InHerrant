@@ -9,6 +9,10 @@ def align(orig, cor, lev=False):
 def char_cost(a, b):
     return Levenshtein.ratio(a.text, b.text)
 
+
+def check():
+
+
 if __name__ == '__main__':
     # stanza.download('hi')
     nlp = stanza.Pipeline('hi')
@@ -35,11 +39,9 @@ if __name__ == '__main__':
         # cur = char_cost(o_low[3], c_low[3])
         # print(o_low[3],c_low[3],"cost: "+str(cur))
         #cor = next(target_iterator)
-        lev = True
-        alignment = align(orig, cor, lev)
-        print(alignment)
-
-        edits = annotator.annotate(orig, cor, True , "all-equal") # lev = True, merging strategy = all_split
+        # alignment = align(orig, cor, lev)
+        # print(alignment)
+        edits = annotator.annotate(orig, cor, lev= True ,merging= "rules") # lev = True, merging strategy = all_split
         print("Number of edits: %d" % len(edits))
         for x in edits:
             print(x)
