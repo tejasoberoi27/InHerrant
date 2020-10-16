@@ -1,10 +1,7 @@
 import stanza
 from errant.alignment import Alignment
-<<<<<<< HEAD
 import errant
-=======
 import Levenshtein
->>>>>>> 81cfc336dbe27fb80f005d985e9d73b010384ed1
 
 def align(orig, cor, lev=False):
     return Alignment(orig, cor, lev)
