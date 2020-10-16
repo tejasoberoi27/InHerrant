@@ -23,11 +23,11 @@ if __name__ == '__main__':
     # Input 3: A flag for standard Levenshtein alignment
     # Input 4: A flag for merging strategy
     # Output: A list of automatically extracted, typed Edit objects
-    # s1 = "मैंने यह पुस्तक देखा हूँ।"
-    # s2 = "मैंने यह पुस्तक देखी है।"
+    s1 = "मैंने यह पुस्तक देखा हूँ।"
+    s2 = "मैंने यह पुस्तक देखी है।"
 
-    s1 = "सारे दिन भर वह काम करता रहा।"
-    s2 = "वह दिन भर काम करता रहा।"
+    # s1 = "सारे दिन भर वह काम करता रहा।"
+    # s2 = "वह दिन भर काम करता रहा।"
     doc1 = nlp(s1)
     doc2 = nlp(s2)
     target_iterator = iter(doc2.sentences)

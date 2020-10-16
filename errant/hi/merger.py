@@ -2,12 +2,11 @@ from itertools import combinations, groupby
 from re import sub
 from string import punctuation
 import Levenshtein
-import spacy.symbols as POS
 from errant.edit import Edit
 
 # Merger resources
-open_pos = {POS.ADJ, POS.AUX, POS.ADV, POS.NOUN, POS.VERB}
-
+# open_pos = {POS.ADJ, POS.AUX, POS.ADV, POS.NOUN, POS.VERB}
+open_pos = {"ADJ","AUX","ADV","NOUN","VERB"}
 
 # Input: An Alignment object
 # Output: A list of Edit objects
@@ -110,8 +109,9 @@ def process_seq(seq, alignment):
         # print(token_list[-1].type)
 
         pos_set = set([tok.pos for tok in o] + [tok.pos for tok in c])
+        print("POS_set",pos_set)
         if len(o) != len(c) and (len(pos_set) == 1 or \
-                                 pos_set.issubset({POS.AUX, POS.PART, POS.VERB})):
+                                 pos_set.issubset({"AUX", "PART", "VERB"})):
             print("Merged same POS or auxiliary/infinitive/phrasal verbs:")
             return process_seq(seq[:start], alignment) + \
                    merge_edits(seq[start:end + 1]) + \
@@ -131,8 +131,8 @@ def process_seq(seq, alignment):
                        process_seq(seq[start + 1:], alignment)
             # Split final determiners
             if end == len(seq) - 1 and ((ops[-1] in {"D", "S"} and \
-                                         o[-1].pos == POS.DET) or (ops[-1] in {"I", "S"} and \
-                                                                   c[-1].pos == POS.DET)):
+                                         o[-1].pos == "DET") or (ops[-1] in {"I", "S"} and \
+                                                                   c[-1].pos == "DET")):
                 print("Split final determiners")
                 return process_seq(seq[:-1], alignment) + [seq[-1]]
         # Set content word flag
@@ -151,7 +151,7 @@ def process_seq(seq, alignment):
 
 # Check whether token is punctuation
 def is_punct(token):
-    return token.pos == POS.PUNCT or token.text in punctuation
+    return token.pos == "PUNCT" or token.text in punctuation
 
 
 # Calculate the cost of character alignment; i.e. char similarity
