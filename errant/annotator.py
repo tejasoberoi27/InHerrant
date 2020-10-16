@@ -17,7 +17,7 @@ class Annotator:
 
     # Input 1: A text string
     # Input 2: A flag for word tokenisation
-    # Output: The input string parsed by spacy
+    # Output: The input string parsed by stanza
     def parse(self, text, tokenise=False):
         if tokenise:
             text = self.nlp(text)
@@ -27,8 +27,8 @@ class Annotator:
             self.nlp.parser(text)
         return text
 
-    # Input 1: An original text string parsed by spacy
-    # Input 2: A corrected text string parsed by spacy
+    # Input 1: An original text string parsed by stanza
+    # Input 2: A corrected text string parsed by stanza
     # Input 3: A flag for standard Levenshtein alignment
     # Output: An Alignment object
     def align(self, orig, cor, lev=False):

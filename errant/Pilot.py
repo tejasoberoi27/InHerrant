@@ -1,5 +1,6 @@
 import stanza
 from errant.alignment import Alignment
+import errant
 
 def align(orig, cor, lev=False):
     a = orig.tokens
@@ -11,6 +12,8 @@ if __name__ == '__main__':
     nlp = stanza.Pipeline('hi')
     doc = nlp("आप से मिलकर बहुत ख़ुशी हुई")
     print(doc)
+
+    annotator = errant.load("hi")
 
     # Input 1: An original text string parsed by spacy
     # Input 2: A corrected text string parsed by spacy
@@ -27,4 +30,5 @@ if __name__ == '__main__':
         lev = True
         alignment = align(orig, cor, lev)
         print(alignment)
+
 
