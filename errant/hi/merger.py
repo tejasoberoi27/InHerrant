@@ -54,8 +54,12 @@ def process_seq(seq, alignment):
         # Ignore ranges that do NOT contain a substitution.
         if "S" not in ops[start:end + 1]: continue
         # Get the tokens in orig and cor. They will now never be empty.
-        o = alignment.orig.tokens[seq[start][1]:seq[end][2]]
-        c = alignment.cor.tokens[seq[start][3]:seq[end][4]]
+        o = alignment.orig.words[seq[start][1]:seq[end][2]]
+        c = alignment.cor.words[seq[start][3]:seq[end][4]]
+
+        print("Orig",o)
+        print("Corr",c)
+        print("UPOS",o[-1].upos)
 
         ''' possessive suffixes not present in Hindi '''
         # # Merge possessive suffixes: [friends -> friend 's]

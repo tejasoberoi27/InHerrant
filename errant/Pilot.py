@@ -10,9 +10,6 @@ def char_cost(a, b):
     return Levenshtein.ratio(a.text, b.text)
 
 
-def check():
-
-
 if __name__ == '__main__':
     # stanza.download('hi')
     nlp = stanza.Pipeline('hi')
