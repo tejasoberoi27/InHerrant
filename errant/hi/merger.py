@@ -93,6 +93,7 @@ def process_seq(seq, alignment):
         # Merge same POS or auxiliary/infinitive/phrasal verbs:
         # [to eat -> eating], [watch -> look at]
         pos_set = set([tok.pos for tok in o] + [tok.pos for tok in c])
+        print(pos_set)
         if len(o) != len(c) and (len(pos_set) == 1 or \
                                  pos_set.issubset({POS.AUX, POS.PART, POS.VERB})):
             return process_seq(seq[:start], alignment) + \
