@@ -23,11 +23,15 @@ if __name__ == '__main__':
     # Input 3: A flag for standard Levenshtein alignment
     # Input 4: A flag for merging strategy
     # Output: A list of automatically extracted, typed Edit objects
-    s1 = "मैंने यह पुस्तक देखा हूँ।"
-    s2 = "मैंने यह पुस्तक देखी है।"
+    # s1 = "मैंने यह पुस्तक देखा हूँ।"
+    # s2 = "मैंने यह पुस्तक देखी है।"
+
+    s1 = "सारे दिन भर वह काम करता रहा।"
+    s2 = "वह दिन भर काम करता रहा।"
     doc1 = nlp(s1)
     doc2 = nlp(s2)
     target_iterator = iter(doc2.sentences)
+
     for i, orig in enumerate(doc1.sentences):
         cor = next(target_iterator)
         # print(orig,cor)
@@ -38,8 +42,12 @@ if __name__ == '__main__':
         #cor = next(target_iterator)
         # alignment = align(orig, cor, lev)
         # print(alignment)
+
         edits = annotator.annotate(orig, cor, lev= True ,merging= "rules") # lev = True, merging strategy = all_split
         print("Number of edits: %d" % len(edits))
         for x in edits:
             print(x)
-
+    print(s1)
+    print(s2)
+    # print("Doc1",doc1)
+    # print("Doc2",doc2)

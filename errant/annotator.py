@@ -68,6 +68,7 @@ class Annotator:
     # Output: A list of automatically extracted, typed Edit objects
     def annotate(self, orig, cor, lev=False, merging="rules"):
         alignment = self.align(orig, cor, lev)
+        print(alignment)
         edits = self.merge(alignment, merging)
         # for edit in edits:
         #     edit = self.classify(edit)

@@ -17,8 +17,11 @@ def get_rule_edits(alignment):
     for op, group in groupby(alignment.align_seq,
                              lambda x: x[0][0] if x[0][0] in {"M", "T"} else False):
         group = list(group)
+        print("Current Group",group)
+        print("Current Group",op)
         # Ignore M
         if op == "M":
+            print("op is a match")
             continue
         # T is always split
         elif op == "T":
@@ -38,11 +41,15 @@ def get_rule_edits(alignment):
 # Output: A sequence of merged/split alignments
 def process_seq(seq, alignment):
     # Return single alignments
-    if len(seq) <= 1: return seq
+    if len(seq) <= 1:
+        print("len =1 ")
+        return seq
     # Get the ops for the whole sequence
     ops = [op[0] for op in seq]
     # Merge all D xor I ops. (95% of human multi-token edits contain S).
-    if set(ops) == {"D"} or set(ops) == {"I"}: return merge_edits(seq)
+    if set(ops) == {"D"} or set(ops) == {"I"}:
+        print(" All D's or all I's ")
+        return merge_edits(seq)
 
     content = False  # True if edit includes a content word
     # Get indices of all start-end combinations in the seq: 012 = 01, 02, 12
@@ -52,7 +59,9 @@ def process_seq(seq, alignment):
     # Loop through combos
     for start, end in combos:
         # Ignore ranges that do NOT contain a substitution.
-        if "S" not in ops[start:end + 1]: continue
+        if "S" not in ops[start:end + 1]:
+            print("does NOT contain a substitution.")
+            continue
         # Get the tokens in orig and cor. They will now never be empty.
 
         o = alignment.orig.words[seq[start][1]:seq[end][2]]
@@ -89,14 +98,21 @@ def process_seq(seq, alignment):
         s_str = sub("['-]", "", "".join([tok.text for tok in o]))
         t_str = sub("['-]", "", "".join([tok.text for tok in c]))
         if s_str == t_str:
+            print("Merged whitespace/hyphens")
             return process_seq(seq[:start], alignment) + \
                    merge_edits(seq[start:end + 1]) + \
                    process_seq(seq[end + 1:], alignment)
         # Merge same POS or auxiliary/infinitive/phrasal verbs:
         # [to eat -> eating], [watch -> look at]
+
+        # token_list = [tok for tok in o]
+        # print("Token list:", token_list)
+        # print(token_list[-1].type)
+
         pos_set = set([tok.pos for tok in o] + [tok.pos for tok in c])
         if len(o) != len(c) and (len(pos_set) == 1 or \
                                  pos_set.issubset({POS.AUX, POS.PART, POS.VERB})):
+            print("Merged same POS or auxiliary/infinitive/phrasal verbs:")
             return process_seq(seq[:start], alignment) + \
                    merge_edits(seq[start:end + 1]) + \
                    process_seq(seq[end + 1:], alignment)
@@ -104,24 +120,32 @@ def process_seq(seq, alignment):
         if end - start < 2:
             # Split adjacent substitutions
             if len(o) == len(c) == 2:
+                print("Split adjacent substitutions")
                 return process_seq(seq[:start + 1], alignment) + \
                        process_seq(seq[start + 1:], alignment)
             # Split similar substitutions at sequence boundaries
             if (ops[start] == "S" and char_cost(o[0], c[0]) > 0.75) or \
-                    (ops[end] == "S" and char_cost(o[-1], c[-1]) > 0.75):
+                    (ops[end] == "S" and char_cost(o[-1], c[-1]) > 0.75):#check if 0.75 works for Hindi
+                print("Split similar substitutions at sequence boundaries")
                 return process_seq(seq[:start + 1], alignment) + \
                        process_seq(seq[start + 1:], alignment)
             # Split final determiners
             if end == len(seq) - 1 and ((ops[-1] in {"D", "S"} and \
                                          o[-1].pos == POS.DET) or (ops[-1] in {"I", "S"} and \
                                                                    c[-1].pos == POS.DET)):
+                print("Split final determiners")
                 return process_seq(seq[:-1], alignment) + [seq[-1]]
         # Set content word flag
-        if not pos_set.isdisjoint(open_pos): content = True
+        if not pos_set.isdisjoint(open_pos):
+            print("Content word present")
+            content = True
     # Merge sequences that contain content words
     if content:
+        print("Merge sequences that contain content words")
         return merge_edits(seq)
     else:
+        print("Sequence does not contain content words")
+        return merge_edits(seq)
         return seq
 
 
