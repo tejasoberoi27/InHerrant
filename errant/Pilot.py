@@ -39,7 +39,7 @@ if __name__ == '__main__':
         alignment = align(orig, cor, lev)
         print(alignment)
 
-        edits = annotator.annotate(orig, cor, True , "all-split") # lev = True, merging strategy = all_split
+        edits = annotator.annotate(orig, cor, True , "all-equal") # lev = True, merging strategy = all_split
         print("Number of edits: %d" % len(edits))
         for x in edits:
             print(x)
