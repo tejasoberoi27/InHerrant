@@ -3,7 +3,6 @@ from itertools import groupby
 import Levenshtein
 from errant.edit import Edit
 
-
 class Alignment:
     # Protected class resource
     # _open_pos = {POS.ADJ, POS.ADV, POS.NOUN, POS.VERB}
