@@ -40,11 +40,18 @@ def get_rule_edits(alignment):
 # Output: A sequence of merged/split alignments
 def process_seq(seq, alignment):
     # Return single alignments
+
+    print("seq",seq)
+    print("Processing begins")
+
     if len(seq) <= 1:
         print("len =1 ")
         return seq
     # Get the ops for the whole sequence
     ops = [op[0] for op in seq]
+
+
+    print("ops in seq",ops)
     # Merge all D xor I ops. (95% of human multi-token edits contain S).
     if set(ops) == {"D"} or set(ops) == {"I"}:
         print(" All D's or all I's ")
@@ -55,9 +62,11 @@ def process_seq(seq, alignment):
     combos = list(combinations(range(0, len(seq)), 2))
     # Sort them starting with largest spans first
     combos.sort(key=lambda x: x[1] - x[0], reverse=True)
+    print("combos",combos)
     # Loop through combos
     for start, end in combos:
         # Ignore ranges that do NOT contain a substitution.
+        print("st,end",start,end)
         if "S" not in ops[start:end + 1]:
             print("does NOT contain a substitution.")
             continue
@@ -66,8 +75,8 @@ def process_seq(seq, alignment):
         o = alignment.orig.words[seq[start][1]:seq[end][2]]
         c = alignment.cor.words[seq[start][3]:seq[end][4]]
 
-        # print("orig",o)
-        # print("corr",c)
+        print("orig",[x.text for x in o])
+        print("corr",[x.text for x in c])
         #
         # print(o[-1].upos)
 
@@ -96,6 +105,8 @@ def process_seq(seq, alignment):
         # Merge whitespace/hyphens: [acat -> a cat], [sub - way -> subway]
         s_str = sub("['-]", "", "".join([tok.text for tok in o]))
         t_str = sub("['-]", "", "".join([tok.text for tok in c]))
+        print("s_str",s_str)
+        print("t_str",t_str)
         if s_str == t_str:
             print("Merged whitespace/hyphens")
             return process_seq(seq[:start], alignment) + \

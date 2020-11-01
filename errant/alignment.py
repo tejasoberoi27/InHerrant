@@ -6,7 +6,7 @@ from errant.edit import Edit
 
 class Alignment:
     # Protected class resource
-    # _open_pos = {POS.ADJ, POS.ADV, POS.NOUN, POS.VERB}
+    _open_pos = {"ADJ", "AUX", "ADV", "NOUN", "VERB"}
 
     # Input 1: An original text string parsed by spacy
     # Input 2: A corrected text string parsed by spacy
@@ -31,9 +31,12 @@ class Alignment:
         cor = self.cor
         o_len = len(orig.tokens)
         c_len = len(cor.tokens)
+
         # Lower case token IDs (for transpositions)
-        o_low = [o.text.lower for o in orig.tokens]
-        c_low = [c.text.lower for c in cor.tokens]
+        o_low = [o.text for o in orig.words]
+        c_low = [c.text for c in cor.words]
+        # print("o_low",o_low)
+        # print("c_low",c_low)
         # Create the cost_matrix and the op_matrix
         cost_matrix = [[0.0 for j in range(c_len + 1)] for i in range(o_len + 1)]
         op_matrix = [["O" for j in range(c_len + 1)] for i in range(o_len + 1)]
@@ -56,22 +59,34 @@ class Alignment:
                 else:
                     del_cost = cost_matrix[i][j + 1] + 1
                     ins_cost = cost_matrix[i + 1][j] + 1
-
+                    trans_cost = float("inf")
                     # Standard Levenshtein (S = 1)
-                    sub_cost = cost_matrix[i][j] + 1
-
+                    if lev:
+                        sub_cost = cost_matrix[i][j] + 1
+                    # Linguistic Damerau-Levenshtein
+                    else:
+                        # Custom substitution
+                        sub_cost = cost_matrix[i][j] + \
+                                   self.get_sub_cost(orig.words[i], cor.words[j])
+                        # Transpositions require >=2 tokens
+                        # Traverse the diagonal while there is not a Match.
+                        k = 1
+                        while i - k >= 0 and j - k >= 0 and \
+                                cost_matrix[i - k + 1][j - k + 1] != cost_matrix[i - k][j - k]:
+                            if sorted(o_low[i - k:i + 1]) == sorted(c_low[j - k:j + 1]):
+                                trans_cost = cost_matrix[i - k][j - k] + k
+                                break
+                            k += 1
                     # Costs
-                    costs = [sub_cost, ins_cost, del_cost]
+                    costs = [trans_cost, sub_cost, ins_cost, del_cost]
                     # Get the index of the cheapest (first cheapest if tied)
                     l = costs.index(min(costs))
                     # Save the cost and the op in the matrices
-                    cost_matrix[i + 1][j + 1] = costs[l]
-                    if l == 0:
-                        op_matrix[i + 1][j + 1] = "S"
-                    elif l == 1:
-                        op_matrix[i + 1][j + 1] = "I"
-                    else:
-                        op_matrix[i + 1][j + 1] = "D"
+                    cost_matrix[i+1][j+1] = costs[l]
+                    if   l == 0: op_matrix[i+1][j+1] = "T"+str(k+1)
+                    elif l == 1: op_matrix[i+1][j+1] = "S"
+                    elif l == 2: op_matrix[i+1][j+1] = "I"
+                    else: op_matrix[i+1][j+1] = "D"
         # Return the matrices
         return cost_matrix, op_matrix
 
@@ -80,7 +95,7 @@ class Alignment:
     # Output: A linguistic cost between 0 < x < 2
     def get_sub_cost(self, o, c):
         # Short circuit if the only difference is case
-        if o.lower == c.lower: return 0
+        if o.text.lower == c.text.lower: return 0
         # Lemma cost
         if o.lemma == c.lemma:
             lemma_cost = 0
@@ -168,7 +183,6 @@ class Alignment:
 
     # Alignment object string representation
     def __str__(self):
-
         orig = " ".join(["Orig:"] + [tok.text for tok in self.orig.tokens])
         cor = " ".join(["Cor:"] + [tok.text for tok in self.cor.tokens])
         cost_matrix = "\n".join(["Cost Matrix:"] + [str(row) for row in self.cost_matrix])
