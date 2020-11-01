@@ -38,7 +38,7 @@ def load_pos_map(path):
 
 # Classifier resources
 base_dir = Path(__file__).resolve().parent
-# Spacy
+# Stanza
 nlp = None
 # Lancaster Stemmer
 stemmer = LancasterStemmer()
@@ -75,39 +75,42 @@ def classify(edit):
     # Missing
     elif not edit.o_toks and edit.c_toks:
         op = "M:"
-        cat = get_one_sided_type(edit.c_toks)
-        edit.type = op+cat
+        #cat = get_one_sided_type(edit.c_toks)
+        #edit.type = op+cat
+        edit.type = op
     # Unnecessary
     elif edit.o_toks and not edit.c_toks:
         op = "U:"
-        cat = get_one_sided_type(edit.o_toks)
-        edit.type = op+cat
+        #cat = get_one_sided_type(edit.o_toks)
+        #edit.type = op+cat
+        edit.type = op
     # Replacement and special cases
     else:
         # Same to same is a detected but not corrected edit
         if edit.o_str == edit.c_str:
             edit.type = "UNK"
-        # Special: Ignore case change at the end of multi token edits
-        # E.g. [Doctor -> The doctor], [, since -> . Since]
-        # Classify the edit as if the last token wasn't there
-        elif edit.o_toks[-1].lower == edit.c_toks[-1].lower and \
-                (len(edit.o_toks) > 1 or len(edit.c_toks) > 1):
-            # Store a copy of the full orig and cor toks
-            all_o_toks = edit.o_toks[:]
-            all_c_toks = edit.c_toks[:]
-            # Truncate the instance toks for classification
-            edit.o_toks = edit.o_toks[:-1]
-            edit.c_toks = edit.c_toks[:-1]
-            # Classify the truncated edit
-            edit = classify(edit)
-            # Restore the full orig and cor toks
-            edit.o_toks = all_o_toks
-            edit.c_toks = all_c_toks
+        # # Special: Ignore case change at the end of multi token edits
+        # # E.g. [Doctor -> The doctor], [, since -> . Since]
+        # # Classify the edit as if the last token wasn't there
+        # elif edit.o_toks[-1].lower == edit.c_toks[-1].lower and \
+        #         (len(edit.o_toks) > 1 or len(edit.c_toks) > 1):
+        #     # Store a copy of the full orig and cor toks
+        #     all_o_toks = edit.o_toks[:]
+        #     all_c_toks = edit.c_toks[:]
+        #     # Truncate the instance toks for classification
+        #     edit.o_toks = edit.o_toks[:-1]
+        #     edit.c_toks = edit.c_toks[:-1]
+        #     # Classify the truncated edit
+        #     edit = classify(edit)
+        #     # Restore the full orig and cor toks
+        #     edit.o_toks = all_o_toks
+        #     edit.c_toks = all_c_toks
         # Replacement
         else:
             op = "R:"
-            cat = get_two_sided_type(edit.o_toks, edit.c_toks)
-            edit.type = op+cat
+            #cat = get_two_sided_type(edit.o_toks, edit.c_toks)
+            #edit.type = op+cat
+            edit.type = op
     return edit
 
 # Input: Spacy tokens
