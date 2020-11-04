@@ -9,6 +9,13 @@ def align(orig, cor, lev=False):
 def char_cost(a, b):
     return Levenshtein.ratio(a.text, b.text)
 
+def all_split(orig,cor):
+    print("ALL SPLIT")
+    edits = annotator.annotate(orig, cor, lev=False, merging="all-split")  # lev = True, merging strategy = all_split
+    print("Number of edits: %d" % len(edits))
+    for x in edits:
+        print(x)
+    print("All split ends")
 
 if __name__ == '__main__':
     # stanza.download('hi')
@@ -23,9 +30,11 @@ if __name__ == '__main__':
     # Input 3: A flag for standard Levenshtein alignment
     # Input 4: A flag for merging strategy
     # Output: A list of automatically extracted, typed Edit objects
-    s1 = "मैंने यह पुस्तक देखा हूँ।"
-    s2 = "मैंने यह पुस्तक देखी है।"
-
+    # s1 = "मैंने यह पुस्तक देखा हूँ।"
+    # s2 = "मैंने यह पुस्तक देखी है।"
+    
+    s1 = "मैं और तुम साथ-साथ खायेंगे।"
+    s2 = "तुम और मैं साथ साथ खायेंगे।"
     # s1 = "सारे दिन भर वह काम करता रहा।"
     # s2 = "वह दिन भर काम करता रहा।"
     doc1 = nlp(s1)
@@ -42,8 +51,8 @@ if __name__ == '__main__':
         #cor = next(target_iterator)
         # alignment = align(orig, cor, lev)
         # print(alignment)
-
-        edits = annotator.annotate(orig, cor, lev= True ,merging= "rules") # lev = True, merging strategy = all_split
+        all_split(orig,cor)
+        edits = annotator.annotate(orig, cor, lev= False ,merging= "rules") # lev = True, merging strategy = all_split
         print("Number of edits: %d" % len(edits))
         for x in edits:
             print(x)

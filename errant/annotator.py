@@ -70,8 +70,8 @@ class Annotator:
         alignment = self.align(orig, cor, lev)
         print(alignment)
         edits = self.merge(alignment, merging)
-        # for edit in edits:
-        #     edit = self.classify(edit)
+        for edit in edits:
+            edit = self.classify(edit)
         return edits
 
     # Input 1: An original text string parsed by spacy
