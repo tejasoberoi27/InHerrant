@@ -8,12 +8,12 @@ __version__ = '1.0.0'
 # Load an ERRANT Annotator object for a given language
 def load(lang, nlp=None):
     # Make sure the language is supported
-    supported = {"hi"}
+    supported = {"hi","en"}
     if lang not in supported:
         raise Exception("%s is an unsupported or unknown language" % lang)
 
     # Load stanza
-    nlp = nlp or stanza.Pipeline('hi')
+    nlp = nlp or stanza.Pipeline(lang)
 
     # Load language edit merger
     merger = import_module("errant.%s.merger" % lang)
@@ -24,6 +24,7 @@ def load(lang, nlp=None):
 
     # The Hindi classifier needs stanza
     if lang == "hi": classifier.nlp = nlp
+
 
     # Return a configured ERRANT annotator
     return Annotator(lang, nlp, merger, classifier)

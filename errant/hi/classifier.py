@@ -43,7 +43,7 @@ nlp = None
 # Lancaster Stemmer
 stemmer = LancasterStemmer()
 # GB English word list (inc -ise and -ize)
-spell = load_word_list(base_dir/"resources"/"vocab.txt")
+spell = load_word_list(base_dir/"resources"/"vocab_fin.txt")
 # Part of speech map file
 pos_map = load_pos_map(base_dir/"resources"/"en-ptb_map")
 # Open class coarse Spacy POS tags
