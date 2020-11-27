@@ -157,7 +157,7 @@ def process_seq(seq, alignment):
     else:
         print("Sequence does not contain content words")
         return merge_edits(seq)
-        return seq
+        # return seq
 
 
 # Check whether token is punctuation

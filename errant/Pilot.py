@@ -20,7 +20,7 @@ def all_split(orig,cor):
 if __name__ == '__main__':
     # stanza.download('hi')
     nlp = stanza.Pipeline('hi')
-    doc = nlp("आप से मिलकर बहुत ख़ुशी हुई")
+    # doc = nlp("आप से मिलकर बहुत ख़ुशी हुई")
     # print(doc)
 
     annotator = errant.load("hi")
@@ -33,8 +33,8 @@ if __name__ == '__main__':
     # s1 = "मैंने यह पुस्तक देखा हूँ।"
     # s2 = "मैंने यह पुस्तक देखी है।"
     
-    s1 = "मैं और तुम साथ-साथ खायेंगे।"
-    s2 = "तुम और मैं साथ साथ खायेंगे।"
+    s1 = "राम यहाँ आओ।"
+    s2 = "राम! यहाँ आओ।"
     # s1 = "सारे दिन भर वह काम करता रहा।"
     # s2 = "वह दिन भर काम करता रहा।"
     doc1 = nlp(s1)
@@ -43,6 +43,7 @@ if __name__ == '__main__':
 
     for i, orig in enumerate(doc1.sentences):
         cor = next(target_iterator)
+        # print("type",type(orig))#type of orig = Sentence
         # print(orig,cor)
         # o_low = orig.tokens
         # c_low = cor.tokens
@@ -51,11 +52,12 @@ if __name__ == '__main__':
         #cor = next(target_iterator)
         # alignment = align(orig, cor, lev)
         # print(alignment)
-        all_split(orig,cor)
+        # all_split(orig,cor)
         edits = annotator.annotate(orig, cor, lev= False ,merging= "rules") # lev = True, merging strategy = all_split
         print("Number of edits: %d" % len(edits))
         for x in edits:
             print(x)
+            # print(type(x.o_toks[-1])) # type is token
     print(s1)
     print(s2)
     # print("Doc1",doc1)
