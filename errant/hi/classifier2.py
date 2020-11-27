@@ -102,6 +102,8 @@ def get_edit_info(toks):
 # Input 2: Spacy cor tokens
 # Output: An error type string based on orig AND cor
 def get_two_sided_type(o_toks, c_toks):
+    o_toks = [tok.words[0] for tok in o_toks]
+    c_toks = [tok.words[0] for tok in c_toks]
     # Extract pos tags and parse info from the toks as lists
     o_pos, o_dep = get_edit_info(o_toks)
     c_pos, c_dep = get_edit_info(c_toks)
