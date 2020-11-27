@@ -15,10 +15,10 @@ def get_feats(Word):
 
 # Input 1: Spacy orig tokens
 # Input 2: Spacy cor tokens
-# Output: Boolean; the difference between orig and cor is only whitespace or case
+# Output: Boolean; the difference between orig and cor is only whitespace
 def only_orth_change(o_toks, c_toks):
-    o_join = "".join([o.lower_ for o in o_toks])
-    c_join = "".join([c.lower_ for c in c_toks])
+    o_join = "".join([o for o in o_toks])
+    c_join = "".join([c for c in c_toks])
     if o_join == c_join:
         return True
     return False
@@ -94,8 +94,8 @@ def get_edit_info(toks):
     pos = []
     dep = []
     for tok in toks:
-        pos.append(pos_map[tok.tag_])
-        dep.append(tok.dep_)
+        pos.append(tok.pos)
+        dep.append(tok.deprel)
     return pos, dep
 
 # Input 1: Spacy orig tokens
@@ -117,27 +117,49 @@ def get_two_sided_type(o_toks, c_toks):
     if len(o_toks) == len(c_toks) == 1:
         # 1. SPECIAL CASES
         # Possessive noun suffixes; e.g. ' -> 's
-        if o_toks[0].tag_ == "POS" or c_toks[0].tag_ == "POS":
-            return "NOUN:POSS"
-        # Contraction. Rule must come after possessive.
-        if (o_toks[0].lower_ in conts or \
-                c_toks[0].lower_ in conts) and \
-                o_pos == c_pos:
-            return "CONTR"
-        # Special auxiliaries in contractions (1); e.g. ca -> can, wo -> will
-        # Rule was broken in V1. Turned off this fix for compatibility.
-        if (o_toks[0].lower_ in aux_conts and \
-                c_toks[0].lower_ == aux_conts[o_toks[0].lower_]) or \
-                (c_toks[0].lower_ in aux_conts and \
-                o_toks[0].lower_ == aux_conts[c_toks[0].lower_]):
-            return "CONTR"
+
+        #Single token replacement of a word with a upos tag of NOUN, different lemma
+        if c_toks[0].pos == "NOUN" and o_toks[0].lemma!=c_toks[0].lemma:
+            return "NOUN"
+        if c_toks[0].pos == "PRON":
+            return "PRON"
+        if o_toks[0].pos == "NOUN" and c_toks[0].pos == "PRON":
+            return "PRON"
+        if c_toks[0].pos == "VERB" and o_toks[0].lemma!=c_toks[0].lemma:
+            return "VERB"
+        if o_toks[0].pos == "NOUN" and c_toks[0].pos == "VERB":
+            return "VERB"
+        if c_toks[0].pos == "ADJ" and o_toks[0].lemma!=c_toks[0].lemma:
+            return "ADJ"
+        #Single token replacement, substituting a PRON with a ADJ
+        # (might generalise to any POS tag being replaced with ADJ)
+        if o_toks[0].pos != "ADJ" and c_toks[0].pos == "ADJ":
+            return "ADJ"
+        if c_toks[0].pos == "ADP":
+            return "ADJ"
+
+        # Removed # Contraction. Rule must come after possessive.
+        # if (o_toks[0].lower_ in conts or \
+        #         c_toks[0].lower_ in conts) and \
+        #         o_pos == c_pos:
+        #     return "CONTR"
+
+        # # Special auxiliaries in contractions (1); e.g. ca -> can, wo -> will
+        # # Rule was broken in V1. Turned off this fix for compatibility.
+        # if (o_toks[0].lower_ in aux_conts and \
+        #         c_toks[0].lower_ == aux_conts[o_toks[0].lower_]) or \
+        #         (c_toks[0].lower_ in aux_conts and \
+        #         o_toks[0].lower_ == aux_conts[c_toks[0].lower_]):
+        #     return "CONTR"
         # Special auxiliaries in contractions (2); e.g. ca -> could, wo -> should
-        if o_toks[0].lower_ in aux_conts or \
-                c_toks[0].lower_ in aux_conts:
-            return "VERB:TENSE"
-        # Special: "was" and "were" are the only past tense SVA
-        if {o_toks[0].lower_, c_toks[0].lower_} == {"was", "were"}:
-            return "VERB:SVA"
+        # if o_toks[0].lower_ in aux_conts or \
+        #         c_toks[0].lower_ in aux_conts:
+        #     return "VERB:TENSE"
+        # # Special: "was" and "were" are the only past tense SVA
+        # if {o_toks[0].lower_, c_toks[0].lower_} == {"was", "were"}:
+        #     return "VERB:SVA"
+
+
 
         # 2. SPELLING AND INFLECTION
         # Only check alphabetical strings on the original side
@@ -194,14 +216,14 @@ def get_two_sided_type(o_toks, c_toks):
                         return "VERB:FORM"
                     # Use fine PTB tags to find various errors.
                     # FORM errors normally involve VBG or VBN.
-                    if o_toks[0].tag_ in {"VBG", "VBN"} or \
-                            c_toks[0].tag_ in {"VBG", "VBN"}:
+                    if o_toks[0].pos in {"VBG", "VBN"} or \
+                            c_toks[0].pos in {"VBG", "VBN"}:
                         return "VERB:FORM"
                     # Of what's left, TENSE errors normally involved VBD.
-                    if o_toks[0].tag_ == "VBD" or c_toks[0].tag_ == "VBD":
+                    if o_toks[0].pos == "VBD" or c_toks[0].pos == "VBD":
                         return "VERB:TENSE"
                     # Of what's left, SVA errors normally involve VBZ.
-                    if o_toks[0].tag_ == "VBZ" or c_toks[0].tag_ == "VBZ":
+                    if o_toks[0].pos == "VBZ" or c_toks[0].pos == "VBZ":
                         return "VERB:SVA"
                     # Any remaining aux verbs are called TENSE.
                     if o_dep[0].startswith("aux") and \
@@ -211,14 +233,14 @@ def get_two_sided_type(o_toks, c_toks):
             if set(o_dep+c_dep).issubset({"acomp", "amod"}):
                 return "ADJ:FORM"
             # Adj to plural noun is usually noun number; e.g. musical -> musicals.
-            if o_pos[0] == "ADJ" and c_toks[0].tag_ == "NNS":
+            if o_pos[0] == "ADJ" and c_toks[0].pos == "NNS":
                 return "NOUN:NUM"
             # For remaining verb errors (rare), rely on c_pos
-            if c_toks[0].tag_ in {"VBG", "VBN"}:
+            if c_toks[0].pos in {"VBG", "VBN"}:
                 return "VERB:FORM"
-            if c_toks[0].tag_ == "VBD":
+            if c_toks[0].pos == "VBD":
                 return "VERB:TENSE"
-            if c_toks[0].tag_ == "VBZ":
+            if c_toks[0].pos == "VBZ":
                 return "VERB:SVA"
             # Tricky cases that all have the same lemma.
             else:
