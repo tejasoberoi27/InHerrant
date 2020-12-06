@@ -8,7 +8,7 @@ base_dir = Path(__file__).resolve().parent
 nlp = stanza.Pipeline('hi')
 annotator = errant.load("hi")
 
-def test_edit_extraction(s1, s2):
+def eval_edit_extraction(s1, s2):
     doc1 = nlp(s1)
     doc2 = nlp(s2)
     target_iterator = iter(doc2.sentences)
@@ -27,8 +27,8 @@ if __name__ == "__main__":
     path_incorr = base_dir/"hi"/"resources"/"Visheshan_incor.txt"
     path_corr = base_dir/"hi"/"resources"/"Visheshan_cor.txt"
 
-    f_incorr = open(path_incorr, "r")
-    f_corr = open(path_corr, "r")
+    f_incorr = open(path_incorr, "r",encoding="utf8")
+    f_corr = open(path_corr, "r",encoding="utf8")
 
     text_incorr = [sen for sen in f_incorr.readlines()]
     text_corr = [sen for sen in f_corr.readlines()]
@@ -41,12 +41,12 @@ if __name__ == "__main__":
         print("Sample No: ", i + 1)
         if text_incorr[i]=="\n":
             continue
-        edits = test_edit_extraction(text_incorr[i], text_corr[i])
+        edits = eval_edit_extraction(text_incorr[i], text_corr[i])
         print(edits)
         d.append([text_incorr[i], text_corr[i], edits])
 
     df = pd.DataFrame(d, columns=['Incorrect Sentence', 'Correct Sentence', 'Proposed Edits'])
 
-    df.to_csv(base_dir/"hi"/"resources"/"sample_edits_visheshan.csv")
+    df.to_csv(base_dir/"hi"/"resources"/"new_sample_edits_visheshan.csv")
 
 

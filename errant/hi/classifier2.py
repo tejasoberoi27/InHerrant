@@ -4,13 +4,18 @@ import Levenshtein
 
 def get_feats(Word):
     # returns features of a Stanza word as a dictionary
-    Feats = Word.feats
-    Feats = Feats.replace("feats: ", "")
-    Feats = Feats.split('|')
     feats = {}
-    for pair in Feats:
-        feat, val = pair.split("=")
-        feats[feat] = val
+    try:
+        Feats = Word.feats
+        if Feats:
+            Feats = Feats.replace("feats: ", "")
+            Feats = Feats.split('|')
+            for pair in Feats:
+                feat, val = pair.split("=")
+                feats[feat] = val
+    except Exception as e:
+        print("e is",e)
+        print("Word is",Word)
     return feats
 
 
@@ -153,8 +158,7 @@ def get_two_sided_type(o_toks, c_toks):
         # Spelling errors take precedence over POS errors; this rule is ordered
         # Check a GB English dict for both orig and lower case.
         # E.g. "cat" is in the dict, but "Cat" is not.
-        if o_toks[0].text not in spell and \
-                o_toks[0].lower_ not in spell:
+        if o_toks[0].text not in spell:
             # Check if both sides have a common lemma
             if o_toks[0].lemma == c_toks[0].lemma:
                 # Inflection; often count vs mass nouns or e.g. got vs getted
