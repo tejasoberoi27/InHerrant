@@ -46,7 +46,7 @@ if __name__ == "__main__":
         d.append([text_incorr[i], text_corr[i], edits])
 
     df = pd.DataFrame(d, columns=['Incorrect Sentence', 'Correct Sentence', 'Proposed Edits'])
-
-    df.to_csv(base_dir/"hi"/"resources"/"new_sample_edits_visheshan.csv")
+    print(df)
+    df.to_csv(base_dir/"hi"/"resources"/"2agn_new_sample_edits_visheshan.csv",encoding="utf-8-sig")
 
 
