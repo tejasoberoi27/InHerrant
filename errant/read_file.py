@@ -15,7 +15,7 @@ def eval_edit_extraction(s1, s2):
     target_iterator = iter(doc2.sentences)
     for i, orig in enumerate(doc1.sentences):
         cor = next(target_iterator)
-        edits = annotator.annotate(orig, cor, lev=True, merging="rules")
+        edits = annotator.annotate(orig, cor, lev=False, merging="rules")
         print("Number of edits: %d" % len(edits))
         list_edits = []
         for x in edits:
