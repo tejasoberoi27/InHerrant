@@ -1,10 +1,13 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+*__pycache__/
 *.py[cod]
 *$py.class
-
 # C extensions
 *.so
+errant/__pycache__/__init__.cpython-36.pyc
+errant/__pycache__/alignment.cpython-36.pyc
+errant/__pycache__/annotator.cpython-36.pyc
+errant/hi/__pycache__/merger.cpython-36.pyc
 
 # Distribution / packaging
 .Python
