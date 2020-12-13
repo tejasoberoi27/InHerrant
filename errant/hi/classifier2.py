@@ -13,6 +13,10 @@ def get_feats(Word):
             for pair in Feats:
                 feat, val = pair.split("=")
                 feats[feat] = val
+            if 'Gender' not in feats:
+                feats['Gender'] = ""
+            if 'Number' not in feats:
+                feats['Number'] = ""
     except Exception as e:
         print("e is",e)
         print("Word is",Word)
@@ -35,9 +39,28 @@ def only_orth_change(o_toks, c_toks):
 # Output: Boolean; the tokens are exactly the same but in a different order
 def exact_reordering(o_toks, c_toks):
     # Sorting lets us keep duplicates.
-    o_set = sorted([o.text.lower for o in o_toks])
-    c_set = sorted([c.text.lower for c in c_toks])
-    if o_set == c_set:
+    # o_set = sorted([o.text.lower for o in o_toks])
+    # c_set = sorted([c.text.lower for c in c_toks])
+    oset = {}
+    cset = {}
+    for tok in o_toks:
+        if tok.text in oset:
+            oset[tok.text] += 1
+        else:
+            oset[tok.text] = 1
+    for tok in c_toks:
+        if tok.text in cset:
+            cset[tok.text] += 1
+        else:
+            cset[tok.text] = 1
+    check = True
+    for k in oset:
+        if k in cset and oset[k]==cset[k]:
+            continue
+        else:
+            check = False
+            break
+    if len(oset) == len(cset) and check:
         return True
     return False
 

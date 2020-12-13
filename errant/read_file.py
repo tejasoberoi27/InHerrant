@@ -8,6 +8,7 @@ base_dir = Path(__file__).resolve().parent
 nlp = stanza.Pipeline('hi')
 annotator = errant.load("hi")
 
+
 def eval_edit_extraction(s1, s2):
     doc1 = nlp(s1)
     doc2 = nlp(s2)
@@ -22,10 +23,11 @@ def eval_edit_extraction(s1, s2):
             list_edits.append(x.__str__())
         return list_edits
 
+
 if __name__ == "__main__":
 
-    path_incorr = base_dir/"hi"/"resources"/"Visheshan_incor.txt"
-    path_corr = base_dir/"hi"/"resources"/"Visheshan_cor.txt"
+    path_incorr = base_dir/"hi"/"resources"/"btp_val_data"/"kram_new_incor.txt"
+    path_corr = base_dir/"hi"/"resources"/"btp_val_data"/"kram_new_kar.txt"
 
     f_incorr = open(path_incorr, "r",encoding="utf8")
     f_corr = open(path_corr, "r",encoding="utf8")
@@ -43,10 +45,9 @@ if __name__ == "__main__":
             continue
         edits = eval_edit_extraction(text_incorr[i], text_corr[i])
         print(edits)
-        d.append([text_incorr[i], text_corr[i], edits])
+        for edit in edits:
+            d.append([edit, text_incorr[i], text_corr[i]])
 
-    df = pd.DataFrame(d, columns=['Incorrect Sentence', 'Correct Sentence', 'Proposed Edits'])
+    df = pd.DataFrame(d, columns=['Proposed Edit', 'Incorrect Sentence', 'Correct Sentence'])
     print(df)
-    df.to_csv(base_dir/"hi"/"resources"/"2agn_new_sample_edits_visheshan.csv",encoding="utf-8-sig")
-
-
+    df.to_csv(base_dir/"hi"/"resources"/"sample_edits"/"kram.csv", encoding="utf-8-sig")

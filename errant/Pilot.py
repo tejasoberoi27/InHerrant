@@ -3,19 +3,23 @@ from errant.alignment import Alignment
 import errant
 import Levenshtein
 
+
 def align(orig, cor, lev=False):
     return Alignment(orig, cor, lev)
+
 
 def char_cost(a, b):
     return Levenshtein.ratio(a.text, b.text)
 
-def all_split(orig,cor):
+
+def all_split(orig, cor):
     print("ALL SPLIT")
     edits = annotator.annotate(orig, cor, lev=False, merging="all-split")  # lev = True, merging strategy = all_split
     print("Number of edits: %d" % len(edits))
     for x in edits:
         print(x)
     print("All split ends")
+
 
 if __name__ == '__main__':
     # stanza.download('hi')
@@ -49,7 +53,7 @@ if __name__ == '__main__':
         # c_low = cor.tokens
         # cur = char_cost(o_low[3], c_low[3])
         # print(o_low[3],c_low[3],"cost: "+str(cur))
-        #cor = next(target_iterator)
+        # cor = next(target_iterator)
         # alignment = align(orig, cor, lev)
         # print(alignment)
         # all_split(orig,cor)
