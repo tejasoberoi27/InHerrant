@@ -169,7 +169,10 @@ def get_labels(error_type,df):
 
 def get_data_stats(y_true):
     ctr = collections.Counter(y_true)
-    print(ctr)
+    total = sum(ctr.values())
+    desc = ctr.most_common()
+    for k,v in desc:
+        print(str(k)+'\t'+str(v))
 
 
 def get_standard_metrics(y_true, y_pred, class_labels):
@@ -240,13 +243,13 @@ def compute_metrics():
         extract_quality.extend(extract_quality_cur)
 
     set_labels = set(y_true)
-    error_labels = list(set_labels)
-    print("---------------------------------------------------")
-    get_standard_metrics(y_true,y_pred,error_labels)
-    print("---------------------------------------------------")
-    get_classification_perc(pred_quality)
-    print("---------------------------------------------------")
-    get_extraction_perc(extract_quality)
+    # error_labels = list(set_labels)
+    # print("---------------------------------------------------")
+    # get_standard_metrics(y_true,y_pred,error_labels)
+    # print("---------------------------------------------------")
+    # get_classification_perc(pred_quality)
+    # print("---------------------------------------------------")
+    # get_extraction_perc(extract_quality)
     get_data_stats(y_true)
 
 if __name__ == "__main__":
