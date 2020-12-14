@@ -7,8 +7,8 @@ import Levenshtein
 if __name__ == '__main__':
     # stanza.download('hi')
     nlp = stanza.Pipeline('hi')
-    s1 = "राम यहाँ आओ।"
-    s2 = "राम! यहाँ आओ।"
+    s1 = "यह हमारा वाला घर है।"
+    s2 = "तुम दोनों में अधिक बुद्धिमान कौन है ?"
 
     # print(doc)
     annotator = errant.load("hi")

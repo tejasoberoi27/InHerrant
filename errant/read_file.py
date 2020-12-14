@@ -31,10 +31,10 @@ if __name__ == "__main__":
     error_types = ['adverb','karak','kram','ling','misc','noun','pronoun','vachan','verb','visheshan']
     for error_type in error_types:
         print("base_dir",base_dir)
-        # extention = os.path.normpath("/hi/resources/btp_val_data")
-        extention = "hi/resources/btp_val_data"
-        # base_path= os.path.join(base_dir,extention)
-        base_path = os.path.join(base_dir,extention)
+        # extension = os.path.normpath("/hi/resources/btp_val_data")
+        extension = "hi/resources/btp_val_data"
+        # base_path= os.path.join(base_dir,extension)
+        base_path = os.path.join(base_dir,extension)
         print("base_path",base_path)
         file_incorr = error_type+"_new_incor.txt"
         file_corr = error_type+"_new_cor.txt"
