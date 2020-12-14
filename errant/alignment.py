@@ -3,7 +3,6 @@ from itertools import groupby
 import Levenshtein
 from errant.edit import Edit
 
-
 class Alignment:
     # Protected class resource
     _open_pos = {"ADJ", "AUX", "ADV", "NOUN", "VERB"}
@@ -73,9 +72,18 @@ class Alignment:
                         k = 1
                         while i - k >= 0 and j - k >= 0 and \
                                 cost_matrix[i - k + 1][j - k + 1] != cost_matrix[i - k][j - k]:
-                            if sorted(o_low[i - k:i + 1]) == sorted(c_low[j - k:j + 1]):
+                            o_toks = o_low[i - k:i + 1]
+                            c_toks = c_low[j - k:j + 1]
+                            # print("full o_toks",o_toks)
+                            # print("full c_toks ",c_toks)
+                            if(self.exact_reordering(o_toks,c_toks)):
                                 trans_cost = cost_matrix[i - k][j - k] + k
                                 break
+                            # print(seq1, type(seq1))
+                            # print(seq2, type(seq2))
+                            # if sorted(o_low[i - k:i + 1]) == sorted(c_low[j - k:j + 1]):
+                            #     trans_cost = cost_matrix[i - k][j - k] + k
+                            #     break
                             k += 1
                     # Costs
                     costs = [trans_cost, sub_cost, ins_cost, del_cost]
@@ -89,6 +97,36 @@ class Alignment:
                     else: op_matrix[i+1][j+1] = "D"
         # Return the matrices
         return cost_matrix, op_matrix
+
+    # Input 1: List of orig tokens
+    # Input 2: List of cor tokens
+    # Output: Boolean; Returns true if the tokens are exactly the same but in a different order
+    def exact_reordering(self,o_toks, c_toks):
+        # Sorting lets us keep duplicates.
+        # print("o_toks",o_toks)
+        # print("c_toks",c_toks)
+        oset = {}
+        cset = {}
+        for tok in o_toks:
+            if tok in oset:
+                oset[tok] += 1
+            else:
+                oset[tok] = 1
+        for tok in c_toks:
+            if tok in cset:
+                cset[tok] += 1
+            else:
+                cset[tok] = 1
+        check = True
+        for k in oset:
+            if k in cset and oset[k] == cset[k]:
+                continue
+            else:
+                check = False
+                break
+        if len(oset) == len(cset) and check:
+            return True
+        return False
 
     # Input 1: A spacy orig Token
     # Input 2: A spacy cor Token

@@ -26,6 +26,7 @@ def eval_edit_extraction(s1, s2):
 
 if __name__ == "__main__":
 
+    types = ['adverb','karak','kram','ling','misc','noun','pronoun','vachan','verb','visheshan']
     path_incorr = base_dir/"hi"/"resources"/"btp_val_data"/"kram_new_incor.txt"
     path_corr = base_dir/"hi"/"resources"/"btp_val_data"/"kram_new_kar.txt"
 
