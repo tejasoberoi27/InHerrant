@@ -5,6 +5,7 @@ from errant.annotator import Annotator
 # ERRANT version
 __version__ = '1.0.0'
 
+
 # Load an ERRANT Annotator object for a given language
 def load(lang, nlp=None):
     # Make sure the language is supported

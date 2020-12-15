@@ -104,15 +104,15 @@ def get_one_sided_type(toks):
     print("Type", type(toks[0]))
     print(toks[0])
     if len(toks) == 1:
-        if toks[0].pos == "NOUN":
+        if pos[0] == "NOUN":
             return "NOUN"
-        if toks[0].pos == "PRON":
+        if pos[0] == "PRON":
             return "PRON"
-        if toks[0].pos == "VERB":
+        if pos[0] == "VERB":
             return "VERB"
-        if toks[0].pos == "ADP":
+        if pos[0] == "ADP":
             return "ADP"
-        if toks[0].pos in ["ADJ", "NUM"]:
+        if pos[0] in ["ADJ", "NUM"]:
             return "ADJ"
         if toks[0].deprel == "punct":
             return "PUNCT"
@@ -137,7 +137,10 @@ def get_edit_info(toks):
     pos = []
     dep = []
     for tok in toks:
-        pos.append(tok.pos)
+        if tok.pos == "AUX":
+            pos.append("VERB")
+        else:
+            pos.append(tok.pos)
         dep.append(tok.deprel)
     return pos, dep
 
@@ -182,68 +185,60 @@ def get_two_sided_type(o_toks, c_toks):
         # Check a GB English dict for both orig and lower case.
         # E.g. "cat" is in the dict, but "Cat" is not.
         if o_toks[0].text not in spell:
-            # Check if both sides have a common lemma
-            if o_toks[0].lemma == c_toks[0].lemma:
-                # Inflection; often count vs mass nouns or e.g. got vs getted
-                if o_pos == c_pos and o_pos[0] in {"NOUN", "VERB"}:
-                    return o_pos[0] + ":INFL"
-                # Unknown morphology; i.e. we cannot be more specific.
-                else:
-                    return "MORPH"
-            # Use string similarity to detect true spelling errors.
+            char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
+            # Ratio > 0.5 means both side share at least half the same chars.
+            # WARNING: THIS IS AN APPROXIMATION.
+            if char_ratio > 0.5:
+                return "SPELL"
+            # If ratio is <= 0.5, the error is more complex e.g. tolk -> say
             else:
-                char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
-                # Ratio > 0.5 means both side share at least half the same chars.
-                # WARNING: THIS IS AN APPROXIMATION.
-                if char_ratio > 0.5:
-                    return "SPELL"
-                # If ratio is <= 0.5, the error is more complex e.g. tolk -> say
+                # If POS is the same, this takes precedence over spelling.
+                if o_pos == c_pos and \
+                        o_pos[0] not in rare_pos:
+                    return o_pos[0]
+                # Tricky cases.
                 else:
-                    # If POS is the same, this takes precedence over spelling.
-                    if o_pos == c_pos and \
-                            o_pos[0] not in rare_pos:
-                        return o_pos[0]
-                    # Tricky cases.
-                    else:
-                        return "OTHER"
+                    return "OTHER"
 
         # 1. SPECIAL CASES
-        # Possessive noun suffixes; e.g. ' -> 's
 
         # Gender Edits
-        if c_toks[0].pos in main_pos and o_toks[0].lemma == c_toks[0].lemma and o_feats[0]['Gender'] != c_feats[0][
+        if c_pos[0] in main_pos and o_toks[0].lemma == c_toks[0].lemma and o_feats[0]['Gender'] != c_feats[0][
             'Gender']:
-            return str(c_toks[0].pos) + "-GEN"
-        # Single token replacement of a word with a upos tag of NOUN, different lemma
-        if c_toks[0].pos == "NOUN" and o_toks[0].lemma != c_toks[0].lemma:
-            return "NOUN"
-        if c_toks[0].pos == "NOUN" and o_toks[0].lemma == c_toks[0].lemma and o_feats[0]['Number'] != c_feats[0][
+            return str(c_pos[0]) + "-GEN"
+        if c_pos[0] in main_pos and o_toks[0].lemma == c_toks[0].lemma and o_feats[0]['Number'] != c_feats[0][
             'Number']:
-            return "NOUN-NUM"
-        if c_toks[0].pos == "PRON":
+            return str(c_pos[0]) + "-NUM"
+        # Single token replacement of a word with a upos tag of NOUN, different lemma
+        if c_pos[0] == "NOUN":
+            return "NOUN"
+        # if c_pos[0] == "NOUN" and o_toks[0].lemma == c_toks[0].lemma and o_feats[0]['Number'] != c_feats[0][
+        #     'Number']:
+        #     return "NOUN-NUM"
+        if c_pos[0] == "PRON":
             return "PRON"
-        if o_toks[0].pos == "NOUN" and c_toks[0].pos == "PRON":  # unnecessary
+        if o_pos[0] == "NOUN" and c_pos[0] == "PRON":  # unnecessary
             return "PRON"
-        if c_toks[0].pos == "VERB" and o_toks[0].lemma != c_toks[0].lemma:
+        if c_pos[0] == "VERB" and o_toks[0].lemma != c_toks[0].lemma:
             return "VERB"
-        if o_toks[0].pos == "NOUN" and c_toks[0].pos == "VERB":
+        if o_pos[0] == "NOUN" and c_pos[0] == "VERB":
             return "VERB"
-        if c_toks[0].pos in ["ADJ", "NUM"] and o_toks[0].lemma != c_toks[0].lemma:
+        if c_pos[0] in ["ADJ", "NUM"] and o_toks[0].lemma != c_toks[0].lemma:
             return "ADJ"
         # Single token replacement, substituting a PRON with a ADJ
         # (might generalise to any POS tag being replaced with ADJ)
-        if o_toks[0].pos != "ADJ" and c_toks[0].pos == "ADJ":
+        if o_pos[0] != "ADJ" and c_pos[0] == "ADJ":
             return "ADJ"
-        if c_toks[0].pos == "ADP":
+        if c_pos[0] == "ADP":
             return "ADP"
         if o_toks[0].deprel == "punct" and c_toks[0].deprel == "punct":
             return "PUNCT"
 
     # Multi-token replacements (uncommon)
     for i in range(len(o_toks)):
-        if o_toks[i].pos == "NOUN":
+        if o_pos[i] == "NOUN":
             for j in range(len(c_pos)):
-                if c_toks[j].pos == "NOUN":
+                if c_pos[j] == "NOUN":
                     if o_toks[i].lemma == c_toks[j].lemma and o_feats[i]['Number'] != c_feats[j]['Number']:
                         return "NOUN-NUM"
                     if o_toks[i].lemma == c_toks[j].lemma and o_feats[i]['Gender'] != c_feats[j]['Gender']:
@@ -251,25 +246,25 @@ def get_two_sided_type(o_toks, c_toks):
                     if o_toks[i].lemma != c_toks[j].lemma:
                         return "NOUN"
     for i in range(len(o_toks)):
-        if o_toks[i].pos in ["PRON", "NOUN"]:
+        if o_pos[i] in ["PRON", "NOUN"]:
             for j in range(len(c_pos)):
-                if c_toks[j].pos == "PRON":
+                if c_pos[j] == "PRON":
                     if o_toks[i].lemma == c_toks[j].lemma and o_feats[i]['Gender'] != c_feats[j]['Gender']:
                         return "PRON-GEN"
                     if o_toks[i].lemma != c_toks[j].lemma:
                         return "PRON"
     for i in range(len(o_toks)):
-        if o_toks[i].pos == "VERB":
+        if o_pos[i] == "VERB":
             for j in range(len(c_pos)):
-                if c_toks[j].pos == "VERB":
+                if c_pos[j] == "VERB":
                     if o_toks[i].lemma == c_toks[j].lemma and o_feats[i]['Gender'] != c_feats[j]['Gender']:
                         return "VERB-GEN"
                     if o_toks[i].lemma != c_toks[j].lemma:
                         return "VERB"
     for i in range(len(o_toks)):
-        if o_toks[i].pos == "ADP":
+        if o_pos[i] == "ADP":
             for j in range(len(c_pos)):
-                if c_toks[j].pos == "ADP":
+                if c_pos[j] == "ADP":
                     if o_toks[i].lemma != c_toks[j].lemma:
                         return "ADP"
     # Tricky cases.

@@ -7,8 +7,8 @@ import Levenshtein
 if __name__ == '__main__':
     # stanza.download('hi')
     nlp = stanza.Pipeline('hi')
-    s1 = "यह हमारा वाला घर है।"
-    s2 = "तुम दोनों में अधिक बुद्धिमान कौन है ?"
+    s1 = "दो लड़की चित्र बना रही हैं।"
+    s2 = "दो लड़कियाँ चित्र बना रही हैं।"
 
     # print(doc)
     annotator = errant.load("hi")
@@ -24,13 +24,13 @@ if __name__ == '__main__':
     orig2 = doc2.sentences[0].words
     print("orig2",orig2)
     # print(orig2[0].text,type(orig2[0].feats))
-
-    Feats = orig2[-1].feats
-    Feats = Feats.replace("feats: ","")
-    Feats = Feats.split('|')
-    feats = {}
-    for pair in Feats:
-        feat,val = pair.split("=")
-        feats[feat] = val
-    print(feats)
+    #
+    # Feats = orig2[-1].feats
+    # Feats = Feats.replace("feats: ","")
+    # Feats = Feats.split('|')
+    # feats = {}
+    # for pair in Feats:
+    #     feat,val = pair.split("=")
+    #     feats[feat] = val
+    # print(feats)
 
