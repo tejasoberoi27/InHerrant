@@ -235,6 +235,7 @@ def compute_metrics():
         base_path = os.path.join(base_dir, extension)
         csv_file = error_type + ".csv"
         csv_file_path = os.path.join(base_path, csv_file)
+        print("csv_file_path",csv_file_path)
         df = pandas.read_csv(csv_file_path)
         extract_quality_cur, pred_quality_cur, y_true_cur, y_pred_cur = get_labels(error_type,df)
         y_true.extend(y_true_cur)
@@ -243,13 +244,13 @@ def compute_metrics():
         extract_quality.extend(extract_quality_cur)
 
     set_labels = set(y_true)
-    # error_labels = list(set_labels)
-    # print("---------------------------------------------------")
-    # get_standard_metrics(y_true,y_pred,error_labels)
-    # print("---------------------------------------------------")
-    # get_classification_perc(pred_quality)
-    # print("---------------------------------------------------")
-    # get_extraction_perc(extract_quality)
+    error_labels = list(set_labels)
+    print("---------------------------------------------------")
+    get_standard_metrics(y_true,y_pred,error_labels)
+    print("---------------------------------------------------")
+    get_classification_perc(pred_quality)
+    print("---------------------------------------------------")
+    get_extraction_perc(extract_quality)
     get_data_stats(y_true)
 
 if __name__ == "__main__":

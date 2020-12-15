@@ -4,12 +4,11 @@ import stanza
 from errant.alignment import Alignment
 import errant
 import pandas as pd
-from pathlib import Path
+from pathlib import Path,PureWindowsPath
 
 base_dir = Path(__file__).resolve().parent
 nlp = stanza.Pipeline('hi')
 annotator = errant.load("hi")
-
 
 def eval_edit_extraction(s1, s2):
     doc1 = nlp(s1)
@@ -25,11 +24,19 @@ def eval_edit_extraction(s1, s2):
             list_edits.append(x.__str__())
         return list_edits
 
+def get_csv(error_type):
+    # extension = os.path.normpath("/hi/resources/btp_val_data")
+    extension = "hi/resources/sample_edits_annotated/csv_files"
+    # base_path= os.path.join(base_dir,extension)
+    base_path = os.path.join(base_dir, extension)
+    csv_file = error_type + ".csv"
+    csv_file_path = os.path.join(base_path, csv_file)
+    print("csv_file_path", csv_file_path)
+    df = pd.read_csv(csv_file_path)
+    return df
 
-if __name__ == "__main__":
-
-    error_types = ['adverb','karak','kram','ling','misc','noun','pronoun','vachan','verb','visheshan']
-    # error_types = ['karak']
+def write_to_csv():
+    error_types = ['karak','kram','ling','misc','noun','pronoun','vachan','verb','visheshan']
     for error_type in error_types:
         print("base_dir",base_dir)
         # extension = os.path.normpath("/hi/resources/btp_val_data")
@@ -42,12 +49,10 @@ if __name__ == "__main__":
         # path_incorr = "kram_new_incor.txt"
         path_incorr = os.path.join(base_path,file_incorr)
         path_corr = os.path.join(base_path,file_corr)
-        # path_corr = base_dir/"hi"/"resources"/"btp_val_data"/"kram_new_kar.txt"
 
 
         f_incorr = open(path_incorr, "r",encoding="utf8")
         f_corr = open(path_corr, "r",encoding="utf8")
-        print("f_incorr",f_incorr)
 
         text_incorr = [sen for sen in f_incorr.readlines()]
         text_corr = [sen for sen in f_corr.readlines()]
@@ -65,7 +70,14 @@ if __name__ == "__main__":
             for edit in edits:
                 d.append([edit, text_incorr[i], text_corr[i]])
 
+        df_v1_csv = get_csv(error_type)
         df = pd.DataFrame(d, columns=['Proposed Edit', 'Incorrect Sentence', 'Correct Sentence'])
+        df_v1_csv['Proposed Edit'] = df['Proposed Edit']
         print(df)
+        print(df_v1_csv)
         csv_file =  error_type+".csv"
-        # df.to_csv(base_dir/"hi"/"resources"/"sample_edits_2"/csv_file, encoding="utf-8-sig")
+        df_v1_csv.to_csv(base_dir/"hi"/"resources"/"sample_edits_3"/csv_file, encoding="utf-8-sig")
+
+
+if __name__ == "__main__":
+    write_to_csv()
