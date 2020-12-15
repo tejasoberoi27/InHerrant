@@ -2,7 +2,7 @@ from itertools import combinations, groupby
 from re import sub
 from string import punctuation
 import Levenshtein
-from errant.edit import Edit
+from inherrant.edit import Edit
 
 # Merger resources
 # open_pos = {POS.ADJ, POS.AUX, POS.ADV, POS.NOUN, POS.VERB}

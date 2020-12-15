@@ -9,7 +9,7 @@ with open(base_dir/"README.md") as f:
     readme = f.read()
     
 setup(
-    name = "errant",
+    name = "inherrant",
     version = "2.2.2",
     license = "MIT",
     description = "The ERRor ANnotation Toolkit (ERRANT). Automatically extract and classify edits in parallel sentences.",
@@ -25,9 +25,9 @@ setup(
     include_package_data=True,
     entry_points = {
         "console_scripts": [
-            "errant_compare = errant.commands.compare_m2:main",
-            "errant_m2 = errant.commands.m2_to_m2:main",
-            "errant_parallel = errant.commands.parallel_to_m2:main"]},
+            "errant_compare = inherrant.commands.compare_m2:main",
+            "errant_m2 = inherrant.commands.m2_to_m2:main",
+            "errant_parallel = inherrant.commands.parallel_to_m2:main"]},
     classifiers = [
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Education",

@@ -1,7 +1,8 @@
 import argparse
 from contextlib import ExitStack
-import errant
+import inherrant
 
+# Run the file using - python parallel_to_m2.py -orig i.txt -cor c.txt -out r.txt -tok
 
 # Parse command line args
 def parse_args():
@@ -55,7 +56,7 @@ if __name__ == "__main__":
     args = parse_args()
     print("Loading resources...")
     # Load Errant
-    annotator = errant.load("hi")
+    annotator = inherrant.load("hi")
     # Open output m2 file
     out_m2 = open(args.out, "w")
 
@@ -74,7 +75,7 @@ if __name__ == "__main__":
             # Parse orig with stanza
             orig = annotator.parse(orig, args.tok)
             # Write orig to the output m2 file
-            out_m2.write(" ".join(["S"]+[token.text for token in orig])+"\n")
+            out_m2.write(" ".join(["S"]+[token.text for token in orig.sentences])+"\n")
             # Loop through the corrected texts
             for cor_id, cor in enumerate(cors):
                 cor = cor.strip()
@@ -86,11 +87,13 @@ if __name__ == "__main__":
                     # Parse cor with stanza
                     cor = annotator.parse(cor, args.tok)
                     # Align the texts and extract and classify the edits
-                    edits = annotator.annotate(orig, cor, args.lev, args.merge)
-                    # Loop through the edits
-                    for edit in edits:
-                        # Write the edit to the output m2 file
-                        out_m2.write(edit.to_m2(cor_id)+"\n")
+                    for o in orig.sentences:
+                        for c in cor.sentences:
+                            edits = annotator.annotate(o, c, args.lev, args.merge)
+                            # Loop through the edits
+                            for edit in edits:
+                                # Write the edit to the output m2 file
+                                out_m2.write(edit.to_m2(cor_id)+"\n")
             # Write a newline when we have processed all corrections for each line
             out_m2.write("\n")
             

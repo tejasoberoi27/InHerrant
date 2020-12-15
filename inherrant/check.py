@@ -1,6 +1,6 @@
 import stanza
-from errant.alignment import Alignment
-import errant
+from inherrant.alignment import Alignment
+import inherrant
 import Levenshtein
 
 
@@ -11,7 +11,7 @@ if __name__ == '__main__':
     s2 = "दो लड़कियाँ चित्र बना रही हैं।"
 
     # print(doc)
-    annotator = errant.load("hi")
+    annotator = inherrant.load("hi")
     doc1 = nlp(s1)
     doc2 = nlp(s2)
     target_iterator1 = iter(doc1.sentences)

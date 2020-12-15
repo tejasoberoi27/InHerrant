@@ -1,12 +1,12 @@
 from pathlib import Path
 import Levenshtein
-from errant.en.lancaster import LancasterStemmer
+from inherrant.en.lancaster import LancasterStemmer
 import spacy
 import spacy.symbols as POS
 
 # Load Hunspell word list
 def load_word_list(path):
-    with open(path) as word_list:
+    with open(path,encoding="utf8") as word_list:
         return set([word.strip() for word in word_list])
 
 # Load Universal Dependency POS Tags map file.
@@ -38,15 +38,15 @@ def load_pos_map(path):
 
 # Classifier resources
 base_dir = Path(__file__).resolve().parent
-# Spacy
+# Stanza
 nlp = None
 # Lancaster Stemmer
 stemmer = LancasterStemmer()
 # GB English word list (inc -ise and -ize)
-spell = load_word_list(base_dir/"resources"/"en_GB-large.txt")
+spell = load_word_list(base_dir/"resources"/"vocab.txt")
 # Part of speech map file
 pos_map = load_pos_map(base_dir/"resources"/"en-ptb_map")
-# Open class coarse Spacy POS tags 
+# Open class coarse Spacy POS tags
 open_pos1 = {POS.ADJ, POS.ADV, POS.NOUN, POS.VERB}
 # Open class coarse Spacy POS tags (strings)
 open_pos2 = {"ADJ", "ADV", "NOUN", "VERB"}
@@ -61,7 +61,7 @@ dep_map = {
     "acomp": "ADJ",
     "amod": "ADJ",
     "advmod": "ADV",
-    "det": "DET", 
+    "det": "DET",
     "prep": "PREP",
     "prt": "PART",
     "punct": "PUNCT"}
@@ -75,39 +75,42 @@ def classify(edit):
     # Missing
     elif not edit.o_toks and edit.c_toks:
         op = "M:"
-        cat = get_one_sided_type(edit.c_toks)
-        edit.type = op+cat
+        #cat = get_one_sided_type(edit.c_toks)
+        #edit.type = op+cat
+        edit.type = op
     # Unnecessary
     elif edit.o_toks and not edit.c_toks:
         op = "U:"
-        cat = get_one_sided_type(edit.o_toks)
-        edit.type = op+cat
+        #cat = get_one_sided_type(edit.o_toks)
+        #edit.type = op+cat
+        edit.type = op
     # Replacement and special cases
     else:
         # Same to same is a detected but not corrected edit
         if edit.o_str == edit.c_str:
             edit.type = "UNK"
-        # Special: Ignore case change at the end of multi token edits
-        # E.g. [Doctor -> The doctor], [, since -> . Since]
-        # Classify the edit as if the last token wasn't there
-        elif edit.o_toks[-1].lower == edit.c_toks[-1].lower and \
-                (len(edit.o_toks) > 1 or len(edit.c_toks) > 1):
-            # Store a copy of the full orig and cor toks
-            all_o_toks = edit.o_toks[:]
-            all_c_toks = edit.c_toks[:]
-            # Truncate the instance toks for classification
-            edit.o_toks = edit.o_toks[:-1]
-            edit.c_toks = edit.c_toks[:-1]
-            # Classify the truncated edit
-            edit = classify(edit)
-            # Restore the full orig and cor toks
-            edit.o_toks = all_o_toks
-            edit.c_toks = all_c_toks
+        # # Special: Ignore case change at the end of multi token edits
+        # # E.g. [Doctor -> The doctor], [, since -> . Since]
+        # # Classify the edit as if the last token wasn't there
+        # elif edit.o_toks[-1].lower == edit.c_toks[-1].lower and \
+        #         (len(edit.o_toks) > 1 or len(edit.c_toks) > 1):
+        #     # Store a copy of the full orig and cor toks
+        #     all_o_toks = edit.o_toks[:]
+        #     all_c_toks = edit.c_toks[:]
+        #     # Truncate the instance toks for classification
+        #     edit.o_toks = edit.o_toks[:-1]
+        #     edit.c_toks = edit.c_toks[:-1]
+        #     # Classify the truncated edit
+        #     edit = classify(edit)
+        #     # Restore the full orig and cor toks
+        #     edit.o_toks = all_o_toks
+        #     edit.c_toks = all_c_toks
         # Replacement
         else:
             op = "R:"
-            cat = get_two_sided_type(edit.o_toks, edit.c_toks)
-            edit.type = op+cat
+            #cat = get_two_sided_type(edit.o_toks, edit.c_toks)
+            #edit.type = op+cat
+            edit.type = op
     return edit
 
 # Input: Spacy tokens
@@ -317,7 +320,7 @@ def get_two_sided_type(o_toks, c_toks):
         return "VERB:TENSE"
     # All same POS
     if len(set(o_pos+c_pos)) == 1:
-        # Final verbs with the same lemma are tense; e.g. eat -> has eaten 
+        # Final verbs with the same lemma are tense; e.g. eat -> has eaten
         if o_pos[0] == "VERB" and \
                 o_toks[-1].lemma == c_toks[-1].lemma:
             return "VERB:TENSE"
@@ -372,7 +375,7 @@ def exact_reordering(o_toks, c_toks):
         return True
     return False
 
-# Input 1: An original text spacy token. 
+# Input 1: An original text spacy token.
 # Input 2: A corrected text spacy token.
 # Output: Boolean; both tokens have a dependant auxiliary verb.
 def preceded_by_aux(o_tok, c_tok):

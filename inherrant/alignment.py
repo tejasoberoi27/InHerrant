@@ -1,7 +1,7 @@
 from itertools import groupby
 
 import Levenshtein
-from errant.edit import Edit
+from inherrant.edit import Edit
 
 class Alignment:
     # Protected class resource

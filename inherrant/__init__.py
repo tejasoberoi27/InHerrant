@@ -1,6 +1,6 @@
 from importlib import import_module
 import stanza
-from errant.annotator import Annotator
+from inherrant.annotator import Annotator
 
 # ERRANT version
 __version__ = '1.0.0'
@@ -17,13 +17,13 @@ def load(lang, nlp=None):
     nlp = nlp or stanza.Pipeline('hi')
 
     # Load language edit merger
-    merger = import_module("errant.%s.merger" % lang)
+    merger = import_module("inherrant.%s.merger" % lang)
 
     # Load language edit classifier
-    # print("Location: errant.%s.classifier" % lang)
-    # classifier = import_module("errant.%s.classifier" % lang)
-    # print("Location: errant.%s.classifier2" % lang)
-    classifier = import_module("errant.%s.classifier2" % lang)
+    # print("Location: inherrant.%s.classifier" % lang)
+    # classifier = import_module("inherrant.%s.classifier" % lang)
+    # print("Location: inherrant.%s.classifier2" % lang)
+    classifier = import_module("inherrant.%s.classifier2" % lang)
 
     # The Hindi classifier needs stanza
     if lang == "hi": classifier.nlp = nlp

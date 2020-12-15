@@ -1,14 +1,14 @@
 import os
 
 import stanza
-from errant.alignment import Alignment
-import errant
+from inherrant.alignment import Alignment
+import inherrant
 import pandas as pd
 from pathlib import Path
 
 base_dir = Path(__file__).resolve().parent
 nlp = stanza.Pipeline('hi')
-annotator = errant.load("hi")
+annotator = inherrant.load("hi")
 
 
 def eval_edit_extraction(s1, s2):

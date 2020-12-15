@@ -1,6 +1,6 @@
 import stanza
-from errant.alignment import Alignment
-import errant
+from inherrant.alignment import Alignment
+import inherrant
 import Levenshtein
 
 
@@ -27,7 +27,7 @@ if __name__ == '__main__':
     # doc = nlp("आप से मिलकर बहुत ख़ुशी हुई")
     # print(doc)
 
-    annotator = errant.load("hi")
+    annotator = inherrant.load("hi")
 
     # Input 1: An original text string parsed by spacy
     # Input 2: A corrected text string parsed by spacy
