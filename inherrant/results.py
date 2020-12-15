@@ -128,6 +128,7 @@ def get_labels(error_type,df):
     y_pred = []
     pred_quality = []
     extract_quality = []
+    broad_types = []
     prev_correct_sentence = ""
     for num_row in range(cnt_rows):
         proposed_edit = df['Proposed Edit'][num_row]
@@ -157,6 +158,8 @@ def get_labels(error_type,df):
         else:
             pred_quality_label = df['Edit Quality (g,b,a)'][num_row]
             label = str(label)
+            broad_type = label[:label.find(':')]
+            # print("label:",label,"broad_type:",broad_type)
             label = label[label.find(':') + 1:]
             if(pred_quality_label in ['g','b','a']):
                 pred_quality.append(pred_quality_label)
@@ -164,16 +167,21 @@ def get_labels(error_type,df):
                 print("pos",error_type,num_row)
             y_pred.append(pred)
             y_true.append(label)
+            broad_types.append(broad_type)
 
-    return extract_quality, pred_quality, y_true, y_pred
+    return broad_types,extract_quality, pred_quality, y_true, y_pred
 
-def get_data_stats(y_true):
-    ctr = collections.Counter(y_true)
-    total = sum(ctr.values())
-    desc = ctr.most_common()
-    for k,v in desc:
+def get_data_stats(broad_types,y_true):
+    ctr_labels = collections.Counter(y_true)
+    ctr_broad_types= collections.Counter(broad_types)
+    total_labels = sum(ctr_labels.values())
+    total_broad_types = sum(ctr_broad_types.values())
+    desc_label = ctr_labels.most_common()
+    desc_broad_types = ctr_broad_types.most_common()
+    for k,v in desc_label:
         print(str(k)+'\t'+str(v))
-
+    for k,v in desc_broad_types:
+        print(str(k)+'\t'+str(v))
 
 def get_standard_metrics(y_true, y_pred, class_labels):
     accuracy = accuracy_score(y_true, y_pred)
@@ -228,20 +236,24 @@ def compute_metrics():
     y_pred = []
     pred_quality = []
     extract_quality = []
+    broad_types = []
     for error_type in error_types:
         # extension = os.path.normpath("/hi/resources/btp_val_data")
-        extension = "hi/resources/sample_edits_annotated/csv_files"
+        # extension = "hi/resources/sample_edits_annotated/csv_files"
+        extension = "hi/resources/sample_edits_3"
+
         # base_path= os.path.join(base_dir,extension)
         base_path = os.path.join(base_dir, extension)
         csv_file = error_type + ".csv"
         csv_file_path = os.path.join(base_path, csv_file)
         print("csv_file_path",csv_file_path)
         df = pandas.read_csv(csv_file_path)
-        extract_quality_cur, pred_quality_cur, y_true_cur, y_pred_cur = get_labels(error_type,df)
+        broad_type_cur, extract_quality_cur, pred_quality_cur, y_true_cur, y_pred_cur = get_labels(error_type,df)
         y_true.extend(y_true_cur)
         y_pred.extend(y_pred_cur)
         pred_quality.extend(pred_quality_cur)
         extract_quality.extend(extract_quality_cur)
+        broad_types.extend(broad_type_cur)
 
     set_labels = set(y_true)
     error_labels = list(set_labels)
@@ -251,7 +263,7 @@ def compute_metrics():
     get_classification_perc(pred_quality)
     print("---------------------------------------------------")
     get_extraction_perc(extract_quality)
-    get_data_stats(y_true)
+    get_data_stats(y_true,broad_types)
 
 if __name__ == "__main__":
     compute_metrics()
