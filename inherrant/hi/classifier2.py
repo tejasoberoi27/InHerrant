@@ -116,6 +116,12 @@ def get_one_sided_type(toks):
             return "ADJ"
         if toks[0].deprel == "punct":
             return "PUNCT"
+        if toks[0] == "ADV":
+            return "ADV"
+        if toks[0] == "PREP":
+            return "PREP"
+        if toks[0] == "DET":
+            return "DET"
     if "NOUN" in pos:
         return "NOUN"
     if "VERB" in pos:
@@ -126,6 +132,12 @@ def get_one_sided_type(toks):
         return "ADJ"
     if "ADP" in pos:
         return "ADP"
+    if "ADV" in pos:
+        return "ADV"
+    if "PREP" in pos:
+        return "PREP"
+    if "DET" in pos:
+        return "DET"
     else:
         return "OTHER"
         # Possessive noun suffixes; e.g. ' -> 's
@@ -267,6 +279,24 @@ def get_two_sided_type(o_toks, c_toks):
                 if c_pos[j] == "ADP":
                     if o_toks[i].lemma != c_toks[j].lemma:
                         return "ADP"
+    for i in range(len(o_toks)):
+        if o_pos[i] == "ADV":
+            for j in range(len(c_pos)):
+                if c_pos[j] == "ADV":
+                    if o_toks[i].lemma != c_toks[j].lemma:
+                        return "ADV"
+    for i in range(len(o_toks)):
+        if o_pos[i] == "PREP":
+            for j in range(len(c_pos)):
+                if c_pos[j] == "PREP":
+                    if o_toks[i].lemma != c_toks[j].lemma:
+                        return "PREP"
+    for i in range(len(o_toks)):
+        if o_pos[i] == "DET":
+            for j in range(len(c_pos)):
+                if c_pos[j] == "DET":
+                    if o_toks[i].lemma != c_toks[j].lemma:
+                        return "DET"
     # Tricky cases.
     else:
         return "OTHER"
