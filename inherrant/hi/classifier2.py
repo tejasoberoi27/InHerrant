@@ -1,6 +1,7 @@
 from pathlib import Path
 import Levenshtein
 
+open_pos2 = {"ADJ", "ADV", "NOUN", "VERB"}
 
 def get_feats(Word):
     # returns features of a Stanza word as a dictionary
@@ -101,6 +102,9 @@ def get_one_sided_type(toks):
     # Special cases
     toks = [tok.words[0] for tok in toks]
     pos, dep = get_edit_info(toks)
+    # Auxiliary verbs
+    if set(dep).issubset({"aux", "aux:pass"}):
+        return "VERB:TENSE"
     print("Type", type(toks[0]))
     print(toks[0])
     if len(toks) == 1:
@@ -149,10 +153,11 @@ def get_edit_info(toks):
     pos = []
     dep = []
     for tok in toks:
-        if tok.pos == "AUX":
-            pos.append("VERB")
-        else:
-            pos.append(tok.pos)
+        print("POS",tok.pos)
+        # if tok.pos == "AUX":
+        #     pos.append("VERB")
+        # else:
+        pos.append(tok.pos)
         dep.append(tok.deprel)
     return pos, dep
 
@@ -172,8 +177,11 @@ rare_pos = {"INTJ", "NUM", "SYM", "X"}
 # Input 2: Spacy cor tokens
 # Output: An error type string based on orig AND cor
 def get_two_sided_type(o_toks, c_toks):
+
+
     o_toks = [tok.words[0] for tok in o_toks]
     c_toks = [tok.words[0] for tok in c_toks]
+    print("Hello",o_toks,c_toks)
 
     # Extract pos tags and parse info from the toks as lists
     o_pos, o_dep = get_edit_info(o_toks)
@@ -207,6 +215,7 @@ def get_two_sided_type(o_toks, c_toks):
                 # If POS is the same, this takes precedence over spelling.
                 if o_pos == c_pos and \
                         o_pos[0] not in rare_pos:
+                    print("o_pos"+ o_pos)
                     return o_pos[0]
                 # Tricky cases.
                 else:
@@ -246,7 +255,48 @@ def get_two_sided_type(o_toks, c_toks):
         if o_toks[0].deprel == "punct" and c_toks[0].deprel == "punct":
             return "PUNCT"
 
+        if o_pos == c_pos and \
+                o_pos[0] == "CCONJ":
+            return "CONJ"
+
+        # 3. MORPHOLOGY
+        # Only ADJ, ADV, NOUN and VERB can have inflectional changes.
+        if o_toks[0].lemma == c_toks[0].lemma and \
+                o_pos[0] in open_pos2 and \
+                c_pos[0] in open_pos2:
+            # Same POS on both sides
+            if o_pos == c_pos:
+                # Adjective form; e.g. comparatives
+                if o_pos[0] == "VERB":
+                    # NOTE: These rules are carefully ordered.
+                    # Use the dep parse to find some form errors.
+                    # Main verbs preceded by aux cannot be tense or SVA.
+                    # Of what's left, TENSE errors normally involved VBD.
+                    if o_toks[0].tag_ == "VBD" or c_toks[0].tag_ == "VBD":
+                        return "VERB:TENSE"
+                    # Any remaining aux verbs are called TENSE.
+                    if o_dep[0].startswith("aux") and \
+                            c_dep[0].startswith("aux"):
+                        return "VERB:TENSE"
+            if c_toks[0].tag_ == "VBD":
+                return "VERB:TENSE"
+
+        # 4. GENERAL
+        # Auxiliaries with different lemmas
+        if o_dep[0].startswith("aux") and c_dep[0].startswith("aux"):
+            return "VERB:TENSE"
+
     # Multi-token replacements (uncommon)
+    print("DEP", set(o_dep + c_dep))
+    if set(o_dep+c_dep).issubset({"root","aux", "aux:pass"}):
+        return "VERB:TENSE"
+    # All same POS
+    if len(set(o_pos+c_pos)) == 1:
+        # Final verbs with the same lemma are tense; e.g. eat -> has eaten
+        if o_pos[0] == "VERB" and \
+                o_toks[0].lemma == c_toks[0].lemma:
+            return "VERB:TENSE"
+
     for i in range(len(o_toks)):
         if o_pos[i] == "NOUN":
             for j in range(len(c_pos)):
