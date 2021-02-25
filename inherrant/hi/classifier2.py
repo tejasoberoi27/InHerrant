@@ -3,6 +3,7 @@ import Levenshtein
 
 open_pos2 = {"ADJ", "ADV", "NOUN", "VERB"}
 
+
 def get_feats(Word):
     # returns features of a Stanza word as a dictionary
     feats = {}
@@ -178,7 +179,6 @@ rare_pos = {"INTJ", "NUM", "SYM", "X"}
 # Output: An error type string based on orig AND cor
 def get_two_sided_type(o_toks, c_toks):
 
-
     o_toks = [tok.words[0] for tok in o_toks]
     c_toks = [tok.words[0] for tok in c_toks]
     print("Hello",o_toks,c_toks)
@@ -215,7 +215,7 @@ def get_two_sided_type(o_toks, c_toks):
                 # If POS is the same, this takes precedence over spelling.
                 if o_pos == c_pos and \
                         o_pos[0] not in rare_pos:
-                    print("o_pos"+ o_pos)
+                    # print("o_pos"+ o_pos)
                     return o_pos[0]
                 # Tricky cases.
                 else:
@@ -224,21 +224,14 @@ def get_two_sided_type(o_toks, c_toks):
         # 1. SPECIAL CASES
 
         # Gender Edits
-        if c_pos[0] in main_pos and o_toks[0].lemma == c_toks[0].lemma and o_feats[0]['Gender'] != c_feats[0][
-            'Gender']:
+        if c_pos[0] in main_pos and o_toks[0].lemma == c_toks[0].lemma and o_feats[0]['Gender'] != c_feats[0]['Gender']:
             return str(c_pos[0]) + "-GEN"
-        if c_pos[0] in main_pos and o_toks[0].lemma == c_toks[0].lemma and o_feats[0]['Number'] != c_feats[0][
-            'Number']:
+        if c_pos[0] in main_pos and o_toks[0].lemma == c_toks[0].lemma and o_feats[0]['Number'] != c_feats[0]['Number']:
             return str(c_pos[0]) + "-NUM"
         # Single token replacement of a word with a upos tag of NOUN, different lemma
         if c_pos[0] == "NOUN":
             return "NOUN"
-        # if c_pos[0] == "NOUN" and o_toks[0].lemma == c_toks[0].lemma and o_feats[0]['Number'] != c_feats[0][
-        #     'Number']:
-        #     return "NOUN-NUM"
         if c_pos[0] == "PRON":
-            return "PRON"
-        if o_pos[0] == "NOUN" and c_pos[0] == "PRON":  # unnecessary
             return "PRON"
         if c_pos[0] == "VERB" and o_toks[0].lemma != c_toks[0].lemma:
             return "VERB"
@@ -252,6 +245,8 @@ def get_two_sided_type(o_toks, c_toks):
             return "ADJ"
         if c_pos[0] == "ADP":
             return "ADP"
+        if c_pos[0] == "ADV":
+            return "ADV"
         if o_toks[0].deprel == "punct" and c_toks[0].deprel == "punct":
             return "PUNCT"
 
@@ -272,13 +267,13 @@ def get_two_sided_type(o_toks, c_toks):
                     # Use the dep parse to find some form errors.
                     # Main verbs preceded by aux cannot be tense or SVA.
                     # Of what's left, TENSE errors normally involved VBD.
-                    if o_toks[0].tag_ == "VBD" or c_toks[0].tag_ == "VBD":
+                    if o_toks[0].xpos == "VBD" or c_toks[0].xpos == "VBD":
                         return "VERB:TENSE"
                     # Any remaining aux verbs are called TENSE.
                     if o_dep[0].startswith("aux") and \
                             c_dep[0].startswith("aux"):
                         return "VERB:TENSE"
-            if c_toks[0].tag_ == "VBD":
+            if c_toks[0].xpos == "VBD":
                 return "VERB:TENSE"
 
         # 4. GENERAL
