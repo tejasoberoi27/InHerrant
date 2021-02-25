@@ -4,6 +4,41 @@ import Levenshtein
 open_pos2 = {"ADJ", "ADV", "NOUN", "VERB"}
 
 
+
+def get_gen(feats):
+    if ('Gender' in feats):
+        return feats['Gender']
+    else:
+        return ""
+
+def get_num(feats):
+    if ('Number' in feats):
+        return feats['Number']
+    else:
+        return ""
+
+
+def opposite_gen(o_feats, c_feats):
+    """ Returns true if the two tokens have opposite genders"""
+    if not o_feats or not c_feats:
+        return False
+    else:
+        if {'Masc', 'Fem'}.issubset({get_gen(o_feats), get_gen(c_feats)}):
+            print()
+            return True
+        else:
+            return False
+
+def opposite_num(o_feats,c_feats):
+    """ Returns true if one of the tokens is singular and other plural"""
+    if not o_feats or not c_feats:
+        return False
+    else:
+        if {'Sing','Plur'}.issubset({get_num(o_feats), get_num(c_feats)}):
+            return True
+        else:
+            return False
+
 def get_feats(Word):
     # returns features of a Stanza word as a dictionary
     feats = {}
@@ -20,8 +55,8 @@ def get_feats(Word):
             if 'Number' not in feats:
                 feats['Number'] = ""
     except Exception as e:
-        print("e is",e)
-        print("Word is",Word)
+        print("e is", e)
+        print("Word is", Word)
     return feats
 
 
@@ -57,7 +92,7 @@ def exact_reordering(o_toks, c_toks):
             cset[tok.text] = 1
     check = True
     for k in oset:
-        if k in cset and oset[k]==cset[k]:
+        if k in cset and oset[k] == cset[k]:
             continue
         else:
             check = False
@@ -105,6 +140,7 @@ def get_one_sided_type(toks):
     pos, dep = get_edit_info(toks)
     # Auxiliary verbs
     if set(dep).issubset({"aux", "aux:pass"}):
+        print("set(dep).issubset({aux, aux:pass}")
         return "VERB:TENSE"
     print("Type", type(toks[0]))
     print(toks[0])
@@ -154,7 +190,7 @@ def get_edit_info(toks):
     pos = []
     dep = []
     for tok in toks:
-        print("POS",tok.pos)
+        print("POS", tok.pos)
         # if tok.pos == "AUX":
         #     pos.append("VERB")
         # else:
@@ -178,10 +214,9 @@ rare_pos = {"INTJ", "NUM", "SYM", "X"}
 # Input 2: Spacy cor tokens
 # Output: An error type string based on orig AND cor
 def get_two_sided_type(o_toks, c_toks):
-
     o_toks = [tok.words[0] for tok in o_toks]
     c_toks = [tok.words[0] for tok in c_toks]
-    print("Hello",o_toks,c_toks)
+    print("Hello", o_toks, c_toks)
 
     # Extract pos tags and parse info from the toks as lists
     o_pos, o_dep = get_edit_info(o_toks)
@@ -189,6 +224,12 @@ def get_two_sided_type(o_toks, c_toks):
 
     o_feats = [get_feats(o_toks[0]) for tok in o_toks]
     c_feats = [get_feats(c_toks[0]) for tok in c_toks]
+
+    o_gen = [get_gen(o_feats[i]) for i in range(len(o_feats))]
+    c_gen = [get_gen(c_feats[i]) for i in range(len(c_feats))]
+
+    o_num = [get_num(o_feats[i]) for i in range(len(o_feats))]
+    c_num = [get_num(c_feats[i]) for i in range(len(c_feats))]
 
     # Orthography; i.e. whitespace and/or case errors.
     if only_orth_change(o_toks, c_toks):
@@ -216,6 +257,7 @@ def get_two_sided_type(o_toks, c_toks):
                 if o_pos == c_pos and \
                         o_pos[0] not in rare_pos:
                     # print("o_pos"+ o_pos)
+                    print("o_pos" + o_pos)
                     return o_pos[0]
                 # Tricky cases.
                 else:
@@ -227,6 +269,14 @@ def get_two_sided_type(o_toks, c_toks):
         if c_pos[0] in main_pos and o_toks[0].lemma == c_toks[0].lemma and o_feats[0]['Gender'] != c_feats[0]['Gender']:
             return str(c_pos[0]) + "-GEN"
         if c_pos[0] in main_pos and o_toks[0].lemma == c_toks[0].lemma and o_feats[0]['Number'] != c_feats[0]['Number']:
+        if (c_pos[0] in main_pos or c_pos[0]=='AUX') and o_toks[0].lemma == c_toks[0].lemma and \
+                opposite_gen(get_gen(o_feats[0]), get_gen(c_feats[0])):
+            if(c_pos[0]=='AUX'):
+                c_pos[0] = 'VERB'
+            return str(c_pos[0]) + "-GEN"
+        if (c_pos[0] in main_pos or c_pos[0]=='AUX') and o_toks[0].lemma == c_toks[0].lemma and opposite_num(o_feats[0], c_feats[0]):
+            if(c_pos[0]=='AUX'):
+                c_pos[0] = 'VERB'
             return str(c_pos[0]) + "-NUM"
         # Single token replacement of a word with a upos tag of NOUN, different lemma
         if c_pos[0] == "NOUN":
@@ -268,37 +318,56 @@ def get_two_sided_type(o_toks, c_toks):
                     # Main verbs preceded by aux cannot be tense or SVA.
                     # Of what's left, TENSE errors normally involved VBD.
                     if o_toks[0].xpos == "VBD" or c_toks[0].xpos == "VBD":
+                        s = "if o_toks[0].tag_ == \"VBD\" or c_toks[0].tag_ == \"VBD\":"
+                        print(s)
                         return "VERB:TENSE"
                     # Any remaining aux verbs are called TENSE.
                     if o_dep[0].startswith("aux") and \
-                            c_dep[0].startswith("aux"):
+                            c_dep[0].startswith("aux") and not opposite_gen(o_feats[0], c_feats[0]):
+                        s = "same lemma if o_dep[0].startswith(\"aux\") and \
+                            c_dep[0].startswith(\"aux\"):"
+                        print(s)
                         return "VERB:TENSE"
             if c_toks[0].xpos == "VBD":
+                s = "c_toks[0].tag_ == \"VBD\""
+                print(s)
                 return "VERB:TENSE"
 
         # 4. GENERAL
         # Auxiliaries with different lemmas
         if o_dep[0].startswith("aux") and c_dep[0].startswith("aux"):
-            return "VERB:TENSE"
+            s = "if o_dep[0].startswith(\"aux\") and c_dep[0].startswith(\"aux\"):"
+            print(s)
+            print("O_FEATS",o_feats[0])
+            print("C_FEATS",c_feats[0])
+            if not opposite_gen(o_feats[0], c_feats[0]) and not opposite_num(o_feats[0],c_feats[0]):
+                return "VERB:TENSE"
 
     # Multi-token replacements (uncommon)
-    print("DEP", set(o_dep + c_dep))
-    if set(o_dep+c_dep).issubset({"root","aux", "aux:pass"}):
-        return "VERB:TENSE"
+
+    if set(o_dep + c_dep).issubset({"aux", "aux:pass"}):
+        s = "if set(o_dep+c_dep).issubset({\"aux\", \"aux:pass\"}): and o_gen = c_gen"
+        print(s)
+        if set(o_gen) == set(c_gen) and set(o_num) == set(c_num):
+            return "VERB:TENSE"
     # All same POS
-    if len(set(o_pos+c_pos)) == 1:
+    if len(set(o_pos + c_pos)) == 1:
         # Final verbs with the same lemma are tense; e.g. eat -> has eaten
         if o_pos[0] == "VERB" and \
-                o_toks[0].lemma == c_toks[0].lemma:
+                o_toks[0].lemma == c_toks[0].lemma and not opposite_gen(o_feats[0], c_feats[0])\
+                and not opposite_num(o_feats[0],c_feats[0]):
+            s = "if len(set(o_pos+c_pos)) == 1:," + "if o_pos[0] == VERB and \
+                o_toks[0].lemma == c_toks[0].lemma:"
+            print(s)
             return "VERB:TENSE"
 
     for i in range(len(o_toks)):
         if o_pos[i] == "NOUN":
             for j in range(len(c_pos)):
                 if c_pos[j] == "NOUN":
-                    if o_toks[i].lemma == c_toks[j].lemma and o_feats[i]['Number'] != c_feats[j]['Number']:
+                    if o_toks[i].lemma == c_toks[j].lemma and opposite_num(o_feats[i], c_feats[j]):
                         return "NOUN-NUM"
-                    if o_toks[i].lemma == c_toks[j].lemma and o_feats[i]['Gender'] != c_feats[j]['Gender']:
+                    if o_toks[i].lemma == c_toks[j].lemma and opposite_gen(o_feats[i], c_feats[j]):
                         return "NOUN-GEN"
                     if o_toks[i].lemma != c_toks[j].lemma:
                         return "NOUN"
@@ -306,15 +375,17 @@ def get_two_sided_type(o_toks, c_toks):
         if o_pos[i] in ["PRON", "NOUN"]:
             for j in range(len(c_pos)):
                 if c_pos[j] == "PRON":
-                    if o_toks[i].lemma == c_toks[j].lemma and o_feats[i]['Gender'] != c_feats[j]['Gender']:
+                    if o_toks[i].lemma == c_toks[j].lemma and opposite_gen(o_feats[i],c_feats[j]):
                         return "PRON-GEN"
                     if o_toks[i].lemma != c_toks[j].lemma:
                         return "PRON"
     for i in range(len(o_toks)):
-        if o_pos[i] == "VERB":
+        if o_pos[i] in ("VERB","AUX"):
             for j in range(len(c_pos)):
-                if c_pos[j] == "VERB":
-                    if o_toks[i].lemma == c_toks[j].lemma and o_feats[i]['Gender'] != c_feats[j]['Gender']:
+                if c_pos[j] == o_pos[i]:
+                    if o_toks[i].lemma == c_toks[j].lemma and opposite_gen(o_feats[i],c_feats[j]):
+                        # print("i =", "j =", i, j, o_toks[i], c_toks[j], o_feats[i], c_feats[j])
+                        print("ling")
                         return "VERB-GEN"
                     if o_toks[i].lemma != c_toks[j].lemma:
                         return "VERB"

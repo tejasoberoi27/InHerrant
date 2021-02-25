@@ -26,7 +26,8 @@ def load(lang, nlp=None):
     classifier = import_module("inherrant.%s.classifier2" % lang)
 
     # The Hindi classifier needs stanza
-    if lang == "hi": classifier.nlp = nlp
+    if lang == "hi":
+        classifier.nlp = nlp
 
     # Return a configured ERRANT annotator
     return Annotator(lang, nlp, merger, classifier)
