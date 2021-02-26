@@ -1,18 +1,18 @@
 from pathlib import Path
 import Levenshtein
 
-open_pos2 = {"ADJ", "ADV", "NOUN", "VERB"}
-
-
 
 def get_gen(feats):
-    if ('Gender' in feats):
+
+    if 'Gender' in feats:
         return feats['Gender']
     else:
         return ""
 
+
 def get_num(feats):
-    if ('Number' in feats):
+
+    if 'Number' in feats:
         return feats['Number']
     else:
         return ""
@@ -24,20 +24,21 @@ def opposite_gen(o_feats, c_feats):
         return False
     else:
         if {'Masc', 'Fem'}.issubset({get_gen(o_feats), get_gen(c_feats)}):
-            print()
             return True
         else:
             return False
+
 
 def opposite_num(o_feats,c_feats):
     """ Returns true if one of the tokens is singular and other plural"""
     if not o_feats or not c_feats:
         return False
     else:
-        if {'Sing','Plur'}.issubset({get_num(o_feats), get_num(c_feats)}):
+        if {'Sing', 'Plur'}.issubset({get_num(o_feats), get_num(c_feats)}):
             return True
         else:
             return False
+
 
 def get_feats(Word):
     # returns features of a Stanza word as a dictionary
@@ -76,8 +77,6 @@ def only_orth_change(o_toks, c_toks):
 # Output: Boolean; the tokens are exactly the same but in a different order
 def exact_reordering(o_toks, c_toks):
     # Sorting lets us keep duplicates.
-    # o_set = sorted([o.text.lower for o in o_toks])
-    # c_set = sorted([c.text.lower for c in c_toks])
     oset = {}
     cset = {}
     for tok in o_toks:
@@ -140,48 +139,18 @@ def get_one_sided_type(toks):
     pos, dep = get_edit_info(toks)
     # Auxiliary verbs
     if set(dep).issubset({"aux", "aux:pass"}):
-        print("set(dep).issubset({aux, aux:pass}")
         return "VERB:TENSE"
-    print("Type", type(toks[0]))
-    print(toks[0])
     if len(toks) == 1:
-        if pos[0] == "NOUN":
-            return "NOUN"
-        if pos[0] == "PRON":
-            return "PRON"
-        if pos[0] == "VERB":
-            return "VERB"
-        if pos[0] == "ADP":
-            return "ADP"
-        if pos[0] in ["ADJ", "NUM"]:
+        if pos[0] in list_pos:
+            return pos[0]
+        if pos[0] in ["NUM"]:
             return "ADJ"
         if toks[0].deprel == "punct":
             return "PUNCT"
-        if toks[0] == "ADV":
-            return "ADV"
-        if toks[0] == "PREP":
-            return "PREP"
-        if toks[0] == "DET":
-            return "DET"
-    if "NOUN" in pos:
-        return "NOUN"
-    if "VERB" in pos:
-        return "VERB"
-    if "PRON" in pos:
-        return "PRON"
-    if "ADJ" in pos:
-        return "ADJ"
-    if "ADP" in pos:
-        return "ADP"
-    if "ADV" in pos:
-        return "ADV"
-    if "PREP" in pos:
-        return "PREP"
-    if "DET" in pos:
-        return "DET"
+    if len(set(pos)) == 1 and pos[0] in list_pos:
+        return pos[0]
     else:
         return "OTHER"
-        # Possessive noun suffixes; e.g. ' -> 's
 
 
 # Input: Spacy tokens
@@ -191,10 +160,10 @@ def get_edit_info(toks):
     dep = []
     for tok in toks:
         print("POS", tok.pos)
-        # if tok.pos == "AUX":
-        #     pos.append("VERB")
-        # else:
-        pos.append(tok.pos)
+        if tok.pos == "CCONJ":
+            pos.append("CONJ")
+        else:
+            pos.append(tok.pos)
         dep.append(tok.deprel)
     return pos, dep
 
@@ -208,10 +177,12 @@ base_dir = Path(__file__).resolve().parent
 main_pos = ['NOUN', 'PRON', 'VERB', 'ADJ']
 spell = load_word_list(base_dir / "resources" / "vocab.txt")
 rare_pos = {"INTJ", "NUM", "SYM", "X"}
+open_pos2 = {"ADJ", "ADV", "NOUN", "VERB"}
+list_pos = ['NOUN', 'PRON', 'VERB', 'ADJ', 'ADP', 'ADV', 'PREP', 'DET','CONJ']
 
 
-# Input 1: Spacy orig tokens
-# Input 2: Spacy cor tokens
+# Input 1: Stanza orig tokens
+# Input 2: Stanza cor tokens
 # Output: An error type string based on orig AND cor
 def get_two_sided_type(o_toks, c_toks):
     o_toks = [tok.words[0] for tok in o_toks]
@@ -231,7 +202,7 @@ def get_two_sided_type(o_toks, c_toks):
     o_num = [get_num(o_feats[i]) for i in range(len(o_feats))]
     c_num = [get_num(c_feats[i]) for i in range(len(c_feats))]
 
-    # Orthography; i.e. whitespace and/or case errors.
+    # Orthography; i.e. whitespace errors.
     if only_orth_change(o_toks, c_toks):
         return "ORTH"
     # Word Order; only matches exact reordering.
@@ -246,18 +217,19 @@ def get_two_sided_type(o_toks, c_toks):
         # Check a GB English dict for both orig and lower case.
         # E.g. "cat" is in the dict, but "Cat" is not.
         if o_toks[0].text not in spell:
+            print("o_pos")
             char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
+            print(char_ratio)
             # Ratio > 0.5 means both side share at least half the same chars.
             # WARNING: THIS IS AN APPROXIMATION.
-            if char_ratio > 0.5:
+            if char_ratio >= 0.5:
                 return "SPELL"
-            # If ratio is <= 0.5, the error is more complex e.g. tolk -> say
+            # If ratio is < 0.5, the error is more complex e.g. tolk -> say
             else:
                 # If POS is the same, this takes precedence over spelling.
-                if o_pos == c_pos and \
-                        o_pos[0] not in rare_pos:
-                    # print("o_pos"+ o_pos)
-                    print("o_pos" + o_pos)
+                if o_pos[0] == c_pos[0] and \
+                        o_pos[0] in list_pos:
+                    print("o_pos" + o_pos[0])
                     return o_pos[0]
                 # Tricky cases.
                 else:
@@ -266,43 +238,26 @@ def get_two_sided_type(o_toks, c_toks):
         # 1. SPECIAL CASES
 
         # Gender Edits
-        if c_pos[0] in main_pos and o_toks[0].lemma == c_toks[0].lemma and o_feats[0]['Gender'] != c_feats[0]['Gender']:
-            return str(c_pos[0]) + "-GEN"
-        if c_pos[0] in main_pos and o_toks[0].lemma == c_toks[0].lemma and o_feats[0]['Number'] != c_feats[0]['Number']:
-        if (c_pos[0] in main_pos or c_pos[0]=='AUX') and o_toks[0].lemma == c_toks[0].lemma and \
-                opposite_gen(get_gen(o_feats[0]), get_gen(c_feats[0])):
-            if(c_pos[0]=='AUX'):
+        # if the edit has both tense and gender different, then classify as gender edit
+        if (c_pos[0] in main_pos or c_pos[0] == 'AUX') and o_toks[0].lemma == c_toks[0].lemma and opposite_gen(o_feats[0], c_feats[0]):
+            if c_pos[0] == 'AUX':
                 c_pos[0] = 'VERB'
             return str(c_pos[0]) + "-GEN"
-        if (c_pos[0] in main_pos or c_pos[0]=='AUX') and o_toks[0].lemma == c_toks[0].lemma and opposite_num(o_feats[0], c_feats[0]):
-            if(c_pos[0]=='AUX'):
+        if (c_pos[0] in main_pos or c_pos[0] == 'AUX') and o_toks[0].lemma == c_toks[0].lemma and opposite_num(o_feats[0], c_feats[0]):
+            if c_pos[0] == 'AUX':
                 c_pos[0] = 'VERB'
             return str(c_pos[0]) + "-NUM"
         # Single token replacement of a word with a upos tag of NOUN, different lemma
-        if c_pos[0] == "NOUN":
-            return "NOUN"
-        if c_pos[0] == "PRON":
-            return "PRON"
         if c_pos[0] == "VERB" and o_toks[0].lemma != c_toks[0].lemma:
             return "VERB"
-        if o_pos[0] == "NOUN" and c_pos[0] == "VERB":
-            return "VERB"
-        if c_pos[0] in ["ADJ", "NUM"] and o_toks[0].lemma != c_toks[0].lemma:
+        if o_pos == c_pos and o_pos[0] == "CONJ":
+            return "CONJ"
+        if c_pos[0] in ["ADJ", "NUM"]:
             return "ADJ"
-        # Single token replacement, substituting a PRON with a ADJ
-        # (might generalise to any POS tag being replaced with ADJ)
-        if o_pos[0] != "ADJ" and c_pos[0] == "ADJ":
-            return "ADJ"
-        if c_pos[0] == "ADP":
-            return "ADP"
-        if c_pos[0] == "ADV":
-            return "ADV"
+        if c_pos[0] in list_pos:
+            return c_pos[0]
         if o_toks[0].deprel == "punct" and c_toks[0].deprel == "punct":
             return "PUNCT"
-
-        if o_pos == c_pos and \
-                o_pos[0] == "CCONJ":
-            return "CONJ"
 
         # 3. MORPHOLOGY
         # Only ADJ, ADV, NOUN and VERB can have inflectional changes.

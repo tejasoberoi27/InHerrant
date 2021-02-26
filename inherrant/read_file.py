@@ -28,7 +28,7 @@ def eval_edit_extraction(s1, s2):
 
 if __name__ == "__main__":
 
-    error_types = ['karak','ling','misc','padkram','vachan']
+    error_types = ['karak','ling','misc','padkram','vachan','new']
     # error_types = ['karak']
     for error_type in error_types:
         print("base_dir",base_dir)
