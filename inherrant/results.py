@@ -172,8 +172,21 @@ def get_labels(error_type, df):
 
     return broad_types, extract_quality, pred_quality, y_true, y_pred
 
+def combine_labels(labels_list):
+    n = len(labels_list)
+    for i in range(n):
+        label_name = labels_list[i]
+        p1 = label_name.find('-')
+        if p1 != -1:
+            label_name = label_name[:p1]
+            labels_list[i] = label_name
+    return labels_list
 
-def get_data_stats(broad_types, y_true):
+def get_data_stats(broad_types, y_true,combine= False):
+    #If combine=True, the subdivisions of Noun and gen shall be clubbed
+    if combine:
+        broad_types = combine_labels(broad_types)
+        y_true = combine_labels(y_true)
     ctr_labels = collections.Counter(y_true)
     ctr_broad_types = collections.Counter(broad_types)
     total_labels = sum(ctr_labels.values())
@@ -235,7 +248,7 @@ def get_extraction_perc(extract_quality):
     print("Bad percentage : %.3f" % (perc_bad))
 
 
-def compute_metrics():
+def compute_metrics(combine=False):
     error_types = ['karak', 'kram', 'ling', 'misc', 'noun', 'pronoun', 'vachan', 'verb', 'visheshan', 'new']
     y_true = []
     y_pred = []
@@ -259,6 +272,10 @@ def compute_metrics():
         extract_quality.extend(extract_quality_cur)
         broad_types.extend(broad_type_cur)
 
+    if combine:
+        y_true = combine_labels(y_true)
+        y_pred = combine_labels(y_pred)
+
     set_labels = set(y_true)
     error_labels = list(set_labels)
     print("---------------------------------------------------")
@@ -267,10 +284,10 @@ def compute_metrics():
     get_classification_perc(pred_quality)
     print("---------------------------------------------------")
     get_extraction_perc(extract_quality)
-    get_data_stats(y_true, broad_types)
+    get_data_stats(y_true, broad_types,combine= combine)
 
 
 if __name__ == "__main__":
-    compute_metrics()
+    compute_metrics(combine=True)
 
     # path_corr = base_dir/"hi"/"resources"/"btp_val_data"/"kram_new_kar.txt"
