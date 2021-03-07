@@ -28,17 +28,18 @@ def eval_edit_extraction(s1, s2):
 
 if __name__ == "__main__":
 
-    error_types = ['karak','ling','misc','padkram','vachan','new']
+    # error_types = ['karak','ling','misc','padkram','vachan','new']
     # error_types = ['karak']
+    error_types = ['adverb','karak','kram','ling','misc','noun','pronoun','upboard','vachan','verb','visheshan']
     for error_type in error_types:
         print("base_dir",base_dir)
         # extension = os.path.normpath("/hi/resources/btp_val_data")
-        extension = "hi/resources/tejas"
+        extension = "hi/resources/btp_val_data"
         # base_path= os.path.join(base_dir,extension)
         base_path = os.path.join(base_dir,extension)
         print("base_path",base_path)
-        file_incorr = error_type+"_incor.txt"
-        file_corr = error_type+"_cor.txt"
+        file_incorr = error_type+"_new_incor.txt"
+        file_corr = error_type+"_new_cor.txt"
         # path_incorr = "kram_new_incor.txt"
         path_incorr = os.path.join(base_path,file_incorr)
         path_corr = os.path.join(base_path,file_corr)
@@ -68,4 +69,4 @@ if __name__ == "__main__":
         df = pd.DataFrame(d, columns=['Proposed Edit', 'Incorrect Sentence', 'Correct Sentence'])
         print(df)
         csv_file =  error_type+".csv"
-        df.to_csv(base_dir/"hi"/"resources"/"sample_edits_5"/csv_file, encoding="utf-8-sig")
+        df.to_csv(base_dir/"hi"/"resources"/"sample_edits_4"/csv_file, encoding="utf-8-sig")

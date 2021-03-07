@@ -217,9 +217,8 @@ def get_two_sided_type(o_toks, c_toks):
         # Check a GB English dict for both orig and lower case.
         # E.g. "cat" is in the dict, but "Cat" is not.
         if o_toks[0].text not in spell:
-            print("o_pos")
             char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
-            print(char_ratio)
+            print("Character Ratio ", char_ratio)
             # Ratio > 0.5 means both side share at least half the same chars.
             # WARNING: THIS IS AN APPROXIMATION.
             if char_ratio >= 0.5:
@@ -239,11 +238,13 @@ def get_two_sided_type(o_toks, c_toks):
 
         # Gender Edits
         # if the edit has both tense and gender different, then classify as gender edit
-        if (c_pos[0] in main_pos or c_pos[0] == 'AUX') and o_toks[0].lemma == c_toks[0].lemma and opposite_gen(o_feats[0], c_feats[0]):
+        if (c_pos[0] in main_pos or c_pos[0] == 'AUX') and o_toks[0].lemma == c_toks[0].lemma \
+                and opposite_gen(o_feats[0], c_feats[0]):
             if c_pos[0] == 'AUX':
                 c_pos[0] = 'VERB'
             return str(c_pos[0]) + "-GEN"
-        if (c_pos[0] in main_pos or c_pos[0] == 'AUX') and o_toks[0].lemma == c_toks[0].lemma and opposite_num(o_feats[0], c_feats[0]):
+        if (c_pos[0] in main_pos or c_pos[0] == 'AUX') and o_toks[0].lemma == c_toks[0].lemma \
+                and opposite_num(o_feats[0], c_feats[0]):
             if c_pos[0] == 'AUX':
                 c_pos[0] = 'VERB'
             return str(c_pos[0]) + "-NUM"
@@ -260,17 +261,12 @@ def get_two_sided_type(o_toks, c_toks):
             return "PUNCT"
 
         # 3. MORPHOLOGY
-        # Only ADJ, ADV, NOUN and VERB can have inflectional changes.
-        if o_toks[0].lemma == c_toks[0].lemma and \
-                o_pos[0] in open_pos2 and \
-                c_pos[0] in open_pos2:
+        if o_toks[0].lemma == c_toks[0].lemma:
             # Same POS on both sides
-            if o_pos == c_pos:
-                # Adjective form; e.g. comparatives
+            if o_pos[0] == c_pos[0]:
+
                 if o_pos[0] == "VERB":
-                    # NOTE: These rules are carefully ordered.
-                    # Use the dep parse to find some form errors.
-                    # Main verbs preceded by aux cannot be tense or SVA.
+
                     # Of what's left, TENSE errors normally involved VBD.
                     if o_toks[0].xpos == "VBD" or c_toks[0].xpos == "VBD":
                         s = "if o_toks[0].tag_ == \"VBD\" or c_toks[0].tag_ == \"VBD\":"
@@ -278,7 +274,8 @@ def get_two_sided_type(o_toks, c_toks):
                         return "VERB:TENSE"
                     # Any remaining aux verbs are called TENSE.
                     if o_dep[0].startswith("aux") and \
-                            c_dep[0].startswith("aux") and not opposite_gen(o_feats[0], c_feats[0]):
+                            c_dep[0].startswith("aux") and not opposite_gen(o_feats[0], c_feats[0]) \
+                            and not opposite_num(o_feats[0],c_feats[0]):
                         s = "same lemma if o_dep[0].startswith(\"aux\") and \
                             c_dep[0].startswith(\"aux\"):"
                         print(s)
