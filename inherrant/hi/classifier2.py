@@ -251,7 +251,7 @@ def get_two_sided_type(o_toks, c_toks):
         # Single token replacement of a word with a upos tag of NOUN, different lemma
         if c_pos[0] == "VERB" and o_toks[0].lemma != c_toks[0].lemma:
             return "VERB"
-        if o_pos == c_pos and o_pos[0] == "CONJ":
+        if  c_pos[0] == "CONJ":
             return "CONJ"
         if c_pos[0] in ["ADJ", "NUM"]:
             return "ADJ"
