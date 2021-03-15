@@ -160,7 +160,7 @@ def get_edit_info(toks):
     dep = []
     for tok in toks:
         print("POS", tok.pos)
-        if tok.pos == "CCONJ":
+        if tok.pos in ("CCONJ", "SCONJ"):
             pos.append("CONJ")
         else:
             pos.append(tok.pos)
