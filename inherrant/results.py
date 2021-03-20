@@ -147,7 +147,11 @@ def get_labels(error_type, df):
                 extract_quality.append(curr_extract_quality)
             prev_correct_sentence = curr_correct_sentence
 
-        tags = proposed_edit.split(",")
+        try:
+            tags = proposed_edit.split(",")
+        except:
+            print("not working")
+            print(proposed_edit)
         pred = ((tags[-1].split(" "))[-1])[1:-1:]
         pred = pred[pred.find(':') + 1:]
         label = df['True Label (Multi-Class)'][num_row]
@@ -249,7 +253,8 @@ def get_extraction_perc(extract_quality):
 
 
 def compute_metrics(combine=False):
-    error_types = ['karak', 'kram', 'ling', 'misc', 'noun', 'pronoun', 'vachan', 'verb', 'visheshan', 'new']
+    # error_types = ['karak', 'kram', 'ling', 'misc', 'noun', 'pronoun', 'vachan', 'verb', 'visheshan', 'new']
+    error_types = ['karak', 'kram', 'ling', 'misc', 'noun', 'pronoun', 'vachan', 'verb', 'visheshan']
     y_true = []
     y_pred = []
     pred_quality = []
@@ -257,7 +262,9 @@ def compute_metrics(combine=False):
     broad_types = []
     for error_type in error_types:
         # extension = os.path.normpath("/hi/resources/btp_val_data")
-        extension = "hi/resources/sample_edits_annotated/csv_files"
+        # extension = "hi/resources/sample_edits_annotated/csv_files"
+        extension = "hi/resources/sample_edits_annotated_March_21/csv_files"
+
         # extension = "hi/resources/sample_edits_annotated"
         # base_path= os.path.join(base_dir,extension)
         base_path = os.path.join(base_dir, extension)

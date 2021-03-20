@@ -139,7 +139,7 @@ def get_one_sided_type(toks):
     pos, dep = get_edit_info(toks)
     # Auxiliary verbs
     if set(dep).issubset({"aux", "aux:pass"}):
-        return "VERB:TENSE"
+        return "VERB-TENSE"
     if len(toks) == 1:
         if pos[0] in list_pos:
             return pos[0]
@@ -271,7 +271,7 @@ def get_two_sided_type(o_toks, c_toks):
                     if o_toks[0].xpos == "VBD" or c_toks[0].xpos == "VBD":
                         s = "if o_toks[0].tag_ == \"VBD\" or c_toks[0].tag_ == \"VBD\":"
                         print(s)
-                        return "VERB:TENSE"
+                        return "VERB-TENSE"
                     # Any remaining aux verbs are called TENSE.
                     if o_dep[0].startswith("aux") and \
                             c_dep[0].startswith("aux") and not opposite_gen(o_feats[0], c_feats[0]) \
@@ -279,11 +279,11 @@ def get_two_sided_type(o_toks, c_toks):
                         s = "same lemma if o_dep[0].startswith(\"aux\") and \
                             c_dep[0].startswith(\"aux\"):"
                         print(s)
-                        return "VERB:TENSE"
+                        return "VERB-TENSE"
             if c_toks[0].xpos == "VBD":
                 s = "c_toks[0].tag_ == \"VBD\""
                 print(s)
-                return "VERB:TENSE"
+                return "VERB-TENSE"
 
         # 4. GENERAL
         # Auxiliaries with different lemmas
@@ -293,7 +293,7 @@ def get_two_sided_type(o_toks, c_toks):
             print("O_FEATS",o_feats[0])
             print("C_FEATS",c_feats[0])
             if not opposite_gen(o_feats[0], c_feats[0]) and not opposite_num(o_feats[0],c_feats[0]):
-                return "VERB:TENSE"
+                return "VERB-TENSE"
 
     # Multi-token replacements (uncommon)
 
@@ -301,7 +301,7 @@ def get_two_sided_type(o_toks, c_toks):
         s = "if set(o_dep+c_dep).issubset({\"aux\", \"aux:pass\"}): and o_gen = c_gen"
         print(s)
         if set(o_gen) == set(c_gen) and set(o_num) == set(c_num):
-            return "VERB:TENSE"
+            return "VERB-TENSE"
     # All same POS
     if len(set(o_pos + c_pos)) == 1:
         # Final verbs with the same lemma are tense; e.g. eat -> has eaten
@@ -311,7 +311,7 @@ def get_two_sided_type(o_toks, c_toks):
             s = "if len(set(o_pos+c_pos)) == 1:," + "if o_pos[0] == VERB and \
                 o_toks[0].lemma == c_toks[0].lemma:"
             print(s)
-            return "VERB:TENSE"
+            return "VERB-TENSE"
 
     for i in range(len(o_toks)):
         if o_pos[i] == "NOUN":
