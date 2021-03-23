@@ -253,8 +253,7 @@ def get_extraction_perc(extract_quality):
 
 
 def compute_metrics(combine=False):
-    # error_types = ['karak', 'kram', 'ling', 'misc', 'noun', 'pronoun', 'vachan', 'verb', 'visheshan', 'new']
-    error_types = ['karak', 'kram', 'ling', 'misc', 'noun', 'pronoun', 'vachan', 'verb', 'visheshan']
+    error_types = ['karak', 'kram', 'ling', 'misc', 'noun', 'pronoun', 'vachan', 'verb', 'visheshan', 'new']
     y_true = []
     y_pred = []
     pred_quality = []
@@ -295,6 +294,6 @@ def compute_metrics(combine=False):
 
 
 if __name__ == "__main__":
-    compute_metrics(combine=True)
+    compute_metrics(combine=False)
 
     # path_corr = base_dir/"hi"/"resources"/"btp_val_data"/"kram_new_kar.txt"
