@@ -30,7 +30,8 @@ if __name__ == "__main__":
 
     # error_types = ['karak','ling','misc','padkram','vachan','new']
     # error_types = ['karak']
-    error_types = ['adverb','karak','kram','ling','misc','noun','pronoun','upboard','vachan','verb','visheshan']
+    # error_types = ['adverb','karak','kram','ling','misc','noun','pronoun','upboard','vachan','verb','visheshan']
+    error_types = ['extra']
     for error_type in error_types:
         print("base_dir",base_dir)
         # extension = os.path.normpath("/hi/resources/btp_val_data")
@@ -68,5 +69,5 @@ if __name__ == "__main__":
 
         df = pd.DataFrame(d, columns=['Proposed Edit', 'Incorrect Sentence', 'Correct Sentence'])
         print(df)
-        csv_file =  error_type+".csv"
+        csv_file = error_type+".csv"
         df.to_csv(base_dir/"hi"/"resources"/"sample_edits_4"/csv_file, encoding="utf-8-sig")
