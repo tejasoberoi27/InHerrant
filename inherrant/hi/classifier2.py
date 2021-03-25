@@ -239,7 +239,7 @@ def get_two_sided_type(o_toks, c_toks):
         # Gender Edits
         # if the edit has both tense and gender different, then classify as gender edit
         if (c_pos[0] in main_pos or c_pos[0] == 'AUX') and o_toks[0].lemma == c_toks[0].lemma \
-                and opposite_gen(o_feats[0], c_feats[0]):
+                and opposite_gen(o_feats[0], c_feats[0]) and c_pos[0] != "NOUN":
             if c_pos[0] == 'AUX':
                 c_pos[0] = 'VERB'
             return str(c_pos[0]) + "-GEN"
@@ -255,6 +255,9 @@ def get_two_sided_type(o_toks, c_toks):
             return "CONJ"
         if c_pos[0] in ["ADJ", "NUM"]:
             return "ADJ"
+        char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
+        if c_pos[0] == 'NOUN' and char_ratio >= 0.5 and opposite_gen(o_feats[0], c_feats[0]):
+            return "NOUN-GEN"
         if c_pos[0] in list_pos:
             return c_pos[0]
         if o_toks[0].deprel == "punct" and c_toks[0].deprel == "punct":
@@ -319,7 +322,8 @@ def get_two_sided_type(o_toks, c_toks):
                 if c_pos[j] == "NOUN":
                     if o_toks[i].lemma == c_toks[j].lemma and opposite_num(o_feats[i], c_feats[j]):
                         return "NOUN-NUM"
-                    if o_toks[i].lemma == c_toks[j].lemma and opposite_gen(o_feats[i], c_feats[j]):
+                    char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
+                    if char_ratio >= 0.5 and opposite_gen(o_feats[i], c_feats[j]):
                         return "NOUN-GEN"
                     if o_toks[i].lemma != c_toks[j].lemma:
                         return "NOUN"
