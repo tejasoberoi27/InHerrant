@@ -306,13 +306,12 @@ def get_two_sided_type(o_toks, c_toks):
         if set(o_gen) == set(c_gen) and set(o_num) == set(c_num):
             return "VERB-TENSE"
     # All same POS
-    if len(set(o_pos + c_pos)) == 1:
+    if len(set(o_pos + c_pos)) <= 2 and ("VERB" in set(o_pos + c_pos) or "AUX" in set(o_pos + c_pos)):
         # Final verbs with the same lemma are tense; e.g. eat -> has eaten
         if o_pos[0] == "VERB" and \
                 o_toks[0].lemma == c_toks[0].lemma and not opposite_gen(o_feats[0], c_feats[0])\
                 and not opposite_num(o_feats[0],c_feats[0]):
-            s = "if len(set(o_pos+c_pos)) == 1:," + "if o_pos[0] == VERB and \
-                o_toks[0].lemma == c_toks[0].lemma:"
+            s = "if len(set(o_pos+c_pos)) == 1:," + "if o_pos[0] == VERB and o_toks[0].lemma == c_toks[0].lemma:"
             print(s)
             return "VERB-TENSE"
 
