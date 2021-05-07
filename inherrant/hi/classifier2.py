@@ -164,7 +164,7 @@ def load_word_list(path):
 
 base_dir = Path(__file__).resolve().parent
 main_pos = ['NOUN', 'PRON', 'VERB', 'ADJ']
-spell = load_word_list(base_dir / "resources" / "vocab.txt")
+spell = load_word_list(base_dir / "resources" / "hi_IN.txt")
 rare_pos = {"INTJ", "NUM", "SYM", "X"}
 open_pos2 = {"ADJ", "ADV", "NOUN", "VERB"}
 list_pos = ['NOUN', 'PRON', 'VERB', 'ADJ', 'ADP', 'ADV', 'PREP', 'DET','CONJ']
