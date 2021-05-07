@@ -63,17 +63,6 @@ def get_feats(Word):
 
 # Input 1: Spacy orig tokens
 # Input 2: Spacy cor tokens
-# Output: Boolean; the difference between orig and cor is only whitespace
-def only_orth_change(o_toks, c_toks):
-    o_join = "".join([o.text for o in o_toks])
-    c_join = "".join([c.text for c in c_toks])
-    if o_join == c_join:
-        return True
-    return False
-
-
-# Input 1: Spacy orig tokens
-# Input 2: Spacy cor tokens
 # Output: Boolean; the tokens are exactly the same but in a different order
 def exact_reordering(o_toks, c_toks):
     # Sorting lets us keep duplicates.
@@ -175,7 +164,7 @@ def load_word_list(path):
 
 base_dir = Path(__file__).resolve().parent
 main_pos = ['NOUN', 'PRON', 'VERB', 'ADJ']
-spell = load_word_list(base_dir / "resources" / "vocab.txt")
+spell = load_word_list(base_dir / "resources" / "hi_IN.txt")
 rare_pos = {"INTJ", "NUM", "SYM", "X"}
 open_pos2 = {"ADJ", "ADV", "NOUN", "VERB"}
 list_pos = ['NOUN', 'PRON', 'VERB', 'ADJ', 'ADP', 'ADV', 'PREP', 'DET','CONJ']
@@ -202,9 +191,6 @@ def get_two_sided_type(o_toks, c_toks):
     o_num = [get_num(o_feats[i]) for i in range(len(o_feats))]
     c_num = [get_num(c_feats[i]) for i in range(len(c_feats))]
 
-    # Orthography; i.e. whitespace errors.
-    if only_orth_change(o_toks, c_toks):
-        return "ORTH"
     # Word Order; only matches exact reordering.
     if exact_reordering(o_toks, c_toks):
         return "WO"
@@ -306,13 +292,12 @@ def get_two_sided_type(o_toks, c_toks):
         if set(o_gen) == set(c_gen) and set(o_num) == set(c_num):
             return "VERB-TENSE"
     # All same POS
-    if len(set(o_pos + c_pos)) == 1:
+    if len(set(o_pos + c_pos)) <= 2 and set(o_pos + c_pos).issubset({"VERB", "AUX"}):
         # Final verbs with the same lemma are tense; e.g. eat -> has eaten
         if o_pos[0] == "VERB" and \
                 o_toks[0].lemma == c_toks[0].lemma and not opposite_gen(o_feats[0], c_feats[0])\
                 and not opposite_num(o_feats[0],c_feats[0]):
-            s = "if len(set(o_pos+c_pos)) == 1:," + "if o_pos[0] == VERB and \
-                o_toks[0].lemma == c_toks[0].lemma:"
+            s = "if len(set(o_pos+c_pos)) == 1:," + "if o_pos[0] == VERB and o_toks[0].lemma == c_toks[0].lemma:"
             print(s)
             return "VERB-TENSE"
 

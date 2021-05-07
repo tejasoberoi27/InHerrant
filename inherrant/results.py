@@ -253,7 +253,7 @@ def get_extraction_perc(extract_quality):
 
 
 def compute_metrics(combine=False):
-    error_types = ['karak', 'kram', 'ling', 'misc', 'noun', 'pronoun', 'vachan', 'verb', 'visheshan', 'new']
+    error_types = ['karak', 'kram', 'ling', 'misc', 'noun', 'pronoun', 'vachan', 'verb', 'visheshan', 'new','extra','New-Samples']
     y_true = []
     y_pred = []
     pred_quality = []
