@@ -2,7 +2,8 @@ import argparse
 from contextlib import ExitStack
 import inherrant
 
-# Run the file using - python parallel_to_m2.py -orig i.txt -cor c.txt -out r.txt -tok
+# Run the file using - python parallel_to_m2.py -orig orig.txt -cor ref.txt -out r.txt
+
 
 # Parse command line args
 def parse_args():
@@ -26,7 +27,7 @@ def parse_args():
         required=True)
     parser.add_argument(
         "-tok",
-        help="Word tokenise the text using stanza (default: False).",
+        help="Word tokenise the text using stanza (default: True).",
         action="store_true")
     parser.add_argument(
         "-lev",
@@ -73,7 +74,7 @@ if __name__ == "__main__":
             # Skip the line if orig is empty
             if not orig: continue
             # Parse orig with stanza
-            orig = annotator.parse(orig, args.tok)
+            orig = annotator.parse(orig, tokenise=True)
             # Write orig to the output m2 file
             out_m2.write(" ".join(["S"]+[token.text for token in orig.sentences])+"\n")
             # Loop through the corrected texts
@@ -85,7 +86,7 @@ if __name__ == "__main__":
                 # Otherwise, do extra processing
                 else:
                     # Parse cor with stanza
-                    cor = annotator.parse(cor, args.tok)
+                    cor = annotator.parse(cor, tokenise=True)
                     # Align the texts and extract and classify the edits
                     for o in orig.sentences:
                         for c in cor.sentences:

@@ -1,6 +1,6 @@
 import argparse
 from contextlib import ExitStack
-import errant
+import inherrant
 
 
 def main():
@@ -8,7 +8,7 @@ def main():
     args = parse_args()
     print("Loading resources...")
     # Load Errant
-    annotator = errant.load("en")
+    annotator = inherrant.load("hi")
     # Open output m2 file
     out_m2 = open(args.out, "w")
 
