@@ -1,7 +1,6 @@
 from pathlib import Path
 import Levenshtein
 
-
 def get_gen(feats):
 
     if 'Gender' in feats:
