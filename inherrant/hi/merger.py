@@ -16,11 +16,11 @@ def get_rule_edits(alignment):
     for op, group in groupby(alignment.align_seq,
                              lambda x: x[0][0] if x[0][0] in {"M", "T"} else False):
         group = list(group)
-        print("Current Group",group)
-        print("Current Group",op)
+        #print("Current Group",group)
+        #print("Current Group",op)
         # Ignore M
         if op == "M":
-            print("op is a match")
+            #print("op is a match")
             continue
         # T is always split
         elif op == "T":
@@ -41,20 +41,20 @@ def get_rule_edits(alignment):
 def process_seq(seq, alignment):
     # Return single alignments
 
-    print("seq",seq)
-    print("Processing begins")
+    #print("seq",seq)
+    #print("Processing begins")
 
     if len(seq) <= 1:
-        print("len =1 ")
+        #print("len =1 ")
         return seq
     # Get the ops for the whole sequence
     ops = [op[0] for op in seq]
 
 
-    print("ops in seq",ops)
+    #print("ops in seq",ops)
     # Merge all D xor I ops. (95% of human multi-token edits contain S).
     if set(ops) == {"D"} or set(ops) == {"I"}:
-        print(" All D's or all I's ")
+        #print(" All D's or all I's ")
         return merge_edits(seq)
 
     content = False  # True if edit includes a content word
@@ -62,21 +62,21 @@ def process_seq(seq, alignment):
     combos = list(combinations(range(0, len(seq)), 2))
     # Sort them starting with largest spans first
     combos.sort(key=lambda x: x[1] - x[0], reverse=True)
-    print("combos",combos)
+    #print("combos",combos)
     # Loop through combos
     for start, end in combos:
         # Ignore ranges that do NOT contain a substitution.
-        print("st,end",start,end)
+        #print("st,end",start,end)
         if "S" not in ops[start:end + 1]:
-            print("does NOT contain a substitution.")
+            #print("does NOT contain a substitution.")
             continue
         # Get the tokens in orig and cor. They will now never be empty.
 
         o = alignment.orig.words[seq[start][1]:seq[end][2]]
         c = alignment.cor.words[seq[start][3]:seq[end][4]]
 
-        print("orig",[x.text for x in o])
-        print("corr",[x.text for x in c])
+        #print("orig",[x.text for x in o])
+        #print("corr",[x.text for x in c])
         #
         # print(o[-1].upos)
 
@@ -105,10 +105,10 @@ def process_seq(seq, alignment):
         # Merge whitespace/hyphens: [acat -> a cat], [sub - way -> subway]
         s_str = sub("['-]", "", "".join([tok.text for tok in o]))
         t_str = sub("['-]", "", "".join([tok.text for tok in c]))
-        print("s_str",s_str)
-        print("t_str",t_str)
+        #print("s_str",s_str)
+        #print("t_str",t_str)
         if s_str == t_str:
-            print("Merged whitespace/hyphens")
+            #print("Merged whitespace/hyphens")
             return process_seq(seq[:start], alignment) + \
                    merge_edits(seq[start:end + 1]) + \
                    process_seq(seq[end + 1:], alignment)
@@ -120,10 +120,10 @@ def process_seq(seq, alignment):
         # print(token_list[-1].type)
 
         pos_set = set([tok.pos for tok in o] + [tok.pos for tok in c])
-        print("POS_set",pos_set)
+        #print("POS_set",pos_set)
         if len(o) != len(c) and (len(pos_set) == 1 or \
                                  pos_set.issubset({"AUX", "PART", "VERB"})):
-            print("Merged same POS or auxiliary/infinitive/phrasal verbs:")
+            #print("Merged same POS or auxiliary/infinitive/phrasal verbs:")
             return process_seq(seq[:start], alignment) + \
                    merge_edits(seq[start:end + 1]) + \
                    process_seq(seq[end + 1:], alignment)
@@ -131,31 +131,31 @@ def process_seq(seq, alignment):
         if end - start < 2:
             # Split adjacent substitutions
             if len(o) == len(c) == 2:
-                print("Split adjacent substitutions")
+                #print("Split adjacent substitutions")
                 return process_seq(seq[:start + 1], alignment) + \
                        process_seq(seq[start + 1:], alignment)
             # Split similar substitutions at sequence boundaries
             if (ops[start] == "S" and char_cost(o[0], c[0]) > 0.75) or \
                     (ops[end] == "S" and char_cost(o[-1], c[-1]) > 0.75):#check if 0.75 works for Hindi
-                print("Split similar substitutions at sequence boundaries")
+                #print("Split similar substitutions at sequence boundaries")
                 return process_seq(seq[:start + 1], alignment) + \
                        process_seq(seq[start + 1:], alignment)
             # Split final determiners
             if end == len(seq) - 1 and ((ops[-1] in {"D", "S"} and \
                                          o[-1].pos == "DET") or (ops[-1] in {"I", "S"} and \
                                                                    c[-1].pos == "DET")):
-                print("Split final determiners")
+                #print("Split final determiners")
                 return process_seq(seq[:-1], alignment) + [seq[-1]]
         # Set content word flag
         if not pos_set.isdisjoint(open_pos):
-            print("Content word present")
+            #print("Content word present")
             content = True
     # Merge sequences that contain content words
     if content:
-        print("Merge sequences that contain content words")
+        #print("Merge sequences that contain content words")
         return merge_edits(seq)
     else:
-        print("Sequence does not contain content words")
+        #print("Sequence does not contain content words")
         return merge_edits(seq)
         # return seq
 

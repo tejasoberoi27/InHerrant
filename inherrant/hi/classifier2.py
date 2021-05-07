@@ -56,8 +56,9 @@ def get_feats(Word):
             if 'Number' not in feats:
                 feats['Number'] = ""
     except Exception as e:
-        print("e is", e)
-        print("Word is", Word)
+        #print("e is", e)
+        #print("Word is", Word)
+        pass
     return feats
 
 
@@ -148,7 +149,7 @@ def get_edit_info(toks):
     pos = []
     dep = []
     for tok in toks:
-        print("POS", tok.pos)
+        #print("POS", tok.pos)
         if tok.pos in ("CCONJ", "SCONJ"):
             pos.append("CONJ")
         else:
@@ -176,7 +177,7 @@ list_pos = ['NOUN', 'PRON', 'VERB', 'ADJ', 'ADP', 'ADV', 'PREP', 'DET','CONJ']
 def get_two_sided_type(o_toks, c_toks):
     o_toks = [tok.words[0] for tok in o_toks]
     c_toks = [tok.words[0] for tok in c_toks]
-    print("Hello", o_toks, c_toks)
+    #print("Hello", o_toks, c_toks)
 
     # Extract pos tags and parse info from the toks as lists
     o_pos, o_dep = get_edit_info(o_toks)
@@ -204,7 +205,7 @@ def get_two_sided_type(o_toks, c_toks):
         # E.g. "cat" is in the dict, but "Cat" is not.
         if o_toks[0].text not in spell:
             char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
-            print("Character Ratio ", char_ratio)
+            #print("Character Ratio ", char_ratio)
             # Ratio > 0.5 means both side share at least half the same chars.
             # WARNING: THIS IS AN APPROXIMATION.
             if char_ratio >= 0.5:
@@ -214,7 +215,7 @@ def get_two_sided_type(o_toks, c_toks):
                 # If POS is the same, this takes precedence over spelling.
                 if o_pos[0] == c_pos[0] and \
                         o_pos[0] in list_pos:
-                    print("o_pos" + o_pos[0])
+                    #print("o_pos" + o_pos[0])
                     return o_pos[0]
                 # Tricky cases.
                 else:
@@ -259,7 +260,7 @@ def get_two_sided_type(o_toks, c_toks):
                     # Of what's left, TENSE errors normally involved VBD.
                     if o_toks[0].xpos == "VBD" or c_toks[0].xpos == "VBD":
                         s = "if o_toks[0].tag_ == \"VBD\" or c_toks[0].tag_ == \"VBD\":"
-                        print(s)
+                        #print(s)
                         return "VERB-TENSE"
                     # Any remaining aux verbs are called TENSE.
                     if o_dep[0].startswith("aux") and \
@@ -267,20 +268,20 @@ def get_two_sided_type(o_toks, c_toks):
                             and not opposite_num(o_feats[0],c_feats[0]):
                         s = "same lemma if o_dep[0].startswith(\"aux\") and \
                             c_dep[0].startswith(\"aux\"):"
-                        print(s)
+                        #print(s)
                         return "VERB-TENSE"
             if c_toks[0].xpos == "VBD":
                 s = "c_toks[0].tag_ == \"VBD\""
-                print(s)
+                #print(s)
                 return "VERB-TENSE"
 
         # 4. GENERAL
         # Auxiliaries with different lemmas
         if o_dep[0].startswith("aux") and c_dep[0].startswith("aux"):
             s = "if o_dep[0].startswith(\"aux\") and c_dep[0].startswith(\"aux\"):"
-            print(s)
-            print("O_FEATS",o_feats[0])
-            print("C_FEATS",c_feats[0])
+            #print(s)
+            #print("O_FEATS",o_feats[0])
+            #print("C_FEATS",c_feats[0])
             if not opposite_gen(o_feats[0], c_feats[0]) and not opposite_num(o_feats[0],c_feats[0]):
                 return "VERB-TENSE"
 
@@ -288,7 +289,7 @@ def get_two_sided_type(o_toks, c_toks):
 
     if set(o_dep + c_dep).issubset({"aux", "aux:pass"}):
         s = "if set(o_dep+c_dep).issubset({\"aux\", \"aux:pass\"}): and o_gen = c_gen"
-        print(s)
+        #print(s)
         if set(o_gen) == set(c_gen) and set(o_num) == set(c_num):
             return "VERB-TENSE"
     # All same POS
@@ -298,7 +299,7 @@ def get_two_sided_type(o_toks, c_toks):
                 o_toks[0].lemma == c_toks[0].lemma and not opposite_gen(o_feats[0], c_feats[0])\
                 and not opposite_num(o_feats[0],c_feats[0]):
             s = "if len(set(o_pos+c_pos)) == 1:," + "if o_pos[0] == VERB and o_toks[0].lemma == c_toks[0].lemma:"
-            print(s)
+            #print(s)
             return "VERB-TENSE"
 
     for i in range(len(o_toks)):
@@ -326,7 +327,7 @@ def get_two_sided_type(o_toks, c_toks):
                 if c_pos[j] == o_pos[i]:
                     if o_toks[i].lemma == c_toks[j].lemma and opposite_gen(o_feats[i],c_feats[j]):
                         # print("i =", "j =", i, j, o_toks[i], c_toks[j], o_feats[i], c_feats[j])
-                        print("ling")
+                        #print("ling")
                         return "VERB-GEN"
                     if o_toks[i].lemma != c_toks[j].lemma:
                         return "VERB"
