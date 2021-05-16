@@ -267,10 +267,9 @@ def get_two_sided_type(o_toks, c_toks):
                             and not opposite_num(o_feats[0],c_feats[0]):
                         s = "same lemma if o_dep[0].startswith(\"aux\") and \
                             c_dep[0].startswith(\"aux\"):"
-                        #print(s)
-                        exceptions = (('है', 'हैं'), ('था', 'थे', 'थी', 'थीं'), ('हुआ', 'हुई', 'हुए', 'हुईं'),
+                        exceptions = (('है', 'हैं'), ('था', 'थे', 'थी', 'थीं'),('हुआ', 'हुई', 'हुए', 'हुईं'),
                                       ('रहा', 'रहे', 'रही', 'रहीं', 'रहो'), ('चुका', 'चुके', 'चुकी', 'चुकीं'),
-                                      ('लिया', 'ली', 'लीं'), ('पाया', 'पायी', 'पायीं'))
+                                      ('लिया', 'ली', 'लीं'), ('पाया', 'पायी', 'पायीं'), ('गया', 'गयी', 'गई', 'गए', 'गये', 'गयीं', 'गईं'))
                         exs_o = list(filter(lambda ex: o_toks[0] in ex, exceptions))
                         exs_c = list(filter(lambda ex: c_toks[0] in ex, exceptions))
                         if (len(exs_o) == 0 and len(exs_c) == 0) or exs_o != exs_c:
