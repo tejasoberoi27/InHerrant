@@ -268,7 +268,13 @@ def get_two_sided_type(o_toks, c_toks):
                         s = "same lemma if o_dep[0].startswith(\"aux\") and \
                             c_dep[0].startswith(\"aux\"):"
                         #print(s)
-                        return "VERB-TENSE"
+                        exceptions = (('है', 'हैं'), ('था', 'थे', 'थी', 'थीं'), ('हुआ', 'हुई', 'हुए', 'हुईं'),
+                                      ('रहा', 'रहे', 'रही', 'रहीं', 'रहो'), ('चुका', 'चुके', 'चुकी', 'चुकीं'),
+                                      ('लिया', 'ली', 'लीं'), ('पाया', 'पायी', 'पायीं'))
+                        exs_o = list(filter(lambda ex: o_toks[0] in ex, exceptions))
+                        exs_c = list(filter(lambda ex: c_toks[0] in ex, exceptions))
+                        if (len(exs_o) == 0 and len(exs_c) == 0) or exs_o != exs_c:
+                            return "VERB-TENSE"
             if c_toks[0].xpos == "VBD":
                 s = "c_toks[0].tag_ == \"VBD\""
                 #print(s)
