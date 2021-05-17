@@ -323,6 +323,7 @@ def merge_dict(dict1, dict2):
 # Output: A dictionary of category TP, FP and FN based on Input 2.
 def processCategories(cat_dict, setting):
     # Otherwise, do some processing.
+    #print("Cat Dict", cat_dict)
     proc_cat_dict = {}
     for cat, cnt in cat_dict.items():
         if cat == "UNK":
@@ -343,6 +344,8 @@ def processCategories(cat_dict, setting):
         # All error category combinations
         else:
             return cat_dict
+    #print("setting",setting)
+    #print("proc_cat_dict",proc_cat_dict)
     return proc_cat_dict
 
 # Input 1: A dict of global best TP, FP and FNs

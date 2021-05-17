@@ -14,7 +14,7 @@ def load(lang, nlp=None):
         raise Exception("%s is an unsupported or unknown language" % lang)
 
     # Load stanza
-    nlp = nlp or stanza.Pipeline('hi')
+    nlp = nlp or stanza.Pipeline('hi',use_gpu=True)
 
     # Load language edit merger
     merger = import_module("inherrant.%s.merger" % lang)

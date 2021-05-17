@@ -1,9 +1,0 @@
-S मैं तुम्हें श्रद्धा के साथ यह पुस्तक समर्पण करती हूँ ।
-A 3 4|||U:ADP||||||REQUIRED|||-NONE-|||0
-A 7 8|||R:ADJ|||समर्पित|||REQUIRED|||-NONE-|||0
-A 8 9|||R:VERB-GEN|||करता|||REQUIRED|||-NONE-|||0
-
-S दो लड़की चित्र बना रही हैं।
-A 1 2|||R:SPELL|||लड़किया|||REQUIRED|||-NONE-|||0
-A 3 4|||R:VERB|||बन|||REQUIRED|||-NONE-|||0
-
