@@ -388,6 +388,5 @@ def get_two_sided_type(o_toks, c_toks):
                 if c_pos[j] == "DET":
                     if o_toks[i].lemma != c_toks[j].lemma:
                         return "DET"
-    # Tricky cases.
-    else:
-        return "OTHER"
+
+    return "OTHER"
