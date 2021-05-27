@@ -166,6 +166,10 @@ def get_labels(error_type, df):
             broad_type = label[:label.find(':')]
             # print("label:",label,"broad_type:",broad_type)
             label = label[label.find(':') + 1:]
+            if(label=='ORTH'):
+                print("ORTH",error_type,num_row)
+                continue
+            # exit()
             if (pred_quality_label in ['g', 'b', 'a']):
                 pred_quality.append(pred_quality_label)
             else:
@@ -253,7 +257,7 @@ def get_extraction_perc(extract_quality):
 
 
 def compute_metrics(combine=False):
-    error_types = ['karak', 'kram', 'ling', 'misc', 'noun', 'pronoun', 'vachan', 'verb', 'visheshan', 'new','extra','New-Samples']
+    error_types = ['karak', 'kram', 'ling', 'misc', 'noun', 'pronoun', 'vachan', 'verb', 'visheshan', 'new','extra','New-Samples','conj']
     y_true = []
     y_pred = []
     pred_quality = []
