@@ -166,8 +166,8 @@ def get_labels(error_type, df):
             broad_type = label[:label.find(':')]
             # print("label:",label,"broad_type:",broad_type)
             label = label[label.find(':') + 1:]
-            if(label=='ORTH'):
-                print("ORTH",error_type,num_row)
+            if (label == 'ORTH'):
+                print("ORTH", error_type, num_row)
                 continue
             # exit()
             if (pred_quality_label in ['g', 'b', 'a']):
@@ -180,6 +180,7 @@ def get_labels(error_type, df):
 
     return broad_types, extract_quality, pred_quality, y_true, y_pred
 
+
 def combine_labels(labels_list):
     n = len(labels_list)
     for i in range(n):
@@ -190,8 +191,9 @@ def combine_labels(labels_list):
             labels_list[i] = label_name
     return labels_list
 
-def get_data_stats(broad_types, y_true,combine= False):
-    #If combine=True, the subdivisions of Noun and gen shall be clubbed
+
+def get_data_stats(broad_types, y_true, combine=False):
+    # If combine=True, the subdivisions of Noun and gen shall be clubbed
     if combine:
         broad_types = combine_labels(broad_types)
         y_true = combine_labels(y_true)
@@ -201,10 +203,17 @@ def get_data_stats(broad_types, y_true,combine= False):
     total_broad_types = sum(ctr_broad_types.values())
     desc_label = ctr_labels.most_common()
     desc_broad_types = ctr_broad_types.most_common()
+    label_count = []
+    label_num = 0
     for k, v in desc_label:
         print(str(k) + '\t' + str(v))
     for k, v in desc_broad_types:
+        label_num += 1
+        label_count.append([label_num, str(k), str(v)])
         print(str(k) + '\t' + str(v))
+    df = pandas.DataFrame(label_count, columns=['S.No.', 'Error Type', 'Frequency'])
+    csv_file = "error_type_distr.csv"
+    df.to_csv(base_dir / "hi" / "resources" / "results" / csv_file, encoding="utf-8-sig")
 
 
 def get_standard_metrics(y_true, y_pred, class_labels):
@@ -257,7 +266,8 @@ def get_extraction_perc(extract_quality):
 
 
 def compute_metrics(combine=False):
-    error_types = ['karak', 'kram', 'ling', 'misc', 'noun', 'pronoun', 'vachan', 'verb', 'visheshan', 'new','extra','New-Samples','conj']
+    error_types = ['karak', 'kram', 'ling', 'misc', 'noun', 'pronoun', 'vachan', 'verb', 'visheshan', 'new', 'extra',
+                   'New-Samples', 'conj']
     y_true = []
     y_pred = []
     pred_quality = []
@@ -294,7 +304,7 @@ def compute_metrics(combine=False):
     get_classification_perc(pred_quality)
     print("---------------------------------------------------")
     get_extraction_perc(extract_quality)
-    get_data_stats(y_true, broad_types,combine= combine)
+    get_data_stats(y_true, broad_types, combine=combine)
 
 
 if __name__ == "__main__":

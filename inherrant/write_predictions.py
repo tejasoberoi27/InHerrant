@@ -145,7 +145,7 @@ def write_to_csv():
         # print(df_v1_csv)
         df_v1_csv = modify_df_gen(df_v1_csv)
         get_diff(error_type,df_prev,df_v1_csv)
-        csv_file =  error_type+".csv"
+        csv_file = error_type+".csv"
         df_v1_csv.to_csv(base_dir/"hi"/"resources"/"sample_edits_3"/csv_file, encoding="utf-8-sig")
 
 
