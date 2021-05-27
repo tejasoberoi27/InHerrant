@@ -192,7 +192,7 @@ def combine_labels(labels_list):
     return labels_list
 
 
-def get_data_stats(broad_types, y_true, combine=False):
+def get_data_stats(broad_types, y_true, combine=False, error_type_broad=False,error_type = False):
     # If combine=True, the subdivisions of Noun and gen shall be clubbed
     if combine:
         broad_types = combine_labels(broad_types)
@@ -204,16 +204,27 @@ def get_data_stats(broad_types, y_true, combine=False):
     desc_label = ctr_labels.most_common()
     desc_broad_types = ctr_broad_types.most_common()
     label_count = []
+    broad_type_count = []
     label_num = 0
+    broad_type_num = 0
     for k, v in desc_label:
+        broad_type_num += 1
+        broad_type_count.append([broad_type_num, str(k), str(v)])
         print(str(k) + '\t' + str(v))
     for k, v in desc_broad_types:
         label_num += 1
         label_count.append([label_num, str(k), str(v)])
         print(str(k) + '\t' + str(v))
-    df = pandas.DataFrame(label_count, columns=['S.No.', 'Error Type', 'Frequency'])
-    csv_file = "error_type_distr.csv"
-    df.to_csv(base_dir / "hi" / "resources" / "results" / csv_file, encoding="utf-8-sig")
+
+    if error_type_broad:
+        df = pandas.DataFrame(broad_type_count, columns=['S.No.', 'Broad Error Type', 'Frequency'])
+        csv_file = "error_type_broad_distr.csv"
+        df.to_csv(base_dir / "hi" / "resources" / "results" / csv_file, encoding="utf-8-sig")
+
+    if error_type:
+        df = pandas.DataFrame(label_count, columns=['S.No.', 'Error Type', 'Frequency'])
+        csv_file = "error_type_distr.csv"
+        df.to_csv(base_dir / "hi" / "resources" / "results" / csv_file, encoding="utf-8-sig")
 
 
 def get_standard_metrics(y_true, y_pred, class_labels):
@@ -265,7 +276,7 @@ def get_extraction_perc(extract_quality):
     print("Bad percentage : %.3f" % (perc_bad))
 
 
-def compute_metrics(combine=False):
+def compute_metrics(combine=False,error_type_broad=False,error_type=False):
     error_types = ['karak', 'kram', 'ling', 'misc', 'noun', 'pronoun', 'vachan', 'verb', 'visheshan', 'new', 'extra',
                    'New-Samples', 'conj']
     y_true = []
@@ -304,10 +315,10 @@ def compute_metrics(combine=False):
     get_classification_perc(pred_quality)
     print("---------------------------------------------------")
     get_extraction_perc(extract_quality)
-    get_data_stats(y_true, broad_types, combine=combine)
+    get_data_stats(y_true, broad_types, combine=combine,error_type_broad=error_type_broad,error_type=error_type)
 
 
 if __name__ == "__main__":
-    compute_metrics(combine=False)
+    compute_metrics(combine=False, error_type_broad=True, error_type=False)
 
     # path_corr = base_dir/"hi"/"resources"/"btp_val_data"/"kram_new_kar.txt"
