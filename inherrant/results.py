@@ -229,9 +229,9 @@ def get_data_stats(broad_types, y_true, combine=False, error_type_broad=False,er
 
 def get_standard_metrics(y_true, y_pred, class_labels):
     accuracy = accuracy_score(y_true, y_pred)
-    precision = precision_score(y_true, y_pred, average='micro')
-    recall = recall_score(y_true, y_pred, average='micro')
-    F1_score = f1_score(y_true, y_pred, average='micro')
+    precision = precision_score(y_true, y_pred, average='macro')
+    recall = recall_score(y_true, y_pred, average='macro')
+    F1_score = f1_score(y_true, y_pred, average='macro')
     cf_matrix = confusion_matrix(y_true, y_pred, labels=class_labels)
     assert (len(y_true) == len(y_pred))
     print("Total number of samples : % d" % (len(y_true)))
