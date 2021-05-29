@@ -214,7 +214,6 @@ def get_two_sided_type(o_toks, c_toks):
                 # If POS is the same, this takes precedence over spelling.
                 if o_pos[0] == c_pos[0] and \
                         o_pos[0] in list_pos:
-                    #print("o_pos" + o_pos[0])
                     return o_pos[0]
                 # Tricky cases.
                 else:
@@ -224,29 +223,43 @@ def get_two_sided_type(o_toks, c_toks):
 
         # Gender Edits
         # if the edit has both tense and gender different, then classify as gender edit
-        if (c_pos[0] in main_pos or c_pos[0] == 'AUX') and o_toks[0].lemma == c_toks[0].lemma \
-                and opposite_gen(o_feats[0], c_feats[0]) and c_pos[0] != "NOUN":
-            if c_pos[0] == 'AUX':
-                c_pos[0] = 'VERB'
-            return str(c_pos[0]) + "-GEN"
         if (c_pos[0] in main_pos or c_pos[0] == 'AUX') and o_toks[0].lemma == c_toks[0].lemma:
-            if c_pos[0] == 'AUX':
-                c_pos[0] = 'VERB'
+            if opposite_gen(o_feats[0], c_feats[0]) and c_pos[0] != "NOUN":
+                if c_pos[0] == 'AUX':
+                    c_pos[0] = 'VERB'
+                return str(c_pos[0]) + "-GEN"
+            if (c_pos[0] in main_pos or c_pos[0] == 'AUX') and o_toks[0].lemma == c_toks[0].lemma:
+                if c_pos[0] == 'AUX':
+                    c_pos[0] = 'VERB'
+
             if opposite_num(o_feats[0], c_feats[0]):
                 return str(c_pos[0]) + "-NUM"
             else:
                 exceptions = ( ('है', 'हैं'), ('था', 'थे'), ('थी', 'थीं'), ('हुआ', 'हुए'), ('हुई',  'हुईं'),
                               ('रहा', 'रहे'), ('रही', 'रहीं'), ('चुका', 'चुके'), ('चुकी', 'चुकीं'),
                               ('लिया', 'लिए'), ('ली', 'लीं'), ('पाया', 'पाये'),('पाया', 'पाए'), ('पायी', 'पायीं'),
-                              ('गया', 'गए'), ('गयी', 'गई'),('गया', 'गये'), ('गयीं', 'गईं'))
+                              ('गया', 'गए'), ('गयी', 'गई'), ('गया', 'गये'), ('गयीं', 'गईं'))
                 exs_o = list(filter(lambda ex: o_toks[0].text in ex, exceptions))
                 exs_c = list(filter(lambda ex: c_toks[0].text in ex, exceptions))
                 if (len(exs_o) != 0 and len(exs_c) != 0):
                     if set.intersection(set(exs_o), set(exs_c)):
-                        return str(c_pos[0]) + "-NUM"
+                        return "VERB-NUM"
+
+
 
         # Single token replacement of a word with a upos tag of NOUN, different lemma
         if c_pos[0] == "VERB" and o_toks[0].lemma != c_toks[0].lemma:
+            print("Here, diff lemma")
+            exceptions_tense = (
+                ('है', 'था', 'होगा'), ('हैं', 'थे', 'होंगे'), ('है', 'थी', 'होगी'), ('हैं', 'थीं', 'होंगी'),
+                ('हो', 'थे', 'होगे'), ('हूँ', 'था', 'होंगा'), ('रहा', 'चुका'), ('रहे', 'चुके'), ('रही', 'चुकी'),
+                ('रहीं', 'चुकीं'))
+            exs_o_tense = list(filter(lambda ex: o_toks[0].text in ex, exceptions_tense))
+            exs_c_tense = list(filter(lambda ex: c_toks[0].text in ex, exceptions_tense))
+            # print(exs_o_tense, exs_c_tense)
+            if (len(exs_o_tense) != 0 and len(exs_c_tense) != 0):
+                if set.intersection(set(exs_o_tense), set(exs_c_tense)):
+                    return "VERB-TENSE"
             return "VERB"
         if c_pos[0] == "CONJ":
             return "CONJ"
