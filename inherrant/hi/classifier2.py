@@ -208,9 +208,16 @@ def get_two_sided_type(o_toks, c_toks):
     o_num = [get_num(o_feats[i]) for i in range(len(o_feats))]
     c_num = [get_num(c_feats[i]) for i in range(len(c_feats))]
 
+    stem_o = stemmer.stem(o_toks[0].text)
+    stem_c = stemmer.stem(c_toks[0].text)
+    print("stem_o", stem_o, "stem_c", stem_c)
+
+
     # Word Order; only matches exact reordering.
     if exact_reordering(o_toks, c_toks):
         return "WO"
+
+
 
     # 1:1 replacements (very common)
     if len(o_toks) == len(c_toks) == 1:
@@ -237,7 +244,7 @@ def get_two_sided_type(o_toks, c_toks):
                     return "OTHER"
 
         # 1. SPECIAL CASES
-
+        # print("Reached")
         # Gender Edits
         # if the edit has both tense and gender different, then classify as gender edit
         if (c_pos[0] in main_pos or c_pos[0] == 'AUX') and o_toks[0].lemma == c_toks[0].lemma:
@@ -262,6 +269,8 @@ def get_two_sided_type(o_toks, c_toks):
                     if set.intersection(set(exs_o), set(exs_c)):
                         return "VERB-NUM"
 
+            if opposite_tense(o_feats[0], c_feats[0]):
+                return "VERB:TENSE"
 
 
         # Single token replacement of a word with a upos tag of NOUN, different lemma
@@ -279,21 +288,7 @@ def get_two_sided_type(o_toks, c_toks):
                     return "VERB-TENSE"
 
             #checking if stem is same but suffixes indicate change in tense
-            stem_o = stemmer.stem(o_toks[0].text)
-            stem_c = stemmer.stem(c_toks[0].text)
-            print(stem_o,stem_c)
-            # 1: ["ो", "े", "ू", "ु", "ी", "ि", "ा"],
-            # 2: ["कर", "ाओ", "िए", "ाई", "ाए", "ने", "नी", "ना", "ते", "ीं", "ती", "ता", "ाँ", "ां", "ों",
-            #     "ें"],
-            # 3: ["ाकर", "ाइए", "ाईं", "ाया", "ेगी", "ेगा", "ोगी", "ोगे", "ाने", "ाना", "ाते", "ाती", "ाता",
-            #     "तीं", "ाओं", "ाएं", "ुओं", "ुएं", "ुआं"],
-            # 4: ["ाएगी", "ाएगा", "ाओगी", "ाओगे", "एंगी", "ेंगी", "एंगे", "ेंगे", "ूंगी", "ूंगा", "ातीं",
-            #     "नाओं", "नाएं", "ताओं", "ताएं", "ियाँ", "ियों", "ियां"],
-            # 5: ["ाएंगी", "ाएंगे", "ाऊंगी", "ाऊंगा", "ाइयाँ", "ाइयों", "ाइयां"],
-            # exceptions_verb_tense = (
-            #     ("ा","ूंगा"),("ाया","ाऊंगा"),("")
-            #     ('हैं', 'थे', 'होंगे'), ('है', 'थी', 'होगी'), ('हैं', 'थीं', 'होंगी'),
-            #     ('हो', 'थे', 'होगे'), ('हूँ', 'था', 'होंगा'))
+
             if stem_o == stem_c and opposite_tense(o_feats[0], c_feats[0]):
                 return "VERB:TENSE"
             return "VERB"
@@ -305,12 +300,14 @@ def get_two_sided_type(o_toks, c_toks):
         if c_pos[0] == 'NOUN' and char_ratio >= 0.5 and opposite_gen(o_feats[0], c_feats[0]):
             return "NOUN-GEN"
         if c_pos[0] in list_pos:
+            print("I am here")
             return c_pos[0]
         if o_toks[0].deprel == "punct" and c_toks[0].deprel == "punct":
             return "PUNCT"
-
+        print("Morpho reached")
         # 3. MORPHOLOGY
         if o_toks[0].lemma == c_toks[0].lemma:
+            print("Same lemma ")
             # Same POS on both sides
             if o_pos[0] == c_pos[0]:
 
@@ -380,13 +377,8 @@ def get_two_sided_type(o_toks, c_toks):
     if len(set(o_pos + c_pos)) <= 2 and set(o_pos + c_pos).issubset({"VERB", "AUX"}):
         print("len(set(o_pos + c_pos)) <= 2")
         # Final verbs with the same lemma are tense; e.g. eat -> has eaten
-        stem_o = stemmer.stem(o_toks[0].text)
-        stem_c = stemmer.stem(c_toks[0].text)
-        # if stem_o[-1]==''
-        print("stem_o",stem_o,"stem_c",stem_c)
-        print("Levenshtein ratio of stems",Levenshtein.ratio(stem_o,stem_c))
         if o_pos[0] == "VERB" and \
-                (o_toks[0].lemma == c_toks[0].lemma or Levenshtein.ratio(stem_o,stem_c)>=1) and not opposite_gen(o_feats[0], c_feats[0])\
+                (o_toks[0].lemma == c_toks[0].lemma or stem_o == stem_c) and not opposite_gen(o_feats[0], c_feats[0])\
                 and not opposite_num(o_feats[0],c_feats[0]):
             s = "if len(set(o_pos+c_pos)) == 1:," + "if o_pos[0] == VERB and o_toks[0].lemma == c_toks[0].lemma:"
             #print(s)
