@@ -2,22 +2,22 @@ from pathlib import Path
 import Levenshtein
 from .hindi_stemmer import HindiStemmer
 
-def get_gen(feats):
 
+def get_gen(feats):
     if 'Gender' in feats:
         return feats['Gender']
     else:
         return ""
 
-def get_tense(feats):
 
+def get_tense(feats):
     if 'Tense' in feats:
         return feats['Tense']
     else:
         return ""
 
-def get_num(feats):
 
+def get_num(feats):
     if 'Number' in feats:
         return feats['Number']
     else:
@@ -35,7 +35,7 @@ def opposite_gen(o_feats, c_feats):
             return False
 
 
-def opposite_num(o_feats,c_feats):
+def opposite_num(o_feats, c_feats):
     """ Returns true if one of the tokens is singular and other plural"""
     if not o_feats or not c_feats:
         return False
@@ -44,6 +44,7 @@ def opposite_num(o_feats,c_feats):
             return True
         else:
             return False
+
 
 def opposite_tense(o_feats, c_feats):
     """ Returns true if the tense of both tokens is different, empty string included"""
@@ -71,8 +72,8 @@ def get_feats(Word):
             if 'Tense' not in feats:
                 feats['Tense'] = ""
     except Exception as e:
-        #print("e is", e)
-        #print("Word is", Word)
+        # print("e is", e)
+        # print("Word is", Word)
         pass
     return feats
 
@@ -102,6 +103,14 @@ def exact_reordering(o_toks, c_toks):
             check = False
             break
     if len(oset) == len(cset) and check:
+        return True
+    return False
+
+
+def is_only_orth_change(o_toks: list, c_toks: list) -> bool:
+    o_join = "".join(o_tok.text for o_tok in o_toks)
+    c_join = "".join(c_tok.text for c_tok in c_toks)
+    if o_join == c_join:
         return True
     return False
 
@@ -164,7 +173,7 @@ def get_edit_info(toks):
     pos = []
     dep = []
     for tok in toks:
-        #print("POS", tok.pos)
+        # print("POS", tok.pos)
         if tok.pos in ("CCONJ", "SCONJ"):
             pos.append("CONJ")
         else:
@@ -184,7 +193,7 @@ main_pos = ['NOUN', 'PRON', 'VERB', 'ADJ']
 spell = load_word_list(base_dir / "resources" / "hi_IN.txt")
 rare_pos = {"INTJ", "NUM", "SYM", "X"}
 open_pos2 = {"ADJ", "ADV", "NOUN", "VERB"}
-list_pos = ['NOUN', 'PRON', 'VERB', 'ADJ', 'ADP', 'ADV', 'PREP', 'DET','CONJ']
+list_pos = ['NOUN', 'PRON', 'VERB', 'ADJ', 'ADP', 'ADV', 'PREP', 'DET', 'CONJ']
 
 
 # Input 1: Stanza orig tokens
@@ -193,7 +202,8 @@ list_pos = ['NOUN', 'PRON', 'VERB', 'ADJ', 'ADP', 'ADV', 'PREP', 'DET','CONJ']
 def get_two_sided_type(o_toks, c_toks):
     o_toks = [tok.words[0] for tok in o_toks]
     c_toks = [tok.words[0] for tok in c_toks]
-    #print("Hello", o_toks, c_toks)
+
+    # print("Hello", o_toks, c_toks)
 
     # Extract pos tags and parse info from the toks as lists
     o_pos, o_dep = get_edit_info(o_toks)
@@ -212,12 +222,14 @@ def get_two_sided_type(o_toks, c_toks):
     stem_c = stemmer.stem(c_toks[0].text)
     print("stem_o", stem_o, "stem_c", stem_c)
 
+    print("lemma_o",o_toks[0].lemma,"lemma_c",c_toks[0].lemma)
 
     # Word Order; only matches exact reordering.
     if exact_reordering(o_toks, c_toks):
         return "WO"
 
-
+    if is_only_orth_change(o_toks, c_toks):
+        return "ORTH"
 
     # 1:1 replacements (very common)
     if len(o_toks) == len(c_toks) == 1:
@@ -228,10 +240,11 @@ def get_two_sided_type(o_toks, c_toks):
         # E.g. "cat" is in the dict, but "Cat" is not.
         if o_toks[0].text not in spell:
             char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
-            #print("Character Ratio ", char_ratio)
+            char_dist = Levenshtein.distance(o_toks[0].text, c_toks[0].text)
+            # print("Character Ratio ", char_ratio)
             # Ratio > 0.5 means both side share at least half the same chars.
             # WARNING: THIS IS AN APPROXIMATION.
-            if char_ratio >= 0.5:
+            if char_ratio >= 0.5 or char_dist == 1:
                 return "SPELL"
             # If ratio is < 0.5, the error is more complex e.g. tolk -> say
             else:
@@ -259,26 +272,26 @@ def get_two_sided_type(o_toks, c_toks):
             if opposite_num(o_feats[0], c_feats[0]):
                 return str(c_pos[0]) + "-NUM"
             else:
-                exceptions = ( ('है', 'हैं'), ('था', 'थे'), ('थी', 'थीं'), ('हुआ', 'हुए'), ('हुई',  'हुईं'),
+                exceptions = (('है', 'हैं'), ('था', 'थे'), ('थी', 'थीं'), ('हुआ', 'हुए'), ('हुई', 'हुईं'),
                               ('रहा', 'रहे'), ('रही', 'रहीं'), ('चुका', 'चुके'), ('चुकी', 'चुकीं'),
-                              ('लिया', 'लिए'), ('ली', 'लीं'), ('पाया', 'पाये'),('पाया', 'पाए'), ('पायी', 'पायीं'),
+                              ('लिया', 'लिए'), ('ली', 'लीं'), ('पाया', 'पाये'), ('पाया', 'पाए'), ('पायी', 'पायीं'),
                               ('गया', 'गए'), ('गयी', 'गई'), ('गया', 'गये'), ('गयीं', 'गईं'))
                 exs_o = list(filter(lambda ex: o_toks[0].text in ex, exceptions))
                 exs_c = list(filter(lambda ex: c_toks[0].text in ex, exceptions))
-                if (len(exs_o) != 0 and len(exs_c) != 0):
+                if len(exs_o) != 0 and len(exs_c) != 0:
                     if set.intersection(set(exs_o), set(exs_c)):
                         return "VERB-NUM"
 
             if opposite_tense(o_feats[0], c_feats[0]):
                 return "VERB:TENSE"
 
-
         # Single token replacement of a word with a upos tag of NOUN, different lemma
         if c_pos[0] == "VERB" and o_toks[0].lemma != c_toks[0].lemma:
             print("Here, diff lemma")
             exceptions_tense = (
                 ('है', 'था', 'होगा'), ('हैं', 'थे', 'होंगे'), ('है', 'थी', 'होगी'), ('हैं', 'थीं', 'होंगी'),
-                ('हो', 'थे', 'होगे'), ('हूँ', 'था', 'होंगा'),('गया', 'जाएगा'),('गए','जाएँगे'),('गयी','जाएगी'),('गयीं','जाएँगी'),
+                ('हो', 'थे', 'होगे'), ('हूँ', 'था', 'होंगा'), ('गया', 'जाएगा'), ('गए', 'जाएँगे'), ('गयी', 'जाएगी'),
+                ('गयीं', 'जाएँगी'),
                 ('गई', 'जाएगी'), ('गईं', 'जाएँगी'), ('गया', 'जाऊँगा'))
             exs_o_tense = list(filter(lambda ex: o_toks[0].text in ex, exceptions_tense))
             exs_c_tense = list(filter(lambda ex: c_toks[0].text in ex, exceptions_tense))
@@ -287,7 +300,7 @@ def get_two_sided_type(o_toks, c_toks):
                 if set.intersection(set(exs_o_tense), set(exs_c_tense)):
                     return "VERB-TENSE"
 
-            #checking if stem is same but suffixes indicate change in tense
+            # checking if stem is same but suffixes indicate change in tense
 
             if stem_o == stem_c and opposite_tense(o_feats[0], c_feats[0]):
                 return "VERB:TENSE"
@@ -299,7 +312,7 @@ def get_two_sided_type(o_toks, c_toks):
         char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
         if c_pos[0] == 'NOUN' and char_ratio >= 0.5 and opposite_gen(o_feats[0], c_feats[0]):
             return "NOUN-GEN"
-        if c_pos[0] in list_pos:
+        if c_pos[0] in list_pos and o_pos[0] == c_pos[0]:
             print("I am here")
             return c_pos[0]
         if o_toks[0].deprel == "punct" and c_toks[0].deprel == "punct":
@@ -316,61 +329,68 @@ def get_two_sided_type(o_toks, c_toks):
                     # Of what's left, TENSE errors normally involved VBD.
                     if o_toks[0].xpos == "VBD" or c_toks[0].xpos == "VBD":
                         s = "if o_toks[0].tag_ == \"VBD\" or c_toks[0].tag_ == \"VBD\":"
-                        #print(s)
+                        # print(s)
                         return "VERB-TENSE"
                     # Any remaining aux verbs are called TENSE.
                     if o_dep[0].startswith("aux") and \
                             c_dep[0].startswith("aux") and not opposite_gen(o_feats[0], c_feats[0]) \
-                            and not opposite_num(o_feats[0],c_feats[0]):
+                            and not opposite_num(o_feats[0], c_feats[0]):
                         s = "same lemma if o_dep[0].startswith(\"aux\") and \
                             c_dep[0].startswith(\"aux\"):"
-                        exceptions = (('है', 'हैं'), ('था', 'थे', 'थी', 'थीं'),('हुआ', 'हुई', 'हुए', 'हुईं'),
+                        exceptions = (('है', 'हैं'), ('था', 'थे', 'थी', 'थीं'), ('हुआ', 'हुई', 'हुए', 'हुईं'),
                                       ('रहा', 'रहे', 'रही', 'रहीं', 'रहो'), ('चुका', 'चुके', 'चुकी', 'चुकीं'),
-                                      ('लिया','लिए','ली', 'लीं'), ('पाया','पाए','पायी', 'पायीं'), ('गया', 'गयी', 'गई', 'गए', 'गये', 'गयीं', 'गईं'))
+                                      ('लिया', 'लिए', 'ली', 'लीं'), ('पाया', 'पाए', 'पायी', 'पायीं'),
+                                      ('गया', 'गयी', 'गई', 'गए', 'गये', 'गयीं', 'गईं'))
                         exs_o = list(filter(lambda ex: o_toks[0].text in ex, exceptions))
                         exs_c = list(filter(lambda ex: c_toks[0].text in ex, exceptions))
                         if (len(exs_o) == 0 and len(exs_c) == 0) or exs_o != exs_c:
                             return "VERB-TENSE"
             if c_toks[0].xpos == "VBD":
                 s = "c_toks[0].tag_ == \"VBD\""
-                #print(s)
+                # print(s)
                 return "VERB-TENSE"
 
         # 4. GENERAL
         # Auxiliaries with different lemmas
         if o_dep[0].startswith("aux") and c_dep[0].startswith("aux"):
             s = "if o_dep[0].startswith(\"aux\") and c_dep[0].startswith(\"aux\"):"
-            #print(s)
-            #print("O_FEATS",o_feats[0])
-            #print("C_FEATS",c_feats[0])
-            if not opposite_gen(o_feats[0], c_feats[0]) and not opposite_num(o_feats[0],c_feats[0]):
-                exceptions = (('है', 'हैं'), ('था', 'थे', 'थी', 'थीं'),('हुआ', 'हुई', 'हुए', 'हुईं'),
+            # print(s)
+            # print("O_FEATS",o_feats[0])
+            # print("C_FEATS",c_feats[0])
+            if not opposite_gen(o_feats[0], c_feats[0]) and not opposite_num(o_feats[0], c_feats[0]):
+                exceptions = (('है', 'हैं'), ('था', 'थे', 'थी', 'थीं'), ('हुआ', 'हुई', 'हुए', 'हुईं'),
                               ('रहा', 'रहे', 'रही', 'रहीं', 'रहो'), ('चुका', 'चुके', 'चुकी', 'चुकीं'),
-                              ('लिया','लिए','ली', 'लीं'), ('पाया','पाए','पायी', 'पायीं'), ('गया', 'गयी', 'गई', 'गए', 'गये', 'गयीं', 'गईं'))
-                print("Tokens",o_toks[0],c_toks[0])
+                              ('लिया', 'लिए', 'ली', 'लीं'), ('पाया', 'पाए', 'पायी', 'पायीं'),
+                              ('गया', 'गयी', 'गई', 'गए', 'गये', 'गयीं', 'गईं'))
+                print("Tokens", o_toks[0], c_toks[0])
                 exs_o = list(filter(lambda ex: o_toks[0].text in ex, exceptions))
                 exs_c = list(filter(lambda ex: c_toks[0].text in ex, exceptions))
                 if (len(exs_o) == 0 and len(exs_c) == 0) or exs_o != exs_c:
-                    print(exs_o,exs_c)
+                    print(exs_o, exs_c)
                     return "VERB-TENSE"
+
+        if (o_toks[0].lemma == c_toks[0].lemma or stemmer.stem(o_toks[0].text) == stemmer.stem(c_toks[0].text)) and \
+                o_pos[0] in open_pos2 and \
+                c_pos[0] in open_pos2:
+            return "MORPH"
 
     # Multi-token replacements (uncommon)
 
     if set(o_dep + c_dep).issubset({"aux", "aux:pass"}):
         # print("Hello")
         s = "if set(o_dep+c_dep).issubset({\"aux\", \"aux:pass\"}): and o_gen = c_gen"
-        #print(s)
+        # print(s)
         if set(o_gen) == set(c_gen) and set(o_num) == set(c_num):
-            if not opposite_gen(o_feats[0], c_feats[0]) and not opposite_num(o_feats[0],c_feats[0]):
+            if not opposite_gen(o_feats[0], c_feats[0]) and not opposite_num(o_feats[0], c_feats[0]):
                 exceptions = (('है', 'हैं'), ('था', 'थे', 'थी', 'थीं'), ('हुआ', 'हुई', 'हुए', 'हुईं'),
                               ('रहा', 'रहे', 'रही', 'रहीं', 'रहो'), ('चुका', 'चुके', 'चुकी', 'चुकीं'),
                               ('लिया', 'ली', 'लीं'), ('पाया', 'पायी', 'पायीं'),
                               ('गया', 'गयी', 'गई', 'गए', 'गये', 'गयीं', 'गईं'))
-                print("Tokens",o_toks[0],c_toks[0])
+                print("Tokens", o_toks[0], c_toks[0])
                 exs_o = list(filter(lambda ex: o_toks[0].text in ex, exceptions))
                 exs_c = list(filter(lambda ex: c_toks[0].text in ex, exceptions))
                 if (len(exs_o) == 0 and len(exs_c) == 0) or exs_o != exs_c:
-                    print(exs_o,exs_c)
+                    print(exs_o, exs_c)
                     return "VERB-TENSE"
     # All same POS
     # print("POS tags",o_pos + c_pos)
@@ -380,12 +400,12 @@ def get_two_sided_type(o_toks, c_toks):
     if len(set(o_pos + c_pos)) <= 2 and set(o_pos + c_pos).issubset({"VERB", "AUX"}):
         print("len(set(o_pos + c_pos)) <= 2")
         # Final verbs with the same lemma are tense; e.g. eat -> has eaten
-        if o_pos[0] in("VERB", "AUX") and \
-            (o_toks[0].lemma == c_toks[0].lemma or stem_o == stem_c)  \
-            and not opposite_gen(o_feats[0], c_feats[0]) \
-            and not opposite_num(o_feats[0],c_feats[0]):
+        if o_pos[0] in ("VERB", "AUX") and \
+                (o_toks[0].lemma == c_toks[0].lemma or stem_o == stem_c) \
+                and not opposite_gen(o_feats[0], c_feats[0]) \
+                and not opposite_num(o_feats[0], c_feats[0]):
             s = "if len(set(o_pos+c_pos)) == 1:," + "if o_pos[0] == VERB and o_toks[0].lemma == c_toks[0].lemma:"
-            #print(s)
+            # print(s)
             return "VERB-TENSE"
 
     for i in range(len(o_toks)):
@@ -403,7 +423,7 @@ def get_two_sided_type(o_toks, c_toks):
         if o_pos[i] in ["PRON", "NOUN"]:
             for j in range(len(c_pos)):
                 if c_pos[j] == "PRON":
-                    if o_toks[i].lemma == c_toks[j].lemma and opposite_gen(o_feats[i],c_feats[j]):
+                    if o_toks[i].lemma == c_toks[j].lemma and opposite_gen(o_feats[i], c_feats[j]):
                         return "PRON-GEN"
                     if o_toks[i].lemma != c_toks[j].lemma:
                         return "PRON"
@@ -411,9 +431,9 @@ def get_two_sided_type(o_toks, c_toks):
         if o_pos[i] in ("VERB", "AUX"):
             for j in range(len(c_pos)):
                 if c_pos[j] == o_pos[i]:
-                    if o_toks[i].lemma == c_toks[j].lemma and opposite_gen(o_feats[i],c_feats[j]):
+                    if o_toks[i].lemma == c_toks[j].lemma and opposite_gen(o_feats[i], c_feats[j]):
                         # print("i =", "j =", i, j, o_toks[i], c_toks[j], o_feats[i], c_feats[j])
-                        #print("ling")
+                        # print("ling")
                         return "VERB-GEN"
                     if o_toks[i].lemma != c_toks[j].lemma:
                         return "VERB"
