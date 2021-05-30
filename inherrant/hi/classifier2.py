@@ -373,13 +373,17 @@ def get_two_sided_type(o_toks, c_toks):
                     print(exs_o,exs_c)
                     return "VERB-TENSE"
     # All same POS
-    print("POS tags",o_pos + c_pos)
+    # print("POS tags",o_pos + c_pos)
+    # print(o_toks[0].lemma,c_toks[0].lemma)
+    # print(not(opposite_gen(o_feats[0], c_feats[0])))
+    # print(not(opposite_num(o_feats[0],c_feats[0])))
     if len(set(o_pos + c_pos)) <= 2 and set(o_pos + c_pos).issubset({"VERB", "AUX"}):
         print("len(set(o_pos + c_pos)) <= 2")
         # Final verbs with the same lemma are tense; e.g. eat -> has eaten
-        if o_pos[0] == "VERB" and \
-                (o_toks[0].lemma == c_toks[0].lemma or stem_o == stem_c) and not opposite_gen(o_feats[0], c_feats[0])\
-                and not opposite_num(o_feats[0],c_feats[0]):
+        if o_pos[0] in("VERB", "AUX") and \
+            (o_toks[0].lemma == c_toks[0].lemma or stem_o == stem_c)  \
+            and not opposite_gen(o_feats[0], c_feats[0]) \
+            and not opposite_num(o_feats[0],c_feats[0]):
             s = "if len(set(o_pos+c_pos)) == 1:," + "if o_pos[0] == VERB and o_toks[0].lemma == c_toks[0].lemma:"
             #print(s)
             return "VERB-TENSE"
