@@ -206,7 +206,7 @@ spell = load_word_list(base_dir / "resources" / "hi_IN.txt")
 rare_pos = {"INTJ", "NUM", "SYM", "X"}
 open_pos2 = {"ADJ", "ADV", "NOUN", "VERB"}
 list_pos = ['NOUN', 'PRON', 'VERB', 'ADJ', 'ADP', 'ADV', 'PREP', 'DET', 'CONJ']
-
+morph_list = ["ADJ", "ADV", "NOUN", "VERB", "ADP", "PRON"]
 
 # Input 1: Stanza orig tokens
 # Input 2: Stanza cor tokens
@@ -319,12 +319,12 @@ def get_two_sided_type(o_toks, c_toks):
             if are_stems_similar(stem_o, stem_c) and opposite_tense(o_feats[0], c_feats[0]):
                 return "VERB:TENSE"
             return "VERB"
-        if c_pos[0] == "CONJ":
-            return "CONJ"
-        if c_pos[0] in ["ADJ", "NUM"]:
+        # if c_pos[0] == "CONJ":
+        #     return "CONJ"
+        if o_pos in ["ADJ", "NUM"] and c_pos[0] in ["ADJ", "NUM"]:
             return "ADJ"
         char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
-        if c_pos[0] == 'NOUN' and char_ratio >= 0.5 and opposite_gen(o_feats[0], c_feats[0]):
+        if o_pos[0] == 'NOUN' and c_pos[0] == 'NOUN' and char_ratio >= 0.5 and opposite_gen(o_feats[0], c_feats[0]):
             return "NOUN-GEN"
         if c_pos[0] in list_pos and o_pos[0] == c_pos[0]:
             print("I am here")
@@ -384,8 +384,8 @@ def get_two_sided_type(o_toks, c_toks):
                     return "VERB-TENSE"
 
         if (o_toks[0].lemma == c_toks[0].lemma or are_stems_similar(stem_o, stem_c)) and \
-                o_pos[0] in open_pos2 and \
-                c_pos[0] in open_pos2:
+                o_pos[0] in morph_list and \
+                c_pos[0] in morph_list:
             return "MORPH"
 
     # Multi-token replacements (uncommon)
