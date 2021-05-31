@@ -78,6 +78,18 @@ def get_feats(Word):
     return feats
 
 
+def are_stems_similar(o_stem, c_stem):
+    """ Returns true if if two stems are similar"""
+    f1 = lambda stem: stem.endswith('ी')
+    f2 = lambda stem: stem.endswith('िय')
+    f3 = lambda stem1, stem2: f1(stem1) and f2(stem2) and stem1[-1:] == stem2[-2:]
+    f4 = lambda stem1, stem2: f3(stem1, stem2) or f3(stem2, stem1)
+    if f4(o_stem, c_stem):
+        return True
+    stem_char_ratio = Levenshtein.ratio(o_stem,c_stem)
+    return stem_char_ratio >= 0.8
+
+
 # Input 1: Spacy orig tokens
 # Input 2: Spacy cor tokens
 # Output: Boolean; the tokens are exactly the same but in a different order
@@ -220,9 +232,11 @@ def get_two_sided_type(o_toks, c_toks):
 
     stem_o = stemmer.stem(o_toks[0].text)
     stem_c = stemmer.stem(c_toks[0].text)
-    print("stem_o", stem_o, "stem_c", stem_c)
+    stem_char_dist = Levenshtein.distance(stem_o, stem_c)
+    stem_char_ratio = Levenshtein.ratio(stem_o, stem_c)
+    print("stem_o", stem_o, "stem_c", stem_c, "stem_char_dist", stem_char_dist, "stem_char_ratio", stem_char_ratio)
 
-    print("lemma_o",o_toks[0].lemma,"lemma_c",c_toks[0].lemma)
+    print("lemma_o", o_toks[0].lemma, "lemma_c", c_toks[0].lemma)
 
     # Word Order; only matches exact reordering.
     if exact_reordering(o_toks, c_toks):
@@ -302,7 +316,7 @@ def get_two_sided_type(o_toks, c_toks):
 
             # checking if stem is same but suffixes indicate change in tense
 
-            if stem_o == stem_c and opposite_tense(o_feats[0], c_feats[0]):
+            if are_stems_similar(stem_o, stem_c) and opposite_tense(o_feats[0], c_feats[0]):
                 return "VERB:TENSE"
             return "VERB"
         if c_pos[0] == "CONJ":
@@ -369,7 +383,7 @@ def get_two_sided_type(o_toks, c_toks):
                     print(exs_o, exs_c)
                     return "VERB-TENSE"
 
-        if (o_toks[0].lemma == c_toks[0].lemma or stemmer.stem(o_toks[0].text) == stemmer.stem(c_toks[0].text)) and \
+        if (o_toks[0].lemma == c_toks[0].lemma or are_stems_similar(stem_o, stem_c)) and \
                 o_pos[0] in open_pos2 and \
                 c_pos[0] in open_pos2:
             return "MORPH"
@@ -401,7 +415,7 @@ def get_two_sided_type(o_toks, c_toks):
         print("len(set(o_pos + c_pos)) <= 2")
         # Final verbs with the same lemma are tense; e.g. eat -> has eaten
         if o_pos[0] in ("VERB", "AUX") and \
-                (o_toks[0].lemma == c_toks[0].lemma or stem_o == stem_c) \
+                (o_toks[0].lemma == c_toks[0].lemma or are_stems_similar(stem_o, stem_c)) \
                 and not opposite_gen(o_feats[0], c_feats[0]) \
                 and not opposite_num(o_feats[0], c_feats[0]):
             s = "if len(set(o_pos+c_pos)) == 1:," + "if o_pos[0] == VERB and o_toks[0].lemma == c_toks[0].lemma:"
