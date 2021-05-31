@@ -297,7 +297,7 @@ def get_two_sided_type(o_toks, c_toks):
                         return "VERB-NUM"
 
             if opposite_tense(o_feats[0], c_feats[0]):
-                return "VERB:TENSE"
+                return "VERB-TENSE"
 
         # Single token replacement of a word with a upos tag of NOUN, different lemma
         if c_pos[0] == "VERB" and o_toks[0].lemma != c_toks[0].lemma:
@@ -317,7 +317,7 @@ def get_two_sided_type(o_toks, c_toks):
             # checking if stem is same but suffixes indicate change in tense
 
             if are_stems_similar(stem_o, stem_c) and opposite_tense(o_feats[0], c_feats[0]):
-                return "VERB:TENSE"
+                return "VERB-TENSE"
             return "VERB"
         # if c_pos[0] == "CONJ":
         #     return "CONJ"
