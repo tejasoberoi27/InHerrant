@@ -343,8 +343,11 @@ def get_two_sided_type(o_toks, c_toks):
         char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
         if o_pos[0] == 'NOUN' and c_pos[0] == 'NOUN' and char_ratio >= 0.5 and opposite_gen(o_feats[0], c_feats[0]):
             return "NOUN-GEN"
-        if c_pos[0] in list_pos and o_pos[0] == c_pos[0]:
+        if c_pos[0] in list_pos or c_pos[0]=="AUX" and o_pos[0] == c_pos[0]:
             print("I am here")
+            print("o_pos[0]",o_pos[0],"c_pos[0]",c_pos[0])
+            if(c_pos[0]=="AUX"):
+                c_pos[0] = "VERB"
             return c_pos[0]
         if o_toks[0].deprel == "punct" and c_toks[0].deprel == "punct":
             return "PUNCT"
@@ -354,9 +357,7 @@ def get_two_sided_type(o_toks, c_toks):
             print("Same lemma ")
             # Same POS on both sides
             if o_pos[0] == c_pos[0]:
-
-                if o_pos[0] == "VERB":
-
+                if o_pos[0] in ("VERB"):
                     # Of what's left, TENSE errors normally involved VBD.
                     if o_toks[0].xpos == "VBD" or c_toks[0].xpos == "VBD":
                         s = "if o_toks[0].tag_ == \"VBD\" or c_toks[0].tag_ == \"VBD\":"
