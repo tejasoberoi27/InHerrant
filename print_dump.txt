@@ -300,8 +300,7 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem हैं c_stem थीं c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem उस c_stem उन्हों c_stemhar_dist 5 c_stemhar_ratio 0.25
 lemma_o वह lemma_c वह
 I am here
@@ -385,8 +384,29 @@ o_stem ी c_stem एसएसस c_stemhar_dist 5 c_stemhar_ratio 0.0
 lemma_o ी lemma_c एसएससी
 o_stem था c_stem हैं c_stemhar_dist 3 c_stemhar_ratio 0.0
 lemma_o था lemma_c है
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
+Tokens {
+  "id": 17,
+  "text": "था",
+  "lemma": "था",
+  "upos": "AUX",
+  "xpos": "VAUX",
+  "feats": "Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin",
+  "head": 16,
+  "deprel": "aux",
+  "misc": "start_char=67|end_char=69"
+} {
+  "id": 17,
+  "text": "हैं",
+  "lemma": "है",
+  "upos": "AUX",
+  "xpos": "VAUX",
+  "feats": "Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Pres|VerbForm=Fin",
+  "head": 16,
+  "deprel": "aux",
+  "misc": "start_char=67|end_char=70"
+}
+TENSE 1.7
 o_stem ये c_stem इन्ह c_stemhar_dist 4 c_stemhar_ratio 0.0
 lemma_o यह lemma_c यह
 I am here
@@ -475,8 +495,7 @@ o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
 lemma_o है lemma_c है
 o_stem हैं c_stem थीं c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem है c_stem हव c_stemhar_dist 1 c_stemhar_ratio 0.5
 lemma_o है lemma_c हवा
 I am here
@@ -669,8 +688,7 @@ lemma_o यह lemma_c नेवज
 Morpho reached
 o_stem हैं c_stem थे c_stemhar_dist 3 c_stemhar_ratio 0.0
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem बालात c_stem बलात c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
 lemma_o बालात lemma_c बलात
 o_stem शहर c_stem ग्राम c_stemhar_dist 4 c_stemhar_ratio 0.25
@@ -763,12 +781,10 @@ o_stem विस्वविद्यालय c_stem विश्वविद�
 lemma_o विस्वविद्यालय lemma_c विश्वविद्यालय
 o_stem है c_stem था c_stemhar_dist 2 c_stemhar_ratio 0.0
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem है c_stem था c_stemhar_dist 2 c_stemhar_ratio 0.0
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem के c_stem का c_stemhar_dist 1 c_stemhar_ratio 0.5
 lemma_o का lemma_c का
 I am here
@@ -813,8 +829,7 @@ o_stem थी c_stem थीं c_stemhar_dist 1 c_stemhar_ratio 0.8
 lemma_o था lemma_c था
 o_stem हैं c_stem थे c_stemhar_dist 3 c_stemhar_ratio 0.0
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem के c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
 lemma_o का lemma_c का
 I am here
@@ -828,12 +843,10 @@ I am here
 o_pos[0] CONJ c_pos[0] ADP
 o_stem है c_stem थे c_stemhar_dist 2 c_stemhar_ratio 0.0
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem है c_stem थी c_stemhar_dist 2 c_stemhar_ratio 0.0
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
 lemma_o है lemma_c है
 o_stem येन c_stem ये c_stemhar_dist 1 c_stemhar_ratio 0.8
@@ -926,8 +939,29 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem था c_stem है c_stemhar_dist 2 c_stemhar_ratio 0.0
 lemma_o था lemma_c है
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
+Tokens {
+  "id": 17,
+  "text": "था",
+  "lemma": "था",
+  "upos": "AUX",
+  "xpos": "VAUX",
+  "feats": "Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin",
+  "head": 15,
+  "deprel": "aux:pass",
+  "misc": "start_char=74|end_char=76"
+} {
+  "id": 17,
+  "text": "है",
+  "lemma": "है",
+  "upos": "AUX",
+  "xpos": "VAUX",
+  "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+  "head": 15,
+  "deprel": "aux:pass",
+  "misc": "start_char=74|end_char=76"
+}
+TENSE 1.7
 o_stem नवाज c_stem नमाज c_stemhar_dist 1 c_stemhar_ratio 0.75
 lemma_o नवाज lemma_c नमाज
 I am here
@@ -1358,12 +1392,10 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem थी c_stem है c_stemhar_dist 2 c_stemhar_ratio 0.0
 lemma_o था lemma_c है
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem है c_stem थी c_stemhar_dist 2 c_stemhar_ratio 0.0
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem बनफ़ार c_stem बनाफर c_stemhar_dist 3 c_stemhar_ratio 0.7272727272727273
 lemma_o बनफ़ार lemma_c बनाफर
 o_stem द्विवेद c_stem दूब c_stemhar_dist 6 c_stemhar_ratio 0.2
@@ -1584,12 +1616,54 @@ o_stem गरराज c_stem गजराज c_stemhar_dist 1 c_stemhar_ratio 0
 lemma_o गरराज lemma_c गजराज
 o_stem था c_stem है c_stemhar_dist 2 c_stemhar_ratio 0.0
 lemma_o था lemma_c है
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
+Tokens {
+  "id": 11,
+  "text": "था",
+  "lemma": "था",
+  "upos": "AUX",
+  "xpos": "VAUX",
+  "feats": "Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin",
+  "head": 10,
+  "deprel": "aux",
+  "misc": "start_char=53|end_char=55"
+} {
+  "id": 11,
+  "text": "है",
+  "lemma": "है",
+  "upos": "AUX",
+  "xpos": "VAUX",
+  "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+  "head": 10,
+  "deprel": "aux",
+  "misc": "start_char=53|end_char=55"
+}
+TENSE 1.7
 o_stem थी c_stem है c_stemhar_dist 2 c_stemhar_ratio 0.0
 lemma_o था lemma_c है
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
+Tokens {
+  "id": 24,
+  "text": "थी",
+  "lemma": "था",
+  "upos": "AUX",
+  "xpos": "VAUX",
+  "feats": "Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin",
+  "head": 23,
+  "deprel": "aux",
+  "misc": "start_char=123|end_char=125"
+} {
+  "id": 24,
+  "text": "है",
+  "lemma": "है",
+  "upos": "AUX",
+  "xpos": "VAUX",
+  "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+  "head": 23,
+  "deprel": "aux",
+  "misc": "start_char=123|end_char=125"
+}
+TENSE 1.7
 o_stem दे c_stem दिय c_stemhar_dist 2 c_stemhar_ratio 0.4
 lemma_o दे lemma_c दे
 I am here
@@ -1683,8 +1757,7 @@ I am here
 o_pos[0] PART c_pos[0] NOUN
 o_stem था c_stem है c_stemhar_dist 2 c_stemhar_ratio 0.0
 lemma_o था lemma_c है
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem जो c_stem जिस c_stemhar_dist 2 c_stemhar_ratio 0.4
 lemma_o जो lemma_c जो
 I am here
@@ -2321,12 +2394,32 @@ lemma_o मिचेल lemma_c मिशेल
 Morpho reached
 o_stem हैं c_stem थी c_stemhar_dist 3 c_stemhar_ratio 0.0
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem हें c_stem थे c_stemhar_dist 2 c_stemhar_ratio 0.4
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
+Tokens {
+  "id": 21,
+  "text": "हें",
+  "lemma": "है",
+  "upos": "AUX",
+  "xpos": "VAUX",
+  "feats": "Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Pres|VerbForm=Fin",
+  "head": 19,
+  "deprel": "aux:pass",
+  "misc": "start_char=90|end_char=93"
+} {
+  "id": 21,
+  "text": "थे",
+  "lemma": "था",
+  "upos": "AUX",
+  "xpos": "VAUX",
+  "feats": "Gender=Masc|Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Past|VerbForm=Fin",
+  "head": 19,
+  "deprel": "aux:pass",
+  "misc": "start_char=90|end_char=92"
+}
+TENSE 1.7
 o_stem यूनाईटेड  c_stem यूनाइटेड  c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
 lemma_o यूनाईटेड  lemma_c यूनाइटेड 
 o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
@@ -2368,8 +2461,29 @@ lemma_o स्कॉटलैंड lemma_c स्कॉटलैण्ड
 Morpho reached
 o_stem है c_stem थी c_stemhar_dist 2 c_stemhar_ratio 0.0
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
+Tokens {
+  "id": 17,
+  "text": "है",
+  "lemma": "है",
+  "upos": "AUX",
+  "xpos": "VAUX",
+  "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+  "head": 15,
+  "deprel": "aux:pass",
+  "misc": "start_char=95|end_char=97"
+} {
+  "id": 17,
+  "text": "थी",
+  "lemma": "था",
+  "upos": "AUX",
+  "xpos": "VAUX",
+  "feats": "Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin",
+  "head": 15,
+  "deprel": "aux:pass",
+  "misc": "start_char=95|end_char=97"
+}
+TENSE 1.7
 o_stem होंग c_stem थे c_stemhar_dist 4 c_stemhar_ratio 0.0
 lemma_o हो lemma_c था
 Morpho reached
@@ -2379,12 +2493,10 @@ o_stem हैै c_stem है c_stemhar_dist 1 c_stemhar_ratio 0.8
 lemma_o हैै lemma_c है
 o_stem था c_stem है c_stemhar_dist 2 c_stemhar_ratio 0.0
 lemma_o था lemma_c है
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem थे c_stem हैं c_stemhar_dist 3 c_stemhar_ratio 0.0
 lemma_o था lemma_c है
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem चिनिय c_stem डंड c_stemhar_dist 5 c_stemhar_ratio 0.0
 lemma_o चिनिया lemma_c डंडा
 I am here
@@ -2406,8 +2518,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem हैं c_stem थी c_stemhar_dist 3 c_stemhar_ratio 0.0
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem गंग c_stem नद c_stemhar_dist 3 c_stemhar_ratio 0.0
 lemma_o गंगा lemma_c नदी
 I am here
@@ -2542,8 +2653,7 @@ I am here
 o_pos[0] ADJ c_pos[0] ADJ
 o_stem था c_stem है c_stemhar_dist 2 c_stemhar_ratio 0.0
 lemma_o था lemma_c है
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem स्थान c_stem मैदान c_stemhar_dist 3 c_stemhar_ratio 0.4
 lemma_o स्थान lemma_c मैदान
 I am here
@@ -2562,8 +2672,7 @@ o_stem बंगरगाह c_stem बंदरगाह c_stemhar_dist 1 c_ste
 lemma_o बंगरगाह lemma_c बंदरगाह
 o_stem हैं c_stem थी c_stemhar_dist 3 c_stemhar_ratio 0.0
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
 lemma_o नगर lemma_c गाँव
 I am here
@@ -2605,8 +2714,7 @@ o_stem बनग c_stem बानग c_stemhar_dist 1 c_stemhar_ratio 0.85714285
 lemma_o बनगी lemma_c बानगी
 o_stem हैं c_stem थी c_stemhar_dist 3 c_stemhar_ratio 0.0
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem वह c_stem वे c_stemhar_dist 1 c_stemhar_ratio 0.5
 lemma_o वह lemma_c वह
 I am here
@@ -2636,8 +2744,29 @@ lemma_o थाईलैंड lemma_c थाईलैण्ड
 Morpho reached
 o_stem है c_stem था c_stemhar_dist 2 c_stemhar_ratio 0.0
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
+Tokens {
+  "id": 12,
+  "text": "है",
+  "lemma": "है",
+  "upos": "AUX",
+  "xpos": "VAUX",
+  "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+  "head": 11,
+  "deprel": "aux",
+  "misc": "start_char=58|end_char=60"
+} {
+  "id": 12,
+  "text": "था",
+  "lemma": "था",
+  "upos": "AUX",
+  "xpos": "VAUX",
+  "feats": "Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin",
+  "head": 11,
+  "deprel": "aux",
+  "misc": "start_char=58|end_char=60"
+}
+TENSE 1.7
 o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
 lemma_o नगर lemma_c गाँव
 I am here
@@ -2702,8 +2831,7 @@ o_stem हरियण c_stem हरियाण c_stemhar_dist 1 c_stemhar_rati
 lemma_o हरियणा lemma_c हरियाणा
 o_stem था c_stem है c_stemhar_dist 2 c_stemhar_ratio 0.0
 lemma_o था lemma_c है
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem रिपोर्ट c_stem सूत्र c_stemhar_dist 6 c_stemhar_ratio 0.16666666666666666
 lemma_o रिपोर्ट lemma_c सूत्र
 I am here
@@ -2779,8 +2907,7 @@ o_stem त्लौंग c_stem तूत c_stemhar_dist 5 c_stemhar_ratio 0.22
 lemma_o त्लौंग lemma_c तूत
 o_stem हैं c_stem थी c_stemhar_dist 3 c_stemhar_ratio 0.0
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem जा c_stem गए c_stemhar_dist 2 c_stemhar_ratio 0.0
 lemma_o जा lemma_c जा
 TENSE 1.1
@@ -3045,8 +3172,29 @@ o_stem तोमरस c_stem तोमर c_stemhar_dist 1 c_stemhar_ratio 0.88
 lemma_o तोमरस lemma_c तोमर
 o_stem है c_stem था c_stemhar_dist 2 c_stemhar_ratio 0.0
 lemma_o है lemma_c था
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
+Tokens {
+  "id": 15,
+  "text": "है",
+  "lemma": "है",
+  "upos": "AUX",
+  "xpos": "VAUX",
+  "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+  "head": 13,
+  "deprel": "aux:pass",
+  "misc": "start_char=71|end_char=73"
+} {
+  "id": 15,
+  "text": "था",
+  "lemma": "था",
+  "upos": "AUX",
+  "xpos": "VAUX",
+  "feats": "Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin",
+  "head": 13,
+  "deprel": "aux:pass",
+  "misc": "start_char=71|end_char=73"
+}
+TENSE 1.7
 o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
 lemma_o नगर lemma_c गाँव
 I am here
