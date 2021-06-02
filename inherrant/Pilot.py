@@ -3,6 +3,13 @@ from inherrant.alignment import Alignment
 import inherrant
 import Levenshtein
 
+def contract_char(text):
+    ''' returns text after changing expanded characters with dot to single character'''
+    expanded1 = 'ड' + '़'
+    text = text.replace(expanded1, 'ड़')
+    expanded2 = 'ढ' + '़'
+    text = text.replace(expanded2, 'ढ़')
+    return text
 
 def align(orig, cor, lev=False):
     return Alignment(orig, cor, lev)
@@ -287,6 +294,10 @@ if __name__ == '__main__':
     s2 = "ओड़ीसा के आदिवासी क्षेत्रों के बच्चे तब तक गमछा पहनते हैं जब वे बड़े होकर धोती न पहनना शुरू कर दें ."
     # s2 = "यहां से जय सिंह 2020 में विधायक होंगे यह तय है ."
     # s1 = "यहां से जय सिंह 2020 में विधायक होंगे यह तय ह ."
+    s1 = "बाद में बढ़ते बढ़ते सन ज़ अक्तूबर १९६८ में ब्रह्मलीन ज्योतिष-शास्त्रज्योतिष जगद्गुरु शंकराचार्य कृष्णांबरधारी जी महाराज ने नवीन मंदिर का शिलान्यास किया"
+    s2 = "बाद में बढ़ते बढ़ते सन ज़ अक्तूबर १९६८ में ब्रह्मलीन ज्योतिष-शास्त्रज्योतिष जगद्गुरु शंकराचार्य कृष्णांबरधारी जी महाराज ने नवीन मंदिर का शिलान्यास किया"
+    s1 = contract_char(s1)
+    s2 = contract_char(s2)
 
     doc1 = nlp(s1)
     doc2 = nlp(s2)
@@ -304,7 +315,7 @@ if __name__ == '__main__':
         # alignment = align(orig, cor, lev)
         # print(alignment)
         # all_split(orig,cor)
-        print("orig",)
+        # print("orig",orig,"cor",cor)
         edits = annotator.annotate(orig, cor, lev= False ,merging= "rules") # lev = True, merging strategy = all_split
         print("Number of edits: %d" % len(edits))
         for x in edits:
