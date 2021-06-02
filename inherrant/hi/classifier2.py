@@ -86,9 +86,9 @@ def are_stems_similar(o_stem, c_stem):
     f4 = lambda stem1, stem2: f3(stem1, stem2) or f3(stem2, stem1)
     if f4(o_stem, c_stem):
         return True
-    c_stemhar_ratio = Levenshtein.ratio(o_stem, c_stem)
-    c_stemhar_dist = Levenshtein.distance(o_stem, c_stem)
-    return c_stemhar_dist <= 1 or c_stemhar_ratio >= 0.8
+    c_stemchar_ratio = Levenshtein.ratio(o_stem, c_stem)
+    c_stemchar_dist = Levenshtein.distance(o_stem, c_stem)
+    return c_stemchar_dist <= 1 or c_stemchar_ratio >= 0.8
 
 
 # Input 1: Spacy orig tokens
@@ -246,9 +246,9 @@ def get_two_sided_type(o_toks, c_toks):
 
     o_stem = stemmer.stem(o_toks[0].text)
     c_stem = stemmer.stem(c_toks[0].text)
-    c_stemhar_dist = Levenshtein.distance(o_stem, c_stem)
-    c_stemhar_ratio = Levenshtein.ratio(o_stem, c_stem)
-    print("o_stem", o_stem, "c_stem", c_stem, "c_stemhar_dist", c_stemhar_dist, "c_stemhar_ratio", c_stemhar_ratio)
+    c_stemchar_dist = Levenshtein.distance(o_stem, c_stem)
+    c_stemchar_ratio = Levenshtein.ratio(o_stem, c_stem)
+    print("o_stem", o_stem, "c_stem", c_stem, "c_stemchar_dist", c_stemchar_dist, "c_stemchar_ratio", c_stemchar_ratio)
 
     print("lemma_o", o_toks[0].lemma, "lemma_c", c_toks[0].lemma)
 
