@@ -32,11 +32,16 @@ if __name__ == "__main__":
     # error_types = ['karak']
     # error_types = ['adverb','karak','kram','ling','misc','noun','pronoun','upboard','vachan','verb','visheshan']
     # error_types = ['extra']
-    error_types = ['conj']
+    # error_types = ['conj']
+    error_types = ['sample']
+
+    # / Users / tejasoberoi / Documents / Sem8 / BTP / InHerrant / inherrant / hi / resources / sample_test / sample_new_cor.txt
     for error_type in error_types:
         print("base_dir",base_dir)
         # extension = os.path.normpath("/hi/resources/btp_val_data")
-        extension = "hi/resources/btp_val_data"
+        # extension = "hi/resources/btp_val_data"
+        #changed extension for testing
+        extension = "hi/resources/sample_test"
         # base_path= os.path.join(base_dir,extension)
         base_path = os.path.join(base_dir,extension)
         print("base_path",base_path)
@@ -70,5 +75,6 @@ if __name__ == "__main__":
 
         df = pd.DataFrame(d, columns=['Proposed Edit', 'Incorrect Sentence', 'Correct Sentence'])
         csv_file = error_type+".csv"
-        df.to_csv(base_dir/"hi"/"resources"/"sample_edits_4"/csv_file, encoding="utf-8-sig")
+        # df.to_csv(base_dir/"hi"/"resources"/"sample_edits_4"/csv_file, encoding="utf-8-sig")
+        df.to_csv(base_dir/"hi"/"resources"/"sample_test"/csv_file, encoding="utf-8-sig")
         print(df)
