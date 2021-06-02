@@ -391,18 +391,8 @@ def get_two_sided_type(o_toks, c_toks):
         if (not are_stems_similar(o_stem, c_stem)) and o_dep[0].startswith("aux") and c_dep[0].startswith("aux"):
             s = "if o_dep[0].startswith(\"aux\") and c_dep[0].startswith(\"aux\"):"
             # print(s)
-            # print("O_FEATS",o_feats[0])
-            # print("C_FEATS",c_feats[0])
             if not opposite_gen(o_feats[0], c_feats[0]) and not opposite_num(o_feats[0], c_feats[0]):
-                # exceptions = (('हुआ', 'हुई', 'हुए', 'हुईं'),('था', 'थे', 'थी', 'थीं'),('चुका', 'चुके', 'चुकी', 'चुकीं'),('लिया', 'लिए', 'ली', 'लीं'),('आया','आयी','आयीं','आए','आई','आईं'),
-                #         ('पाया', 'पाए', 'पायी', 'पायीं'),('गया', 'गयी', 'गई', 'गए', 'गये', 'गयीं', 'गईं'),('जाता','जाती','जाते', 'जातीं'),('सका','सकी','सके','सकीं'),
-                #         ('रहा', 'रहे', 'रही', 'रहीं', 'रहें', 'रहो'),('है', 'हैं'),('ले','लो'),('सकता','सकती','सकते','सकतीं'),('पाएँ', 'पाओ'),('जा','जाएँ', 'जाओ'),('कर','करें','कीजिए'),
-                #         ('करता','करते','करती','करतीं'),('की','किया','किए'))
                 print("Tokens", o_toks[0], c_toks[0])
-                # exs_o = list(filter(lambda ex: o_toks[0].text in ex, exceptions))
-                # exs_c = list(filter(lambda ex: c_toks[0].text in ex, exceptions))
-                # if (len(exs_o) == 0 and len(exs_c) == 0) or exs_o != exs_c:
-                #     print("exs_o", exs_o, "exs_c", exs_c)
                 if (is_tense_aux(o_toks[0],c_toks[0])):
                     print("TENSE 1.7")
                     return "VERB-TENSE"
@@ -413,6 +403,7 @@ def get_two_sided_type(o_toks, c_toks):
             return "MORPH"
 
     # Multi-token replacements (uncommon)
+    # All auxiliaries    
     if len(o_toks)+len(c_toks) > 2:
         if set(o_dep + c_dep).issubset({"aux", "aux:pass"}):
             # print("Hello")
@@ -420,15 +411,8 @@ def get_two_sided_type(o_toks, c_toks):
             # print(s)
             if set(o_gen) == set(c_gen) and set(o_num) == set(c_num):
                 if not opposite_gen(o_feats[0], c_feats[0]) and not opposite_num(o_feats[0], c_feats[0]):
-                    exceptions = (('है', 'हैं'), ('था', 'थे', 'थी', 'थीं'), ('हुआ', 'हुई', 'हुए', 'हुईं'),
-                                  ('रहा', 'रहे', 'रही', 'रहीं', 'रहो'), ('चुका', 'चुके', 'चुकी', 'चुकीं'),
-                                  ('लिया', 'ली', 'लीं'), ('पाया', 'पायी', 'पायीं'),
-                                  ('गया', 'गयी', 'गई', 'गए', 'गये', 'गयीं', 'गईं'))
                     print("Tokens", o_toks[0], c_toks[0])
-                    exs_o = list(filter(lambda ex: o_toks[0].text in ex, exceptions))
-                    exs_c = list(filter(lambda ex: c_toks[0].text in ex, exceptions))
-                    if (len(exs_o) == 0 and len(exs_c) == 0) or exs_o != exs_c:
-                        print(exs_o, exs_c)
+                    if (is_tense_aux(o_toks[0],c_toks[0])):
                         print("TENSE 1.8")
                         return "VERB-TENSE"
     # All same POS
