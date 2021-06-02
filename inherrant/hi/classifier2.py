@@ -388,7 +388,7 @@ def get_two_sided_type(o_toks, c_toks):
         # 4. GENERAL
         # Auxiliaries with different lemmas
         # Also checking that stems are not similar
-        if (not are_stems_similar(o_stem, c_stem)) and o_dep[0].startswith("aux") and c_dep[0].startswith("aux"):
+        if (o_toks[0].lemma != c_toks[0].lemma and not are_stems_similar(o_stem, c_stem)) and o_dep[0].startswith("aux") and c_dep[0].startswith("aux"):
             s = "if o_dep[0].startswith(\"aux\") and c_dep[0].startswith(\"aux\"):"
             # print(s)
             if not opposite_gen(o_feats[0], c_feats[0]) and not opposite_num(o_feats[0], c_feats[0]):
