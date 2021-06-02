@@ -3,19 +3,19 @@ from inherrant.hi.hindi_stemmer import HindiStemmer
 import stanza
 import inherrant
 
-nlp = stanza.Pipeline('hi',use_gpu=True)
-stemmer = HindiStemmer()
-set_lemma = set()
-set_stem = set()
-exceptions = (('हुआ', 'हुई', 'हुए', 'हुईं'), ('था', 'थे', 'थी', 'थीं'), ('चुका', 'चुके', 'चुकी', 'चुकीं'),
-              ('लिया', 'लिए', 'ली', 'लीं'), ('आया', 'आयी', 'आयीं', 'आए', 'आई', 'आईं'),
-              ('पाया', 'पाए', 'पायी', 'पायीं'), ('गया', 'गयी', 'गई', 'गए', 'गये', 'गयीं', 'गईं'),
-              ('जाता', 'जाती', 'जाते', 'जातीं'), ('सका', 'सकी', 'सके', 'सकीं'),
-              ('रहा', 'रहे', 'रही', 'रहीं', 'रहें', 'रहो'), ('है', 'हैं'), ('ले', 'लो'),('दी','दिया'), ('लाएँगे','पाएँगे','दिया','देना'),
-              ('सकता', 'सकती', 'सकते', 'सकतीं'), ('पाएँ', 'पाओ'), ('जा', 'जाएँ', 'जाओ'), ('कर', 'करें', 'कीजिए'),
-              ('करता', 'करते', 'करती', 'करतीं'), ('की', 'किया', 'किए'),('होता','होगा','होगी','होंगी','होंगे'),('जाएगा','जाएगी','जाएँगी','जाएँगे'),
-              ('लगा','लगाया','लगाएँगे','लगाएँगी','लगाऊँ','लगी','लगीं','लगे','लगेंगे'),('जाना','जाने'),('देता','देती'),('चाहिए','चाहिएँ'),('सकूँगी','सकेंगी'),
-              ('पड़े','पड़ना','पड़ी','पड़ीं','पड़ेंगे','पड़ेगा'),('खायी','खाना','खायीं','खाए'),('लाया','लायी','लाए','लाना','लाएँगी','लायेंगी'),('चला','चले','चलेंगे','चलो'))
+# nlp = stanza.Pipeline('hi',use_gpu=True)
+# stemmer = HindiStemmer()
+# set_lemma = set()
+# set_stem = set()
+# exceptions = (('हुआ', 'हुई', 'हुए', 'हुईं'), ('था', 'थे', 'थी', 'थीं'), ('चुका', 'चुके', 'चुकी', 'चुकीं'),
+#               ('लिया', 'लिए', 'ली', 'लीं'), ('आया', 'आयी', 'आयीं', 'आए', 'आई', 'आईं'),
+#               ('पाया', 'पाए', 'पायी', 'पायीं'), ('गया', 'गयी', 'गई', 'गए', 'गये', 'गयीं', 'गईं'),
+#               ('जाता', 'जाती', 'जाते', 'जातीं'), ('सका', 'सकी', 'सके', 'सकीं'),
+#               ('रहा', 'रहे', 'रही', 'रहीं', 'रहें', 'रहो'), ('है', 'हैं'), ('ले', 'लो'),('दी','दिया'), ('लाएँगे','पाएँगे','दिया','देना'),
+#               ('सकता', 'सकती', 'सकते', 'सकतीं'), ('पाएँ', 'पाओ'), ('जा', 'जाएँ', 'जाओ'), ('कर', 'करें', 'कीजिए'),
+#               ('करता', 'करते', 'करती', 'करतीं'), ('की', 'किया', 'किए'),('होता','होगा','होगी','होंगी','होंगे'),('जाएगा','जाएगी','जाएँगी','जाएँगे'),
+#               ('लगा','लगाया','लगाएँगे','लगाएँगी','लगाऊँ','लगी','लगीं','लगे','लगेंगे'),('जाना','जाने'),('देता','देती'),('चाहिए','चाहिएँ'),('सकूँगी','सकेंगी'),
+#               ('पड़े','पड़ना','पड़ी','पड़ीं','पड़ेंगे','पड़ेगा'),('खायी','खाना','खायीं','खाए'),('लाया','लायी','लाए','लाना','लाएँगी','लायेंगी'),('चला','चले','चलेंगे','चलो'))
 
 # exceptions = (('चाहिएँ','चाहिए'),)
 # exceptions = (('चाहिए','चाहिएँ'),('सकूँगी','सकेंगी'),)
@@ -25,26 +25,26 @@ exceptions = (('हुआ', 'हुई', 'हुए', 'हुईं'), ('था'
 # exceptions = (('लाएँगे','पाएँगे','दिया','देना'),)
 
 
-for x in exceptions:
-    for s1 in x:
-        doc1 = nlp(s1)
-        target_iterator1 = iter(doc1.sentences)
-        # for i, orig in enumerate(doc1.sentences):
-        #     print(orig.words)
-        orig1_lemma = doc1.sentences[0].words[0].lemma
-        orig1_stem = stemmer.stem(doc1.sentences[0].words[0].text)
-        print(orig1_stem)
-        # print(doc1.sentences[0].words[0])
-        # exit()
-        try:
-            set_lemma.add(orig1_lemma)
-            set_stem.add(orig1_stem)
-        except Exception as e:
-            print(e)
-            print(orig1_lemma)
-            exit()
-print("set_lemma",set_lemma)
-print("set_stem",set_stem)
+# for x in exceptions:
+#     for s1 in x:
+#         doc1 = nlp(s1)
+#         target_iterator1 = iter(doc1.sentences)
+#         # for i, orig in enumerate(doc1.sentences):
+#         #     print(orig.words)
+#         orig1_lemma = doc1.sentences[0].words[0].lemma
+#         orig1_stem = stemmer.stem(doc1.sentences[0].words[0].text)
+#         print(orig1_stem)
+#         # print(doc1.sentences[0].words[0])
+#         # exit()
+#         try:
+#             set_lemma.add(orig1_lemma)
+#             set_stem.add(orig1_stem)
+#         except Exception as e:
+#             print(e)
+#             print(orig1_lemma)
+#             exit()
+# print("set_lemma",set_lemma)
+# print("set_stem",set_stem)
 # print("orig1",orig1)
 # orig2 = doc2.sentences[0].words
 # print("orig2",orig2)
@@ -94,4 +94,31 @@ print("set_stem",set_stem)
 # print(x,y)
 # print(x==y)
 
+def expand(w):
+    print("w",w)
+    print([i for i in w])
+    pass
 
+def contract_char(token):
+    ''' returns token after changing expanded characters with dot to single character'''
+    expanded1 = 'ड' + '़'
+    token = token.replace(expanded1, 'ड़')
+    expanded2 = 'ढ' + '़'
+    token = token.replace(expanded2, 'ढ़')
+    return token
+# def process_padhai(token):
+#
+#     return token
+
+l = ('छोड़ा','छोड़ा','बढ़ते','बढ़ते')
+# for w in l:
+#     print([x for x in w])
+#
+#
+#     w.replace('ड़',)
+a = 'ड'+'़'
+print(a)
+expand(a)
+for x in l:
+    x = contract_char(x)
+    expand(x)

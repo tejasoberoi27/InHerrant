@@ -3,6 +3,7 @@ from contextlib import ExitStack
 import inherrant
 
 
+
 def main():
     # Parse command line args
     args = parse_args()
@@ -21,6 +22,7 @@ def main():
         for line in zip(*in_files):
             # Get the original and all the corrected texts
             orig = line[0].strip()
+            print("orig",orig)
             cors = line[1:]
             # Skip the line if orig is empty
             if not orig: continue
@@ -32,6 +34,8 @@ def main():
             for cor_id, cor in enumerate(cors):
                 cor = cor.strip()
                 # If the texts are the same, write a noop edit
+
+
                 if orig.text.strip() == cor:
                     out_m2.write(noop_edit(cor_id) + "\n")
                 # Otherwise, do extra processing
