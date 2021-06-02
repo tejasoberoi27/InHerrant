@@ -304,6 +304,7 @@ if __name__ == '__main__':
         # alignment = align(orig, cor, lev)
         # print(alignment)
         # all_split(orig,cor)
+        print("orig",)
         edits = annotator.annotate(orig, cor, lev= False ,merging= "rules") # lev = True, merging strategy = all_split
         print("Number of edits: %d" % len(edits))
         for x in edits:
