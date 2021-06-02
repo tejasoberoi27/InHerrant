@@ -331,7 +331,6 @@ def get_two_sided_type(o_toks, c_toks):
                     return "VERB-TENSE"
 
             # checking if stem is same but suffixes indicate change in tense
-
             if are_stems_similar(o_stem, c_stem) and opposite_tense(o_feats[0], c_feats[0]):
                 print("TENSE 1.3 c_pos[0] == VERB and o_toks[0].lemma != c_toks[0].lemma")
                 return "VERB-TENSE"
@@ -343,7 +342,8 @@ def get_two_sided_type(o_toks, c_toks):
         char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
         if o_pos[0] == 'NOUN' and c_pos[0] == 'NOUN' and char_ratio >= 0.5 and opposite_gen(o_feats[0], c_feats[0]):
             return "NOUN-GEN"
-        if c_pos[0] in list_pos or c_pos[0]=="AUX" and o_pos[0] == c_pos[0]:
+        if c_pos[0] in list_pos or c_pos[0]=="AUX" and o_pos[0] == c_pos[0] and not opposite_tense(o_feats[0],c_feats[0]):
+            # hai -> hoon
             print("I am here")
             print("o_pos[0]",o_pos[0],"c_pos[0]",c_pos[0])
             if(c_pos[0]=="AUX"):

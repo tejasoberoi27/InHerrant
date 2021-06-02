@@ -1,0 +1,3453 @@
+Loading resources...
+Processing parallel files...
+o_stem का c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem था c_stem थी c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o था lemma_c था
+o_stem गय c_stem गय c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o जा lemma_c जा
+o_stem मेर c_stem मेर c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o मैं lemma_c मैं
+o_stem बन c_stem बना c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o बना lemma_c बना
+o_stem है c_stem हूँ c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o है lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] VERB
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem लेक्चर c_stem लेक्चरर c_stemhar_dist 1 c_stemhar_ratio 0.9230769230769231
+lemma_o लेक्चर lemma_c लेक्चरर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem साड़ c_stem सार c_stemhar_dist 2 c_stemhar_ratio 0.5714285714285714
+lemma_o साडी lemma_c सारि
+o_stem वह c_stem मैं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem है c_stem हूँ c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o है lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] VERB
+o_stem उसक c_stem मेर c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem उसक c_stem मेर c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem उसक c_stem मेर c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem उस c_stem मुझ c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem उस c_stem मैं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem वह c_stem मैं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem है c_stem हूँ c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o है lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] VERB
+o_stem उस c_stem मैं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem उस c_stem मैं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem उस c_stem मैं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem वह c_stem मैं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem वह c_stem मैं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem टीम c_stem समूह c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o टीम lemma_c समूह
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem वह c_stem मैं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem उस c_stem मैं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem वह c_stem मैं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem हैं c_stem हूँ c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o है lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] VERB
+o_stem उस c_stem मुझ c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem मेर c_stem मेर c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o मैं lemma_c मैं
+o_stem वह c_stem वे c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem था c_stem थी c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o था lemma_c था
+o_stem था c_stem थी c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o था lemma_c था
+o_stem का c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem रह c_stem रह c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o रह lemma_c रह
+o_stem मेर c_stem मेर c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o मैं lemma_c मैं
+o_stem रह c_stem रह c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o रह lemma_c रह
+o_stem था c_stem थी c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o था lemma_c था
+o_stem मीर c_stem मेर c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o मीरा lemma_c मैं
+I am here
+o_pos[0] PROPN c_pos[0] PRON
+o_stem का c_stem शैल c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o का lemma_c शैली
+I am here
+o_pos[0] ADP c_pos[0] NOUN
+o_stem गय c_stem आय c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o जा lemma_c आ
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem डेस्कटॉप c_stem डेस्कटॉप  c_stemhar_dist 1 c_stemhar_ratio 0.9411764705882353
+lemma_o डेस्कटॉप lemma_c डेस्कटॉप 
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem मोबाइल c_stem म c_stemhar_dist 5 c_stemhar_ratio 0.2857142857142857
+lemma_o मोबाइल lemma_c म
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem कर्नातक c_stem कर्नाटक c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o कर्नातक lemma_c कर्नाटक
+o_stem में c_stem से c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o में lemma_c से
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem जन्म c_stem जन्म c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o जन्मा lemma_c जन्म
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem मेर c_stem मेर c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o मैं lemma_c मैं
+o_stem हे c_stem है c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o हा lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem इस c_stem तथ c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o यह lemma_c तथा
+I am here
+o_pos[0] PRON c_pos[0] CONJ
+o_stem छात्र c_stem छात्र c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o छात्र lemma_c छात्रा
+o_stem प्रप्त c_stem प्राप्त c_stemhar_dist 1 c_stemhar_ratio 0.9230769230769231
+lemma_o प्रप्त lemma_c प्राप्त
+o_stem नमक c_stem नामक c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o नमक lemma_c नामक
+I am here
+o_pos[0] NOUN c_pos[0] ADJ
+o_stem लिख c_stem लिख c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o लिख lemma_c लिख
+I am here
+o_pos[0] VERB c_pos[0] VERB
+o_stem , c_stem साथ c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o COMMA lemma_c साथ
+o_stem रह c_stem रह c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o रह lemma_c रह
+o_stem मीर c_stem मेर c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o मीरा lemma_c मैं
+I am here
+o_pos[0] PROPN c_pos[0] PRON
+o_stem छात्र c_stem छात्र c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o छात्र lemma_c छात्रा
+o_stem रह c_stem रह c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o रह lemma_c रह
+o_stem रह c_stem रह c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o रह lemma_c रह
+o_stem रह c_stem रह c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o रह lemma_c रह
+o_stem हुआ c_stem हुई c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o हो lemma_c हो
+o_stem रख c_stem रख c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o रख lemma_c रख
+o_stem चाह c_stem चाह c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o चाह lemma_c चाह
+o_stem रख c_stem रख c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o रख lemma_c रख
+o_stem अप c_stem मेर c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o अपना lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem मनोवैज्ञानिक c_stem मनोविज्ञा c_stemhar_dist 4 c_stemhar_ratio 0.7619047619047619
+lemma_o मनोवैज्ञानिक lemma_c मनोविज्ञानी
+I am here
+o_pos[0] ADJ c_pos[0] NOUN
+o_stem आहन c_stem आन c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o आहन lemma_c आन
+Morpho reached
+o_stem वर्ष c_stem वर्ष c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o वर्षा lemma_c वर्ष
+o_stem वह c_stem मैं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem है c_stem हूँ c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o है lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] VERB
+o_stem गुड c_stem गुण c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o गुड lemma_c गुण
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem ढाल c_stem डाल c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o ढाल lemma_c डाल
+Here, diff lemma
+o_stem न c_stem एन c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o न lemma_c एन
+Morpho reached
+o_stem कर c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o करी lemma_c कर
+Here, diff lemma
+o_stem शेत्र c_stem क्षेत्र c_stemhar_dist 3 c_stemhar_ratio 0.6666666666666666
+lemma_o शेत्र lemma_c क्षेत्र
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem इस c_stem उस c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o यह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem नमक c_stem नामक c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o नमक lemma_c नामक
+I am here
+o_pos[0] NOUN c_pos[0] ADJ
+o_stem कि c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o कि lemma_c का
+I am here
+o_pos[0] CONJ c_pos[0] ADP
+o_stem हुअ c_stem हुआ c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o हो lemma_c हो
+o_stem मेर c_stem मेर c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o मेरि lemma_c मैं
+I am here
+o_pos[0] NOUN c_pos[0] PRON
+o_stem बेटिय c_stem बेट c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o बेटियो lemma_c बेटी
+o_stem नमक c_stem नामक c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o नमक lemma_c नामक
+I am here
+o_pos[0] PROPN c_pos[0] ADJ
+o_stem केआई c_stem की c_stemhar_dist 3 c_stemhar_ratio 0.3333333333333333
+lemma_o केआई lemma_c का
+o_stem मन c_stem मा c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o मनी lemma_c मान
+Here, diff lemma
+o_stem काल c_stem कल c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o काला lemma_c कला
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem राज c_stem राज्य c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o राजी lemma_c राज्य
+I am here
+o_pos[0] ADJ c_pos[0] NOUN
+o_stem रह c_stem रह c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o रह lemma_c रह
+o_stem वाशिम c_stem यवतमाल c_stemhar_dist 5 c_stemhar_ratio 0.36363636363636365
+lemma_o वाशिम lemma_c यवतमाल
+Morpho reached
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गय c_stem आय c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o जा lemma_c आ
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem शहर c_stem नगर c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o शहर lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem हैं c_stem थीं c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem उस c_stem उन्हों c_stemhar_dist 5 c_stemhar_ratio 0.25
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem चन्द्र c_stem रजत c_stemhar_dist 6 c_stemhar_ratio 0.2222222222222222
+lemma_o चन्द्र lemma_c रजत
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem दिए c_stem किए c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o दे lemma_c कर
+Here, diff lemma
+o_stem तमाम c_stem सभ c_stemhar_dist 4 c_stemhar_ratio 0.0
+lemma_o तमाम lemma_c सभी
+I am here
+o_pos[0] DET c_pos[0] DET
+o_stem सूच c_stem सूच c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o सूचि lemma_c सूची
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem वेंक्कटेश्वर c_stem वेंकटेश्वर c_stemhar_dist 2 c_stemhar_ratio 0.9090909090909091
+lemma_o वेंक्कटेश्वर lemma_c वेंकटेश्वर
+o_stem माजिद c_stem मजीद c_stemhar_dist 2 c_stemhar_ratio 0.6666666666666666
+lemma_o माजिद lemma_c मजीद
+o_stem वह c_stem उन्ह c_stemhar_dist 3 c_stemhar_ratio 0.3333333333333333
+lemma_o वह lemma_c वह
+o_stem पटकोटकोट c_stem पठानकोट c_stemhar_dist 4 c_stemhar_ratio 0.5333333333333333
+lemma_o पटकोटकोट lemma_c पठानकोट
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem जिस c_stem जिसस c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o जो lemma_c जो
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem होग c_stem थी c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o हो lemma_c था
+Morpho reached
+o_stem उसक c_stem उनक c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem किय c_stem किय c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o कर lemma_c कर
+I am here
+o_pos[0] VERB c_pos[0] VERB
+o_stem ने c_stem में c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o ने lemma_c में
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem औ c_stem और c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o औ lemma_c और
+I am here
+o_pos[0] INTJ c_pos[0] CONJ
+o_stem एक c_stem कि c_stemhar_dist 2 c_stemhar_ratio 0.5
+lemma_o एक lemma_c कि
+Morpho reached
+o_stem में c_stem के c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o में lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem उसक c_stem उनक c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem ऐस c_stem कुछ c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o ऐसा lemma_c कुछ
+I am here
+o_pos[0] DET c_pos[0] DET
+o_stem वाल c_stem व c_stemhar_dist 2 c_stemhar_ratio 0.5
+lemma_o वाला lemma_c व
+I am here
+o_pos[0] ADP c_pos[0] CONJ
+o_stem से c_stem के c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o से lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem गायिक c_stem गायक c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o गायिका lemma_c गायक
+o_stem ी c_stem एसएसस c_stemhar_dist 5 c_stemhar_ratio 0.0
+lemma_o ी lemma_c एसएससी
+o_stem था c_stem हैं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o था lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem ये c_stem इन्ह c_stemhar_dist 4 c_stemhar_ratio 0.0
+lemma_o यह lemma_c यह
+I am here
+o_pos[0] DET c_pos[0] PRON
+o_stem कोइल c_stem कोकिल c_stemhar_dist 2 c_stemhar_ratio 0.6666666666666666
+lemma_o कोइल lemma_c कोकिला
+Morpho reached
+o_stem के c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem गायक c_stem गायिक c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o गायक lemma_c गायिका
+o_stem भाष c_stem भाष c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o भाषां lemma_c भाषा
+o_stem हैं c_stem है c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem अराज c_stem राज c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o अराजा lemma_c राजा
+o_stem आर्मेनिय c_stem आर्मीनिय c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o आर्मेनिया lemma_c आर्मीनिया
+Morpho reached
+o_stem आर्मेनिय c_stem आर्मीनिय c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o आर्मेनिया lemma_c आर्मीनिया
+Morpho reached
+o_stem आर्मेनिय c_stem आर्मीनिय c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o आर्मेनिया lemma_c आर्मीनिया
+Morpho reached
+o_stem आर्मेनिय c_stem आर्मीनिय c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o आर्मेनिया lemma_c आर्मीनिया
+Morpho reached
+o_stem आर्मेनिय c_stem आर्मीनिय c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o आर्मेनिया lemma_c आर्मीनिया
+Morpho reached
+o_stem आर्मेनिय c_stem आर्मीनिय c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o आर्मेनियाई lemma_c आर्मीनियाई
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem आर्मेनिय c_stem आर्मीनिय c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o आर्मेनियाई lemma_c आर्मीनियाई
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem आर्मेनिय c_stem आर्मीनिय c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o आर्मेनियाई lemma_c आर्मीनियाई
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem आर्मेनिय c_stem आर्मीनिय c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o आर्मेनियाई lemma_c आर्मीनियाई
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem आर्मेनिय c_stem आर्मीनिय c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o आर्मेनियाई lemma_c आर्मीनियाई
+Morpho reached
+o_stem आर्मेनिय c_stem आर्मीनिय c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o आर्मेनिया lemma_c आर्मीनिया
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem आर्मेनिय c_stem आर्मीनिय c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o आर्मेनियाई lemma_c आर्मीनियाई
+I am here
+o_pos[0] NOUN c_pos[0] ADJ
+o_stem आर्मेनिय c_stem आर्मीनिय c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o आर्मेनियाई lemma_c आर्मीनियाई
+Morpho reached
+o_stem आर्मेनिय c_stem आर्मीनिय c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o आर्मेनियाई lemma_c आर्मीनियाई
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem आर्मेनिय c_stem आर्मीनिय c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o आर्मेनियाई lemma_c आर्मीनियाई
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem आर्मेनिय c_stem आर्मीनिय c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o आर्मेनिया lemma_c आर्मीनिया
+Morpho reached
+o_stem आर्मेनिय c_stem आर्मीनिय c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o आर्मेनिया lemma_c आर्मीनिया
+Morpho reached
+o_stem मव c_stem में c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o मव lemma_c में
+o_stem तहत c_stem अंतर्गत c_stemhar_dist 5 c_stemhar_ratio 0.4
+lemma_o तहत lemma_c अंतर्गत
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem हैं c_stem थीं c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem है c_stem हव c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o है lemma_c हवा
+I am here
+o_pos[0] AUX c_pos[0] NOUN
+o_stem उनक c_stem . c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c .
+o_stem . c_stem उनक c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o . lemma_c वह
+o_stem कार c_stem कर c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o कार lemma_c कर
+Here, diff lemma
+o_stem गए c_stem गईं c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o जा lemma_c जा
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem उन्हो c_stem उन्हों c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem उन्हो c_stem उन्हों c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem हुई c_stem हुआ c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o हो lemma_c हो
+o_stem हुए c_stem हुई c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o हो lemma_c हो
+o_stem गए c_stem गईं c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o जा lemma_c जा
+o_stem मे c_stem में c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o मा lemma_c में
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem मे c_stem में c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o मा lemma_c में
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem जबक c_stem जब c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o जबकि lemma_c जब
+I am here
+o_pos[0] CONJ c_pos[0] PRON
+o_stem ओमकारनाथ c_stem ओंकारनाथ c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o ओमकारनाथ lemma_c ओंकारनाथ
+o_stem हुआ c_stem हुई c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o हो lemma_c हो
+o_stem वह c_stem वे c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem वह c_stem वे c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem कर्णाटक c_stem कर्नाटक c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o कर्णाटक lemma_c कर्नाटक
+Morpho reached
+o_stem का c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem साथ c_stem आग c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o साथ lemma_c आगे
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem पप्रकाश c_stem प्रकाश c_stemhar_dist 1 c_stemhar_ratio 0.9230769230769231
+lemma_o पप्रकाशित lemma_c प्रकाशित
+o_stem आग c_stem साथ c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o आगे lemma_c साथ
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem आग c_stem साथ c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o आगे lemma_c साथ
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem पप्रकाश c_stem प्रकाश c_stemhar_dist 1 c_stemhar_ratio 0.9230769230769231
+lemma_o पप्रकाशित lemma_c प्रकाशित
+o_stem कर c_stem कार्य c_stemhar_dist 3 c_stemhar_ratio 0.5714285714285714
+lemma_o करी lemma_c कार्य
+I am here
+o_pos[0] VERB c_pos[0] NOUN
+o_stem गोपालगंग c_stem गोपालगंज c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o गोपालगंग lemma_c गोपालगंज
+o_stem पुण्य c_stem पुण्य c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o पुण्य lemma_c पुण्या
+Morpho reached
+o_stem उन्हों c_stem इन्हों c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o वह lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem उन्हों c_stem इन्हों c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o वह lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem उन्ह c_stem इन्ह c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o वह lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem उन्हों c_stem इन्हों c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o वह lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem उन्हों c_stem इन्हों c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o वह lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem गायक c_stem गायिक c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o गायक lemma_c गायिका
+o_stem पुण्य c_stem पुण्य c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o पुण्य lemma_c पुण्या
+Morpho reached
+o_stem थी c_stem थीं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o था lemma_c था
+o_stem कि c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o कि lemma_c का
+I am here
+o_pos[0] CONJ c_pos[0] ADP
+o_stem प्राधिकरण c_stem प्राधिकार c_stemhar_dist 2 c_stemhar_ratio 0.8888888888888888
+lemma_o प्राधिकरण lemma_c प्राधिकार
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem मे c_stem में c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o मा lemma_c में
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem अच्छ c_stem अच्छ c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o अच्छा lemma_c अच्छा
+o_stem संगी c_stem संगीत c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o संगीता lemma_c संगीत
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem उन्हों c_stem इन्हों c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o वह lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem एस c_stem ऐस c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o एसा lemma_c ऐसा
+I am here
+o_pos[0] ADJ c_pos[0] PRON
+o_stem एमाअईट c_stem एमआईट c_stemhar_dist 2 c_stemhar_ratio 0.7272727272727273
+lemma_o एमाअईटी lemma_c एमआईटी
+o_stem शिक्षक c_stem शिक्षिक c_stemhar_dist 1 c_stemhar_ratio 0.9230769230769231
+lemma_o शिक्षक lemma_c शिक्षिका
+o_stem लल c_stem ललि c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o ललित lemma_c ललिता
+Morpho reached
+o_stem मट c_stem मा c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o मटा lemma_c माता
+o_stem वर्न्होंष c_stem वर्ष c_stemhar_dist 5 c_stemhar_ratio 0.6153846153846154
+lemma_o वर्न्होंष lemma_c वर्ष
+o_stem विधक c_stem विधायक c_stemhar_dist 2 c_stemhar_ratio 0.8
+lemma_o विधक lemma_c विधायक
+o_stem पदानुरम c_stem पदानुक्रम c_stemhar_dist 2 c_stemhar_ratio 0.875
+lemma_o पदानुरम lemma_c पदानुक्रम
+o_stem उस c_stem उनक c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem हिद c_stem हिंद c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o हिदी lemma_c हिंदी
+o_stem के c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem उस c_stem उन्हों c_stemhar_dist 5 c_stemhar_ratio 0.25
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem की c_stem के c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o कर lemma_c का
+I am here
+o_pos[0] VERB c_pos[0] ADP
+o_stem जा c_stem जा c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o जान lemma_c जान
+o_stem यह c_stem नेवज c_stemhar_dist 4 c_stemhar_ratio 0.0
+lemma_o यह lemma_c नेवज
+Morpho reached
+o_stem हैं c_stem थे c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem बालात c_stem बलात c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o बालात lemma_c बलात
+o_stem शहर c_stem ग्राम c_stemhar_dist 4 c_stemhar_ratio 0.25
+lemma_o शहर lemma_c ग्राम
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem समाख्वा c_stem सम c_stemhar_dist 5 c_stemhar_ratio 0.4444444444444444
+lemma_o समाख्वानी lemma_c समा
+o_stem वह c_stem वे c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem आॅफ c_stem ऑफ c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o आॅफ lemma_c ऑफ
+o_stem यादव c_stem जाटव c_stemhar_dist 2 c_stemhar_ratio 0.5
+lemma_o यादव lemma_c जाटव
+Morpho reached
+o_stem यादव c_stem जाटव c_stemhar_dist 2 c_stemhar_ratio 0.5
+lemma_o यादव lemma_c जाटव
+Morpho reached
+o_stem यादव c_stem जाटव c_stemhar_dist 2 c_stemhar_ratio 0.5
+lemma_o यादव lemma_c जाटव
+Morpho reached
+o_stem यादव c_stem जाटव c_stemhar_dist 2 c_stemhar_ratio 0.5
+lemma_o यादव lemma_c जाटव
+Morpho reached
+o_stem इंदौर c_stem धार c_stemhar_dist 4 c_stemhar_ratio 0.25
+lemma_o इंदौर lemma_c धार
+Morpho reached
+o_stem इसम c_stem इसक c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o यह lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem का c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem की c_stem का c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem टेहरक c_stem जतार c_stemhar_dist 4 c_stemhar_ratio 0.2222222222222222
+lemma_o टेहरका lemma_c जतारा
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem उन्होन c_stem जिन्हों c_stemhar_dist 3 c_stemhar_ratio 0.6153846153846154
+lemma_o वह lemma_c जो
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem ईंडिय c_stem इंडिय c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o ईंडिया lemma_c इंडिया
+o_stem त्ट्तीय c_stem तृतीय c_stemhar_dist 3 c_stemhar_ratio 0.6666666666666666
+lemma_o त्ट्तीय lemma_c तृतीय
+o_stem इस c_stem जिनस c_stemhar_dist 3 c_stemhar_ratio 0.3333333333333333
+lemma_o यह lemma_c जो
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem चह c_stem चाह c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o चहि lemma_c चाहिए
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem गायक c_stem गायिक c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o गायक lemma_c गायिका
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem रक्षोपाय c_stem उपाय c_stemhar_dist 5 c_stemhar_ratio 0.5
+lemma_o रक्षोपाय lemma_c उपाय
+o_stem जनगन c_stem जनगण c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o जनगनना lemma_c जनगणना
+o_stem मई c_stem मे c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o मई lemma_c मा
+I am here
+o_pos[0] PROPN c_pos[0] ADP
+o_stem वी c_stem वीण c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o वीना lemma_c वीणा
+Morpho reached
+o_stem विस्वविद्यालय c_stem विश्वविद्यालय c_stemhar_dist 1 c_stemhar_ratio 0.9230769230769231
+lemma_o विस्वविद्यालय lemma_c विश्वविद्यालय
+o_stem है c_stem था c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem है c_stem था c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem के c_stem का c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem पृत्युंजय c_stem मृत्युंजय c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o पृत्युंजय lemma_c मृत्युंजय
+o_stem रक़्क़ास c_stem नर्तक c_stemhar_dist 7 c_stemhar_ratio 0.46153846153846156
+lemma_o रक्कासा lemma_c नर्तकी
+o_stem समान c_stem सामान c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o समान lemma_c सामान
+I am here
+o_pos[0] ADJ c_pos[0] NOUN
+o_stem हरिय c_stem हरियाण c_stemhar_dist 2 c_stemhar_ratio 0.8
+lemma_o हरियाना lemma_c हरियाणा
+Morpho reached
+o_stem थी c_stem था c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o था lemma_c था
+o_stem थी c_stem था c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o था lemma_c था
+o_stem समझ c_stem समझ c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o समझ lemma_c समझा
+Here, diff lemma
+o_stem ही c_stem हो c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o ही lemma_c हो
+Here, diff lemma
+o_stem अजीत c_stem फतेह c_stemhar_dist 4 c_stemhar_ratio 0.25
+lemma_o अजीत lemma_c फतेह
+Morpho reached
+o_stem गोलार्द्ध c_stem गोलार्ध c_stemhar_dist 2 c_stemhar_ratio 0.875
+lemma_o गोलार्द्ध lemma_c गोलार्ध
+Morpho reached
+o_stem पुडुचेर c_stem पुदुचेर c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o पुडुचेरी lemma_c पुदुचेरी
+Morpho reached
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem वाल c_stem वाल c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o वाला lemma_c वाला
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem थी c_stem थीं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o था lemma_c था
+o_stem हैं c_stem थे c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem के c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem प्रभ c_stem प्रभाव c_stemhar_dist 2 c_stemhar_ratio 0.8
+lemma_o प्रभाती lemma_c प्रभावती
+Morpho reached
+o_stem कि c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o कि lemma_c का
+I am here
+o_pos[0] CONJ c_pos[0] ADP
+o_stem है c_stem थे c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem है c_stem थी c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem येन c_stem ये c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o येन lemma_c यह
+I am here
+o_pos[0] NOUN c_pos[0] DET
+o_stem पार् c_stem पार्ट c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o पार्ती lemma_c पार्टी
+o_stem जिल c_stem राज्य c_stemhar_dist 4 c_stemhar_ratio 0.25
+lemma_o जिला lemma_c राज्य
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem मुक्य c_stem मुख्य c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o मुक्य lemma_c मुख्य
+o_stem मेर c_stem इनक c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o मैं lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem वेताल c_stem बेताल c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o वेताल lemma_c बेताल
+Morpho reached
+o_stem जट c_stem जाट c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o जट lemma_c जाट
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem आप c_stem एवं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o आप lemma_c एवं
+I am here
+o_pos[0] PRON c_pos[0] CONJ
+o_stem आपक c_stem उनक c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o आप lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem उनक c_stem आपक c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o वह lemma_c आप
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem आपक c_stem उनक c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o आप lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem ओहिय c_stem ओहाय c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o ओहियो lemma_c ओहायो
+o_stem हुई c_stem हुए c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o हो lemma_c हो
+o_stem राव c_stem रावत c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o राव lemma_c रावत
+Morpho reached
+o_stem जलरोध c_stem जलरोधक c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o जलरोधी lemma_c जलरोधक
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem पॉलीथीन c_stem पॉलिथीन c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o पॉलीथीन lemma_c पॉलिथीन
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem एक c_stem वर्ष c_stemhar_dist 4 c_stemhar_ratio 0.0
+lemma_o एक lemma_c वर्ष
+I am here
+o_pos[0] NUM c_pos[0] NOUN
+o_stem विकीपीडिय c_stem विकिपीडिय c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o विकीपीडिया lemma_c विकिपीडिया
+o_stem स्पे c_stem स्पैनिश c_stemhar_dist 4 c_stemhar_ratio 0.5454545454545454
+lemma_o स्पेनी lemma_c स्पैनिश
+Morpho reached
+o_stem दार्जलिंग c_stem दार्जिलिंग c_stemhar_dist 1 c_stemhar_ratio 0.9473684210526315
+lemma_o दार्जलिंग lemma_c दार्जिलिंग
+Morpho reached
+o_stem दार्जलिंग c_stem दार्जिलिंग c_stemhar_dist 1 c_stemhar_ratio 0.9473684210526315
+lemma_o दार्जलिंग lemma_c दार्जिलिंग
+Morpho reached
+o_stem दार्जलिंग c_stem दार्जिलिंग c_stemhar_dist 1 c_stemhar_ratio 0.9473684210526315
+lemma_o दार्जलिंग lemma_c दार्जिलिंग
+Morpho reached
+o_stem दार्जलिंग c_stem दार्जिलिंग c_stemhar_dist 1 c_stemhar_ratio 0.9473684210526315
+lemma_o दार्जलिंग lemma_c दार्जिलिंग
+Morpho reached
+o_stem दार्जलिंग c_stem दार्जिलिंग c_stemhar_dist 1 c_stemhar_ratio 0.9473684210526315
+lemma_o दार्जलिंग lemma_c दार्जिलिंग
+Morpho reached
+o_stem बालसन c_stem बालासोर c_stemhar_dist 3 c_stemhar_ratio 0.6666666666666666
+lemma_o बालसन lemma_c बालासोर
+Morpho reached
+o_stem हिमालय c_stem हिमायन c_stemhar_dist 2 c_stemhar_ratio 0.8333333333333334
+lemma_o हिमालय lemma_c हिमायन
+Morpho reached
+o_stem में c_stem से c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o में lemma_c सेे
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem था c_stem है c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o था lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem नवाज c_stem नमाज c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o नवाज lemma_c नमाज
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem जुम्म c_stem जुम c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o जुम्मा lemma_c जुमे
+o_stem जुम्म c_stem जुम c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o जुम्मा lemma_c जुमे
+o_stem जुम्म c_stem जुम c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o जुम्मा lemma_c जुमे
+o_stem उल्लेखनिय c_stem उल्लेखनीय c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o उल्लेखनियता lemma_c उल्लेखनीयता
+o_stem विबोब c_stem विनोब c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o विबोबा lemma_c विनोबा
+o_stem ये c_stem या c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o यह lemma_c या
+I am here
+o_pos[0] DET c_pos[0] CONJ
+o_stem इस्लामिक c_stem इस्लाम c_stemhar_dist 2 c_stemhar_ratio 0.8571428571428571
+lemma_o इस्लामिक lemma_c इस्लामी
+I am here
+o_pos[0] ADJ c_pos[0] NOUN
+o_stem और c_stem एवं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o और lemma_c एवं
+Morpho reached
+o_stem साम्रज्य c_stem साम्राज्य c_stemhar_dist 1 c_stemhar_ratio 0.9411764705882353
+lemma_o साम्रज्य lemma_c साम्राज्य
+o_stem सतार c_stem सातार c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o सतारा lemma_c सातारा
+Morpho reached
+o_stem सतार c_stem सातार c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o सतारा lemma_c सातारा
+Morpho reached
+o_stem सातार c_stem सतार c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o सातारा lemma_c सतारा
+Morpho reached
+o_stem सातार c_stem सतार c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o सातारा lemma_c सतारा
+Morpho reached
+o_stem नार c_stem नाल c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o नार lemma_c नाल
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem नाप c_stem नाम c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o नाप lemma_c नाम
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem को c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o को lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem अधिक c_stem कम c_stemhar_dist 4 c_stemhar_ratio 0.3333333333333333
+lemma_o अधिक lemma_c कम
+I am here
+o_pos[0] DET c_pos[0] DET
+o_stem अर्थत c_stem अर्थात c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o अर्थत lemma_c अर्थात
+o_stem स्वऐच्छिक c_stem स्वैच्छिक c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o स्वऐच्छिक lemma_c स्वैच्छिक
+o_stem की c_stem के c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem लेखक c_stem लेखिक c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o लेखक lemma_c लेखिका
+o_stem सक c_stem सक c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o सक lemma_c सक
+I am here
+o_pos[0] AUX c_pos[0] VERB
+o_stem कार c_stem काल c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o कार lemma_c काल
+o_stem कफ c_stem काफ c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o कफी lemma_c काफी
+I am here
+o_pos[0] PRON c_pos[0] DET
+o_stem युद्ध c_stem विश्वयुद्ध c_stemhar_dist 5 c_stemhar_ratio 0.6666666666666666
+lemma_o युद्ध lemma_c विश्वयुद्ध
+Morpho reached
+o_stem रजीस्ट्रीकरण c_stem रजिस्ट्रीकरण c_stemhar_dist 1 c_stemhar_ratio 0.9166666666666666
+lemma_o रजीस्ट्रीकरण lemma_c रजिस्ट्रीकरण
+o_stem अधिक c_stem कम c_stemhar_dist 4 c_stemhar_ratio 0.3333333333333333
+lemma_o अधिक lemma_c कम
+I am here
+o_pos[0] DET c_pos[0] DET
+o_stem कंचनाजंघ c_stem कंचनजंघ c_stemhar_dist 1 c_stemhar_ratio 0.9333333333333333
+lemma_o कंचनाजंघा lemma_c कंचनजंघा
+o_stem पूर्व c_stem उत्तर c_stemhar_dist 5 c_stemhar_ratio 0.2
+lemma_o पूर्व lemma_c उत्तर
+Morpho reached
+o_stem इस c_stem उस c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o यह lemma_c वह
+I am here
+o_pos[0] DET c_pos[0] DET
+o_stem भतरनाट्यम c_stem भरतनाट्यम c_stemhar_dist 2 c_stemhar_ratio 0.8888888888888888
+lemma_o भतरनाट्यम lemma_c भरतनाट्यम
+o_stem कलक c_stem कोलक c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o कलकता lemma_c कोलकाता
+o_stem कलक c_stem कोलक c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o कलकता lemma_c कोलकाता
+o_stem गाङ्गुल c_stem गांगुल c_stemhar_dist 2 c_stemhar_ratio 0.7692307692307693
+lemma_o गाङ्गुलि lemma_c गांगुली
+o_stem जा c_stem जात c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o जा lemma_c जाति
+I am here
+o_pos[0] VERB c_pos[0] NOUN
+o_stem बड़ c_stem छोट c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o बड़ा lemma_c छोटा
+o_stem कम c_stem अधिक c_stemhar_dist 4 c_stemhar_ratio 0.3333333333333333
+lemma_o कम lemma_c अधिक
+I am here
+o_pos[0] DET c_pos[0] DET
+o_stem बड़ c_stem छोट c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o बड़ा lemma_c छोटा
+o_stem के c_stem में c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o का lemma_c में
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem मेर c_stem इनक c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o मैं lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem मेर c_stem इनक c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o मैं lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem बन्धुआं c_stem बन्ध c_stemhar_dist 3 c_stemhar_ratio 0.7272727272727273
+lemma_o बन्धुआ lemma_c बन्धु
+o_stem अपरोक्ष c_stem उपरोक्त c_stemhar_dist 2 c_stemhar_ratio 0.7142857142857143
+lemma_o अपरोक्ष lemma_c उपरोक्त
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem भाइय c_stem भाईय c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o भाई lemma_c भाई
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem थे c_stem था c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o था lemma_c था
+o_stem टिब्ब c_stem तिब्ब c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o टिब्बी lemma_c तिब्बी
+o_stem टिब्ब c_stem तिब्ब c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o टिब्बी lemma_c तिब्बी
+o_stem रामपुर c_stem गोरखपुर c_stemhar_dist 4 c_stemhar_ratio 0.6153846153846154
+lemma_o रामपुर lemma_c गोरखपुर
+Morpho reached
+o_stem अण्डकोश c_stem अण्डकोश c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o अण्डकोश lemma_c अण्डकोश
+o_stem था c_stem थे c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o था lemma_c था
+o_stem प्रधामंत्र c_stem प्रधानमंत्र c_stemhar_dist 1 c_stemhar_ratio 0.9523809523809523
+lemma_o प्रधामंत्री lemma_c प्रधानमंत्री
+o_stem सेन c_stem से c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o सेन lemma_c सेना
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem पे c_stem पर c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o पे lemma_c पर
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem पे c_stem पर c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o पे lemma_c पर
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem रख c_stem आय c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o रख lemma_c आ
+len(set(o_pos + c_pos)) <= 2
+o_stem दि c_stem द c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o दि lemma_c द
+Morpho reached
+o_stem आगर c_stem मथुर c_stemhar_dist 3 c_stemhar_ratio 0.2857142857142857
+lemma_o आगरा lemma_c मथुरा
+Morpho reached
+o_stem मथुर c_stem आगर c_stemhar_dist 3 c_stemhar_ratio 0.2857142857142857
+lemma_o मथुरा lemma_c आगरा
+Morpho reached
+o_stem के c_stem में c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o का lemma_c में
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem वर्ष c_stem ने c_stemhar_dist 4 c_stemhar_ratio 0.0
+lemma_o वर्ष lemma_c ने
+I am here
+o_pos[0] NOUN c_pos[0] ADP
+o_stem किरदार c_stem भूमिक c_stemhar_dist 6 c_stemhar_ratio 0.18181818181818182
+lemma_o किरदार lemma_c भूमिका
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem अनुबाग c_stem अनुभाग c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o अनुबाग lemma_c अनुभाग
+o_stem इनक c_stem आपक c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o यह lemma_c आप
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem नम c_stem नाम c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o नम lemma_c नाम
+o_stem इस c_stem इसस c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o यह lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem यज्य c_stem यज्ञ c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o यज्य lemma_c यज्ञ
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem वर्ग c_stem वर्गीकरण c_stemhar_dist 4 c_stemhar_ratio 0.6666666666666666
+lemma_o वर्ग lemma_c वर्गीकरण
+Morpho reached
+o_stem औषध c_stem औषध c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o औषधी lemma_c औषधि
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem आयह c_stem आयत c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o आयह lemma_c आयत
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem कार्य c_stem ज्ञान c_stemhar_dist 5 c_stemhar_ratio 0.2
+lemma_o कार्य lemma_c ज्ञान
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem यह c_stem यह c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o यह lemma_c यह
+I am here
+o_pos[0] DET c_pos[0] DET
+o_stem भर c_stem लग c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o भर lemma_c लग
+Here, diff lemma
+o_stem का c_stem के c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem अधीन c_stem अध्ययन c_stemhar_dist 3 c_stemhar_ratio 0.6
+lemma_o अधीन lemma_c अध्ययन
+I am here
+o_pos[0] ADJ c_pos[0] NOUN
+o_stem कर c_stem कर c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o कर lemma_c कर
+o_stem में c_stem का c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o में lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem मा c_stem मा c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o मान lemma_c मान
+I am here
+o_pos[0] VERB c_pos[0] VERB
+o_stem कर c_stem कर c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o कर lemma_c कर
+o_stem का c_stem में c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o का lemma_c में
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem मा c_stem मा c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o मान lemma_c मान
+I am here
+o_pos[0] VERB c_pos[0] VERB
+o_stem मा c_stem मा c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o मान lemma_c मान
+I am here
+o_pos[0] VERB c_pos[0] VERB
+o_stem पत्रकार c_stem पत्रकारि c_stemhar_dist 1 c_stemhar_ratio 0.9333333333333333
+lemma_o पत्रकार lemma_c पत्रकारिता
+o_stem रह c_stem रह c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o रह lemma_c रह
+o_stem उन्हो c_stem उन्हों c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem कोसल c_stem कोसल c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o कोसल lemma_c कोसला
+Morpho reached
+o_stem कोसल c_stem कोसल c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o कोसल lemma_c कोसला
+Morpho reached
+o_stem कोसल c_stem कोसल c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o कोसल lemma_c कोसला
+Morpho reached
+o_stem कोसल c_stem कोसल c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o कोसल lemma_c कोसला
+Morpho reached
+o_stem अर्नोल्ड c_stem आर्नल्ड c_stemhar_dist 2 c_stemhar_ratio 0.8
+lemma_o अर्नोल्ड lemma_c आर्नल्ड
+o_stem दांट c_stem दां c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o दांटे lemma_c दांते
+o_stem की c_stem के c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+o_stem वीकेपेडिय c_stem विकिपीडिय c_stemhar_dist 3 c_stemhar_ratio 0.6666666666666666
+lemma_o वीकेपेडिया lemma_c विकिपीडिया
+o_stem मे c_stem में c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o मा lemma_c में
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem बैगम c_stem बेगम c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o बैगम lemma_c बेगम
+o_stem जिन्ह c_stem जिस c_stemhar_dist 3 c_stemhar_ratio 0.5
+lemma_o जो lemma_c जो
+o_stem के c_stem एल c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o का lemma_c एल
+Morpho reached
+o_stem बोधिसत्त्व c_stem बोधिसत्व c_stemhar_dist 2 c_stemhar_ratio 0.8888888888888888
+lemma_o बोधिसत्त्व lemma_c बोधिसत्व
+Morpho reached
+o_stem समर्पीत c_stem समर्प c_stemhar_dist 2 c_stemhar_ratio 0.8333333333333334
+lemma_o समर्पीत lemma_c समर्पित
+o_stem कव c_stem कव c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o कवी lemma_c कवि
+o_stem शां c_stem शांत c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o शान्ती lemma_c शान्ति
+o_stem शां c_stem शांत c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o शान्ती lemma_c शान्ति
+o_stem खा c_stem खान c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o खा lemma_c खान
+Morpho reached
+o_stem रह c_stem आय c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o रह lemma_c आ
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem कोलीय c_stem कोल c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o कोली lemma_c कोली
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem जिसक c_stem जिनक c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o जो lemma_c जो
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem जी c_stem सिंह c_stemhar_dist 4 c_stemhar_ratio 0.0
+lemma_o जी lemma_c सिंह
+Morpho reached
+o_stem का c_stem के c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem गोवर्द्ह c_stem गोवर्धन c_stemhar_dist 3 c_stemhar_ratio 0.6666666666666666
+lemma_o गोवर्द्हाना lemma_c गोवर्धन
+o_stem , c_stem एवं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o COMMA lemma_c एवं
+o_stem पाच c_stem पांच c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o पाच lemma_c पांच
+Morpho reached
+o_stem एव c_stem एवं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o एव lemma_c एवं
+I am here
+o_pos[0] ADP c_pos[0] CONJ
+o_stem लोद c_stem लोध c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o लोदी lemma_c लोधी
+Morpho reached
+o_stem मल c_stem माल c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o मल lemma_c माल
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem सदाकत c_stem सदक c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o सदाकत lemma_c सदका
+o_stem भुगतान c_stem दान c_stemhar_dist 4 c_stemhar_ratio 0.4444444444444444
+lemma_o भुगतान lemma_c दान
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem विधीशास्त्र c_stem विधिशास्त्र c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o विधीशास्त्र lemma_c विधिशास्त्र
+o_stem मौत c_stem मृत्य c_stemhar_dist 3 c_stemhar_ratio 0.5
+lemma_o मौत lemma_c मृत्यु
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem ने c_stem से c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o ने lemma_c से
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem जा c_stem जात c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o जा lemma_c जाति
+I am here
+o_pos[0] VERB c_pos[0] NOUN
+o_stem खल c_stem खाल c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o खली lemma_c खाला
+Morpho reached
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem अभ्यास c_stem व्यायाम c_stemhar_dist 5 c_stemhar_ratio 0.46153846153846156
+lemma_o अभ्यास lemma_c व्यायाम
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem एयरलाइं c_stem एयरलाइंस c_stemhar_dist 1 c_stemhar_ratio 0.9333333333333333
+lemma_o एयरलाइं lemma_c एयरलाइन
+o_stem क्षय c_stem क्षरण c_stemhar_dist 2 c_stemhar_ratio 0.6666666666666666
+lemma_o क्षय lemma_c क्षरण
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem बांद c_stem बंड c_stemhar_dist 2 c_stemhar_ratio 0.5714285714285714
+lemma_o बांदी lemma_c बंडी
+Morpho reached
+o_stem आचर्य c_stem आचार्य c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o आचर्य lemma_c आचार्य
+Morpho reached
+o_stem भरतीय c_stem भारतीय c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o भरतीय lemma_c भारतीय
+o_stem किंडगोम c_stem किंगडम c_stemhar_dist 2 c_stemhar_ratio 0.7692307692307693
+lemma_o किंडगोम lemma_c किंगडम
+o_stem लक्ष्य c_stem लक्ष c_stemhar_dist 2 c_stemhar_ratio 0.8
+lemma_o लक्ष्य lemma_c लक्षित
+I am here
+o_pos[0] NOUN c_pos[0] ADJ
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem हुव c_stem हुआ c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o हो lemma_c हो
+I am here
+o_pos[0] VERB c_pos[0] VERB
+o_stem आखिर c_stem आखर c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o आखिरी lemma_c आखरी
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem आखर c_stem आखिर c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o आखरी lemma_c आखिरी
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem गिर c_stem गिर c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o गिर lemma_c गिरि
+Morpho reached
+o_stem जासूस c_stem पूज c_stemhar_dist 4 c_stemhar_ratio 0.25
+lemma_o जासूसी lemma_c पूजा
+I am here
+o_pos[0] ADJ c_pos[0] NOUN
+o_stem का c_stem के c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem अप c_stem अप c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o अपना lemma_c अपना
+o_stem जनजात c_stem जात c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o जनजाति lemma_c जाति
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem थी c_stem है c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o था lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem है c_stem थी c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem बनफ़ार c_stem बनाफर c_stemhar_dist 3 c_stemhar_ratio 0.7272727272727273
+lemma_o बनफ़ार lemma_c बनाफर
+o_stem द्विवेद c_stem दूब c_stemhar_dist 6 c_stemhar_ratio 0.2
+lemma_o द्विवेदी lemma_c दूबे
+Morpho reached
+o_stem सुथर c_stem सुथर c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o सुथरा lemma_c सुथरा
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem आपक c_stem इनक c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o आप lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem आपक c_stem इनक c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o आप lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem आपक c_stem इनक c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o आप lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem आपक c_stem इनक c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o आप lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem उपाध c_stem उपाधिय c_stemhar_dist 2 c_stemhar_ratio 0.8
+lemma_o उपाधी lemma_c उपाधिया
+o_stem उपाधिय c_stem उपाध c_stemhar_dist 2 c_stemhar_ratio 0.8
+lemma_o उपाधिया lemma_c उपाधी
+o_stem का c_stem के c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem बेसन c_stem बसन c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o बेसन lemma_c बसन
+Morpho reached
+o_stem चल c_stem आ c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o चल lemma_c आ
+Here, diff lemma
+o_stem कोर c_stem कोइर c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o कोरी lemma_c कोइरी
+Morpho reached
+o_stem लिय c_stem किय c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o ले lemma_c कर
+Here, diff lemma
+o_stem हिस्स c_stem जात c_stemhar_dist 5 c_stemhar_ratio 0.0
+lemma_o हिस्सा lemma_c जाति
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem बद c_stem बड c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o बदे lemma_c बडा
+I am here
+o_pos[0] PROPN c_pos[0] ADJ
+o_stem निर्धार c_stem निर्धार c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o निर्धारि lemma_c निर्धारित
+o_stem कृष्ण c_stem कृष्ण c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o कृष्णा lemma_c कृष्ण
+Morpho reached
+o_stem भरत c_stem भारत c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o भरत lemma_c भारत
+Morpho reached
+o_stem उसक c_stem उनक c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem रचनावर c_stem रचनावल c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o रचनावरी lemma_c रचनावली
+o_stem सम्मलेन c_stem सम्मेलन c_stemhar_dist 2 c_stemhar_ratio 0.8571428571428571
+lemma_o सम्मलेन lemma_c सम्मेलन
+Morpho reached
+o_stem तवाब c_stem तैब c_stemhar_dist 2 c_stemhar_ratio 0.5714285714285714
+lemma_o तवाबा lemma_c तैबा
+o_stem मिश्र c_stem मिश्र c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o मिश्र lemma_c मिश्रा
+Morpho reached
+o_stem विलासपुर c_stem बिलासपुर c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o विलासपुर lemma_c बिलासपुर
+o_stem मन c_stem मन c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o मन lemma_c मना
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem विश्वविद्यालयक c_stem विश्वविद्यालय c_stemhar_dist 1 c_stemhar_ratio 0.9629629629629629
+lemma_o विश्वविद्यालयक lemma_c विश्वविद्यालय
+o_stem तराईक c_stem तारीख c_stemhar_dist 4 c_stemhar_ratio 0.4
+lemma_o तराईक lemma_c तारीख
+o_stem शिक c_stem शिख c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o शिक lemma_c शिख
+o_stem में c_stem ने c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o में lemma_c ने
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem किय c_stem लिय c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o कर lemma_c ले
+Here, diff lemma
+o_stem लाल c_stem यह c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o लाल lemma_c यह
+o_stem बकेय c_stem से c_stemhar_dist 3 c_stemhar_ratio 0.3333333333333333
+lemma_o बकेया lemma_c से
+o_stem एक c_stem निकल c_stemhar_dist 3 c_stemhar_ratio 0.3333333333333333
+lemma_o एक lemma_c निकल
+Here, diff lemma
+o_stem बहुुुत c_stem हुए c_stemhar_dist 4 c_stemhar_ratio 0.4444444444444444
+lemma_o बहुुुत lemma_c हो
+o_stem यह c_stem लाल c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o यह lemma_c लाल
+o_stem से c_stem बकेय c_stemhar_dist 3 c_stemhar_ratio 0.3333333333333333
+lemma_o से lemma_c बकेया
+Morpho reached
+o_stem निकल c_stem एक c_stemhar_dist 3 c_stemhar_ratio 0.3333333333333333
+lemma_o निकल lemma_c एक
+Morpho reached
+o_stem हुए c_stem बहुुुत c_stemhar_dist 4 c_stemhar_ratio 0.4444444444444444
+lemma_o हो lemma_c बहुुुत
+o_stem नह c_stem नद c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o नही lemma_c नदी
+I am here
+o_pos[0] PART c_pos[0] NOUN
+o_stem गय c_stem गई c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o जा lemma_c जा
+o_stem का c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem यह c_stem यह c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o यहाँ lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem हो c_stem कर c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o हो lemma_c कर
+Here, diff lemma
+o_stem धंसिर c_stem धनसिर c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o धंसिरी lemma_c धनसिरी
+o_stem जिल c_stem जिल c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o जिला lemma_c जिला
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem में c_stem के c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o में lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem धर्म c_stem धार्मिक c_stemhar_dist 3 c_stemhar_ratio 0.7272727272727273
+lemma_o धर्मी lemma_c धार्मिक
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem गंध c_stem सुगंध c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o गंध lemma_c सुगंध
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem पुरोण c_stem पुराण c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o पुरोण lemma_c पुराण
+o_stem उनक c_stem उसक c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem बन c_stem बन c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o बना lemma_c बना
+I am here
+o_pos[0] VERB c_pos[0] VERB
+o_stem लग c_stem चल c_stemhar_dist 2 c_stemhar_ratio 0.5
+lemma_o लगा lemma_c चल
+Here, diff lemma
+o_stem चाह c_stem चाह c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o चाह lemma_c चाह
+o_stem बच्च c_stem बच्च c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o बच्चा lemma_c बच्ची
+o_stem बच्च c_stem बच्च c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o बच्चा lemma_c बच्ची
+o_stem जा c_stem जा c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o जा lemma_c जा
+I am here
+o_pos[0] AUX c_pos[0] VERB
+o_stem उस c_stem उसक c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem कर c_stem कर c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o कर lemma_c करा
+Here, diff lemma
+o_stem कह c_stem कह c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o कह lemma_c कह
+I am here
+o_pos[0] VERB c_pos[0] VERB
+o_stem उसक c_stem उनक c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem देख c_stem देख c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o देख lemma_c देख
+I am here
+o_pos[0] VERB c_pos[0] VERB
+o_stem अप c_stem उनक c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o अपना lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem कर c_stem कर c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o कर lemma_c कर
+I am here
+o_pos[0] VERB c_pos[0] VERB
+o_stem अप c_stem उनक c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o अपना lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem चाह c_stem जत c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o चाह lemma_c जता
+Here, diff lemma
+o_stem कथानक c_stem कथ c_stemhar_dist 3 c_stemhar_ratio 0.5714285714285714
+lemma_o कथानक lemma_c कथा
+o_stem सर c_stem कर c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o सर lemma_c कर
+Here, diff lemma
+o_stem प्रतिभागीय c_stem प्रतिभाग c_stemhar_dist 2 c_stemhar_ratio 0.8888888888888888
+lemma_o प्रतिभागी lemma_c प्रतिभागी
+o_stem या c_stem और c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o या lemma_c और
+I am here
+o_pos[0] CONJ c_pos[0] CONJ
+o_stem गरराज c_stem गजराज c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o गरराज lemma_c गजराज
+o_stem था c_stem है c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o था lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem थी c_stem है c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o था lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem दे c_stem दिय c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o दे lemma_c दे
+I am here
+o_pos[0] AUX c_pos[0] VERB
+o_stem वह c_stem फिर c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o वह lemma_c फिर
+I am here
+o_pos[0] PRON c_pos[0] ADV
+o_stem बैठ c_stem बैठ c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o बैठ lemma_c बैठ
+I am here
+o_pos[0] VERB c_pos[0] VERB
+o_stem महाल c_stem महल c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o महाल lemma_c महल
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem उस c_stem आप c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o वह lemma_c आप
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem रख c_stem कर c_stemhar_dist 2 c_stemhar_ratio 0.5
+lemma_o रख lemma_c कर
+Here, diff lemma
+o_stem जिसक c_stem इसक c_stemhar_dist 2 c_stemhar_ratio 0.5714285714285714
+lemma_o जो lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem जे c_stem जै c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o जे lemma_c जै
+Morpho reached
+o_stem को c_stem से c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o को lemma_c से
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem शारीर c_stem शरीर c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o शारीर lemma_c शरीर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem शारीर c_stem शरीर c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o शारीर lemma_c शरीर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem दो c_stem तीन c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o दो lemma_c तीन
+Morpho reached
+o_stem रोहतक c_stem कुरुक्षेत्र c_stemhar_dist 9 c_stemhar_ratio 0.25
+lemma_o रोहतक lemma_c कुरुक्षेत्र
+Morpho reached
+o_stem तीन c_stem दो c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o तीन lemma_c दो
+Morpho reached
+o_stem कुरुक्षेत्र c_stem रोहतक c_stemhar_dist 9 c_stemhar_ratio 0.25
+lemma_o कुरुक्षेत्र lemma_c रोहतक
+Morpho reached
+o_stem अनेक c_stem अनेक c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o अनेक lemma_c अनेक
+Morpho reached
+Same lemma 
+o_stem विदुत c_stem विद्युत c_stemhar_dist 2 c_stemhar_ratio 0.8333333333333334
+lemma_o विदुत lemma_c विद्युत
+Morpho reached
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गनतंत्र c_stem गणतंत्र c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o गनतंत्र lemma_c गणतंत्र
+o_stem व c_stem का c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o व lemma_c का
+I am here
+o_pos[0] CONJ c_pos[0] ADP
+o_stem की c_stem को c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c को
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem बिंबिसर c_stem बिंबिसार c_stemhar_dist 1 c_stemhar_ratio 0.9333333333333333
+lemma_o बिंबिसरा lemma_c बिंबिसार
+o_stem कोसल c_stem कौशल c_stemhar_dist 2 c_stemhar_ratio 0.5
+lemma_o कोसल lemma_c कौशल
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँच c_stem गाँव c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o गाँच lemma_c गाँव
+o_stem भी c_stem बहन c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o भी lemma_c बहन
+I am here
+o_pos[0] PART c_pos[0] NOUN
+o_stem था c_stem है c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o था lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem जो c_stem जिस c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o जो lemma_c जो
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem जाएग c_stem गय c_stemhar_dist 4 c_stemhar_ratio 0.3333333333333333
+lemma_o जा lemma_c जा
+TENSE 1.1
+o_stem उत्पात c_stem उत्पाद c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o उत्पात lemma_c उत्पाद
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem पावन c_stem बावन c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o पावन lemma_c बावन
+Morpho reached
+o_stem सिरोह c_stem सीहोर c_stemhar_dist 3 c_stemhar_ratio 0.4
+lemma_o सिरोह lemma_c सीहोर
+o_stem हास c_stem हाश c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o हासिए lemma_c हाशिया
+o_stem हास c_stem हाश c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o हासिए lemma_c हाशिया
+o_stem तरंग c_stem तरल c_stemhar_dist 2 c_stemhar_ratio 0.5714285714285714
+lemma_o तरंग lemma_c तरल
+I am here
+o_pos[0] NOUN c_pos[0] ADJ
+o_stem की c_stem के c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem कभ c_stem कव c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o कभी lemma_c कवी
+I am here
+o_pos[0] PRON c_pos[0] ADJ
+o_stem रवीन्द्रनाठ c_stem रवीन्द्रनाथ c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o रवीन्द्रनाठ lemma_c रवीन्द्रनाथ
+o_stem पाल c_stem सांड c_stemhar_dist 3 c_stemhar_ratio 0.2857142857142857
+lemma_o पाली lemma_c सांडी
+Morpho reached
+o_stem सांड c_stem सोम c_stemhar_dist 3 c_stemhar_ratio 0.2857142857142857
+lemma_o सांडी lemma_c सोम
+Morpho reached
+o_stem थे c_stem बन c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o था lemma_c बन
+Here, diff lemma
+o_stem शहर c_stem नगर c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o शहर lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गद्दार c_stem गद्दर c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o गद्दार lemma_c गद्दर
+Morpho reached
+o_stem पकट c_stem प्रकट c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o पकट lemma_c प्रकट
+o_stem आवतंसक c_stem अवतंसक c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o आवतंसक lemma_c अवतंसक
+o_stem है c_stem ह c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o है lemma_c ह
+Here, diff lemma
+TENSE 1.3 c_pos[0] == VERB and o_toks[0].lemma != c_toks[0].lemma
+o_stem विकिपिडिय c_stem विकिपीडिय c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o विकिपिडिया lemma_c विकिपीडिया
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem एडजस्टमैंट c_stem एडजस्टमेंट c_stemhar_dist 1 c_stemhar_ratio 0.9
+lemma_o एडजस्टमैंट lemma_c एडजस्टमेंट
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem आत्मनिर्भय c_stem आत्मनिर्भर c_stemhar_dist 1 c_stemhar_ratio 0.9
+lemma_o आत्मनिर्भय lemma_c आत्मनिर्भर
+o_stem प्रधनमंत्र c_stem प्रधानमंत्र c_stemhar_dist 1 c_stemhar_ratio 0.9523809523809523
+lemma_o प्रधनमंत्री lemma_c प्रधानमंत्री
+o_stem बृहद c_stem वृहद c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o बृहद lemma_c वृहद
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem में c_stem को c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o में lemma_c को
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem हमार c_stem मेर c_stemhar_dist 2 c_stemhar_ratio 0.5714285714285714
+lemma_o हम lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem लिखिक c_stem लेखिक c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o लिखिका lemma_c लेखिका
+o_stem की c_stem कि c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c कि
+I am here
+o_pos[0] ADP c_pos[0] CONJ
+o_stem हम c_stem मैं c_stemhar_dist 3 c_stemhar_ratio 0.4
+lemma_o हम lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem है c_stem हूँ c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o है lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] VERB
+o_stem हम c_stem मैं c_stemhar_dist 3 c_stemhar_ratio 0.4
+lemma_o हम lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem हमार c_stem मेर c_stemhar_dist 2 c_stemhar_ratio 0.5714285714285714
+lemma_o हम lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem खरोंच c_stem फिर c_stemhar_dist 5 c_stemhar_ratio 0.25
+lemma_o खरोंच lemma_c फिर
+I am here
+o_pos[0] NOUN c_pos[0] ADV
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem बच्च c_stem बच्चन c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o बच्चा lemma_c बच्चन
+Morpho reached
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem सेनानिय c_stem सेनान c_stemhar_dist 2 c_stemhar_ratio 0.8333333333333334
+lemma_o सेनानियीं lemma_c सेनानी
+o_stem जहर c_stem जाहर c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o जहर lemma_c जाहर
+Morpho reached
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem इंजिनियर c_stem इंजीनियर c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o इंजिनियर lemma_c इंजीनियर
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem इंजिनियर c_stem इंजीनियर c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o इंजिनियर lemma_c इंजीनियर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem इंजिनियर c_stem इंजीनियर c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o इंजिनियर lemma_c इंजीनियर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem इंजिनियर c_stem इंजीनियर c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o इंजिनियर lemma_c इंजीनियर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem इंजिनियर c_stem इंजीनियर c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o इंजिनियर lemma_c इंजीनियर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem इंजिनियर c_stem इंजीनियर c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o इंजिनियर lemma_c इंजीनियर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem इंजिनियर c_stem इंजीनियर c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o इंजिनियर lemma_c इंजीनियर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem इंजिनियर c_stem इंजीनियर c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o इंजिनियर lemma_c इंजीनियर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem अंक c_stem लक्ष्य c_stemhar_dist 6 c_stemhar_ratio 0.2222222222222222
+lemma_o अंक lemma_c लक्ष्य
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem अंक c_stem लक्ष्य c_stemhar_dist 6 c_stemhar_ratio 0.2222222222222222
+lemma_o अंक lemma_c लक्ष्य
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem सरण c_stem सारण c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o सरणी lemma_c सारणी
+o_stem सरण c_stem सारण c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o सरणी lemma_c सारणी
+o_stem सरण c_stem सारण c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o सरणी lemma_c सारणी
+o_stem सरण c_stem सारण c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o सरणी lemma_c सारणी
+o_stem सरण c_stem सारण c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o सरणी lemma_c सारणी
+o_stem विभाज c_stem विभाजन c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o विभाजित lemma_c विभाजन
+I am here
+o_pos[0] ADJ c_pos[0] NOUN
+o_stem विभाज c_stem विभाजन c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o विभाजित lemma_c विभाजन
+I am here
+o_pos[0] ADJ c_pos[0] NOUN
+o_stem विजे c_stem विजय c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o विजेता lemma_c विजयी
+I am here
+o_pos[0] NOUN c_pos[0] ADJ
+o_stem विजय c_stem विजे c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o विजयी lemma_c विजेता
+I am here
+o_pos[0] ADJ c_pos[0] NOUN
+o_stem विजे c_stem विजय c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o विजेता lemma_c विजयी
+I am here
+o_pos[0] NOUN c_pos[0] ADJ
+o_stem विजे c_stem विजय c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o विजेता lemma_c विजयी
+I am here
+o_pos[0] NOUN c_pos[0] ADJ
+o_stem , c_stem और c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o COMMA lemma_c और
+o_stem प्रथम c_stem प्रधान c_stemhar_dist 3 c_stemhar_ratio 0.5454545454545454
+lemma_o प्रथम lemma_c प्रधान
+I am here
+o_pos[0] ADJ c_pos[0] NOUN
+o_stem हुआअ c_stem हुआ c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o हुआअ lemma_c हो
+o_stem पंच c_stem पंचायत c_stemhar_dist 3 c_stemhar_ratio 0.6666666666666666
+lemma_o पंच lemma_c पंचायत
+Morpho reached
+o_stem महाचार्य c_stem भट्टाचार्य c_stemhar_dist 4 c_stemhar_ratio 0.6666666666666666
+lemma_o महाचार्य lemma_c भट्टाचार्य
+Morpho reached
+o_stem भारतीय c_stem अंतरराष्ट्रीय c_stemhar_dist 10 c_stemhar_ratio 0.42105263157894735
+lemma_o भारतीय lemma_c अंतरराष्ट्रीय
+Morpho reached
+o_stem उसक c_stem उनक c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem डाट c_stem डेट c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o डाटा lemma_c डेटा
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem डेट c_stem डाट c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o डेटा lemma_c डाटा
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem पंच्ड c_stem पंच c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o पंच्ड lemma_c पंच
+o_stem स्मबनद c_stem संबंध c_stemhar_dist 4 c_stemhar_ratio 0.36363636363636365
+lemma_o स्मबनद lemma_c संबंध
+o_stem का c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem कि c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o कि lemma_c का
+I am here
+o_pos[0] CONJ c_pos[0] ADP
+o_stem हो c_stem हो c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o हो lemma_c हो
+o_stem कर c_stem कर c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o कर lemma_c कर
+o_stem कि c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o कि lemma_c का
+I am here
+o_pos[0] PART c_pos[0] ADP
+o_stem कि c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o कि lemma_c का
+I am here
+o_pos[0] CONJ c_pos[0] ADP
+o_stem दूसर c_stem दूसर c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o दूसरा lemma_c दूसरा
+o_stem घत c_stem गत c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o घति lemma_c गति
+o_stem कैमर c_stem कैमर c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o कैमरा lemma_c कैमरा
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem मिलाप c_stem मिलान c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o मिलाप lemma_c मिलान
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem स्मबनद c_stem संबंध c_stemhar_dist 4 c_stemhar_ratio 0.36363636363636365
+lemma_o स्मबनद lemma_c संबंध
+o_stem उस c_stem उन्ह c_stemhar_dist 3 c_stemhar_ratio 0.3333333333333333
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नीत c_stem नीयत c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o नीति lemma_c नीयत
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem ऐड c_stem पत c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o ऐड lemma_c पता
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem सहस्त्रार्जुन c_stem सहस्रार्जुन c_stemhar_dist 2 c_stemhar_ratio 0.9166666666666666
+lemma_o सहस्त्रार्जुन lemma_c सहस्रार्जुन
+Morpho reached
+o_stem सहस्त्रार्जुन c_stem सहस्रार्जुन c_stemhar_dist 2 c_stemhar_ratio 0.9166666666666666
+lemma_o सहस्त्रार्जुन lemma_c सहस्रार्जुन
+Morpho reached
+o_stem घंट c_stem घंट c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o घंटा lemma_c घंटा
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem जो c_stem वे c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o जो lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem वे c_stem जो c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o वह lemma_c जो
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem हैं c_stem ह c_stemhar_dist 2 c_stemhar_ratio 0.5
+lemma_o है lemma_c ह
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem आॅल c_stem ऑल c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o आॅल lemma_c ऑल
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem उधारण c_stem उदाहरण c_stemhar_dist 2 c_stemhar_ratio 0.7272727272727273
+lemma_o उधारण lemma_c उदाहरण
+o_stem उधारण c_stem उदाहरण c_stemhar_dist 2 c_stemhar_ratio 0.7272727272727273
+lemma_o उधारण lemma_c उदाहरण
+o_stem के c_stem में c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o का lemma_c में
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem ओओपर c_stem ऊपर c_stemhar_dist 2 c_stemhar_ratio 0.5714285714285714
+lemma_o ओओपर lemma_c ऊपर
+o_stem जसरत c_stem जसारत c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o जसरत lemma_c जसारत
+o_stem हम c_stem उन c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o हम lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem ऋष c_stem महर्ष c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o ऋषि lemma_c महर्षि
+Morpho reached
+o_stem बाल्मीक c_stem वाल्मीक c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o बाल्मीकि lemma_c वाल्मीकि
+Morpho reached
+o_stem सुविध c_stem विध c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o सुविधा lemma_c विधा
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem सुविध c_stem विध c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o सुविधा lemma_c विधा
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem और c_stem व c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o और lemma_c व
+I am here
+o_pos[0] CONJ c_pos[0] CONJ
+o_stem आय c_stem आए c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o आ lemma_c आ
+I am here
+o_pos[0] AUX c_pos[0] VERB
+o_stem जिल c_stem जिल c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o जिला lemma_c जिला
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem सात c_stem सौ c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o सात lemma_c सौ
+Morpho reached
+o_stem मानवतावाद c_stem मानववाद c_stemhar_dist 2 c_stemhar_ratio 0.875
+lemma_o मानवतावाद lemma_c मानववाद
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem वैचार c_stem वैचारिक c_stemhar_dist 2 c_stemhar_ratio 0.8333333333333334
+lemma_o वैचारित lemma_c वैचारिक
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem के c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem मधुर c_stem मसूर c_stemhar_dist 2 c_stemhar_ratio 0.5
+lemma_o मधुर lemma_c मसूर
+o_stem जिसम c_stem जिसम c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o जो lemma_c जो
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem नगर c_stem शहर c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o नगर lemma_c शहर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem हौ c_stem हैं c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o हौ lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem भूल c_stem स्कूल c_stemhar_dist 3 c_stemhar_ratio 0.5
+lemma_o भूल lemma_c स्कूल
+I am here
+o_pos[0] VERB c_pos[0] NOUN
+o_stem पास c_stem भर c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o पासी lemma_c भर
+Morpho reached
+o_stem पास c_stem भर c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o पासी lemma_c भर
+Morpho reached
+o_stem पास c_stem भर c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o पासी lemma_c भर
+Morpho reached
+o_stem पास c_stem भर c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o पासी lemma_c भर
+Morpho reached
+o_stem पास c_stem भर c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o पासी lemma_c भर
+Morpho reached
+o_stem पास c_stem भर c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o पासी lemma_c भर
+Morpho reached
+o_stem पास c_stem भर c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o पासी lemma_c भर
+Morpho reached
+o_stem की c_stem का c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem यह c_stem इन्ह c_stemhar_dist 3 c_stemhar_ratio 0.3333333333333333
+lemma_o यह lemma_c यह
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem खंडव c_stem देवास c_stemhar_dist 5 c_stemhar_ratio 0.2222222222222222
+lemma_o खंडवा lemma_c देवास
+Morpho reached
+o_stem देवास c_stem खंडव c_stemhar_dist 5 c_stemhar_ratio 0.2222222222222222
+lemma_o देवास lemma_c खंडवा
+Morpho reached
+o_stem पे c_stem पेनिनसुल c_stemhar_dist 6 c_stemhar_ratio 0.4
+lemma_o पे lemma_c पेनिनसुला
+Morpho reached
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem जा c_stem झा c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o जा lemma_c झा
+Morpho reached
+o_stem चुघ c_stem चुग c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o चुघ lemma_c चुग
+o_stem डेल्ह c_stem दिल्ल c_stemhar_dist 3 c_stemhar_ratio 0.4
+lemma_o डेल्ही lemma_c दिल्ली
+o_stem मं c_stem में c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o मंे lemma_c में
+o_stem हैं c_stem थे c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o है lemma_c था
+Morpho reached
+o_stem में c_stem को c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o में lemma_c को
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem छेत्र c_stem क्षेत्र c_stemhar_dist 3 c_stemhar_ratio 0.6666666666666666
+lemma_o छेत्र lemma_c क्षेत्र
+o_stem डायनामाइट c_stem डाइनामाइट c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o डायनामाइट lemma_c डाइनामाइट
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem मोद c_stem मो c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o मोदी lemma_c मो
+Morpho reached
+o_stem जाएग c_stem गय c_stemhar_dist 4 c_stemhar_ratio 0.3333333333333333
+lemma_o जा lemma_c जा
+TENSE 1.1
+o_stem चुनाव c_stem भारतीय c_stemhar_dist 6 c_stemhar_ratio 0.18181818181818182
+lemma_o चुनाव lemma_c भारतीय
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem के c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+o_stem सदस्य c_stem राज्य c_stemhar_dist 3 c_stemhar_ratio 0.4
+lemma_o सदस्य lemma_c राज्य
+o_stem के c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+o_stem आयोज c_stem बिहार c_stemhar_dist 5 c_stemhar_ratio 0.0
+lemma_o आयोजित lemma_c बिहार
+o_stem जाएग c_stem . c_stemhar_dist 4 c_stemhar_ratio 0.0
+lemma_o जा lemma_c .
+Morpho reached
+o_stem भारतीय c_stem चुनाव c_stemhar_dist 6 c_stemhar_ratio 0.18181818181818182
+lemma_o भारतीय lemma_c चुनाव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem की c_stem के c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+o_stem राज्य c_stem सदस्य c_stemhar_dist 3 c_stemhar_ratio 0.4
+lemma_o राज्य lemma_c सदस्य
+o_stem की c_stem के c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+o_stem बिहार c_stem आयोज c_stemhar_dist 5 c_stemhar_ratio 0.0
+lemma_o बिहार lemma_c आयोजित
+o_stem . c_stem गय c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o . lemma_c जा
+o_stem होग c_stem हुआ c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o हो lemma_c हो
+TENSE 1.1
+o_stem हुआ c_stem होग c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o हो lemma_c हो
+TENSE 1.1
+o_stem निमार्ण c_stem निर्माण c_stemhar_dist 4 c_stemhar_ratio 0.7142857142857143
+lemma_o निमार्ण lemma_c निर्माण
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem रनजीत c_stem रणजीत c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o रनजीत lemma_c रणजीत
+o_stem बेयर c_stem बियर c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o बेयर lemma_c बियर
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem मलप्पुरम c_stem एर्नाकुलम c_stemhar_dist 7 c_stemhar_ratio 0.35294117647058826
+lemma_o मलप्पुरम lemma_c एर्नाकुलम
+Morpho reached
+o_stem कोई c_stem के c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o कोई lemma_c का
+I am here
+o_pos[0] PRON c_pos[0] ADP
+o_stem कुशिव c_stem शिव c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o कुशिव lemma_c शिव
+o_stem द्रवंश c_stem चंद्रवंश c_stemhar_dist 2 c_stemhar_ratio 0.8571428571428571
+lemma_o द्रवंशी lemma_c चंद्रवंशी
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem बन c_stem थी c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o बन lemma_c था
+Morpho reached
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem त्रिशक्त c_stem महाशक्त c_stemhar_dist 4 c_stemhar_ratio 0.5333333333333333
+lemma_o त्रिशक्ति lemma_c महाशक्ति
+Morpho reached
+o_stem पाल c_stem पल c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o पाल lemma_c पल
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem खो c_stem गव c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o खो lemma_c गवा
+Here, diff lemma
+o_stem जा c_stem गय c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o जा lemma_c जा
+o_stem आत c_stem आय c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o आ lemma_c आ
+I am here
+o_pos[0] VERB c_pos[0] VERB
+o_stem वे c_stem यह c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o वह lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem साहारनपुर c_stem सहारनपुर c_stemhar_dist 1 c_stemhar_ratio 0.9411764705882353
+lemma_o साहारनपुर lemma_c सहारनपुर
+o_stem , c_stem आद c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o COMMA lemma_c आदि
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem इस c_stem यह c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o यह lemma_c यह
+I am here
+o_pos[0] DET c_pos[0] DET
+o_stem मिचेल c_stem मिशेल c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o मिचेल lemma_c मिशेल
+Morpho reached
+o_stem हैं c_stem थी c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem हें c_stem थे c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem यूनाईटेड  c_stem यूनाइटेड  c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o यूनाईटेड  lemma_c यूनाइटेड 
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem उपमहादीप c_stem उपमहाद्वीप c_stemhar_dist 2 c_stemhar_ratio 0.8888888888888888
+lemma_o उपमहादीप lemma_c उपमहाद्वीप
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem र्य c_stem आर्य c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o र्य lemma_c आर्य
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem बन c_stem थी c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o बना lemma_c था
+Morpho reached
+o_stem आयरलैंड c_stem आयरलैण्ड c_stemhar_dist 2 c_stemhar_ratio 0.8
+lemma_o आयरलैंड lemma_c आयरलैण्ड
+Morpho reached
+o_stem स्कॉटलैंड c_stem स्कॉटलैण्ड c_stemhar_dist 2 c_stemhar_ratio 0.8421052631578947
+lemma_o स्कॉटलैंड lemma_c स्कॉटलैण्ड
+Morpho reached
+o_stem है c_stem थी c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem होंग c_stem थे c_stemhar_dist 4 c_stemhar_ratio 0.0
+lemma_o हो lemma_c था
+Morpho reached
+o_stem संंपादन c_stem संपादन c_stemhar_dist 1 c_stemhar_ratio 0.9230769230769231
+lemma_o संंपादन lemma_c संपादन
+o_stem हैै c_stem है c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o हैै lemma_c है
+o_stem था c_stem है c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o था lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem थे c_stem हैं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o था lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem चिनिय c_stem डंड c_stemhar_dist 5 c_stemhar_ratio 0.0
+lemma_o चिनिया lemma_c डंडा
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem लगन्हग c_stem लगभग c_stemhar_dist 3 c_stemhar_ratio 0.6
+lemma_o लगन्हग lemma_c लगभग
+o_stem रमकंड c_stem रम c_stemhar_dist 3 c_stemhar_ratio 0.5714285714285714
+lemma_o रमकंडा lemma_c रमना
+o_stem हुआ c_stem हो c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o हो lemma_c हो
+I am here
+o_pos[0] VERB c_pos[0] VERB
+o_stem बन c_stem थी c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o बन lemma_c था
+Morpho reached
+o_stem को c_stem ने c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o को lemma_c ने
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem हैं c_stem थी c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem गंग c_stem नद c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o गंगा lemma_c नदी
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem नद c_stem गंग c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o नदी lemma_c गंगा
+Morpho reached
+o_stem गंग c_stem नद c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o गंगा lemma_c नदी
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem टीम्स c_stem टीम c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o टीम्स lemma_c टीम
+o_stem टीम्स c_stem टीम c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o टीम्स lemma_c टीम
+o_stem गिरीडीह c_stem गिरिडीह c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o गिरीडीह lemma_c गिरिडीह
+Morpho reached
+o_stem गिरिडीह c_stem गिरीडीह c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o गिरिडीह lemma_c गिरीडीह
+Morpho reached
+o_stem गिरीडीह c_stem गिरिडीह c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o गिरीडीह lemma_c गिरिडीह
+Morpho reached
+o_stem गिरिडीह c_stem गिरीडीह c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o गिरिडीह lemma_c गिरीडीह
+Morpho reached
+o_stem गिरीडीह c_stem गिरिडीह c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o गिरीडीह lemma_c गिरिडीह
+Morpho reached
+o_stem गिरिडीह c_stem गिरीडीह c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o गिरिडीह lemma_c गिरीडीह
+Morpho reached
+o_stem गिरीडीह c_stem गिरिडीह c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o गिरीडीह lemma_c गिरिडीह
+Morpho reached
+o_stem गिरीडीह c_stem गिरिडीह c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o गिरीडीह lemma_c गिरिडीह
+Morpho reached
+o_stem गिरीडीह c_stem गिरिडीह c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o गिरीडीह lemma_c गिरिडीह
+Morpho reached
+o_stem हूँू c_stem हूँ c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o हूँू lemma_c है
+o_stem गिरीडीह c_stem गिरिडीह c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o गिरीडीह lemma_c गिरिडीह
+Morpho reached
+o_stem लिय c_stem लिए c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o लिये lemma_c लिए
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem हैं c_stem है c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem त्रिभुभव c_stem त्रिभुवन c_stemhar_dist 2 c_stemhar_ratio 0.875
+lemma_o त्रिभुभव lemma_c त्रिभुवन
+o_stem मौदह c_stem राठ c_stemhar_dist 4 c_stemhar_ratio 0.0
+lemma_o मौदहा lemma_c राठ
+o_stem आत्म c_stem जीवात्म c_stemhar_dist 4 c_stemhar_ratio 0.5454545454545454
+lemma_o आत्मा lemma_c जीवात्मा
+o_stem टिमर c_stem सिराल c_stemhar_dist 4 c_stemhar_ratio 0.4444444444444444
+lemma_o टिमरनी lemma_c सिराली
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem खा c_stem कह c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o खा lemma_c कह
+Here, diff lemma
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem था c_stem थे c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o था lemma_c था
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem किन c_stem चिन c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o कौन lemma_c चिन
+Morpho reached
+o_stem सऊद c_stem सउद c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o सऊदी lemma_c सउदी
+Morpho reached
+o_stem आपक c_stem इनक c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o आप lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem आपक c_stem इनक c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o आप lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem आपक c_stem इनक c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o आप lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem आपक c_stem इनक c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o आप lemma_c यह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem प्रकश c_stem प्रकाश c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o प्रकशित lemma_c प्रकाशित
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem प्रकाश c_stem प्रकश c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o प्रकाशित lemma_c प्रकशित
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem था c_stem है c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o था lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem स्थान c_stem मैदान c_stemhar_dist 3 c_stemhar_ratio 0.4
+lemma_o स्थान lemma_c मैदान
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem चौपारण c_stem दार c_stemhar_dist 4 c_stemhar_ratio 0.4444444444444444
+lemma_o चौपारण lemma_c दारी
+o_stem भरतीयभारतीय c_stem भारतीय c_stemhar_dist 5 c_stemhar_ratio 0.7058823529411765
+lemma_o भरतीयभारतीय lemma_c भारतीय
+o_stem सहसंस्थापकसह c_stem सह c_stemhar_dist 10 c_stemhar_ratio 0.2857142857142857
+lemma_o सहसंस्थापकसह lemma_c सह
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem बंगरगाह c_stem बंदरगाह c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o बंगरगाह lemma_c बंदरगाह
+o_stem हैं c_stem थी c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem लिप c_stem लेख c_stemhar_dist 2 c_stemhar_ratio 0.3333333333333333
+lemma_o लिपि lemma_c लेख
+Here, diff lemma
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem वार्त c_stem वार् c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o वार्त lemma_c वार्ता
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem भष c_stem भाष c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o भषा lemma_c भाषा
+o_stem बनग c_stem बानग c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o बनगी lemma_c बानगी
+o_stem हैं c_stem थी c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem वह c_stem वे c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o वह lemma_c वह
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem थाईलैंड c_stem थाईलैण्ड c_stemhar_dist 2 c_stemhar_ratio 0.8
+lemma_o थाईलैंड lemma_c थाईलैण्ड
+Morpho reached
+o_stem है c_stem था c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem मैं c_stem मैं c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o मैं lemma_c मैं
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem भिनमाल c_stem भीनमाल c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o भिनमाल lemma_c भीनमाल
+o_stem इनक c_stem यू c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o यह lemma_c यू
+o_stem गय c_stem वन्स c_stemhar_dist 4 c_stemhar_ratio 0.0
+lemma_o जा lemma_c वन्स
+Morpho reached
+o_stem " c_stem . c_stemhar_dist 1 c_stemhar_ratio 0.0
+lemma_o " lemma_c .
+o_stem यू c_stem इनक c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o यू lemma_c यह
+o_stem वन्स c_stem गय c_stemhar_dist 4 c_stemhar_ratio 0.0
+lemma_o वन्स lemma_c जा
+Morpho reached
+o_stem . c_stem " c_stemhar_dist 1 c_stemhar_ratio 0.0
+lemma_o . lemma_c "
+o_stem लाइव c_stem लिव c_stemhar_dist 2 c_stemhar_ratio 0.5714285714285714
+lemma_o लाइव lemma_c लिव
+Morpho reached
+o_stem जबक c_stem यू c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o जबकि lemma_c यू
+o_stem यू c_stem जबक c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o यू lemma_c जबकि
+o_stem लाइव c_stem लिव c_stemhar_dist 2 c_stemhar_ratio 0.5714285714285714
+lemma_o लाइव lemma_c लिव
+Morpho reached
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem ओर c_stem और c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o ओर lemma_c और
+I am here
+o_pos[0] ADP c_pos[0] DET
+o_stem प्रक c_stem प्रकार c_stemhar_dist 2 c_stemhar_ratio 0.8
+lemma_o प्रका lemma_c प्रकार
+o_stem खेड़ c_stem पार c_stemhar_dist 4 c_stemhar_ratio 0.0
+lemma_o खेड़ा lemma_c पारा
+o_stem रज्य c_stem राज्य c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o रज्य lemma_c राज्य
+o_stem नगरपालिक c_stem नगरपालिक c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o नगरपालिक lemma_c नगरपालिका
+o_stem हरियण c_stem हरियाण c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o हरियणा lemma_c हरियाणा
+o_stem था c_stem है c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o था lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem रिपोर्ट c_stem सूत्र c_stemhar_dist 6 c_stemhar_ratio 0.16666666666666666
+lemma_o रिपोर्ट lemma_c सूत्र
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem संत c_stem संत c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o संत lemma_c संत
+o_stem संत c_stem संत c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o संत lemma_c संत
+o_stem स्तिथ c_stem स्थित c_stemhar_dist 2 c_stemhar_ratio 0.6
+lemma_o स्तिथि lemma_c स्थिति
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem राष्ट्रीय c_stem राष्ट्र c_stemhar_dist 2 c_stemhar_ratio 0.875
+lemma_o राष्ट्रीय lemma_c राष्ट्र
+Morpho reached
+o_stem राष्ट्रीय c_stem राष्ट्र c_stemhar_dist 2 c_stemhar_ratio 0.875
+lemma_o राष्ट्रीय lemma_c राष्ट्र
+I am here
+o_pos[0] ADJ c_pos[0] NOUN
+o_stem राष्ट्र c_stem राष्ट्रीय c_stemhar_dist 2 c_stemhar_ratio 0.875
+lemma_o राष्ट्र lemma_c राष्ट्रीय
+I am here
+o_pos[0] PROPN c_pos[0] ADJ
+o_stem राष्ट्र c_stem राष्ट्रीय c_stemhar_dist 2 c_stemhar_ratio 0.875
+lemma_o राष्ट्र lemma_c राष्ट्रीय
+I am here
+o_pos[0] NOUN c_pos[0] ADJ
+o_stem ग्राम c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.4444444444444444
+lemma_o ग्राम lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem ग्राम c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.4444444444444444
+lemma_o ग्राम lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem मेलबर्न c_stem मेलबोर्न c_stemhar_dist 1 c_stemhar_ratio 0.9333333333333333
+lemma_o मेलबर्न lemma_c मेलबोर्न
+Morpho reached
+o_stem विशॅष c_stem विशेष c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o विशॅषकर lemma_c विशेषकर
+o_stem पलर c_stem पूँछ c_stemhar_dist 3 c_stemhar_ratio 0.2857142857142857
+lemma_o पलरा lemma_c पूँछ
+o_stem आँगन c_stem अंगन c_stemhar_dist 2 c_stemhar_ratio 0.5
+lemma_o आँगन lemma_c अंगन
+Morpho reached
+o_stem आंगन c_stem अंगन c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o आंगन lemma_c अंगन
+Morpho reached
+o_stem आँगन c_stem अंगन c_stemhar_dist 2 c_stemhar_ratio 0.5
+lemma_o आँगन lemma_c अंगन
+Morpho reached
+o_stem आंगन c_stem अंगन c_stemhar_dist 1 c_stemhar_ratio 0.75
+lemma_o आंगन lemma_c अंगन
+Morpho reached
+o_stem अंगन c_stem आँगन c_stemhar_dist 2 c_stemhar_ratio 0.5
+lemma_o अंगन lemma_c आँगन
+Morpho reached
+o_stem अंगन c_stem आँगन c_stemhar_dist 2 c_stemhar_ratio 0.5
+lemma_o अंगन lemma_c आँगन
+Morpho reached
+o_stem अंगन c_stem आँगन c_stemhar_dist 2 c_stemhar_ratio 0.5
+lemma_o अंगन lemma_c आँगन
+Morpho reached
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem त्लौंग c_stem तूत c_stemhar_dist 5 c_stemhar_ratio 0.2222222222222222
+lemma_o त्लौंग lemma_c तूत
+o_stem हैं c_stem थी c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem जा c_stem गए c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o जा lemma_c जा
+TENSE 1.1
+o_stem होंग c_stem गए c_stemhar_dist 4 c_stemhar_ratio 0.3333333333333333
+lemma_o हो lemma_c जा
+Here, diff lemma
+o_stem क c_stem का c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o क lemma_c का
+I am here
+o_pos[0] NOUN c_pos[0] ADP
+o_stem क c_stem का c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o क lemma_c का
+I am here
+o_pos[0] NOUN c_pos[0] ADP
+o_stem वंशंज c_stem वंशज c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o वंशंज lemma_c वंशज
+o_stem इसक c_stem इनक c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o यह lemma_c यह
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem कामीर c_stem काश्मीर c_stemhar_dist 2 c_stemhar_ratio 0.8333333333333334
+lemma_o कामीरी lemma_c काश्मीरी
+o_stem चरकसंह c_stem चरकसंहि c_stemhar_dist 1 c_stemhar_ratio 0.9230769230769231
+lemma_o चरकसंहित lemma_c चरकसंहिता
+o_stem ची c_stem ची c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o चीना lemma_c चीनी
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem भष c_stem भाष c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o भषा lemma_c भाषा
+o_stem घर c_stem घर c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o घर lemma_c घराना
+o_stem असमिय c_stem असमिय c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o असमिय lemma_c असमिया
+o_stem र्थ c_stem अर्थ c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o र्थ lemma_c अर्थ
+o_stem कुमर c_stem कुमार c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o कुमर lemma_c कुमार
+o_stem देख c_stem देख c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o देख lemma_c देख
+I am here
+o_pos[0] VERB c_pos[0] VERB
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem रोद c_stem रोड c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o रोद lemma_c रोड
+Morpho reached
+o_stem होंग c_stem हैं c_stemhar_dist 2 c_stemhar_ratio 0.5714285714285714
+lemma_o हो lemma_c है
+Here, diff lemma
+TENSE 1.2 c_pos[0] == VERB and o_toks[0].lemma != c_toks[0].lemma
+o_stem शिव c_stem शिव c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o शिवि lemma_c शिव
+Morpho reached
+o_stem स्टफ c_stem स्टाफ c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o स्टफ lemma_c स्टाफ
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem मेधालय c_stem मेघालय c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o मेधालय lemma_c मेघालय
+o_stem राजपूत c_stem राजपूत c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o राजपूत lemma_c राजपूताना
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem विहार c_stem बिहार c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o विहारी lemma_c बिहारी
+Morpho reached
+o_stem पुर c_stem पुल c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o पुर lemma_c पुल
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem करने c_stem कर c_stemhar_dist 2 c_stemhar_ratio 0.6666666666666666
+lemma_o करनेने lemma_c कर
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem समुदय c_stem समुदाय c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o समुदय lemma_c समुदाय
+Morpho reached
+o_stem हवेल c_stem हवेल c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o हवेली lemma_c हवेली
+o_stem सम्पद c_stem सम्पद c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o सम्पद lemma_c सम्पदा
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem बाध c_stem बाघ c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o बाध lemma_c बाघ
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem थे c_stem थीं c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o था lemma_c था
+o_stem सौतेल c_stem तीसर c_stemhar_dist 5 c_stemhar_ratio 0.2222222222222222
+lemma_o सौतेली lemma_c तीसरा
+I am here
+o_pos[0] PROPN c_pos[0] ADJ
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem पूर्त c_stem आपूर्त c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o पूर्ति lemma_c आपूर्ति
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem आपूर्व c_stem आपूर्त c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o आपूर्वि lemma_c आपूर्ति
+o_stem विवाह c_stem शाद c_stemhar_dist 4 c_stemhar_ratio 0.25
+lemma_o विवाह lemma_c शादी
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem अर्थिक c_stem आर्थिक c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o अर्थिक lemma_c आर्थिक
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem अन्दोलन c_stem आन्दोलन c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o अन्दोलन lemma_c आन्दोलन
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem राष्ट्रीय c_stem ग्राम c_stemhar_dist 7 c_stemhar_ratio 0.2857142857142857
+lemma_o राष्ट्रीय lemma_c ग्राम
+I am here
+o_pos[0] ADJ c_pos[0] NOUN
+o_stem मुअम्मद c_stem मुहम्मद c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o मुअम्मद lemma_c मुहम्मद
+o_stem बोयबाहिक c_stem वैवाहिक c_stemhar_dist 4 c_stemhar_ratio 0.5333333333333333
+lemma_o बोयबाहिक lemma_c वैवाहिक
+o_stem लैब c_stem लब c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o लैब lemma_c लब
+o_stem प्रोव c_stem प्रभ c_stemhar_dist 2 c_stemhar_ratio 0.6666666666666666
+lemma_o प्रोवा lemma_c प्रभा
+o_stem अपूर्व c_stem अपूर्व c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o अपूर्वा lemma_c अपूर्व
+Morpho reached
+o_stem बन c_stem थी c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o बन lemma_c था
+Morpho reached
+o_stem जा c_stem गए c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o जा lemma_c जा
+TENSE 1.1
+o_stem नागपास c_stem नागपाश c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o नागपास lemma_c नागपाश
+o_stem बस c_stem स्थ c_stemhar_dist 3 c_stemhar_ratio 0.4
+lemma_o बसा lemma_c स्थित
+I am here
+o_pos[0] VERB c_pos[0] ADJ
+o_stem यहयह c_stem यह c_stemhar_dist 2 c_stemhar_ratio 0.6666666666666666
+lemma_o यहयह lemma_c यह
+o_stem साल c_stem साल c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o साल lemma_c साल
+o_stem और c_stem एवं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o और lemma_c एवं
+I am here
+o_pos[0] CONJ c_pos[0] CONJ
+o_stem , c_stem और c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o COMMA lemma_c और
+o_stem का c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem कर c_stem कर c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o कर lemma_c कर
+o_stem हैं c_stem है c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem थें c_stem थे c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o था lemma_c था
+TENSE 1.1
+o_stem थें c_stem थे c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o था lemma_c था
+TENSE 1.1
+o_stem तलाश c_stem शोध c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o तलाश lemma_c शोध
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem संवाद c_stem संयोग c_stemhar_dist 3 c_stemhar_ratio 0.4
+lemma_o संवाद lemma_c संयोग
+I am here
+o_pos[0] NOUN c_pos[0] ADJ
+o_stem हम c_stem हम c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o हम lemma_c हम
+I am here
+o_pos[0] PRON c_pos[0] PRON
+o_stem खिलाफ c_stem लिए c_stemhar_dist 4 c_stemhar_ratio 0.25
+lemma_o खिलाफ lemma_c लिए
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem चतुर c_stem कादर c_stemhar_dist 3 c_stemhar_ratio 0.25
+lemma_o चतुरी lemma_c कादरी
+o_stem नृतक c_stem नर्तक c_stemhar_dist 2 c_stemhar_ratio 0.6666666666666666
+lemma_o नृतक lemma_c नर्तक
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem राजपूत c_stem राजस्थान c_stemhar_dist 5 c_stemhar_ratio 0.42857142857142855
+lemma_o राजपूताना lemma_c राजस्थान
+Morpho reached
+o_stem राजपूत c_stem राजस्थान c_stemhar_dist 5 c_stemhar_ratio 0.42857142857142855
+lemma_o राजपूताना lemma_c राजस्थान
+Morpho reached
+o_stem राजस्थान c_stem राजपूत c_stemhar_dist 5 c_stemhar_ratio 0.42857142857142855
+lemma_o राजस्थान lemma_c राजपूताना
+Morpho reached
+o_stem राजपूत c_stem राजस्थान c_stemhar_dist 5 c_stemhar_ratio 0.42857142857142855
+lemma_o राजपूताना lemma_c राजस्थान
+Morpho reached
+o_stem राजपूत c_stem राजस्थान c_stemhar_dist 5 c_stemhar_ratio 0.42857142857142855
+lemma_o राजपूताना lemma_c राजस्थान
+Morpho reached
+o_stem राजपूत c_stem राजस्थान c_stemhar_dist 5 c_stemhar_ratio 0.42857142857142855
+lemma_o राजपूताना lemma_c राजस्थान
+Morpho reached
+o_stem राजपूत c_stem राजस्थान c_stemhar_dist 5 c_stemhar_ratio 0.42857142857142855
+lemma_o राजपूताना lemma_c राजस्थान
+Morpho reached
+o_stem राजपूत c_stem राजस्थान c_stemhar_dist 5 c_stemhar_ratio 0.42857142857142855
+lemma_o राजपूताना lemma_c राजस्थान
+Morpho reached
+o_stem राजस्थान c_stem राजपूत c_stemhar_dist 5 c_stemhar_ratio 0.42857142857142855
+lemma_o राजस्थान lemma_c राजपूताना
+Morpho reached
+o_stem राजपूत c_stem राजस्थान c_stemhar_dist 5 c_stemhar_ratio 0.42857142857142855
+lemma_o राजपूताना lemma_c राजस्थान
+Morpho reached
+o_stem राजपूत c_stem राजस्थान c_stemhar_dist 5 c_stemhar_ratio 0.42857142857142855
+lemma_o राजपूताना lemma_c राजस्थान
+Morpho reached
+o_stem तोमरस c_stem तोमर c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o तोमरस lemma_c तोमर
+o_stem है c_stem था c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o है lemma_c था
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem ईश c_stem इस c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o ईश lemma_c यह
+I am here
+o_pos[0] NOUN c_pos[0] DET
+o_stem में c_stem के c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o में lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem पाश्चिम c_stem पश्चिम c_stemhar_dist 1 c_stemhar_ratio 0.9230769230769231
+lemma_o पाश्चिम lemma_c पश्चिम
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem ब्रम्हास्त्र c_stem ब्रह्मास्त्र c_stemhar_dist 2 c_stemhar_ratio 0.8333333333333334
+lemma_o ब्रम्हास्त्र lemma_c ब्रह्मास्त्र
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem कड़ c_stem करार c_stemhar_dist 3 c_stemhar_ratio 0.2857142857142857
+lemma_o कड़ा lemma_c करारा
+o_stem मां c_stem मां c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o मांां lemma_c माँ
+o_stem सागर c_stem महासागर c_stemhar_dist 3 c_stemhar_ratio 0.7272727272727273
+lemma_o सागर lemma_c महासागर
+Morpho reached
+o_stem में c_stem मैं c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o में lemma_c मैं
+I am here
+o_pos[0] CONJ c_pos[0] PRON
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem होंग c_stem हैं c_stemhar_dist 2 c_stemhar_ratio 0.5714285714285714
+lemma_o हो lemma_c है
+Here, diff lemma
+TENSE 1.2 c_pos[0] == VERB and o_toks[0].lemma != c_toks[0].lemma
+o_stem दो c_stem तीन c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o दो lemma_c तीन
+Morpho reached
+o_stem हैं c_stem थे c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o है lemma_c था
+Morpho reached
+o_stem कर c_stem किय c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o कर lemma_c कर
+TENSE 1.1
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem भाारत c_stem भारत c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o भाारत lemma_c भारत
+o_stem उतराखण्ड c_stem उत्तराखण्ड c_stemhar_dist 2 c_stemhar_ratio 0.8888888888888888
+lemma_o उतराखण्ड lemma_c उत्तराखण्ड
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem प्रयास c_stem प्रयासरत c_stemhar_dist 2 c_stemhar_ratio 0.8571428571428571
+lemma_o प्रयासित lemma_c प्रयासरत
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem जंकिय c_stem सिक c_stemhar_dist 4 c_stemhar_ratio 0.25
+lemma_o जंकिया lemma_c सिको
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem दिस्मबर c_stem दिसंबर c_stemhar_dist 2 c_stemhar_ratio 0.7692307692307693
+lemma_o दिस्मबर lemma_c दिसंबर
+o_stem के c_stem की c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem चेन c_stem चैन c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o चेन lemma_c चैन
+Morpho reached
+o_stem आरोन c_stem अरुण c_stemhar_dist 3 c_stemhar_ratio 0.25
+lemma_o आरोन lemma_c अरुण
+o_stem अहसास c_stem एहसास c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o अहसास lemma_c एहसास
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem आद्यायन c_stem अध्ययन c_stemhar_dist 3 c_stemhar_ratio 0.6153846153846154
+lemma_o आद्यायन lemma_c अध्ययन
+o_stem दशल c_stem दुःशल c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o दशला lemma_c दुःशला
+o_stem क्रीस्टल c_stem क्रिस्टल c_stemhar_dist 1 c_stemhar_ratio 0.875
+lemma_o क्रीस्टल lemma_c क्रिस्टल
+o_stem अरिस्टोटल c_stem अरस्त c_stemhar_dist 5 c_stemhar_ratio 0.5714285714285714
+lemma_o अरिस्टोटल lemma_c अरस्तु
+Morpho reached
+o_stem स्वर्णिम c_stem स्वर्ण c_stemhar_dist 2 c_stemhar_ratio 0.8571428571428571
+lemma_o स्वर्णिम lemma_c स्वर्ण
+Morpho reached
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem हमर c_stem हमार c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o हमरी lemma_c हम
+I am here
+o_pos[0] PROPN c_pos[0] PRON
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem कगुर्जर c_stem गुर्जर c_stemhar_dist 1 c_stemhar_ratio 0.9230769230769231
+lemma_o कगुर्जर lemma_c गुर्जर
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem वड़ोदरातरन्नुम c_stem तरन्नुम c_stemhar_dist 7 c_stemhar_ratio 0.6666666666666666
+lemma_o वड़ोदरातरन्नुम lemma_c तरन्नुम
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem राजने c_stem राजनीतिज्ञ c_stemhar_dist 6 c_stemhar_ratio 0.5333333333333333
+lemma_o राजनेता lemma_c राजनीतिज्ञ
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem पर्व c_stem पार्व c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o पर्वती lemma_c पार्वती
+Morpho reached
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem और c_stem एवं c_stemhar_dist 3 c_stemhar_ratio 0.0
+lemma_o और lemma_c एवं
+I am here
+o_pos[0] CONJ c_pos[0] CONJ
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem जमिन c_stem जामिन c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o जमिन lemma_c जामिन
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नैनिताल c_stem नैनीताल c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o नैनिताल lemma_c नैनीताल
+o_stem परमान c_stem परमार c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o परमान lemma_c परमार
+o_stem थ्र c_stem थ्र c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o थ्र lemma_c थ्रो
+o_stem थीं c_stem थी c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o था lemma_c था
+o_stem है c_stem हूं c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o है lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] VERB
+o_stem सैंड्स c_stem संदेश c_stemhar_dist 4 c_stemhar_ratio 0.36363636363636365
+lemma_o सैंड lemma_c संदेश
+o_stem सैंड्स c_stem संदेस c_stemhar_dist 3 c_stemhar_ratio 0.5454545454545454
+lemma_o सैंड lemma_c संदेस
+o_stem प्रधान c_stem प्रमुख c_stemhar_dist 3 c_stemhar_ratio 0.5
+lemma_o प्रधान lemma_c प्रमुख
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem लोद c_stem लोध c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o लोदी lemma_c लोधी
+Morpho reached
+o_stem बाघेल c_stem बघेल c_stemhar_dist 1 c_stemhar_ratio 0.8888888888888888
+lemma_o बाघेला lemma_c बघेल
+o_stem संपत्त c_stem प्रांत c_stemhar_dist 5 c_stemhar_ratio 0.5
+lemma_o संपत्ति lemma_c प्रांत
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem आधर c_stem आधार c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o आधर lemma_c आधार
+o_stem कव c_stem कवियित्र c_stemhar_dist 6 c_stemhar_ratio 0.4
+lemma_o कवि lemma_c कवियित्री
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem हट c_stem रख c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o हटा lemma_c रख
+Here, diff lemma
+o_stem नगर c_stem गाँव c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o नगर lemma_c गाँव
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem नितम्भ c_stem नितम्ब c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o नितम्भ lemma_c नितम्ब
+o_stem पांचव c_stem पांचव c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o पांचवाँ lemma_c पांचवां
+I am here
+o_pos[0] ADJ c_pos[0] ADJ
+o_stem भाग c_stem चनाब c_stemhar_dist 3 c_stemhar_ratio 0.2857142857142857
+lemma_o भाग lemma_c चनाब
+Morpho reached
+o_stem मेहमेद c_stem मोहम्मद c_stemhar_dist 3 c_stemhar_ratio 0.6153846153846154
+lemma_o मेहमेद lemma_c मोहम्मद
+o_stem हानिम c_stem खानम c_stemhar_dist 2 c_stemhar_ratio 0.6666666666666666
+lemma_o हानिम lemma_c खानम
+o_stem नाद c_stem नादिय c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o नादिए lemma_c नादिया
+Morpho reached
+o_stem निर्देश c_stem निर्देशक c_stemhar_dist 1 c_stemhar_ratio 0.9333333333333333
+lemma_o निर्देश lemma_c निर्देशक
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem ट्रेगर c_stem ट्रिगर c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o ट्रेगर lemma_c ट्रिगर
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem ट्रेगर c_stem ट्रिगर c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o ट्रेगर lemma_c ट्रिगर
+I am here
+o_pos[0] PROPN c_pos[0] NOUN
+o_stem स्थनीय c_stem स्थानीय c_stemhar_dist 1 c_stemhar_ratio 0.9230769230769231
+lemma_o स्थनीय lemma_c स्थानीय
+o_stem हो c_stem लग c_stemhar_dist 2 c_stemhar_ratio 0.0
+lemma_o हो lemma_c लग
+Here, diff lemma
+o_stem रेण c_stem रेणुक c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o रेणा lemma_c रेणुका
+o_stem एञाइम c_stem एन्जाइम c_stemhar_dist 3 c_stemhar_ratio 0.6666666666666666
+lemma_o एञाइम lemma_c एन्जाइम
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem लातूर c_stem यवतमाल c_stemhar_dist 5 c_stemhar_ratio 0.18181818181818182
+lemma_o लातूर lemma_c यवतमाल
+Morpho reached
+o_stem देल्ल c_stem दिल्ल c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o देल्ली lemma_c दिल्ली
+o_stem इंदिय c_stem इंदिर c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o इंदिया lemma_c इंदिरा
+Morpho reached
+o_stem आएंग c_stem आय c_stemhar_dist 3 c_stemhar_ratio 0.3333333333333333
+lemma_o आ lemma_c आ
+o_stem निभ c_stem निभ c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o निभा lemma_c निभा
+TENSE 1.1
+o_stem कोलकाआ c_stem कोलक c_stemhar_dist 2 c_stemhar_ratio 0.8
+lemma_o कोलकाआ lemma_c कोलकाता
+o_stem भाषाय c_stem भाष c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o भाषाय lemma_c भाषा
+o_stem कीय c_stem किय c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o कर lemma_c कर
+o_stem कीय c_stem किय c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o कर lemma_c कर
+o_stem भाषाय c_stem भाष c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o भाषाय lemma_c भाषा
+o_stem कीय c_stem किय c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o कर lemma_c कर
+o_stem और c_stem उच्च c_stemhar_dist 4 c_stemhar_ratio 0.0
+lemma_o और lemma_c उच्च
+I am here
+o_pos[0] DET c_pos[0] ADJ
+o_stem व्यक्त c_stem क्रांतिकार c_stemhar_dist 8 c_stemhar_ratio 0.375
+lemma_o व्यक्ति lemma_c क्रांतिकारी
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem गाँव c_stem नगर c_stemhar_dist 4 c_stemhar_ratio 0.2857142857142857
+lemma_o गाँव lemma_c नगर
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem और c_stem अन्य c_stemhar_dist 4 c_stemhar_ratio 0.0
+lemma_o और lemma_c अन्य
+I am here
+o_pos[0] DET c_pos[0] ADJ
+o_stem सहार c_stem सहर c_stemhar_dist 1 c_stemhar_ratio 0.8571428571428571
+lemma_o सहार lemma_c सहर
+Morpho reached
+o_stem बंगाल c_stem बांग्ल c_stemhar_dist 2 c_stemhar_ratio 0.7272727272727273
+lemma_o बंगाली lemma_c बांग्ला
+Morpho reached
+o_stem कलकत् c_stem कोलक c_stemhar_dist 3 c_stemhar_ratio 0.6666666666666666
+lemma_o कलकत्ता lemma_c कोलकाता
+Morpho reached
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem है c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o है lemma_c है
+o_stem बंगाल c_stem बांग्ल c_stemhar_dist 2 c_stemhar_ratio 0.7272727272727273
+lemma_o बंगाली lemma_c बांग्ला
+o_stem के c_stem का c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem के c_stem का c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem रियसत c_stem रियासत c_stemhar_dist 1 c_stemhar_ratio 0.9090909090909091
+lemma_o रियसत lemma_c रियासत
+o_stem हैम c_stem हैं c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o हैम lemma_c है
+I am here
+o_pos[0] AUX c_pos[0] AUX
+o_stem अव c_stem अ c_stemhar_dist 1 c_stemhar_ratio 0.6666666666666666
+lemma_o अव lemma_c अ
+Here, diff lemma
+o_stem अत्यध c_stem अत्यधिक c_stemhar_dist 2 c_stemhar_ratio 0.8333333333333334
+lemma_o अत्य lemma_c अत्यधिक
+o_stem प्रदाद c_stem प्रसाद c_stemhar_dist 1 c_stemhar_ratio 0.8333333333333334
+lemma_o प्रदाद lemma_c प्रसाद
+o_stem रख c_stem रख c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o रख lemma_c रख
+I am here
+o_pos[0] VERB c_pos[0] VERB
+o_stem मत्स्येन्द्र c_stem मत्स्येन्द्रनाथ c_stemhar_dist 3 c_stemhar_ratio 0.8888888888888888
+lemma_o मत्स्येन्द्र lemma_c मत्स्येन्द्रनाथ
+Morpho reached
+o_stem भाष c_stem उपभाष c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o भाषा lemma_c उपभाषा
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem के c_stem इसक c_stemhar_dist 3 c_stemhar_ratio 0.4
+lemma_o का lemma_c यह
+I am here
+o_pos[0] ADP c_pos[0] PRON
+o_stem कर c_stem कर c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o कर lemma_c कर
+o_stem कलाकार c_stem चित्रकार c_stemhar_dist 5 c_stemhar_ratio 0.42857142857142855
+lemma_o कलाकार lemma_c चित्रकार
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+o_stem भाषाय c_stem भाष c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o भाषाय lemma_c भाषा
+o_stem भाषाय c_stem भाष c_stemhar_dist 2 c_stemhar_ratio 0.75
+lemma_o भाषाय lemma_c भाषा
+o_stem का c_stem के c_stemhar_dist 1 c_stemhar_ratio 0.5
+lemma_o का lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
+o_stem समुदाय c_stem महासंघ c_stemhar_dist 6 c_stemhar_ratio 0.3333333333333333
+lemma_o समुदाय lemma_c महासंघ
+Morpho reached
+o_stem बोद्ध c_stem बौद्ध c_stemhar_dist 1 c_stemhar_ratio 0.8
+lemma_o बोद्ध lemma_c बौद्ध
+o_stem पश्चिम c_stem पश्चिम c_stemhar_dist 0 c_stemhar_ratio 1.0
+lemma_o पश्चिम lemma_c पश्चिमी
+I am here
+o_pos[0] PROPN c_pos[0] ADJ
+o_stem में c_stem के c_stemhar_dist 2 c_stemhar_ratio 0.4
+lemma_o में lemma_c का
+I am here
+o_pos[0] ADP c_pos[0] ADP
