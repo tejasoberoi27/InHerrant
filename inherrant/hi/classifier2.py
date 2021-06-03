@@ -93,8 +93,8 @@ def are_stems_similar(o_stem, c_stem):
 
 def are_lemmas_similar(o_tok, c_tok):
     """ Returns true if the lemmas are equal or stems are similar"""
-    o_stem = stemmer.stem(o_tok)
-    c_stem = stemmer.stem(c_tok)
+    o_stem = stemmer.stem(o_tok.text)
+    c_stem = stemmer.stem(c_tok.text)
     if (o_tok.lemma == c_tok.lemma) or are_stems_similar(o_stem, c_stem):
         return True
     return False
