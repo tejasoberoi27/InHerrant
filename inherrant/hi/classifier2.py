@@ -204,6 +204,10 @@ base_dir = Path(__file__).resolve().parent
 stemmer = HindiStemmer()
 main_pos = ['NOUN', 'PRON', 'VERB', 'ADJ']
 spell = load_word_list(base_dir / "resources" / "hi_IN.txt")
+# list_spell = list(spell)
+# dict = sorted(list_spell)
+# print(dict)
+# print("रेह" in spell)
 rare_pos = {"INTJ", "NUM", "SYM", "X"}
 open_pos2 = {"ADJ", "ADV", "NOUN", "VERB"}
 list_pos = ['NOUN', 'PRON', 'VERB', 'ADJ', 'ADP', 'ADV', 'PREP', 'DET', 'CONJ']
@@ -269,6 +273,7 @@ def get_two_sided_type(o_toks, c_toks):
         if o_toks[0].text not in spell:
             char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
             char_dist = Levenshtein.distance(o_toks[0].text, c_toks[0].text)
+            print("Not in spell")
             # print("Character Ratio ", char_ratio)
             # Ratio > 0.5 means both side share at least half the same chars.
             # WARNING: THIS IS AN APPROXIMATION.
@@ -293,7 +298,7 @@ def get_two_sided_type(o_toks, c_toks):
                 if c_pos[0] == 'AUX':
                     c_pos[0] = 'VERB'
                 return str(c_pos[0]) + "-GEN"
-            if (c_pos[0] in main_pos or c_pos[0] == 'AUX') and o_toks[0].lemma == c_toks[0].lemma:
+            if c_pos[0] in main_pos or c_pos[0] == 'AUX':
                 if c_pos[0] == 'AUX':
                     c_pos[0] = 'VERB'
 
@@ -348,6 +353,8 @@ def get_two_sided_type(o_toks, c_toks):
             print("o_pos[0]",o_pos[0],"c_pos[0]",c_pos[0])
             if(c_pos[0]=="AUX"):
                 c_pos[0] = "VERB"
+            if c_pos[0]=="VERB" and ((o_toks[0].lemma == c_toks[0].lemma) or (are_stems_similar(o_stem,c_stem))) :
+                return "VERB-FORM"
             return c_pos[0]
         if o_toks[0].deprel == "punct" and c_toks[0].deprel == "punct":
             return "PUNCT"

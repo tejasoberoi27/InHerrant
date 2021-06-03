@@ -78,7 +78,6 @@ if __name__ == "__main__":
             # Get the original and all the corrected texts
             orig = line[0].strip()
             orig = contract_char(orig)
-            print("orig",orig)
             cors = line[1:]
             # Skip the line if orig is empty
             if not orig: continue
