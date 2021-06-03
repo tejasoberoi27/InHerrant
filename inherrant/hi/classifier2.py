@@ -79,7 +79,7 @@ def get_feats(Word):
 
 
 def are_stems_similar(o_stem, c_stem):
-    """ Returns true if if two stems are similar"""
+    """ Returns true if two stems are similar"""
     f1 = lambda stem: stem.endswith('ी')
     f2 = lambda stem: stem.endswith('िय')
     f3 = lambda stem1, stem2: f1(stem1) and f2(stem2) and stem1[-1:] == stem2[-2:]
@@ -91,7 +91,17 @@ def are_stems_similar(o_stem, c_stem):
     return c_stemchar_dist <= 1 or c_stemchar_ratio >= 0.8
 
 
-# Input 1: Spacy orig tokens
+def are_lemmas_similar(o_tok, c_tok):
+    """ Returns true if the lemmas are equal or stems are similar"""
+    o_stem = stemmer.stem(o_tok)
+    c_stem = stemmer.stem(c_tok)
+    if (o_tok.lemma == c_tok.lemma) or are_stems_similar(o_stem, c_stem):
+        return True
+    return False
+
+    # Input 1: Spacy orig tokens
+
+
 # Input 2: Spacy cor tokens
 # Output: Boolean; the tokens are exactly the same but in a different order
 def exact_reordering(o_toks, c_toks):
@@ -218,16 +228,22 @@ morph_list = ["ADJ", "ADV", "NOUN", "VERB", "ADP", "PRON"]
 # Input 2: Stanza cor tokens
 # Output: An error type string based on orig AND cor
 def is_tense_aux(o_tok, c_tok):
-    #checks if both the tokens belong to auxiliary verbs list responsible for tense changes
-    set_tense_aux_lemma = {'लग', 'सक', 'खाना', 'चुक', 'है', 'लगा', 'दे', 'जा', 'चल', 'ले', 'चाहिए', 'कर', 'रह', 'सकूँग', 'खा', 'पड़', 'ला', 'हो', 'पा', 'गय', 'आ', 'पड', 'था', 'चाहि'}
-    set_tense_aux_stem = {'थी', 'जाएँ', 'लग', 'पाए', 'सक', 'लिय', 'आई', 'दिय', 'चाह', 'चुक', 'है', 'पाओ', 'खाय', 'दे', 'जा', 'लगाएँग', 'जाओ', 'ले', 'चल', 'गईं', 'लाय', 'गए', 'लिए', 'लाएँग', 'थे', 'कर', 'हुईं', 'हुए', 'रह', 'हैं', 'किए', 'होग', 'खाए', 'खा', 'लाए', 'पड़', 'हुई', 'ला', 'ली', 'हो', 'लगाऊँ', 'पाय', 'चाहिएँ', 'थीं', 'लो', 'गय', 'आए', 'जाएँग', 'था', 'कीज', 'जाएग', 'हुआ', 'आय', 'लीं', 'होंग', 'किय', 'दी', 'पाएँग', 'आईं', 'गई', 'पाएँ', 'की'}
+    # checks if both the tokens belong to auxiliary verbs list responsible for tense changes
+    set_tense_aux_lemma = {'लग', 'सक', 'खाना', 'चुक', 'है', 'लगा', 'दे', 'जा', 'चल', 'ले', 'चाहिए', 'कर', 'रह', 'सकूँग',
+                           'खा', 'पड़', 'ला', 'हो', 'पा', 'गय', 'आ', 'पड', 'था', 'चाहि'}
+    set_tense_aux_stem = {'थी', 'जाएँ', 'लग', 'पाए', 'सक', 'लिय', 'आई', 'दिय', 'चाह', 'चुक', 'है', 'पाओ', 'खाय', 'दे',
+                          'जा', 'लगाएँग', 'जाओ', 'ले', 'चल', 'गईं', 'लाय', 'गए', 'लिए', 'लाएँग', 'थे', 'कर', 'हुईं',
+                          'हुए', 'रह', 'हैं', 'किए', 'होग', 'खाए', 'खा', 'लाए', 'पड़', 'हुई', 'ला', 'ली', 'हो', 'लगाऊँ',
+                          'पाय', 'चाहिएँ', 'थीं', 'लो', 'गय', 'आए', 'जाएँग', 'था', 'कीज', 'जाएग', 'हुआ', 'आय', 'लीं',
+                          'होंग', 'किय', 'दी', 'पाएँग', 'आईं', 'गई', 'पाएँ', 'की'}
     o_stem = stemmer.stem(o_tok.text)
     c_stem = stemmer.stem(c_tok.text)
     o_lemma = o_tok.lemma
     c_lemma = c_tok.lemma
-    if ({o_stem,c_stem}.issubset(set_tense_aux_stem)) or ({o_lemma,c_lemma}.issubset(set_tense_aux_lemma)):
+    if ({o_stem, c_stem}.issubset(set_tense_aux_stem)) or ({o_lemma, c_lemma}.issubset(set_tense_aux_lemma)):
         return True
     return False
+
 
 def get_two_sided_type(o_toks, c_toks):
     o_toks = [tok.words[0] for tok in o_toks]
@@ -293,8 +309,8 @@ def get_two_sided_type(o_toks, c_toks):
         # print("Reached")
         # Gender Edits
         # if the edit has both tense and gender different, then classify as gender edit
-        if (c_pos[0] in (main_pos + ['AUX', 'ADP'])) and (o_toks[0].lemma == c_toks[0].lemma or are_stems_similar(o_stem,c_stem)):
-            if c_pos[0]=='ADP':
+        if (c_pos[0] in (main_pos + ['AUX', 'ADP'])) and are_lemmas_similar(o_toks[0], c_toks[0]):
+            if c_pos[0] == 'ADP':
                 return "ADP-INFL"
             if opposite_gen(o_feats[0], c_feats[0]) and c_pos[0] != "NOUN":
                 if c_pos[0] == 'AUX':
@@ -321,7 +337,7 @@ def get_two_sided_type(o_toks, c_toks):
                 return "VERB-TENSE"
 
         # Single token replacement of a word with a upos tag of NOUN, different lemma
-        if o_pos[0]==c_pos[0]=="VERB" and o_toks[0].lemma != c_toks[0].lemma:
+        if o_pos[0] == c_pos[0] == "VERB" and o_toks[0].lemma != c_toks[0].lemma:
             print("Here, diff lemma")
             exceptions_tense = (
                 ('है', 'था', 'होगा'), ('हैं', 'थे', 'होंगे'), ('है', 'थी', 'होगी'), ('हैं', 'थीं', 'होंगी'),
@@ -348,24 +364,25 @@ def get_two_sided_type(o_toks, c_toks):
         char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
         if o_pos[0] == 'NOUN' and c_pos[0] == 'NOUN' and char_ratio >= 0.5 and opposite_gen(o_feats[0], c_feats[0]):
             return "NOUN-GEN"
-        if (c_pos[0] in list_pos or c_pos[0]=="AUX") and o_pos[0] == c_pos[0] and not opposite_tense(o_feats[0],c_feats[0]):
+        if (c_pos[0] in list_pos or c_pos[0] == "AUX") and o_pos[0] == c_pos[0] and not opposite_tense(o_feats[0],
+                                                                                                       c_feats[0]):
             # hai -> hoon
             print("I am here")
-            print("o_pos[0]",o_pos[0],"c_pos[0]",c_pos[0])
-            if(c_pos[0]=="AUX"):
+            print("o_pos[0]", o_pos[0], "c_pos[0]", c_pos[0])
+            if c_pos[0] == "AUX":
                 c_pos[0] = "VERB"
-            if c_pos[0]=="VERB" and ((o_toks[0].lemma == c_toks[0].lemma) or (are_stems_similar(o_stem,c_stem))) :
+            if c_pos[0] == "VERB" and are_lemmas_similar(o_toks[0], c_toks[0]):
                 return "VERB-FORM"
             return c_pos[0]
         if o_toks[0].deprel == "punct" and c_toks[0].deprel == "punct":
             return "PUNCT"
         print("Morpho reached")
         # 3. MORPHOLOGY
-        if o_toks[0].lemma == c_toks[0].lemma:
+        if are_lemmas_similar(o_toks[0], c_toks[0]):
             print("Same lemma ")
             # Same POS on both sides
             if o_pos[0] == c_pos[0]:
-                if o_pos[0] in ("VERB"):
+                if o_pos[0] in "VERB":
                     # Of what's left, TENSE errors normally involved VBD.
                     if o_toks[0].xpos == "VBD" or c_toks[0].xpos == "VBD":
                         s = "if o_toks[0].tag_ == \"VBD\" or c_toks[0].tag_ == \"VBD\":"
@@ -397,23 +414,24 @@ def get_two_sided_type(o_toks, c_toks):
         # 4. GENERAL
         # Auxiliaries with different lemmas
         # Also checking that stems are not similar
-        if (o_toks[0].lemma != c_toks[0].lemma and not are_stems_similar(o_stem, c_stem)) and o_dep[0].startswith("aux") and c_dep[0].startswith("aux"):
+        if (not are_lemmas_similar(o_toks[0], c_toks[0])) and o_dep[0].startswith(
+                "aux") and c_dep[0].startswith("aux"):
             s = "if o_dep[0].startswith(\"aux\") and c_dep[0].startswith(\"aux\"):"
             # print(s)
             if not opposite_gen(o_feats[0], c_feats[0]) and not opposite_num(o_feats[0], c_feats[0]):
                 print("Tokens", o_toks[0], c_toks[0])
-                if (is_tense_aux(o_toks[0],c_toks[0])):
+                if (is_tense_aux(o_toks[0], c_toks[0])):
                     print("TENSE 1.7")
                     return "VERB-TENSE"
 
-        if (o_toks[0].lemma == c_toks[0].lemma or are_stems_similar(o_stem, c_stem)) and \
+        if are_lemmas_similar(o_toks[0], c_toks[0]) and \
                 o_pos[0] in morph_list and \
                 c_pos[0] in morph_list:
             return "MORPH"
 
     # Multi-token replacements (uncommon)
     # All auxiliaries    
-    if len(o_toks)+len(c_toks) > 2:
+    if len(o_toks) + len(c_toks) > 2:
         if set(o_dep + c_dep).issubset({"aux", "aux:pass"}):
             # print("Hello")
             s = "if set(o_dep+c_dep).issubset({\"aux\", \"aux:pass\"}): and o_gen = c_gen"
@@ -421,7 +439,7 @@ def get_two_sided_type(o_toks, c_toks):
             if set(o_gen) == set(c_gen) and set(o_num) == set(c_num):
                 if not opposite_gen(o_feats[0], c_feats[0]) and not opposite_num(o_feats[0], c_feats[0]):
                     print("Tokens", o_toks[0], c_toks[0])
-                    if (is_tense_aux(o_toks[0],c_toks[0])):
+                    if is_tense_aux(o_toks[0], c_toks[0]):
                         print("TENSE 1.8")
                         return "VERB-TENSE"
     # All same POS
@@ -429,12 +447,12 @@ def get_two_sided_type(o_toks, c_toks):
     # print(o_toks[0].lemma,c_toks[0].lemma)
     # print(not(opposite_gen(o_feats[0], c_feats[0])))
     # print(not(opposite_num(o_feats[0],c_feats[0])))
-    if(len(o_toks)+len(c_toks)>2):
+    if (len(o_toks) + len(c_toks) > 2):
         if len(set(o_pos + c_pos)) <= 2 and set(o_pos + c_pos).issubset({"VERB", "AUX"}):
             print("len(set(o_pos + c_pos)) <= 2")
             # Final verbs with the same lemma are tense; e.g. eat -> has eaten
             if o_pos[0] in ("VERB", "AUX") and \
-                    (o_toks[0].lemma == c_toks[0].lemma or are_stems_similar(o_stem, c_stem)) \
+                    are_lemmas_similar(o_toks[0], c_toks[0]) \
                     and not opposite_gen(o_feats[0], c_feats[0]) \
                     and not opposite_num(o_feats[0], c_feats[0]):
                 s = "if len(set(o_pos+c_pos)) == 1:," + "if o_pos[0] == VERB and o_toks[0].lemma == c_toks[0].lemma:"
@@ -442,58 +460,70 @@ def get_two_sided_type(o_toks, c_toks):
                 print("TENSE 1.9")
                 return "VERB-TENSE"
 
-    if len(o_toks)+len(c_toks) > 2:
+    if len(o_toks) + len(c_toks) > 2:
         for i in range(len(o_toks)):
             if o_pos[i] == "NOUN":
                 for j in range(len(c_pos)):
                     if c_pos[j] == "NOUN":
-                        if o_toks[i].lemma == c_toks[j].lemma and opposite_num(o_feats[i], c_feats[j]):
-                            return "NOUN-NUM"
-                        char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
-                        if char_ratio >= 0.5 and opposite_gen(o_feats[i], c_feats[j]):
+                        if are_lemmas_similar(o_toks[i], c_toks[j]):
+                            if opposite_num(o_feats[i], c_feats[j]):
+                                return "NOUN-NUM"
+                        lemma_char_ratio = Levenshtein.ratio(o_toks[i].text, c_toks[j].text)
+                        if lemma_char_ratio >= 0.5 and opposite_gen(o_feats[i], c_feats[j]):
                             return "NOUN-GEN"
                         if o_toks[i].lemma != c_toks[j].lemma:
                             return "NOUN"
         for i in range(len(o_toks)):
-            if o_pos[i] in ["PRON", "NOUN"]:
+            if o_pos[i] == "PRON":
                 for j in range(len(c_pos)):
                     if c_pos[j] == "PRON":
-                        if o_toks[i].lemma == c_toks[j].lemma and opposite_gen(o_feats[i], c_feats[j]):
-                            return "PRON-GEN"
+                        if are_lemmas_similar(o_toks[i], c_toks[j]):
+                            if opposite_num(o_feats[i], c_feats[j]):
+                                return "PRON-NUM"
+                            if opposite_gen(o_feats[i], c_feats[j]):
+                                return "PRON-GEN"
                         if o_toks[i].lemma != c_toks[j].lemma:
                             return "PRON"
         for i in range(len(o_toks)):
             if o_pos[i] in ("VERB", "AUX"):
                 for j in range(len(c_pos)):
                     if c_pos[j] == o_pos[i]:
-                        if o_toks[i].lemma == c_toks[j].lemma and opposite_gen(o_feats[i], c_feats[j]):
-                            # print("i =", "j =", i, j, o_toks[i], c_toks[j], o_feats[i], c_feats[j])
-                            # print("ling")
-                            return "VERB-GEN"
+                        if are_lemmas_similar(o_toks[i], c_toks[j]):
+                            if opposite_num(o_feats[i], c_feats[j]):
+                                return "VERB-NUM"
+                            if opposite_gen(o_feats[i], c_feats[j]):
+                                # print("i =", "j =", i, j, o_toks[i], c_toks[j], o_feats[i], c_feats[j])
+                                # print("ling")
+                                return "VERB-GEN"
                         if o_toks[i].lemma != c_toks[j].lemma:
                             return "VERB"
         for i in range(len(o_toks)):
             if o_pos[i] == "ADP":
                 for j in range(len(c_pos)):
                     if c_pos[j] == "ADP":
-                        if o_toks[i].lemma != c_toks[j].lemma:
+                        if are_lemmas_similar(o_toks[i], c_toks[j]):
+                            return "ADP-INFL"
+                        else:
                             return "ADP"
+
         for i in range(len(o_toks)):
             if o_pos[i] == "ADV":
                 for j in range(len(c_pos)):
-                    if c_pos[j] == "ADV":
-                        if o_toks[i].lemma != c_toks[j].lemma:
-                            return "ADV"
+                    if c_pos[j] == "ADV" and o_toks[i].lemma != c_toks[j].lemma:
+                        return "ADV"
         for i in range(len(o_toks)):
             if o_pos[i] == "PREP":
                 for j in range(len(c_pos)):
-                    if c_pos[j] == "PREP":
-                        if o_toks[i].lemma != c_toks[j].lemma:
-                            return "PREP"
+                    if c_pos[j] == "PREP" and o_toks[i].lemma != c_toks[j].lemma:
+                        return "PREP"
         for i in range(len(o_toks)):
             if o_pos[i] == "DET":
                 for j in range(len(c_pos)):
-                    if c_pos[j] == "DET":
-                        if o_toks[i].lemma != c_toks[j].lemma:
-                            return "DET"
+                    if c_pos[j] == "DET" and o_toks[i].lemma != c_toks[j].lemma:
+                        return "DET"
+        for i in range(len(o_toks)):
+            if o_pos[i] in morph_list:
+                for j in range(len(c_pos)):
+                    if c_pos[j] in morph_list and o_pos[i] != c_pos[j] and are_lemmas_similar(o_toks[i], c_toks[j]):
+                        return "MORPH"
     return "OTHER"

@@ -3,8 +3,6 @@ Processing parallel files...
 o_stem अनुसर c_stem अनुसार c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num [''] c_num ['']
 lemma_o अनुसर lemma_c अनुसार
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem सगर c_stem सगरमाथ c_stemchar_dist 3 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing', 'Sing'] c_num ['Sing']
 lemma_o सगर lemma_c सगरमाथा
@@ -53,7 +51,6 @@ lemma_o लम lemma_c लमजुंग
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-Morpho reached
 o_stem सांजस्य c_stem स्यांज c_stemchar_dist 5 c_stemchar_ratio 0.6153846153846154
 o_num ['Sing'] c_num ['Sing']
 lemma_o सांजस्य lemma_c स्यांजा
@@ -61,7 +58,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-Morpho reached
 o_stem अल्पाल्प c_stem पाल्प c_stemchar_dist 3 c_stemchar_ratio 0.7692307692307693
 o_num ['Sing'] c_num ['Sing']
 lemma_o अल्पाल्प lemma_c पाल्पा
@@ -125,8 +121,6 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem जिल् c_stem जिल्ल c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 o_num ['Plur', 'Plur'] c_num ['Plur']
 lemma_o जिल् lemma_c जिल्ला
@@ -312,8 +306,7 @@ Morpho reached
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['Sing']
 lemma_o सुत lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem हैं c_stem है c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Sing']
 lemma_o है lemma_c है
@@ -343,31 +336,23 @@ lemma_o इन्फो-सोसाइटी lemma_c आइसोसाइन�
 o_stem गय c_stem गय c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Sing']
 lemma_o जा lemma_c गय
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem इन्फो-सोसाइट c_stem आइसोसाइनाइट c_stemchar_dist 8 c_stemchar_ratio 0.6086956521739131
 o_num ['Sing'] c_num ['Sing']
 lemma_o इन्फो-सोसाइटी lemma_c आइसोसाइनाइट
 o_stem गय c_stem गय c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Sing']
 lemma_o गय lemma_c जा
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem इन्फो-सोसाइट c_stem आइसोसाइनाइट c_stemchar_dist 8 c_stemchar_ratio 0.6086956521739131
 o_num ['Sing'] c_num ['Sing']
 lemma_o इन्फो-सोसाइटी lemma_c आइसोसाइनाइट
@@ -381,8 +366,6 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem म्रृत्य c_stem म्रित्य c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num [''] c_num ['']
 lemma_o म्रृत्यु lemma_c म्रित्यु
@@ -391,8 +374,6 @@ o_pos[0] ADJ c_pos[0] ADJ
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem संख्य c_stem सन्ख्य c_stemchar_dist 2 c_stemchar_ratio 0.7272727272727273
 o_num ['Sing'] c_num ['Sing']
 lemma_o संख्या lemma_c सन्ख्या
@@ -409,8 +390,6 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem ८ c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['']
 lemma_o ज़ lemma_c ८
@@ -426,8 +405,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem कारख c_stem कारखान c_stemchar_dist 2 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Plur']
 lemma_o कारखाना lemma_c कारखान
@@ -481,8 +458,6 @@ Morpho reached
 o_stem अनुसर c_stem अनुसार c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num [''] c_num ['']
 lemma_o अनुसर lemma_c अनुसार
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem २ c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['']
 lemma_o ज़ lemma_c २
@@ -490,7 +465,6 @@ Not in spell
 o_stem कि c_stem की c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num [''] c_num ['Sing']
 lemma_o कि lemma_c का
-Morpho reached
 o_stem म्रृत्य c_stem म्रित्य c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num ['Sing'] c_num ['Sing']
 lemma_o म्रृत्यु lemma_c म्रित्यु
@@ -515,8 +489,6 @@ Morpho reached
 o_stem अनुसर c_stem अनुसार c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num [''] c_num ['']
 lemma_o अनुसर lemma_c अनुसार
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem २ c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['']
 lemma_o ज़ lemma_c २
@@ -590,7 +562,6 @@ Morpho reached
 o_stem द्वार c_stem द्वार c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['']
 lemma_o द्वार lemma_c द्वारा
-Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
 lemma_o ज़ lemma_c COMMA
@@ -620,8 +591,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem श्रंखल c_stem शृंखल c_stemchar_dist 2 c_stemchar_ratio 0.7272727272727273
 o_num ['Sing'] c_num ['Sing']
 lemma_o श्रंखला lemma_c शृंखला
@@ -638,8 +607,6 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem नगल c_stem लग c_stemchar_dist 2 c_stemchar_ratio 0.4
 o_num ['Sing'] c_num ['Sing']
 lemma_o नगल lemma_c लग
@@ -667,8 +634,7 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem रेह c_stem रह c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['Plur']
 lemma_o रेह lemma_c रह
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Plur'] c_num ['Plur']
 lemma_o है lemma_c है
@@ -695,8 +661,7 @@ Here, diff lemma
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['Sing']
 lemma_o सुत lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem फर्ज c_stem फ़र्ज़ c_stemchar_dist 2 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Sing']
 lemma_o फर्ज lemma_c फर्ज
@@ -719,8 +684,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num ['Sing'] c_num ['']
 lemma_o ज़ lemma_c "
@@ -732,8 +695,6 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem तुकाराम c_stem तुलाराम c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num ['Sing'] c_num ['Sing']
 lemma_o तुकाराम lemma_c तुलाराम
@@ -741,8 +702,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num ['Sing'] c_num ['']
 lemma_o ज़ lemma_c COMMA
@@ -754,8 +713,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem अह c_stem अहिरवाल c_stemchar_dist 5 c_stemchar_ratio 0.4444444444444444
 o_num ['Sing', 'Sing'] c_num ['Sing']
 lemma_o अहि lemma_c अहिरवाल
@@ -770,8 +727,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem टिक c_stem टिकेट c_stemchar_dist 2 c_stemchar_ratio 0.75
 o_num ['Sing'] c_num ['Sing']
 lemma_o टिका lemma_c टिकेट
@@ -783,8 +738,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem रावत c_stem राव c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num ['Sing'] c_num ['Sing']
 lemma_o रावत lemma_c रावता
@@ -851,8 +804,7 @@ lemma_o ज़ lemma_c COMMA
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['Sing']
 lemma_o सुत lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem शुरुवात c_stem शुरुआत c_stemchar_dist 2 c_stemchar_ratio 0.7692307692307693
 o_num ['Sing'] c_num ['Sing']
 lemma_o शुरुवात lemma_c शुरुआत
@@ -861,18 +813,12 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem जहिय c_stem जनह c_stemchar_dist 3 c_stemchar_ratio 0.5714285714285714
 o_num ['Sing'] c_num ['Sing']
 lemma_o जहिया lemma_c जनहित
@@ -888,8 +834,6 @@ Here, diff lemma
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem रस c_stem रास c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Sing']
 lemma_o रस lemma_c रास
@@ -901,8 +845,7 @@ Not in spell
 o_stem रेह c_stem रह c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Plur'] c_num ['Plur']
 lemma_o रेह lemma_c रह
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem हैं c_stem है c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Plur'] c_num ['Plur']
 lemma_o है lemma_c है
@@ -973,13 +916,11 @@ Morpho reached
 o_stem हे c_stem है c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['Sing']
 lemma_o हा lemma_c है
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem हे c_stem है c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['Sing']
 lemma_o हा lemma_c है
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem मक्क c_stem मद c_stemchar_dist 3 c_stemchar_ratio 0.3333333333333333
 o_num ['Sing'] c_num ['Sing']
 lemma_o मक्की lemma_c मदनी
@@ -1070,8 +1011,6 @@ lemma_o देश lemma_c देश
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मुरशिद c_stem रशिदुन c_stemchar_dist 4 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Sing']
 lemma_o मुरशिद lemma_c रशिदुन
@@ -1079,8 +1018,6 @@ Morpho reached
 o_stem कोन c_stem कोन c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Plur']
 lemma_o कोन lemma_c कोनो
-I am here
-o_pos[0] NOUN c_pos[0] NOUN
 o_stem खल c_stem खलीफ c_stemchar_dist 2 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Sing']
 lemma_o खली lemma_c खलीफ
@@ -1119,8 +1056,7 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem लत c_stem ले c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Plur'] c_num ['Plur']
 lemma_o लत lemma_c ले
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem तान c_stem ता c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Sing']
 lemma_o तान lemma_c तानी
@@ -1235,8 +1171,6 @@ Not in spell
 o_stem अनुसर c_stem अनुसार c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num [''] c_num ['']
 lemma_o अनुसर lemma_c अनुसार
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem अगार c_stem अगर c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num ['Sing'] c_num ['']
 lemma_o अगार lemma_c अगर
@@ -1248,7 +1182,6 @@ Morpho reached
 o_stem अनुसर c_stem अनुसार c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num ['Sing'] c_num ['']
 lemma_o अनुसर lemma_c अनुसार
-Morpho reached
 o_stem अगार c_stem अगर c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num ['Sing'] c_num ['']
 lemma_o अगार lemma_c अगर
@@ -1339,8 +1272,6 @@ len(set(o_pos + c_pos)) <= 2
 o_stem उपरात c_stem उपरांत c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num [''] c_num ['Sing']
 lemma_o उपरात lemma_c उपरांत
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['']
 lemma_o ज़ lemma_c COMMA
@@ -1415,7 +1346,6 @@ Morpho reached
 o_stem दो c_stem को c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num [''] c_num ['']
 lemma_o दो lemma_c को
-Morpho reached
 o_stem सीम c_stem सीम c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Plur'] c_num ['Sing']
 lemma_o सीमा lemma_c सीमा
@@ -1514,8 +1444,7 @@ Morpho reached
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['Sing']
 lemma_o सुत lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem रसायन c_stem रसायनक c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num ['Plur'] c_num ['Plur']
 lemma_o रसायन lemma_c रसायनक
@@ -1524,8 +1453,7 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Plur'] c_num ['Plur']
 lemma_o सु lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem हैं c_stem है c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Plur'] c_num ['Sing']
 lemma_o है lemma_c है
@@ -1580,8 +1508,6 @@ lemma_o ज़ lemma_c COMMA
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Plur'] c_num ['Sing']
 lemma_o सु lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
 o_stem चुंगल c_stem लाचुंग c_stemchar_dist 3 c_stemchar_ratio 0.7272727272727273
 o_num ['Sing'] c_num ['Sing']
 lemma_o चुंगल lemma_c लाचुंग
@@ -1622,8 +1548,7 @@ lemma_o है lemma_c है
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Plur'] c_num ['Plur']
 lemma_o सु lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Plur']
 lemma_o है lemma_c है
@@ -1645,8 +1570,6 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem दोन c_stem दोन c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num [''] c_num ['Plur']
 lemma_o दो lemma_c दो
@@ -1660,17 +1583,12 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem रोग c_stem रोग c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Plur']
 lemma_o रोग lemma_c रोग
@@ -1833,13 +1751,9 @@ Not in spell
 o_stem रेह c_stem रह c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Plur'] c_num ['Sing']
 lemma_o रेह lemma_c रह
-I am here
-o_pos[0] AUX c_pos[0] AUX
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['']
 lemma_o ज़ lemma_c .
@@ -1850,8 +1764,6 @@ lemma_o है lemma_c है
 o_stem अनुसर c_stem अनुसार c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num [''] c_num ['']
 lemma_o अनुसर lemma_c अनुसार
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Plur']
 lemma_o है lemma_c है
@@ -1865,8 +1777,6 @@ Not in spell
 o_stem के c_stem को c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num [''] c_num ['']
 lemma_o का lemma_c को
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['']
 lemma_o ज़ lemma_c COMMA
@@ -1915,8 +1825,6 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem शरीर c_stem शरीर c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Plur'] c_num ['Sing']
 lemma_o शरीरी lemma_c शरीर
-I am here
-o_pos[0] NOUN c_pos[0] NOUN
 o_stem मेसोथेलियम c_stem माइसेलियम c_stemchar_dist 4 c_stemchar_ratio 0.7368421052631579
 o_num ['Sing'] c_num ['Sing']
 lemma_o मेसोथेलियम lemma_c माइसेलियम
@@ -1931,18 +1839,14 @@ lemma_o उप lemma_c उपक्षार
 o_stem उपर c_stem ऊपर c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Sing']
 lemma_o उपर lemma_c ऊपर
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['Sing']
 lemma_o सु lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['Sing']
 lemma_o सु lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Sing']
 lemma_o है lemma_c है
@@ -2113,7 +2017,7 @@ lemma_o राम lemma_c रामतनु
 o_stem धी c_stem थी c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['Sing']
 lemma_o धी lemma_c था
-Morpho reached
+TENSE 1.1
 o_stem गोस c_stem गौस c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Sing']
 lemma_o गोस lemma_c गौस
@@ -2121,8 +2025,6 @@ Morpho reached
 o_stem इन्ह c_stem उन्ह c_stemchar_dist 1 c_stemchar_ratio 0.75
 o_num ['Plur'] c_num ['Sing']
 lemma_o यह lemma_c वह
-I am here
-o_pos[0] PRON c_pos[0] PRON
 o_stem मृगनै c_stem मृगनय c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Sing']
 lemma_o मृगनैनी lemma_c मृगनयनी
@@ -2130,8 +2032,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['']
 lemma_o ज़ lemma_c COMMA
@@ -2143,7 +2043,6 @@ Morpho reached
 o_stem कि c_stem की c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num [''] c_num ['Sing']
 lemma_o कि lemma_c का
-Morpho reached
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['']
 lemma_o ज़ lemma_c (
@@ -2180,8 +2079,6 @@ lemma_o है lemma_c है
 o_stem अनुसर c_stem अनुसार c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num [''] c_num ['']
 lemma_o अनुसर lemma_c अनुसार
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num ['Sing'] c_num ['']
 lemma_o ज़ lemma_c COMMA
@@ -2213,8 +2110,6 @@ Morpho reached
 o_stem अनुसर c_stem अनुसार c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num [''] c_num ['']
 lemma_o अनुसर lemma_c अनुसार
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num ['Sing'] c_num ['']
 lemma_o ज़ lemma_c COMMA
@@ -2353,7 +2248,7 @@ o_pos[0] ADP c_pos[0] ADP
 o_stem रेह c_stem रह c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Sing']
 lemma_o रेह lemma_c रह
-Morpho reached
+Here, diff lemma
 o_stem हैं c_stem थे c_stemchar_dist 3 c_stemchar_ratio 0.0
 o_num ['Sing'] c_num ['Sing']
 lemma_o है lemma_c था
@@ -2457,8 +2352,6 @@ Here, diff lemma
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem नवार c_stem धनवार c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 o_num ['Sing'] c_num ['Sing']
 lemma_o नवार lemma_c धनवार
@@ -2478,8 +2371,6 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem घोसिन c_stem घोस c_stemchar_dist 2 c_stemchar_ratio 0.75
 o_num ['Sing'] c_num ['']
 lemma_o घोसिन lemma_c घोसित
@@ -2500,8 +2391,6 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem ने c_stem से c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num [''] c_num ['']
 lemma_o ने lemma_c से
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem आदिवास c_stem लाभ c_stemchar_dist 5 c_stemchar_ratio 0.2222222222222222
 o_num ['', ''] c_num ['Sing', 'Sing', 'Sing']
 lemma_o आदिवासी lemma_c लाभ
@@ -2525,8 +2414,6 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem से c_stem ने c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num [''] c_num ['']
 lemma_o से lemma_c ने
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem लाभ c_stem आदिवास c_stemchar_dist 5 c_stemchar_ratio 0.2222222222222222
 o_num ['Sing', 'Sing', 'Sing'] c_num ['', '']
 lemma_o लाभ lemma_c आदिवासी
@@ -2580,8 +2467,7 @@ Same lemma
 o_stem रेह c_stem रह c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Sing']
 lemma_o रेह lemma_c रह
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem जिनम c_stem जिनम c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Plur'] c_num ['Plur']
 lemma_o जो lemma_c जो
@@ -2618,8 +2504,7 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem है c_stem हैै c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Plur'] c_num ['Plur']
 lemma_o है lemma_c हैै
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem स्वघोष c_stem स्वपोष c_stemchar_dist 1 c_stemchar_ratio 0.8333333333333334
 o_num [''] c_num ['']
 lemma_o स्वघोषित lemma_c स्वपोषित
@@ -2812,8 +2697,6 @@ Not in spell
 o_stem हमेल c_stem हमल c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num ['Sing'] c_num ['Plur']
 lemma_o हमेल lemma_c हमला
-I am here
-o_pos[0] NOUN c_pos[0] NOUN
 o_stem है c_stem था c_stemchar_dist 2 c_stemchar_ratio 0.0
 o_num ['Sing'] c_num ['Sing']
 lemma_o है lemma_c था
@@ -2829,13 +2712,9 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem कसाब c_stem क़साब c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 o_num ['Sing'] c_num ['Sing']
 lemma_o कसाब lemma_c कससाब
@@ -2843,8 +2722,6 @@ Not in spell
 o_stem लिए c_stem लिय c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num [''] c_num ['']
 lemma_o लिए lemma_c लिये
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem राज c_stem राजिम c_stemchar_dist 2 c_stemchar_ratio 0.75
 o_num ['Sing'] c_num ['Sing']
 lemma_o राजि lemma_c राजिम
@@ -2988,8 +2865,6 @@ Morpho reached
 o_stem उपर c_stem ऊपर c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Sing']
 lemma_o उपर lemma_c ऊपर
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem हैं c_stem है c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Plur'] c_num ['Sing']
 lemma_o है lemma_c है
@@ -3074,13 +2949,9 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem उपर c_stem ऊपर c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Sing']
 lemma_o उपर lemma_c ऊपर
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ओजस्वि c_stem ओजस्विन c_stemchar_dist 1 c_stemchar_ratio 0.9230769230769231
 o_num ['Sing'] c_num ['']
 lemma_o ओजस्विता lemma_c ओजस्विन
@@ -3109,8 +2980,6 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Plur'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num ['Plur'] c_num ['']
 lemma_o ज़ lemma_c COMMA
@@ -3186,16 +3055,13 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem छोट c_stem छोटानागपुर c_stemchar_dist 7 c_stemchar_ratio 0.46153846153846156
 o_num ['Sing', 'Sing'] c_num ['Sing']
 lemma_o छोटा lemma_c छोटानागपुर
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Plur'] c_num ['Plur']
 lemma_o सु lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem की c_stem कि c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['']
 lemma_o का lemma_c कि
@@ -3283,8 +3149,6 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem लिय c_stem लिए c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num [''] c_num ['']
 lemma_o लिये lemma_c लिए
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem प्रसिक c_stem प्रसिध c_stemchar_dist 1 c_stemchar_ratio 0.8333333333333334
 o_num [''] c_num ['']
 lemma_o प्रसिक lemma_c प्रसिध
@@ -3309,12 +3173,9 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem बाराह c_stem बाहार c_stemchar_dist 2 c_stemchar_ratio 0.6
 o_num [''] c_num ['']
 lemma_o बाराह lemma_c बाहार
@@ -3356,18 +3217,12 @@ Not in spell
 o_stem उनक c_stem इनक c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Plur']
 lemma_o वह lemma_c यह
-I am here
-o_pos[0] PRON c_pos[0] PRON
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem उपर c_stem ऊपर c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num [''] c_num ['']
 lemma_o उपरा lemma_c ऊपरी
@@ -3396,8 +3251,7 @@ Morpho reached
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Plur'] c_num ['Plur']
 lemma_o सु lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem सिक c_stem िसक c_stemchar_dist 2 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Plur']
 lemma_o सो lemma_c कस
@@ -3477,8 +3331,7 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Plur'] c_num ['Plur']
 lemma_o सु lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['', '', '', '', '']
 lemma_o ज़ lemma_c COMMA
@@ -3491,7 +3344,6 @@ lemma_o ज़ lemma_c यह
 o_stem जोव c_stem जीव c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Plur']
 lemma_o जोवी lemma_c जीव
-Morpho reached
 o_stem खिलाफ़ c_stem खिलाफ़ c_stemchar_dist 2 c_stemchar_ratio 0.7272727272727273
 o_num [''] c_num ['']
 lemma_o खिलाफ़ lemma_c खिलाफ
@@ -3604,23 +3456,15 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem सम्बद्ध c_stem सम्रद्ध c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num [''] c_num ['']
 lemma_o सम्बद्ध lemma_c सम्रद्ध
@@ -3634,8 +3478,6 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem कम्प्यूटरीकरण c_stem कम्पुटरीकरण c_stemchar_dist 3 c_stemchar_ratio 0.8333333333333334
 o_num ['Sing'] c_num ['Sing']
 lemma_o कम्प्यूटरीकरण lemma_c कम्पुटरीकरण
@@ -3644,13 +3486,10 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem रेह c_stem रह c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Plur'] c_num ['Plur']
 lemma_o रेह lemma_c रह
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Plur'] c_num ['Plur']
 lemma_o है lemma_c है
@@ -3661,8 +3500,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num ['Sing'] c_num ['']
 lemma_o ज़ lemma_c COMMA
@@ -3719,8 +3556,7 @@ o_pos[0] ADJ c_pos[0] ADJ
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['Sing']
 lemma_o सु lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Sing']
 lemma_o है lemma_c है
@@ -3750,8 +3586,6 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ऐंठन c_stem ऐंठनभर c_stemchar_dist 2 c_stemchar_ratio 0.8
 o_num ['Sing', 'Sing'] c_num ['Sing']
 lemma_o ऐंठन lemma_c ऐंठनभरी
@@ -3778,8 +3612,6 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ष c_stem कक्ष c_stemchar_dist 3 c_stemchar_ratio 0.4
 o_num ['Sing'] c_num ['Sing']
 lemma_o ष lemma_c कक्ष
@@ -3810,34 +3642,25 @@ lemma_o ज़ lemma_c COMMA
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Plur'] c_num ['Plur']
 lemma_o है lemma_c है
 o_stem अनुसर c_stem अनुसार c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num [''] c_num ['']
 lemma_o अनुसर lemma_c अनुसार
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem रेह c_stem रह c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['Plur']
 lemma_o रेह lemma_c रह
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem क्रिय c_stem क्रियापद c_stemchar_dist 3 c_stemchar_ratio 0.7692307692307693
 o_num ['Sing', 'Sing'] c_num ['Plur']
 lemma_o क्रिया lemma_c क्रियापद
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem में c_stem से c_stemchar_dist 2 c_stemchar_ratio 0.4
 o_num [''] c_num ['']
 lemma_o में lemma_c से
@@ -4089,8 +3912,6 @@ TENSE 1.7
 o_stem उपर c_stem ऊपर c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Sing']
 lemma_o उपर lemma_c ऊपर
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem फिल्म c_stem फिल्माय c_stemchar_dist 2 c_stemchar_ratio 0.8333333333333334
 o_num ['Plur'] c_num ['Plur']
 lemma_o फिल्मा lemma_c फिल्मा
@@ -4099,8 +3920,6 @@ o_pos[0] VERB c_pos[0] VERB
 o_stem उपर c_stem ऊपर c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Sing']
 lemma_o उपर lemma_c ऊपर
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem अनुरूप c_stem अनुरूपं c_stemchar_dist 1 c_stemchar_ratio 0.9230769230769231
 o_num ['Sing'] c_num ['Sing']
 lemma_o अनुरूपता lemma_c अनुरूपंता
@@ -4108,8 +3927,6 @@ Morpho reached
 o_stem उपर c_stem ऊपर c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Sing']
 lemma_o उपर lemma_c ऊपर
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem इंडस्ट्रीज़ c_stem इंडस्ट्रीज c_stemchar_dist 1 c_stemchar_ratio 0.9
 o_num ['Plur'] c_num ['Plur']
 lemma_o इंडस्ट्रीज़ lemma_c इंडस्ट्री
@@ -4126,11 +3943,11 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['Sing']
 lemma_o सुत lemma_c सक
-Morpho reached
+Here, diff lemma
 o_stem हो c_stem है c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num [''] c_num ['Sing']
 lemma_o हो lemma_c है
-Morpho reached
+TENSE 1.1
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num ['Sing'] c_num ['']
 lemma_o ज़ lemma_c (
@@ -4280,8 +4097,6 @@ lemma_o समुद्र lemma_c समुद्र
 o_stem का c_stem को c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['']
 lemma_o का lemma_c को
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem तरक c_stem तरीक c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num ['Sing'] c_num ['Sing']
 lemma_o तरका lemma_c तरीका
@@ -4298,8 +4113,6 @@ lemma_o का lemma_c का
 o_stem पक्क c_stem पक्क c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Plur'] c_num ['Plur']
 lemma_o पक्का lemma_c पक्की
-I am here
-o_pos[0] ADJ c_pos[0] ADJ
 o_stem बच c_stem बच c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Sing']
 lemma_o बच lemma_c बच
@@ -4425,8 +4238,6 @@ lemma_o ज़ lemma_c COMMA
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem चेन्नई c_stem चैन्नई c_stemchar_dist 1 c_stemchar_ratio 0.8333333333333334
 o_num ['Sing'] c_num ['Sing']
 lemma_o चेन्नई lemma_c चैन्नई
@@ -4478,8 +4289,6 @@ Morpho reached
 o_stem उपर c_stem ऊपर c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Sing']
 lemma_o उपर lemma_c ऊपर
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ऑस् c_stem ऑस्‍ c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num ['Sing'] c_num ['Sing']
 lemma_o ऑस्कर lemma_c ऑस्‍कर
@@ -4510,8 +4319,6 @@ Not in spell
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['Sing']
 lemma_o सुत lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
 o_stem विश्वनीय c_stem विश्वसनीय c_stemchar_dist 1 c_stemchar_ratio 0.9411764705882353
 o_num [''] c_num ['']
 lemma_o विश्वनीय lemma_c विश्वसनीय
@@ -4524,8 +4331,7 @@ o_pos[0] ADJ c_pos[0] ADJ
 o_stem रेह c_stem रह c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Plur'] c_num ['Plur']
 lemma_o रेह lemma_c रह
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem हा c_stem हुआ c_stemchar_dist 2 c_stemchar_ratio 0.4
 o_num ['Sing'] c_num ['Sing']
 lemma_o हा lemma_c हो
@@ -4600,8 +4406,6 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem ६ c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['']
 lemma_o ज़ lemma_c ६
@@ -4609,13 +4413,9 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem कार्य c_stem कार्य c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Plur']
 lemma_o कार्य lemma_c कार्य
@@ -4648,8 +4448,6 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ऐमाइड c_stem एमाइड c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Sing']
 lemma_o ऐमाइड lemma_c एमाइड
@@ -4674,7 +4472,6 @@ lemma_o है lemma_c है
 o_stem ऐमाइड c_stem एमाइड c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o ऐमाइड lemma_c एमाइड
-Morpho reached
 o_stem बस c_stem बेस c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Sing']
 lemma_o बस lemma_c बेस
@@ -4731,7 +4528,6 @@ lemma_o ज़ lemma_c )
 o_stem अनुसर c_stem अनुसार c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num ['Sing'] c_num ['']
 lemma_o अनुसर lemma_c अनुसार
-Morpho reached
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num ['Sing'] c_num ['']
 lemma_o ज़ lemma_c )
@@ -4771,8 +4567,6 @@ Here, diff lemma
 o_stem अनुसर c_stem अनुसार c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num [''] c_num ['']
 lemma_o अनुसर lemma_c अनुसार
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem जग्योपवीत c_stem यज्ञोपवीत c_stemchar_dist 3 c_stemchar_ratio 0.7777777777777778
 o_num [''] c_num ['']
 lemma_o जग्योपवीत lemma_c यज्ञोपवीत
@@ -4847,7 +4641,6 @@ Not in spell
 o_stem धुल c_stem घुल c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Plur'] c_num ['Sing']
 lemma_o धुल lemma_c घुल
-Here, diff lemma
 o_stem कोएगुलेटिड c_stem कोएगुलेशन c_stemchar_dist 3 c_stemchar_ratio 0.7368421052631579
 o_num ['Sing'] c_num ['Sing']
 lemma_o कोएगुलेटिड lemma_c कोएगुलेशन
@@ -4863,7 +4656,7 @@ Morpho reached
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Plur'] c_num ['Plur']
 lemma_o सुत lemma_c सक
-Morpho reached
+Here, diff lemma
 o_stem ज़ c_stem ५ c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['']
 lemma_o ज़ lemma_c ५
@@ -4886,8 +4679,7 @@ lemma_o देख lemma_c देख
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Plur'] c_num ['Plur']
 lemma_o सु lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem शिरातन्त्र c_stem तन्त्रांश c_stemchar_dist 7 c_stemchar_ratio 0.631578947368421
 o_num ['Sing'] c_num ['Sing']
 lemma_o शिरातन्त्र lemma_c तन्त्रांश
@@ -4904,8 +4696,6 @@ o_pos[0] CONJ c_pos[0] CONJ
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['Sing']
 lemma_o सुत lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
 o_stem यूनिस c_stem यूनिसन c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num ['Sing'] c_num ['Sing']
 lemma_o यूनिस lemma_c यूनिसन
@@ -4921,8 +4711,6 @@ Morpho reached
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['Sing']
 lemma_o सुत lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
 o_stem पर्वत c_stem पर्वतशृंखल c_stemchar_dist 5 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing', 'Sing'] c_num ['Sing']
 lemma_o पर्वत lemma_c पर्वतशृंखला
@@ -5099,7 +4887,6 @@ Not in spell
 o_stem और c_stem ओर c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num [''] c_num ['Sing']
 lemma_o और lemma_c ओर
-Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['', '']
 lemma_o ज़ lemma_c COMMA
@@ -5109,8 +4896,6 @@ lemma_o ज़ lemma_c COMMA
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Plur'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem निर्माण c_stem निर्माण c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num [''] c_num ['Plur']
 lemma_o निर्माणित lemma_c निर्माणी
@@ -5193,8 +4978,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem अहम्मन्य c_stem जर्म c_stemchar_dist 6 c_stemchar_ratio 0.3333333333333333
 o_num ['Sing'] c_num ['Sing']
 lemma_o अहम्मन्य lemma_c जर्मनी
@@ -5291,7 +5074,6 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem थे c_stem से c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['']
 lemma_o था lemma_c से
-Morpho reached
 o_stem जिन्हों c_stem होल c_stemchar_dist 5 c_stemchar_ratio 0.4
 o_num ['Sing', 'Sing', 'Sing', 'Sing', 'Sing', 'Sing', 'Sing'] c_num ['Sing', 'Sing', 'Sing', 'Sing', 'Sing']
 lemma_o जो lemma_c होली
@@ -5309,7 +5091,7 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem से c_stem थे c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num [''] c_num ['Sing']
 lemma_o से lemma_c था
-Morpho reached
+TENSE 1.1
 o_stem होल c_stem जिन्हों c_stemchar_dist 5 c_stemchar_ratio 0.4
 o_num ['Sing', 'Sing', 'Sing', 'Sing', 'Sing'] c_num ['Sing', 'Sing', 'Sing', 'Sing', 'Sing', 'Sing', 'Sing']
 lemma_o होली lemma_c जो
@@ -5409,8 +5191,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem सीतामढ़ c_stem सीतामढ c_stemchar_dist 1 c_stemchar_ratio 0.8333333333333334
 o_num ['Sing'] c_num ['Sing']
 lemma_o सीतामढ़ी lemma_c सीतामढी
@@ -5431,13 +5211,9 @@ o_pos[0] ADJ c_pos[0] ADJ
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['']
 lemma_o ज़ lemma_c .
@@ -5445,8 +5221,6 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem विविध c_stem विव c_stemchar_dist 2 c_stemchar_ratio 0.75
 o_num ['Sing'] c_num ['Sing']
 lemma_o विविध lemma_c विवि
@@ -5454,7 +5228,6 @@ Morpho reached
 o_stem जात c_stem जा c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Plur']
 lemma_o जाति lemma_c जा
-Morpho reached
 o_stem प्रचीन c_stem प्राचीन c_stemchar_dist 1 c_stemchar_ratio 0.9230769230769231
 o_num [''] c_num ['']
 lemma_o प्रचीन lemma_c प्राचीन
@@ -5467,8 +5240,6 @@ Morpho reached
 o_stem अनुसर c_stem अनुसार c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num [''] c_num ['']
 lemma_o अनुसर lemma_c अनुसार
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ईद c_stem ई c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Sing']
 lemma_o ईद lemma_c ई
@@ -5558,8 +5329,7 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem जत c_stem जा c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['Sing']
 lemma_o जता lemma_c जा
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem लैटिन c_stem लातिन c_stemchar_dist 2 c_stemchar_ratio 0.6
 o_num [''] c_num ['Sing']
 lemma_o लैटिन lemma_c लातिन
@@ -5644,13 +5414,9 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem विश्वविद्यालय c_stem विश्व्विद्यालय c_stemchar_dist 1 c_stemchar_ratio 0.9629629629629629
 o_num ['Sing'] c_num ['Sing']
 lemma_o विश्वविद्यालय lemma_c विश्व्विद्यालय
@@ -5659,8 +5425,6 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem इंजीनिरिंग c_stem ईन्जीनिरिंग c_stemchar_dist 3 c_stemchar_ratio 0.7619047619047619
 o_num ['Sing'] c_num ['Sing']
 lemma_o इंजीनिरिंग lemma_c ईन्जीनिरिंग
@@ -5669,12 +5433,9 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-Morpho reached
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num ['Sing'] c_num ['']
 lemma_o ज़ lemma_c "
@@ -5704,8 +5465,7 @@ Morpho reached
 o_stem हैं c_stem हैंः c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num ['Sing'] c_num ['Sing']
 lemma_o है lemma_c हैंः
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem तरक c_stem तरीक c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num ['Sing'] c_num ['Sing']
 lemma_o तरका lemma_c तरीका
@@ -5718,7 +5478,7 @@ Morpho reached
 o_stem हैं c_stem हैंः c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num ['Sing'] c_num ['Sing']
 lemma_o है lemma_c हैंः
-Morpho reached
+TENSE 1.1
 o_stem और c_stem जो c_stemchar_dist 2 c_stemchar_ratio 0.0
 o_num [''] c_num ['Sing']
 lemma_o और lemma_c जो
@@ -5835,13 +5595,9 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem रह c_stem रह् c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Sing']
 lemma_o रह lemma_c रह्त
@@ -5849,8 +5605,6 @@ Here, diff lemma
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem लालबाग c_stem दयालबाग c_stemchar_dist 2 c_stemchar_ratio 0.7692307692307693
 o_num ['Sing'] c_num ['Sing']
 lemma_o लालबाग lemma_c दयालबाग
@@ -5956,8 +5710,6 @@ lemma_o वृक्ष lemma_c वृक्ष
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem शिलिंग c_stem शिवलिंग c_stemchar_dist 1 c_stemchar_ratio 0.9230769230769231
 o_num ['Sing'] c_num ['Sing']
 lemma_o शिलिंग lemma_c शिवलिंग
@@ -5977,8 +5729,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem पत्थर c_stem पत्थर c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Plur']
 lemma_o पत्थरो lemma_c पत्थर
@@ -5994,8 +5744,6 @@ lemma_o रामानुज lemma_c रामानुजगंज
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem कन्डोम c_stem कुन्ड c_stemchar_dist 3 c_stemchar_ratio 0.7272727272727273
 o_num ['Plur'] c_num ['Plur']
 lemma_o कन्डोम lemma_c कुन्ड
@@ -6009,26 +5757,18 @@ o_pos[0] ADJ c_pos[0] ADJ
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ता c_stem तातापा c_stemchar_dist 4 c_stemchar_ratio 0.5
 o_num ['Sing', 'Sing'] c_num ['']
 lemma_o ताता lemma_c तातापानी
 o_stem कुंड c_stem कुंड c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Plur']
 lemma_o कुंड lemma_c कुंडो
-I am here
-o_pos[0] NOUN c_pos[0] NOUN
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem कस c_stem सक c_stemchar_dist 2 c_stemchar_ratio 0.5
 o_num ['Plur'] c_num ['Plur']
 lemma_o कस lemma_c सक
@@ -6039,8 +5779,6 @@ lemma_o वृक्ष lemma_c वृक्ष
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem शिलिंग c_stem शिवलिंग c_stemchar_dist 1 c_stemchar_ratio 0.9230769230769231
 o_num ['Sing'] c_num ['Sing']
 lemma_o शिलिंग lemma_c शिवलिंग
@@ -6079,8 +5817,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Plur'] c_num ['Plur']
 lemma_o है lemma_c है
@@ -6099,8 +5835,6 @@ lemma_o है lemma_c है
 o_stem नें c_stem ने c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o नें lemma_c ने
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem तराशक c_stem तराश c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 o_num ['Sing'] c_num ['']
 lemma_o तराशक lemma_c तराश
@@ -6138,8 +5872,6 @@ Morpho reached
 o_stem कुंड c_stem कुंड c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Plur']
 lemma_o कुंड lemma_c कुंडो
-I am here
-o_pos[0] NOUN c_pos[0] NOUN
 o_stem किम c_stem किलोमीटर c_stemchar_dist 5 c_stemchar_ratio 0.5454545454545454
 o_num ['Sing'] c_num ['Sing']
 lemma_o किमी lemma_c किलोमीटर
@@ -6165,8 +5897,6 @@ lemma_o सारा lemma_c सारासौर
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem कस c_stem सक c_stemchar_dist 2 c_stemchar_ratio 0.5
 o_num ['Plur'] c_num ['Plur']
 lemma_o कस lemma_c सक
@@ -6218,8 +5948,6 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem धीरिय c_stem धिरिय c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Sing']
 lemma_o धीरिया lemma_c धिरिया
@@ -6230,8 +5958,6 @@ lemma_o अर्जुन lemma_c अर्जुनगढ
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem देख c_stem देखन c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num [''] c_num ['Plur']
 lemma_o देख lemma_c देखन
@@ -6563,23 +6289,15 @@ lemma_o है lemma_c है
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem बिक c_stem बीक c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing', 'Sing'] c_num ['Sing', 'Sing', 'Sing', 'Sing', 'Sing', 'Sing', 'Sing', 'Sing', 'Sing']
 lemma_o बिक lemma_c बीका
@@ -6634,8 +6352,6 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem महत्वपूर्ण c_stem महत्त्वपूर्ण c_stemchar_dist 2 c_stemchar_ratio 0.9090909090909091
 o_num [''] c_num ['']
 lemma_o महत्वपूर्ण lemma_c महत्त्वपूर्ण
@@ -6723,8 +6439,6 @@ Morpho reached
 o_stem अनुसर c_stem अनुसार c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num [''] c_num ['']
 lemma_o अनुसर lemma_c अनुसार
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem अम्बरीष c_stem अम्बरीश c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num ['Sing'] c_num ['Sing']
 lemma_o अम्बरीष lemma_c अम्बरीश
@@ -6763,8 +6477,7 @@ Morpho reached
 o_stem थ c_stem था c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Sing']
 lemma_o थ lemma_c था
-Here, diff lemma
-TENSE 1.3 c_pos[0] == VERB and o_toks[0].lemma != c_toks[0].lemma
+TENSE 1.1
 o_stem महाष्टम c_stem महाअष्टम c_stemchar_dist 1 c_stemchar_ratio 0.9333333333333333
 o_num ['Sing'] c_num ['Sing']
 lemma_o महाष्टमी lemma_c महाअष्टमी
@@ -6792,8 +6505,7 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem है c_stem हे c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['Sing']
 lemma_o है lemma_c हा
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem मह c_stem महल c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Plur'] c_num ['Plur']
 lemma_o मह lemma_c महल
@@ -7382,12 +7094,9 @@ Morpho reached
 o_stem गोव c_stem गाव c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Plur']
 lemma_o गोवा lemma_c गावो
-Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem गोव c_stem गाव c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Sing']
 lemma_o गोवा lemma_c गावो
@@ -7522,8 +7231,6 @@ lemma_o स्वामी lemma_c स्वामीनारायण
 o_stem उपर c_stem ऊपर c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Sing']
 lemma_o उपर lemma_c ऊपर
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem हल् c_stem हल्दुआ c_stemchar_dist 3 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing', 'Sing'] c_num ['Sing']
 lemma_o हल् lemma_c हल्दुआ
@@ -7592,7 +7299,6 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem अनुसर c_stem अनुसार c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num [''] c_num ['']
 lemma_o अनुसर lemma_c अनुसार
-Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['']
 lemma_o ज़ lemma_c COMMA
@@ -7688,8 +7394,6 @@ Morpho reached
 o_stem सिक्क c_stem सिक्क c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Plur']
 lemma_o सिक्का lemma_c सिक्क
-I am here
-o_pos[0] NOUN c_pos[0] NOUN
 o_stem हमेल c_stem हमल c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num ['Sing'] c_num ['Sing']
 lemma_o हमेल lemma_c हमला
@@ -7717,7 +7421,6 @@ Not in spell
 o_stem क c_stem का c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Sing']
 lemma_o क lemma_c का
-Morpho reached
 o_stem विद्यालय c_stem वि‍द्यालय c_stemchar_dist 1 c_stemchar_ratio 0.9411764705882353
 o_num ['Sing'] c_num ['Sing']
 lemma_o विद्यालय lemma_c वि‍द्यालय
@@ -7736,13 +7439,9 @@ o_pos[0] ADJ c_pos[0] ADJ
 o_stem लिए c_stem लि‍ए c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num [''] c_num ['']
 lemma_o लिए lemma_c लि‍ए
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem विद्यालय c_stem वि‍द्यालय c_stemchar_dist 1 c_stemchar_ratio 0.9411764705882353
 o_num ['Sing'] c_num ['Plur']
 lemma_o विद्यालय lemma_c वि‍द्यालय
-I am here
-o_pos[0] NOUN c_pos[0] NOUN
 o_stem संचाल c_stem सचांलि‍त c_stemchar_dist 5 c_stemchar_ratio 0.6153846153846154
 o_num [''] c_num ['']
 lemma_o संचालित lemma_c सचांलि‍त
@@ -7751,8 +7450,7 @@ o_pos[0] ADJ c_pos[0] ADJ
 o_stem रेह c_stem रह c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['Plur']
 lemma_o रेह lemma_c रह
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem का c_stem हैं c_stemchar_dist 3 c_stemchar_ratio 0.0
 o_num ['Sing'] c_num ['Plur']
 lemma_o का lemma_c है
@@ -7799,8 +7497,7 @@ Morpho reached
 o_stem रेह c_stem रह c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Sing']
 lemma_o रेह lemma_c रह
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem हैं c_stem थे c_stemchar_dist 3 c_stemchar_ratio 0.0
 o_num ['Sing'] c_num ['Sing']
 lemma_o है lemma_c था
@@ -7833,7 +7530,6 @@ lemma_o संजा lemma_c संजाइक
 o_stem इंक c_stem इनक c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['Plur']
 lemma_o इंका lemma_c यह
-Morpho reached
 o_stem जाँतिय c_stem जातिय c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num ['Sing'] c_num ['Sing']
 lemma_o जाँतियो lemma_c जातियो
@@ -7889,8 +7585,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem सम्प्रदाय c_stem सम्प्रदाय c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Sing']
 lemma_o सम्प्रदाय lemma_c सम्प्रदायो
@@ -7898,8 +7592,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem सम्प्रदाय c_stem सम्प्रदाय c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Sing']
 lemma_o सम्प्रदाय lemma_c सम्प्रदायो
@@ -7908,8 +7600,6 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem द्रवित्र c_stem द्रविढ़ c_stemchar_dist 3 c_stemchar_ratio 0.7142857142857143
 o_num ['Sing'] c_num ['Sing']
 lemma_o द्रवित्र lemma_c द्रविढ़
@@ -7920,8 +7610,6 @@ lemma_o भाषा lemma_c भाषाओ
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem की c_stem कि c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['']
 lemma_o का lemma_c कि
@@ -7929,12 +7617,9 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem अनुसर c_stem अनुसार c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num ['Sing'] c_num ['']
 lemma_o अनुसर lemma_c अनुसार
-Morpho reached
 o_stem समुदाय c_stem समुदाय c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Sing']
 lemma_o समुदाय lemma_c समुदायो
@@ -7943,13 +7628,9 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem क्षेत्र c_stem क्षेत्र c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Plur']
 lemma_o क्षेत्रो lemma_c क्षेत्र
-I am here
-o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num ['Sing'] c_num ['']
 lemma_o ज़ lemma_c COMMA
@@ -7969,41 +7650,27 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem भाष c_stem भाष c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Sing']
 lemma_o भाषा lemma_c भाषाओ
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Plur'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num ['Plur'] c_num ['']
 lemma_o ज़ lemma_c (
@@ -8058,8 +7725,6 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem जाँतिय c_stem जातिय c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 o_num ['Sing'] c_num ['Sing']
 lemma_o जाँतियो lemma_c जातियो
@@ -8071,13 +7736,9 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['']
 lemma_o ज़ lemma_c .
@@ -8104,8 +7765,6 @@ o_pos[0] ADJ c_pos[0] ADJ
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num ['Plur'] c_num ['']
 lemma_o ज़ lemma_c (
@@ -8447,8 +8106,6 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem भरतिय c_stem भारतीय c_stemchar_dist 2 c_stemchar_ratio 0.7272727272727273
 o_num [''] c_num ['']
 lemma_o भरतिया lemma_c भारतीय
@@ -8494,7 +8151,6 @@ Not in spell
 o_stem स c_stem से c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 o_num ['Sing'] c_num ['']
 lemma_o स lemma_c से
-Morpho reached
 o_stem घोड़ c_stem घर c_stemchar_dist 2 c_stemchar_ratio 0.4
 o_num ['Sing'] c_num ['Sing']
 lemma_o घोिा lemma_c घर
@@ -8646,8 +8302,6 @@ lemma_o चैनल lemma_c चैनल
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem है c_stem था c_stemchar_dist 2 c_stemchar_ratio 0.0
 o_num ['Sing'] c_num ['Sing']
 lemma_o है lemma_c था
@@ -8692,8 +8346,7 @@ Not in spell
 o_stem रेह c_stem रह c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['Plur']
 lemma_o रेह lemma_c रह
-I am here
-o_pos[0] AUX c_pos[0] AUX
+Morpho reached
 o_stem लिमक c_stem लिम्क c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 o_num ['Sing'] c_num ['Sing']
 lemma_o लिमका lemma_c लिम्का
@@ -8758,7 +8411,6 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-Morpho reached
 o_stem ज़ c_stem ९ c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num ['Sing'] c_num ['']
 lemma_o ज़ lemma_c ९
@@ -8782,7 +8434,6 @@ lemma_o सेक्शन lemma_c १०
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-Morpho reached
 o_stem ज़ c_stem ९ c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num ['Sing'] c_num ['']
 lemma_o ज़ lemma_c ९
@@ -8790,13 +8441,9 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem प्लेसमैंट c_stem प्लेसमेंट c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 o_num ['Sing'] c_num ['Sing']
 lemma_o प्लेसमैंट lemma_c प्लेसमेंट
@@ -8809,13 +8456,9 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem अभ्यर्थ c_stem अभियार्थिय c_stemchar_dist 4 c_stemchar_ratio 0.7058823529411765
 o_num ['Plur'] c_num ['Sing']
 lemma_o अभ्यर्थी lemma_c अभियार्थियो
@@ -8823,13 +8466,9 @@ Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem कॉलेज c_stem कॉलेज c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Sing']
 lemma_o कॉलेज lemma_c कॉलेजो
@@ -8837,13 +8476,9 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem पत्र c_stem पत्र c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Sing']
 lemma_o पत्र lemma_c पत्र
@@ -8852,8 +8487,6 @@ o_pos[0] NOUN c_pos[0] NOUN
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem अभ्यर्थ c_stem अभियार्थ c_stemchar_dist 2 c_stemchar_ratio 0.8
 o_num ['Plur'] c_num ['Plur']
 lemma_o अभ्यर्थी lemma_c अभियार्थी
@@ -8865,8 +8498,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem फ़ैलोशिप c_stem फैलोशिप c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num ['Sing'] c_num ['Sing']
 lemma_o फ़ैलोशिप lemma_c फैलोशिप
@@ -8878,13 +8509,9 @@ Not in spell
 o_stem कॉलेज c_stem कॉलेज c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Sing'] c_num ['Plur']
 lemma_o कॉलेज lemma_c कॉलेजो
-I am here
-o_pos[0] NOUN c_pos[0] NOUN
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['']
 lemma_o ज़ lemma_c COMMA
@@ -8908,13 +8535,9 @@ Morpho reached
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 o_num ['Sing'] c_num ['Sing']
 lemma_o सुत lemma_c सक
-I am here
-o_pos[0] AUX c_pos[0] AUX
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem रह c_stem रह् c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Sing']
 lemma_o रह lemma_c रह्ता
@@ -8947,8 +8570,6 @@ Morpho reached
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num [''] c_num ['']
 lemma_o मा lemma_c में
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem रह c_stem रह् c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Sing']
 lemma_o रह lemma_c रह्ता
@@ -9051,8 +8672,6 @@ Not in spell
 o_stem लाव c_stem आलाव c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 o_num ['Sing'] c_num ['']
 lemma_o लावा lemma_c आलावा
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 o_num [''] c_num ['']
 lemma_o ज़ lemma_c .
@@ -9344,7 +8963,6 @@ Morpho reached
 o_stem कर c_stem करत c_stemchar_dist 1 c_stemchar_ratio 0.8
 o_num ['Sing'] c_num ['Plur']
 lemma_o कर lemma_c करत
-Here, diff lemma
 o_stem उपजात c_stem उपजात c_stemchar_dist 0 c_stemchar_ratio 1.0
 o_num ['Plur'] c_num ['Plur']
 lemma_o उपजाति lemma_c उपजाति
