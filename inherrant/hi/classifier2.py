@@ -293,7 +293,7 @@ def get_two_sided_type(o_toks, c_toks):
         # print("Reached")
         # Gender Edits
         # if the edit has both tense and gender different, then classify as gender edit
-        if (c_pos[0] in (main_pos + ['AUX', 'ADP'])) and o_toks[0].lemma == c_toks[0].lemma:
+        if (c_pos[0] in (main_pos + ['AUX', 'ADP'])) and (o_toks[0].lemma == c_toks[0].lemma or are_stems_similar(o_stem,c_stem)):
             if c_pos[0]=='ADP':
                 return "ADP-INFL"
             if opposite_gen(o_feats[0], c_feats[0]) and c_pos[0] != "NOUN":
