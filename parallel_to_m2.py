@@ -51,13 +51,17 @@ def parse_args():
 def noop_edit(id=0):
     return "A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||"+str(id)
 
-def contract_char(text):
-    ''' returns text after changing expanded characters with dot to single character'''
+def normalise_char(token):
+    ''' returns token after changing expanded characters with dot to single character'''
     expanded1 = 'ड' + '़'
-    text = text.replace(expanded1, 'ड़')
+    token = token.replace(expanded1, 'ड़')
     expanded2 = 'ढ' + '़'
-    text = text.replace(expanded2, 'ढ़')
-    return text
+    token = token.replace(expanded2, 'ढ़')
+    matra1 = 'ॊ'
+    token = token.replace(matra1,'ो')
+    matra2 = 'ॆ'
+    token = token.replace(matra2,'े')
+    return token
 
 if __name__ == "__main__":
     # Parse command line args
@@ -77,7 +81,7 @@ if __name__ == "__main__":
         for line in zip(*in_files):
             # Get the original and all the corrected texts
             orig = line[0].strip()
-            orig = contract_char(orig)
+            orig = normalise_char(orig)
             cors = line[1:]
             # Skip the line if orig is empty
             if not orig: continue

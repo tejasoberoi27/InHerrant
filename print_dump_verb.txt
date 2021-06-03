@@ -85,11 +85,13 @@ lemma_o मनहुँ lemma_c तनहुँ
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem कास्क c_stem कास्क c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o कास्क lemma_c कास्की
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
@@ -137,12 +139,14 @@ lemma_o करि lemma_c करिव
 Morpho reached
 o_stem ज़ c_stem ३ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ३
+Not in spell
 o_stem जल्ल c_stem जिल c_stemchar_dist 2 c_stemchar_ratio 0.5714285714285714
 lemma_o जल्ला lemma_c जिला
 I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ला२ c_stem २२ c_stemchar_dist 2 c_stemchar_ratio 0.4
 lemma_o ला२ lemma_c २२
+Not in spell
 o_stem देशान्तर c_stem देशान्तरम c_stemchar_dist 1 c_stemchar_ratio 0.9411764705882353
 lemma_o देशान्तर lemma_c देशान्तरम
 o_stem अल्पाल्प c_stem पाल्प c_stemchar_dist 3 c_stemchar_ratio 0.7692307692307693
@@ -194,6 +198,7 @@ o_stem कह c_stem कहाज c_stemchar_dist 2 c_stemchar_ratio 0.666666666
 lemma_o कह lemma_c कहाजा
 o_stem दै c_stem दैलेख c_stemchar_dist 3 c_stemchar_ratio 0.5714285714285714
 lemma_o दै lemma_c दैलेख
+Not in spell
 o_stem लेख c_stem जिल c_stemchar_dist 3 c_stemchar_ratio 0.3333333333333333
 lemma_o लेख lemma_c जिला
 o_stem अत c_stem अत c_stemchar_dist 0 c_stemchar_ratio 1.0
@@ -204,21 +209,27 @@ lemma_o पर्यटक lemma_c पर्यटकीय
 Morpho reached
 o_stem दै c_stem है c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o दै lemma_c है
+Not in spell
 o_stem दै c_stem दैलेख c_stemchar_dist 3 c_stemchar_ratio 0.5714285714285714
 lemma_o दै lemma_c दैलेख
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem पंचायत c_stem पंचायत  c_stemchar_dist 1 c_stemchar_ratio 0.9230769230769231
 lemma_o पंचायत lemma_c पंचायत 
 Morpho reached
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem हैं c_stem थे c_stemchar_dist 3 c_stemchar_ratio 0.0
 lemma_o है lemma_c था
 Morpho reached
@@ -230,6 +241,7 @@ o_stem हैं c_stem है c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o है lemma_c है
 o_stem निमेट c_stem मिनट c_stemchar_dist 3 c_stemchar_ratio 0.4444444444444444
 lemma_o निमेट lemma_c मिनट
+Not in spell
 o_stem दीक्ष c_stem दिक्ष c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o दीक्षित lemma_c दिक्षित
 Morpho reached
@@ -237,6 +249,7 @@ o_stem ज़ c_stem २ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c २
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem म्रृत्य c_stem म्रित्य c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o म्रृत्यु lemma_c म्रित्यु
 I am here
@@ -271,6 +284,7 @@ o_stem ज़ c_stem २ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c २
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
@@ -289,14 +303,17 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem ३ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ३
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem ८ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ८
+Not in spell
 o_stem ज़िन्द c_stem ज़िन्द c_stemchar_dist 2 c_stemchar_ratio 0.7272727272727273
 lemma_o ज़िन्दा lemma_c ज़िन्दा
 Morpho reached
@@ -311,6 +328,7 @@ o_stem कारख c_stem कारखान c_stemchar_dist 2 c_stemchar_ratio
 lemma_o कारखाना lemma_c कारखान
 o_stem झल्लिय c_stem मछ्लिय c_stemchar_dist 2 c_stemchar_ratio 0.6666666666666666
 lemma_o झल्लियो lemma_c मछ्लियो
+Not in spell
 o_stem वातरण c_stem वातावरण c_stemchar_dist 2 c_stemchar_ratio 0.8333333333333334
 lemma_o वातरण lemma_c वातावरण
 I am here
@@ -347,6 +365,7 @@ o_stem ज़ c_stem २ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c २
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem म्रृत्य c_stem मौत c_stemchar_dist 5 c_stemchar_ratio 0.4
 lemma_o म्रृत्यु lemma_c मौत
 Morpho reached
@@ -359,6 +378,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem २ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c २
+Not in spell
 o_stem कि c_stem की c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o कि lemma_c का
 Morpho reached
@@ -371,8 +391,10 @@ lemma_o म्रृत्यु lemma_c मृत्यु
 Morpho reached
 o_stem ज़ c_stem ३ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ३
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem दस्तावेज c_stem दस्तावेज़ c_stemchar_dist 1 c_stemchar_ratio 0.9411764705882353
 lemma_o दस्तावेज lemma_c दस्तावेज़ो
 Morpho reached
@@ -382,6 +404,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem २ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c २
+Not in spell
 o_stem म्रृत्य c_stem मृत्य c_stemchar_dist 2 c_stemchar_ratio 0.8333333333333334
 lemma_o म्रृत्यु lemma_c मृत्यु
 I am here
@@ -405,6 +428,7 @@ lemma_o गोआ lemma_c गोवा
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem गोआ c_stem गोव c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 lemma_o गोआ lemma_c गोवा
 Morpho reached
@@ -440,6 +464,7 @@ lemma_o सोसायटी lemma_c सोसायटीज
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem हा c_stem हुआ c_stemchar_dist 2 c_stemchar_ratio 0.4
 lemma_o हा lemma_c हो
 Here, diff lemma
@@ -464,6 +489,7 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
@@ -497,6 +523,7 @@ lemma_o कोटपीस lemma_c कोटपूतली
 Morpho reached
 o_stem पंचायत c_stem प़ंचायत c_stemchar_dist 1 c_stemchar_ratio 0.9230769230769231
 lemma_o पंचायत lemma_c प़ंचायत
+Not in spell
 o_stem पाव c_stem पावट c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o पावा lemma_c पावटा
 Morpho reached
@@ -520,6 +547,7 @@ o_stem नमाज़ c_stem नमाज़ c_stemchar_dist 2 c_stemchar_ratio 0.
 lemma_o नमा् lemma_c नमाजा
 o_stem निफल c_stem नफिल c_stemchar_dist 2 c_stemchar_ratio 0.75
 lemma_o निफल lemma_c नफिल
+Not in spell
 o_stem नमाज़ c_stem नमाज़ c_stemchar_dist 2 c_stemchar_ratio 0.6666666666666666
 lemma_o नमाज़ lemma_c नमाज
 Morpho reached
@@ -529,8 +557,10 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
@@ -544,6 +574,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem तुकाराम c_stem तुलाराम c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o तुकाराम lemma_c तुलाराम
 Morpho reached
@@ -555,6 +586,7 @@ o_stem अह c_stem अहिरवाल c_stemchar_dist 5 c_stemchar_ratio 0.
 lemma_o अहि lemma_c अहिरवाल
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem तुकाराम c_stem तुलाराम c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o तुकाराम lemma_c तुलाराम
 Morpho reached
@@ -579,32 +611,40 @@ o_stem जफर c_stem जफरपुर c_stemchar_dist 3 c_stemchar_ratio 0.
 lemma_o जफर lemma_c जफरपुर
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem नायक c_stem नाई c_stemchar_dist 2 c_stemchar_ratio 0.5714285714285714
 lemma_o नायक lemma_c नाई
 Morpho reached
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem नाई c_stem नायक c_stemchar_dist 2 c_stemchar_ratio 0.5714285714285714
 lemma_o नाई lemma_c नायक
 Morpho reached
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem नायक c_stem नाय c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o नायक lemma_c नाय
 Morpho reached
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem नाय c_stem नायक c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o नाय lemma_c नायक
 Morpho reached
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem शुरुवात c_stem शुरुआत c_stemchar_dist 2 c_stemchar_ratio 0.7692307692307693
 lemma_o शुरुवात lemma_c शुरुआत
 I am here
@@ -633,6 +673,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem जहिय c_stem जनह c_stemchar_dist 3 c_stemchar_ratio 0.5714285714285714
 lemma_o जहिया lemma_c जनहित
+Not in spell
 o_stem अक्तूबर c_stem अक्टूबर c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o अक्तूबर lemma_c अक्टूबर
 Morpho reached
@@ -648,6 +689,7 @@ lemma_o रस lemma_c रास
 Morpho reached
 o_stem ख़ैम c_stem खैम c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 lemma_o ख़ैमा lemma_c खैमा
+Not in spell
 o_stem रेह c_stem रह c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o रेह lemma_c रह
 I am here
@@ -722,8 +764,10 @@ lemma_o आगरा lemma_c बाँदा
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem मैनपुर c_stem हमीरपुर c_stemchar_dist 3 c_stemchar_ratio 0.6153846153846154
 lemma_o मैनपुरी lemma_c हमीरपुर
 Morpho reached
@@ -771,6 +815,7 @@ lemma_o शताब्दी lemma_c शतब्दी
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem देश c_stem देश c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o देश lemma_c देश
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
@@ -826,6 +871,7 @@ lemma_o नही lemma_c नहीं
 Morpho reached
 o_stem महान् c_stem महान c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o महान् lemma_c महान
+Not in spell
 o_stem ई c_stem ई० c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 lemma_o ई lemma_c ई०
 Morpho reached
@@ -850,6 +896,7 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem २ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c २
+Not in spell
 o_stem ज्योतिष-शास्त्रज्योतिष c_stem ज्योतिष्पीठाधीश्वर c_stemchar_dist 14 c_stemchar_ratio 0.5
 lemma_o ज्योतिष-शास्त्रज्योतिष lemma_c ज्योतिष्पीठाधीश्वर
 I am here
@@ -867,6 +914,7 @@ o_stem मंद c_stem मंडप c_stemchar_dist 2 c_stemchar_ratio 0.571428
 lemma_o मंद lemma_c मंडप
 o_stem ज़ c_stem २ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c २
+Not in spell
 o_stem अक्तूबर c_stem अक्टूबर c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o अक्तूबर lemma_c अक्टूबर
 Morpho reached
@@ -895,6 +943,7 @@ lemma_o यहॉँ lemma_c यहाँ
 Morpho reached
 o_stem सूक्ष्मजीव c_stem सुक्ष्मजीव c_stemchar_dist 1 c_stemchar_ratio 0.9
 lemma_o सूक्ष्मजीव lemma_c सुक्ष्मजीव
+Not in spell
 o_stem अनुसर c_stem अनुसार c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o अनुसर lemma_c अनुसार
 I am here
@@ -920,26 +969,34 @@ Morpho reached
 Same lemma 
 o_stem ग़ुलाम c_stem ग़ुलाम c_stemchar_dist 2 c_stemchar_ratio 0.7272727272727273
 lemma_o डुलाम lemma_c ग़ुलाम
+Not in spell
 o_stem अनुष्ठापक c_stem अनुष्क c_stemchar_dist 3 c_stemchar_ratio 0.8
 lemma_o अनुष्ठापक lemma_c अनुष्का
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem करमेल c_stem कारमेल c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o करमेल lemma_c कारमेल
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem तराशक c_stem तराश c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o तराशक lemma_c तराश
 Morpho reached
@@ -971,8 +1028,10 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem बक्खर c_stem खोखर c_stemchar_dist 3 c_stemchar_ratio 0.4444444444444444
 lemma_o बक्खर lemma_c खोखर
+Not in spell
 o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o है lemma_c है
 o_stem अफगानिस्तान c_stem अफ़ग़ानिस्तान c_stemchar_dist 2 c_stemchar_ratio 0.9166666666666666
@@ -1031,6 +1090,7 @@ lemma_o सीमा lemma_c कर
 Morpho reached
 o_stem . c_stem हैं c_stemchar_dist 3 c_stemchar_ratio 0.0
 lemma_o . lemma_c है
+Not in spell
 o_stem सीम c_stem सीमाएँ c_stemchar_dist 3 c_stemchar_ratio 0.6666666666666666
 lemma_o सीमा lemma_c सीमा
 I am here
@@ -1039,6 +1099,7 @@ o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o है lemma_c है
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem प्रविध c_stem प्रविध c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o प्रविधि lemma_c प्रविधि
 o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
@@ -1054,6 +1115,7 @@ lemma_o का lemma_c कर
 Morpho reached
 o_stem मुकुलाग्र c_stem मुलग्र्य c_stemchar_dist 5 c_stemchar_ratio 0.7058823529411765
 lemma_o मुकुलाग्र lemma_c मुलग्र्यू
+Not in spell
 o_stem सिगनलर c_stem सिगनोर c_stemchar_dist 1 c_stemchar_ratio 0.8333333333333334
 lemma_o सिगनलर lemma_c सिगनोर
 Morpho reached
@@ -1064,21 +1126,28 @@ o_stem इलेक्ट्रिसिट c_stem इलेक्ट्रो�
 lemma_o इलेक्ट्रिसिटि lemma_c इलेक्ट्रोलिसिस
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem फ़ैराड c_stem फैराड c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o फ़ैराडे lemma_c फैराडे
 Morpho reached
 o_stem प्रभान c_stem प्रभाव c_stemchar_dist 1 c_stemchar_ratio 0.8333333333333334
 lemma_o प्रभान lemma_c प्रभाव
+Not in spell
 o_stem नव c_stem बन c_stemchar_dist 2 c_stemchar_ratio 0.5
 lemma_o नवा lemma_c बन
 Morpho reached
@@ -1098,11 +1167,13 @@ o_stem हैं c_stem है c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o है lemma_c है
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem मेसाच्यूसेट्स c_stem मेसेश्यूसेट्स c_stemchar_dist 2 c_stemchar_ratio 0.8461538461538461
 lemma_o मेसाच्यूसेट lemma_c मेसेश्यूसेट
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem अमरीक c_stem अमेरीक c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o अमरीका lemma_c अमेरीका
 Morpho reached
@@ -1114,12 +1185,16 @@ lemma_o अमरीका lemma_c अमेरीका
 Morpho reached
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem चह c_stem चाह c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o चह lemma_c चाह
+Not in spell
 o_stem मा c_stem मान c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मान lemma_c मान
 Morpho reached
@@ -1139,6 +1214,7 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
 o_stem रक्तस्त्राव c_stem रक्तस्राव c_stemchar_dist 2 c_stemchar_ratio 0.9
@@ -1212,8 +1288,10 @@ lemma_o मात्र lemma_c मात्रा
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem मात्र c_stem मात्र c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o मात्र lemma_c मात्रा
 Morpho reached
@@ -1222,6 +1300,7 @@ lemma_o मात्र lemma_c मात्रा
 Morpho reached
 o_stem कस c_stem सक c_stemchar_dist 2 c_stemchar_ratio 0.5
 lemma_o कस lemma_c सक
+Not in spell
 o_stem मात्र c_stem मात्र c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o मात्र lemma_c मात्रा
 Morpho reached
@@ -1272,10 +1351,13 @@ lemma_o रेह lemma_c रह
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem सहकार c_stem सहकार c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o सहकार lemma_c सहकारी
+Not in spell
 o_stem ज़ c_stem ९ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ९
+Not in spell
 o_stem अक्तूबर c_stem अक्टूबर c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o अक्तूबर lemma_c अक्टूबर
 Morpho reached
@@ -1284,13 +1366,16 @@ lemma_o अक्तूबर lemma_c अक्टूबर
 Morpho reached
 o_stem ज़ c_stem ९ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ९
+Not in spell
 o_stem अक्तूबर c_stem अक्टूबर c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o अक्तूबर lemma_c अक्टूबर
 Morpho reached
 o_stem तृ c_stem मृत c_stemchar_dist 2 c_stemchar_ratio 0.4
 lemma_o तृ lemma_c मृत
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem स्त्रोत c_stem स्रोत c_stemchar_dist 2 c_stemchar_ratio 0.8333333333333334
 lemma_o स्त्रोत lemma_c स्रोत
 I am here
@@ -1307,6 +1392,7 @@ o_stem हजार c_stem हजारिक c_stemchar_dist 2 c_stemchar_ratio
 lemma_o हजारि lemma_c हजारिका
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem रेह c_stem रह c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o रेह lemma_c रह
 I am here
@@ -1317,6 +1403,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o है lemma_c है
 o_stem अनुसर c_stem अनुसार c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
@@ -1329,12 +1416,14 @@ o_stem कृम c_stem कृम c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o कृमी lemma_c कृमि
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem के c_stem को c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o का lemma_c को
 I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem एशियाटिक c_stem एसियाटिक c_stemchar_dist 1 c_stemchar_ratio 0.875
 lemma_o एशियाटिक lemma_c एसियाटिक
 Morpho reached
@@ -1402,8 +1491,10 @@ lemma_o अँग्रेजी lemma_c अंग्रेजी
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem विचार c_stem विचार c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o विचारो lemma_c विचार
+Not in spell
 o_stem हालाँक c_stem हाँलाँक c_stemchar_dist 1 c_stemchar_ratio 0.9230769230769231
 lemma_o हालाँकि lemma_c हाँलाँकि
 Morpho reached
@@ -1437,19 +1528,23 @@ o_stem इसम c_stem इसम c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o यह lemma_c यह
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem इन्ह c_stem इन्ह c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o यह lemma_c यह
 I am here
 o_pos[0] PRON c_pos[0] PRON
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem अल्लाह c_stem अल्लाह c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o अल्लाहू lemma_c अल्लाहु
 Morpho reached
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem था c_stem है c_stemchar_dist 2 c_stemchar_ratio 0.0
 lemma_o था lemma_c है
 Morpho reached
@@ -1485,6 +1580,7 @@ lemma_o राजपूत lemma_c राजपूतो
 Morpho reached
 o_stem उद् c_stem युद्ध c_stemchar_dist 3 c_stemchar_ratio 0.5
 lemma_o उद् lemma_c युद्ध
+Not in spell
 o_stem राम c_stem रामतन c_stemchar_dist 2 c_stemchar_ratio 0.75
 lemma_o राम lemma_c रामतनु
 o_stem पांड c_stem पाल c_stemchar_dist 2 c_stemchar_ratio 0.5714285714285714
@@ -1524,6 +1620,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem नह c_stem नह c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o नही lemma_c नहीं
 Morpho reached
@@ -1532,8 +1629,10 @@ lemma_o कि lemma_c का
 Morpho reached
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem जूस c_stem जसूस c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o जूस lemma_c जसूस
 I am here
@@ -1559,10 +1658,12 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem नह c_stem नह c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o नही lemma_c नहीं
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem उदाहरण c_stem उदहारण c_stemchar_dist 2 c_stemchar_ratio 0.8333333333333334
 lemma_o उदाहरण lemma_c उदहारण
 I am here
@@ -1572,6 +1673,7 @@ lemma_o नही lemma_c नहीं
 Morpho reached
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem नह c_stem नह c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o नही lemma_c नहीं
 Morpho reached
@@ -1581,6 +1683,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
 o_stem अंत्यावस्थ c_stem गत्यावस्थ c_stemchar_dist 2 c_stemchar_ratio 0.8421052631578947
@@ -1594,6 +1697,7 @@ o_stem उनम c_stem उनम c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o वह lemma_c वह
 o_stem इलेक्ट्रान c_stem इलेक्ट्रोन c_stemchar_dist 1 c_stemchar_ratio 0.9
 lemma_o इलेक्ट्रान lemma_c इलेक्ट्रोन
+Not in spell
 o_stem उप c_stem उपपरमाणवीय c_stemchar_dist 8 c_stemchar_ratio 0.3333333333333333
 lemma_o उप lemma_c उपपरमाणवीय
 o_stem विद्युत c_stem विद्युतचुम्बकत्व c_stemchar_dist 9 c_stemchar_ratio 0.6086956521739131
@@ -1626,6 +1730,7 @@ lemma_o फेंक lemma_c फैंक
 Here, diff lemma
 o_stem मर c_stem मार c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मर lemma_c मार
+Not in spell
 o_stem बल्लेबाज़ c_stem बल्लेबाज़ c_stemchar_dist 2 c_stemchar_ratio 0.8235294117647058
 lemma_o बल्लेबाज़ lemma_c बल्लेबाज़
 Morpho reached
@@ -1718,12 +1823,16 @@ o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem होग c_stem है c_stemchar_dist 2 c_stemchar_ratio 0.4
 lemma_o हो lemma_c है
 Morpho reached
@@ -1751,12 +1860,16 @@ Tokens {
 TENSE 1.7
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem कर c_stem कर c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o करा lemma_c कर
 Here, diff lemma
@@ -1769,17 +1882,20 @@ lemma_o नवार lemma_c धनवार
 Morpho reached
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem धनुह c_stem धनुहार c_stemchar_dist 2 c_stemchar_ratio 0.8
 lemma_o धनुहा lemma_c धनुहार
 Morpho reached
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem घोसिन c_stem घोस c_stemchar_dist 2 c_stemchar_ratio 0.75
 lemma_o घोसिन lemma_c घोसित
+Not in spell
 o_stem ये c_stem इस c_stemchar_dist 2 c_stemchar_ratio 0.0
 lemma_o यह lemma_c यह
 I am here
@@ -1823,6 +1939,7 @@ lemma_o नही lemma_c नहीं
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem हैं c_stem है c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o है lemma_c है
 o_stem आदिवास c_stem वनवास c_stemchar_dist 3 c_stemchar_ratio 0.5454545454545454
@@ -1835,6 +1952,7 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem हैं c_stem थे c_stemchar_dist 3 c_stemchar_ratio 0.0
 lemma_o है lemma_c था
 Morpho reached
@@ -1892,6 +2010,7 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem जीवजगत् c_stem जीवजगत c_stemchar_dist 1 c_stemchar_ratio 0.9230769230769231
 lemma_o जीवजगत् lemma_c जीवजगत
+Not in spell
 o_stem संश्लेष c_stem संश्लेषण c_stemchar_dist 1 c_stemchar_ratio 0.9333333333333333
 lemma_o संश्लेष lemma_c संश्लेषण
 Morpho reached
@@ -1902,6 +2021,7 @@ lemma_o पधरना lemma_c परधान
 Morpho reached
 o_stem गोड़ c_stem गोंड c_stemchar_dist 2 c_stemchar_ratio 0.5714285714285714
 lemma_o गो lemma_c गोंड
+Not in spell
 o_stem देवर c_stem देवार c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o देवरा lemma_c देवार
 Morpho reached
@@ -1930,6 +2050,7 @@ lemma_o मि lemma_c मी
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem किम c_stem किलोमीटर c_stemchar_dist 5 c_stemchar_ratio 0.5454545454545454
 lemma_o किमी lemma_c किलोमीटर
 I am here
@@ -1968,12 +2089,14 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem किम c_stem किलोमीटर c_stemchar_dist 5 c_stemchar_ratio 0.5454545454545454
 lemma_o किमी lemma_c किलोमीटर
 I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem किम c_stem किलोमीटर c_stemchar_dist 5 c_stemchar_ratio 0.5454545454545454
 lemma_o किमी lemma_c किलोमीटर
 I am here
@@ -2020,8 +2143,10 @@ o_stem ज़ c_stem लिय c_stemchar_dist 3 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c लिये
 o_stem कारटूनिस्ट c_stem कार्टूनिस्ट c_stemchar_dist 1 c_stemchar_ratio 0.9523809523809523
 lemma_o कारटूनिस्ट lemma_c कार्टूनिस्ट
+Not in spell
 o_stem कसाब c_stem क़साब c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o कसाब lemma_c कससाब
+Not in spell
 o_stem हमेल c_stem हमल c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o हमेल lemma_c हमला
 I am here
@@ -2045,6 +2170,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem कसाब c_stem क़साब c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o कसाब lemma_c कससाब
+Not in spell
 o_stem लिए c_stem लिय c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 lemma_o लिए lemma_c लिये
 I am here
@@ -2066,12 +2192,14 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ऑरंग c_stem आरंग c_stemchar_dist 1 c_stemchar_ratio 0.75
 lemma_o ऑरंग lemma_c आरंग
+Not in spell
 o_stem किम c_stem किलोमीटर c_stemchar_dist 5 c_stemchar_ratio 0.5454545454545454
 lemma_o किमी lemma_c किलोमीटर
 I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ऑरंग c_stem आरंग c_stemchar_dist 1 c_stemchar_ratio 0.75
 lemma_o ऑरंग lemma_c आरंग
+Not in spell
 o_stem किम c_stem किलोमीटर c_stemchar_dist 5 c_stemchar_ratio 0.5454545454545454
 lemma_o किमी lemma_c किलोमीटर
 I am here
@@ -2113,11 +2241,13 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem मनोराध c_stem गढ़धनोर c_stemchar_dist 5 c_stemchar_ratio 0.5
 lemma_o मनोराधना lemma_c गढ़धनोरा
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem कोपन c_stem कोपेन c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o कोपन lemma_c कोपेन
 Morpho reached
@@ -2136,8 +2266,10 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem खांग c_stem खारंग c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o खांग lemma_c खारंग
+Not in spell
 o_stem भोओदेव c_stem भोरमदेव c_stemchar_dist 2 c_stemchar_ratio 0.7692307692307693
 lemma_o भोओदेव lemma_c भोरमदेव
+Not in spell
 o_stem किम c_stem किलोमीटर c_stemchar_dist 5 c_stemchar_ratio 0.5454545454545454
 lemma_o किमी lemma_c किलोमीटर
 I am here
@@ -2163,6 +2295,7 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem खांग c_stem खारंग c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o खांग lemma_c खारंग
+Not in spell
 o_stem किलोमीटर c_stem किम c_stemchar_dist 5 c_stemchar_ratio 0.5454545454545454
 lemma_o किलोमीटर lemma_c किमी
 I am here
@@ -2180,8 +2313,10 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem खांग c_stem खारंग c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o खांग lemma_c खारंग
+Not in spell
 o_stem भोओदेव c_stem भोरमदेव c_stemchar_dist 2 c_stemchar_ratio 0.7692307692307693
 lemma_o भोओदेव lemma_c भोरमदेव
+Not in spell
 o_stem किम c_stem किलोमीटर c_stemchar_dist 5 c_stemchar_ratio 0.5454545454545454
 lemma_o किमी lemma_c किलोमीटर
 I am here
@@ -2197,16 +2332,17 @@ lemma_o बांध lemma_c बांचध
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem का c_stem की c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o का lemma_c का
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem अंत्य c_stem अंत्यतः c_stemchar_dist 2 c_stemchar_ratio 0.8333333333333334
 lemma_o अंत्य lemma_c अंत्यतः
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem बंदल c_stem बांग्लादेश c_stemchar_dist 7 c_stemchar_ratio 0.42857142857142855
 lemma_o बंदल lemma_c बांग्लादेश
 o_stem चित्रकूट c_stem चित्रकोट c_stemchar_dist 1 c_stemchar_ratio 0.875
@@ -2225,30 +2361,37 @@ lemma_o ओजस्विता lemma_c ओजस्विन
 Morpho reached
 o_stem पटन c_stem अपघटन c_stemchar_dist 2 c_stemchar_ratio 0.75
 lemma_o पटन lemma_c अपघटन
+Not in spell
 o_stem विद्युतजनित्र c_stem विद्युताग्र c_stemchar_dist 4 c_stemchar_ratio 0.75
 lemma_o विद्युतजनित्र lemma_c विद्युताग्र
+Not in spell
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem इलेक्ट्रोड्स c_stem एलेक्ट्रोड्स c_stemchar_dist 1 c_stemchar_ratio 0.9166666666666666
 lemma_o इलेक्ट्रोड lemma_c एलेक्ट्रोड
 I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem अनार c_stem अनानास c_stemchar_dist 3 c_stemchar_ratio 0.6
 lemma_o अनार lemma_c अनानास
 I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem स्त्रोत c_stem स्रोत c_stemchar_dist 2 c_stemchar_ratio 0.8333333333333334
 lemma_o स्त्रोत lemma_c स्रोत
 I am here
@@ -2259,20 +2402,24 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem बौंग c_stem बोंग c_stemchar_dist 1 c_stemchar_ratio 0.75
 lemma_o बौंग lemma_c बोंगा
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
 o_stem मारुंग c_stem मारांग c_stemchar_dist 1 c_stemchar_ratio 0.8333333333333334
 lemma_o मारुंग lemma_c मारांग
+Not in spell
 o_stem बुर c_stem बुर c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o बुर lemma_c बुरु
 Morpho reached
 o_stem जाहर c_stem जाहेर c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o जाहर lemma_c जाहेर
+Not in spell
 o_stem युग c_stem आय c_stemchar_dist 3 c_stemchar_ratio 0.4
 lemma_o युग lemma_c आयो
 Morpho reached
 o_stem बौंग c_stem बोंग c_stemchar_dist 1 c_stemchar_ratio 0.75
 lemma_o बौंग lemma_c बोंगा
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
 o_stem मारुंग c_stem इनम c_stemchar_dist 6 c_stemchar_ratio 0.2222222222222222
@@ -2282,6 +2429,7 @@ lemma_o बुर lemma_c बुरु
 Morpho reached
 o_stem जाहर c_stem जाहेर c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o जाहर lemma_c जाहेर
+Not in spell
 o_stem आय c_stem युग c_stemchar_dist 3 c_stemchar_ratio 0.4
 lemma_o आयो lemma_c युग
 Morpho reached
@@ -2309,12 +2457,14 @@ lemma_o अक्तूबर lemma_c अक्टूबर
 Morpho reached
 o_stem कालोन c_stem कालमिक c_stemchar_dist 3 c_stemchar_ratio 0.5454545454545454
 lemma_o कालोनी lemma_c कालमिकी
+Not in spell
 o_stem इक c_stem इकाईय c_stemchar_dist 3 c_stemchar_ratio 0.5714285714285714
 lemma_o इकाई lemma_c इकाई
 I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem केबिल c_stem केबल c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o केबिल lemma_c केबल
 I am here
@@ -2346,11 +2496,13 @@ o_stem यौगिक c_stem यौगिक c_stemchar_dist 0 c_stemchar_ratio
 lemma_o यौगिक lemma_c यौगिक
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem शाक c_stem शाढ c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 lemma_o शाकी lemma_c शाढी
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem संस्क्रिय c_stem संस्क्रूत c_stemchar_dist 2 c_stemchar_ratio 0.7777777777777778
 lemma_o संस्क्रिया lemma_c संस्क्रूति
 I am here
@@ -2374,6 +2526,7 @@ lemma_o मद्रास lemma_c माद्रास
 Morpho reached
 o_stem प्रेसिडेन्ट c_stem प्रेसिडेन्स c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o प्रेसिडेन्ट lemma_c प्रेसिडेन्सी
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 Morpho reached
@@ -2383,11 +2536,13 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem बाराह c_stem बाहार c_stemchar_dist 2 c_stemchar_ratio 0.6
 lemma_o बाराह lemma_c बाहार
+Not in spell
 o_stem ही c_stem हि c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o ही lemma_c हि
 Morpho reached
 o_stem वो c_stem ये c_stemchar_dist 2 c_stemchar_ratio 0.0
 lemma_o वह lemma_c यह
+Not in spell
 o_stem उनपर c_stem इनपर c_stemchar_dist 1 c_stemchar_ratio 0.75
 lemma_o वह lemma_c इनपर
 Morpho reached
@@ -2407,6 +2562,7 @@ I am here
 o_pos[0] PRON c_pos[0] PRON
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem उनक c_stem इनक c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 lemma_o वह lemma_c यह
 I am here
@@ -2425,12 +2581,16 @@ I am here
 o_pos[0] ADJ c_pos[0] ADJ
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem क्रिटिक c_stem फेरिटिक c_stemchar_dist 2 c_stemchar_ratio 0.7142857142857143
 lemma_o क्रिटिक lemma_c फेरिटिक
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem नह c_stem नह c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o नही lemma_c नहीं
 Morpho reached
@@ -2460,6 +2620,7 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem असम c_stem अस c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o असम lemma_c अस
 Morpho reached
@@ -2473,8 +2634,10 @@ o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o है lemma_c है
 o_stem हो c_stem हो c_stemchar_dist 0 c_stemchar_ratio 1.0
@@ -2485,8 +2648,6 @@ o_stem रत c_stem रतनपुर c_stemchar_dist 4 c_stemchar_ratio 0.5
 lemma_o रत lemma_c रतनपुर
 o_stem का c_stem की c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o का lemma_c का
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
 o_stem वृत्तियॉं c_stem वृत्त c_stemchar_dist 4 c_stemchar_ratio 0.7142857142857143
@@ -2520,6 +2681,7 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem धार c_stem धाराएँ c_stemchar_dist 3 c_stemchar_ratio 0.6666666666666666
 lemma_o धारा lemma_c धारा
+Not in spell
 o_stem उन्हो c_stem उन्हों c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o वह lemma_c वह
 I am here
@@ -2575,13 +2737,16 @@ I am here
 o_pos[0] ADJ c_pos[0] ADJ
 o_stem य् c_stem मध्य c_stemchar_dist 3 c_stemchar_ratio 0.3333333333333333
 lemma_o य् lemma_c मध्य
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem माल c_stem मातल c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o माला lemma_c मातला
 Morpho reached
 o_stem नावर c_stem नुवर c_stemchar_dist 1 c_stemchar_ratio 0.75
 lemma_o नावर lemma_c नुवर
+Not in spell
 o_stem इलय c_stem इलिय c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o इलय lemma_c इलिय
 Morpho reached
@@ -2636,6 +2801,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem हैल्थगिविंग c_stem थैंक्सगिविंग c_stemchar_dist 4 c_stemchar_ratio 0.6956521739130435
 lemma_o हैल्थगिविंग lemma_c थैंक्सगिविंग
 I am here
@@ -2648,8 +2814,10 @@ lemma_o अक्तूबर lemma_c अक्टूबर
 Morpho reached
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem ग्रेनैड c_stem ग्रेनेड c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o ग्रेनैडा lemma_c ग्रेनेडा
 Morpho reached
@@ -2681,6 +2849,7 @@ o_stem अण्ड c_stem अण्डवाहिक c_stemchar_dist 5 c_stemc
 lemma_o अण्ड lemma_c अण्डवाहिका
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem फ़ैलोपियन c_stem फैलोपियन c_stemchar_dist 1 c_stemchar_ratio 0.875
 lemma_o फ़ैलोपियन lemma_c फैलोपियन
 Morpho reached
@@ -2689,8 +2858,10 @@ lemma_o ट्यूब lemma_c ट्यूव
 Morpho reached
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
@@ -2699,6 +2870,7 @@ o_stem ऐंठन c_stem ऐंठनभर c_stemchar_dist 2 c_stemchar_ratio
 lemma_o ऐंठन lemma_c ऐंठनभरी
 o_stem पदाथ c_stem पदार्थ c_stemchar_dist 2 c_stemchar_ratio 0.8
 lemma_o पदाथ lemma_c पदार्थ
+Not in spell
 o_stem समस्य c_stem समस्य c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o समस्य lemma_c समस्या
 o_stem हॉल c_stem हॉलब्रुक c_stemchar_dist 5 c_stemchar_ratio 0.5454545454545454
@@ -2726,6 +2898,7 @@ o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o है lemma_c है
 o_stem उपभो c_stem उपभोक् c_stemchar_dist 2 c_stemchar_ratio 0.8
 lemma_o उपभोता lemma_c उपभोक्ता
+Not in spell
 o_stem ये c_stem यह c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o यह lemma_c यह
 o_stem निगाह c_stem निगाह c_stemchar_dist 0 c_stemchar_ratio 1.0
@@ -2764,6 +2937,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem गै c_stem गैइ c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o गै lemma_c गैइ
+Not in spell
 o_stem कोई c_stem कई c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o कोई lemma_c कई
 Morpho reached
@@ -2790,6 +2964,7 @@ lemma_o नही lemma_c नहीं
 Morpho reached
 o_stem कस c_stem सक c_stemchar_dist 2 c_stemchar_ratio 0.5
 lemma_o कस lemma_c सक
+Not in spell
 o_stem ज़ c_stem दक्षिणावर्त c_stemchar_dist 11 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c दक्षिणावर्त
 o_stem दक्षिणावर्त c_stem वामावर्त c_stemchar_dist 6 c_stemchar_ratio 0.5263157894736842
@@ -2805,13 +2980,16 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem नह c_stem नह c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o नही lemma_c नहीं
 Morpho reached
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem नह c_stem नह c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o नही lemma_c नहीं
 Morpho reached
@@ -2824,6 +3002,7 @@ lemma_o नही lemma_c नहीं
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem की c_stem कि c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o का lemma_c कि
 Morpho reached
@@ -2833,6 +3012,7 @@ I am here
 o_pos[0] VERB c_pos[0] VERB
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem मानदंड c_stem मापदंड c_stemchar_dist 1 c_stemchar_ratio 0.8333333333333334
 lemma_o मानदंड lemma_c मापदंड
 I am here
@@ -2855,8 +3035,10 @@ o_stem देश c_stem देश c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o देश lemma_c देश
 o_stem कर्मों- c_stem अमेरिक c_stemchar_dist 7 c_stemchar_ratio 0.15384615384615385
 lemma_o कर्मों- lemma_c अमेरिका
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem फ़िल्म c_stem फ़िल्म c_stemchar_dist 2 c_stemchar_ratio 0.7272727272727273
 lemma_o डिल्म lemma_c फिल्म
 I am here
@@ -2867,10 +3049,12 @@ I am here
 o_pos[0] VERB c_pos[0] VERB
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem वेल c_stem वेलकम c_stemchar_dist 2 c_stemchar_ratio 0.75
 lemma_o वेल lemma_c वेलकम
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem इज़ c_stem इज़ c_stemchar_dist 2 c_stemchar_ratio 0.4
 lemma_o इज़ lemma_c इज़
 Morpho reached
@@ -2896,16 +3080,20 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem जभ c_stem तभ c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o जभी lemma_c तभी
 I am here
 o_pos[0] PRON c_pos[0] PRON
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem फ़िल्म c_stem फ़िल्म c_stemchar_dist 2 c_stemchar_ratio 0.7272727272727273
 lemma_o डिल्म lemma_c फिल्म
 o_stem ज़्याद c_stem ज़्याद c_stemchar_dist 2 c_stemchar_ratio 0.7272727272727273
@@ -2960,6 +3148,7 @@ lemma_o इंडस्ट्रीज़ lemma_c इंडस्ट्री
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem शेयर c_stem अंश c_stemchar_dist 4 c_stemchar_ratio 0.2857142857142857
 lemma_o शेयर lemma_c अंश
 I am here
@@ -2972,10 +3161,13 @@ lemma_o हो lemma_c है
 Morpho reached
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem मदत c_stem मदद c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 lemma_o मदत lemma_c मदद
+Not in spell
 o_stem फ़िल्म c_stem फ़िल्म c_stemchar_dist 2 c_stemchar_ratio 0.7272727272727273
 lemma_o फ़िल्मी lemma_c फिल्मी
 Morpho reached
@@ -2987,6 +3179,7 @@ lemma_o बंगाली lemma_c भंसाली
 Morpho reached
 o_stem कार्मरिक c_stem करियर c_stemchar_dist 5 c_stemchar_ratio 0.46153846153846156
 lemma_o कार्मरिक lemma_c करियर
+Not in spell
 o_stem शौर्ट c_stem शोर्ट c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o शौर्ट lemma_c शोर्ट
 I am here
@@ -3012,10 +3205,13 @@ lemma_o नही lemma_c नहीं
 Morpho reached
 o_stem ज्योतिष c_stem ज्योतिष c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o ज्योतिषि lemma_c ज्योतिषी
+Not in spell
 o_stem ज़ c_stem ० c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ०
+Not in spell
 o_stem ज़ c_stem ९ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ९
+Not in spell
 o_stem बाइबिल c_stem बाईबिल c_stemchar_dist 1 c_stemchar_ratio 0.8333333333333334
 lemma_o बाइबिल lemma_c बाईबिल
 Morpho reached
@@ -3025,6 +3221,7 @@ I am here
 o_pos[0] ADJ c_pos[0] ADJ
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem संख्य c_stem बारह c_stemchar_dist 5 c_stemchar_ratio 0.0
 lemma_o संख्या lemma_c बारह
 o_stem समझ c_stem दर्श c_stemchar_dist 4 c_stemchar_ratio 0.0
@@ -3043,6 +3240,7 @@ o_stem सरकार c_stem और c_stemchar_dist 4 c_stemchar_ratio 0.285714
 lemma_o सरकारी lemma_c और
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem ख़ुद c_stem ख़ुद c_stemchar_dist 2 c_stemchar_ratio 0.5714285714285714
 lemma_o ख़ुद lemma_c खुद
 I am here
@@ -3053,16 +3251,20 @@ I am here
 o_pos[0] ADJ c_pos[0] ADJ
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem झील c_stem झील c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o झील lemma_c झील
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem नद c_stem नद c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o नदी lemma_c नदी
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem समुद्र c_stem समुद्र c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o समुद्र lemma_c समुद्र
 o_stem का c_stem को c_stemchar_dist 1 c_stemchar_ratio 0.5
@@ -3079,8 +3281,6 @@ I am here
 o_pos[0] CONJ c_pos[0] CONJ
 o_stem का c_stem की c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o का lemma_c का
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem पक्क c_stem पक्क c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o पक्का lemma_c पक्की
 I am here
@@ -3089,6 +3289,7 @@ o_stem बच c_stem बच c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o बच lemma_c बच
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
 o_stem झील c_stem झीलोंं c_stemchar_dist 3 c_stemchar_ratio 0.6666666666666666
@@ -3097,8 +3298,10 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem पा c_stem जल c_stemchar_dist 2 c_stemchar_ratio 0.0
 lemma_o पानी lemma_c जल
 I am here
@@ -3131,6 +3334,7 @@ o_stem वर्ष c_stem वर्षण c_stemchar_dist 1 c_stemchar_ratio 0.
 lemma_o वर्षा lemma_c वर्षण
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem की c_stem कि c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o का lemma_c कि
 Morpho reached
@@ -3139,6 +3343,7 @@ lemma_o का lemma_c कि
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem हैल्थगिविंग c_stem थान्क्स्गिविंग c_stemchar_dist 7 c_stemchar_ratio 0.56
 lemma_o हैल्थगिविंग lemma_c थान्क्स्गिविंग
 I am here
@@ -3151,8 +3356,10 @@ lemma_o अक्तूबर lemma_c अक्टूबर
 Morpho reached
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem ग्रेनैड c_stem ग्रेनेड c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o ग्रेनैडा lemma_c ग्रेनेडा
 Morpho reached
@@ -3161,8 +3368,10 @@ lemma_o ऐल्गॉन्क्वियाई lemma_c थान्क्स
 Morpho reached
 o_stem डभ c_stem डय c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o डभ lemma_c डय
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem समाचार c_stem चार c_stemchar_dist 3 c_stemchar_ratio 0.6666666666666666
 lemma_o समाचार lemma_c चार
 Morpho reached
@@ -3177,6 +3386,7 @@ lemma_o चेन्नई lemma_c चैन्नई
 Morpho reached
 o_stem जोडा़ c_stem जोड़ c_stemchar_dist 3 c_stemchar_ratio 0.5
 lemma_o जोडा़ lemma_c जो
+Not in spell
 o_stem लाइसैंस c_stem लाईसेंस c_stemchar_dist 2 c_stemchar_ratio 0.7142857142857143
 lemma_o लाइसैंस lemma_c लाईसेंस
 I am here
@@ -3196,6 +3406,7 @@ lemma_o व lemma_c और
 Morpho reached
 o_stem संघटन c_stem संगठन c_stemchar_dist 2 c_stemchar_ratio 0.6
 lemma_o संघटन lemma_c संगठन
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
 o_stem क्योँक c_stem क्योंक c_stemchar_dist 1 c_stemchar_ratio 0.8333333333333334
@@ -3230,12 +3441,14 @@ Morpho reached
 Same lemma 
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem सक़ c_stem सक c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o सुत lemma_c सक
 I am here
 o_pos[0] AUX c_pos[0] AUX
 o_stem विश्वनीय c_stem विश्वसनीय c_stemchar_dist 1 c_stemchar_ratio 0.9411764705882353
 lemma_o विश्वनीय lemma_c विश्वसनीय
+Not in spell
 o_stem हाईलाइट c_stem हाइलाइट c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o हाईलाइट lemma_c हाइलाइट
 I am here
@@ -3249,8 +3462,10 @@ lemma_o हा lemma_c हो
 Here, diff lemma
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem उपर्युक्त c_stem उप‍‍र्युक्त c_stemchar_dist 2 c_stemchar_ratio 0.9
 lemma_o उपर्युक्त lemma_c उप‍‍र्युक्त
 I am here
@@ -3261,12 +3476,14 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem इंच c_stem इंच  c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o इंच lemma_c इंच 
 I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem उंच c_stem ऊँच c_stemchar_dist 2 c_stemchar_ratio 0.3333333333333333
 lemma_o उंचाई lemma_c ऊँचाई
 I am here
@@ -3277,16 +3494,21 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem अगण c_stem अण c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o अगण lemma_c अणु
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
 o_stem अगण c_stem कण c_stemchar_dist 2 c_stemchar_ratio 0.4
 lemma_o अगण lemma_c कण
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem लेख c_stem लेखन c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o लेख lemma_c लेखन
 I am here
@@ -3297,6 +3519,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem ६ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ६
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
@@ -3311,17 +3534,21 @@ o_stem लग c_stem लग c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o लग lemma_c लग
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem पा c_stem पा c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o पा lemma_c पा
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem थाइरायड c_stem थाइरॉयड c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o थाइरायड lemma_c थाइरॉयड
 Morpho reached
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
@@ -3350,10 +3577,12 @@ lemma_o बस lemma_c बेस
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem हैं c_stem है c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o है lemma_c है
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem उत्पादन c_stem उत्तपादन c_stemchar_dist 1 c_stemchar_ratio 0.9333333333333333
 lemma_o उत्पादन lemma_c उत्तपादन
 I am here
@@ -3372,6 +3601,7 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem आसाम c_stem असम c_stemchar_dist 2 c_stemchar_ratio 0.5714285714285714
 lemma_o आसाम lemma_c असम
 Morpho reached
@@ -3386,17 +3616,20 @@ lemma_o अनुसर lemma_c अनुसार
 Morpho reached
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem स्त्रोत c_stem स्रोत c_stemchar_dist 2 c_stemchar_ratio 0.8333333333333334
 lemma_o स्त्रोत lemma_c स्रोत
 I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem कुल c_stem फुल c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 lemma_o कुल lemma_c फुल
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem फुल c_stem कुल c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 lemma_o फुल lemma_c कुल
 Morpho reached
@@ -3414,17 +3647,20 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem जग्योपवीत c_stem यज्ञोपवीत c_stemchar_dist 3 c_stemchar_ratio 0.7777777777777778
 lemma_o जग्योपवीत lemma_c यज्ञोपवीत
+Not in spell
 o_stem उर्ज c_stem ऊर्ज c_stemchar_dist 1 c_stemchar_ratio 0.75
 lemma_o उर्जा lemma_c ऊर्जा
 I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem फ़ोटोसिंथेसिस c_stem फोटोसिन्थेसिस c_stemchar_dist 3 c_stemchar_ratio 0.8
 lemma_o फ़ोटोसिंथेसिस lemma_c फोटोसिन्थेसिस
 Morpho reached
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem अल्यूमिनियम c_stem अल्ब्यूमिन c_stemchar_dist 5 c_stemchar_ratio 0.7619047619047619
 lemma_o अल्यूमिनियम lemma_c अल्ब्यूमिन
 Morpho reached
@@ -3437,8 +3673,10 @@ lemma_o क्रिप्टोग्राफी lemma_c क्रिस्ट
 Morpho reached
 o_stem ज़ c_stem २ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c २
+Not in spell
 o_stem ज़ c_stem ८ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ८
+Not in spell
 o_stem अभ c_stem अभ c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o अभि lemma_c अभी
 Morpho reached
@@ -3448,15 +3686,19 @@ I am here
 o_pos[0] DET c_pos[0] DET
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem कन्स्ट्रक्टर c_stem कन्सन्ट्रेटेड c_stemchar_dist 5 c_stemchar_ratio 0.72
 lemma_o कन्स्ट्रक्टर lemma_c कन्सन्ट्रेटेड
 Morpho reached
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem धुल c_stem घुल c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 lemma_o धुल lemma_c घुल
 Here, diff lemma
@@ -3474,6 +3716,7 @@ lemma_o सुत lemma_c सक
 Morpho reached
 o_stem ज़ c_stem ५ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ५
+Not in spell
 o_stem दिक c_stem दैनिक c_stemchar_dist 2 c_stemchar_ratio 0.75
 lemma_o दिक lemma_c दैनिक
 Morpho reached
@@ -3509,8 +3752,6 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem का c_stem की c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o का lemma_c का
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem वह c_stem वाहन c_stemchar_dist 2 c_stemchar_ratio 0.6666666666666666
 lemma_o वहाँ lemma_c वाहन
 Morpho reached
@@ -3530,6 +3771,7 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem प्रोद्योगिक c_stem प्रौद्योगिक c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o प्रोद्योगिकी lemma_c प्रौद्योगिकी
 I am here
@@ -3540,11 +3782,13 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem उत्तराखंड c_stem उत्तराखण्ड c_stemchar_dist 2 c_stemchar_ratio 0.8421052631578947
 lemma_o उत्तराखंड lemma_c उत्तराखण्ड
 Morpho reached
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem श्रीमत c_stem श्रीम c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o श्रीमति lemma_c श्रीमती
 Morpho reached
@@ -3565,6 +3809,7 @@ lemma_o सेनेट lemma_c सीनेट
 Morpho reached
 o_stem कस c_stem सक c_stemchar_dist 2 c_stemchar_ratio 0.5
 lemma_o कस lemma_c सक
+Not in spell
 o_stem यूनाईटेड c_stem युनाईटेड c_stemchar_dist 1 c_stemchar_ratio 0.875
 lemma_o यूनाईटेड lemma_c युनाईटेड
 Morpho reached
@@ -3579,6 +3824,7 @@ lemma_o आफ lemma_c ऑफ
 Morpho reached
 o_stem कस c_stem सक c_stemchar_dist 2 c_stemchar_ratio 0.5
 lemma_o कस lemma_c सक
+Not in spell
 o_stem बेनडिक्टिन c_stem बेन्जिडिन c_stemchar_dist 5 c_stemchar_ratio 0.631578947368421
 lemma_o बेनडिक्टिन lemma_c बेन्जिडिन
 I am here
@@ -3644,6 +3890,7 @@ lemma_o यामाता lemma_c यामाशिता
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem और c_stem ओर c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o और lemma_c ओर
 Morpho reached
@@ -3660,6 +3907,7 @@ lemma_o निर्माणित lemma_c निर्माणी
 Morpho reached
 o_stem निर्माण c_stem निर्माण c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o निर्माण lemma_c निर्माणी
+Not in spell
 o_stem जाजम c_stem जाजमऊ c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o जाजम lemma_c जाजमऊ
 Morpho reached
@@ -3672,12 +3920,16 @@ I am here
 o_pos[0] ADJ c_pos[0] ADJ
 o_stem बाम c_stem बम c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o बाम lemma_c बम
+Not in spell
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem करामन c_stem करमान c_stemchar_dist 2 c_stemchar_ratio 0.8
 lemma_o करामन lemma_c करमान
+Not in spell
 o_stem हॉर्मोन c_stem होर्मोज़गन c_stemchar_dist 4 c_stemchar_ratio 0.7058823529411765
 lemma_o हॉर्मोनो lemma_c होर्मोजगन
 I am here
@@ -3687,18 +3939,22 @@ lemma_o वेंडर lemma_c बंदर
 Morpho reached
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem मदारिय c_stem दारियूश c_stemchar_dist 3 c_stemchar_ratio 0.7692307692307693
 lemma_o मदारिया lemma_c दारियूश
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem सिल c_stem सिलाकस c_stemchar_dist 3 c_stemchar_ratio 0.6666666666666666
 lemma_o सिला lemma_c सिलाकस
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem पहुंच c_stem पहुंच c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o पहुंच lemma_c पहुंच
 I am here
@@ -3725,15 +3981,19 @@ o_stem योजन c_stem योज c_stemchar_dist 1 c_stemchar_ratio 0.857142
 lemma_o योजन lemma_c योजना
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem बुस c_stem डूब c_stemchar_dist 3 c_stemchar_ratio 0.3333333333333333
 lemma_o बुस lemma_c डूब
 len(set(o_pos + c_pos)) <= 2
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem लकड c_stem टुकड c_stemchar_dist 2 c_stemchar_ratio 0.5714285714285714
 lemma_o लकडी lemma_c टुकडी
 I am here
@@ -3750,11 +4010,13 @@ o_stem गय c_stem गई c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o जा lemma_c जा
 o_stem अम c_stem आम c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o अम lemma_c आम
+Not in spell
 o_stem दौर c_stem दौरान c_stemchar_dist 2 c_stemchar_ratio 0.75
 lemma_o दौर lemma_c दौरान
 Morpho reached
 o_stem काकर c_stem काकोर c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o काकरी lemma_c काकोरी
+Not in spell
 o_stem पीस c_stem भर c_stemchar_dist 3 c_stemchar_ratio 0.0
 lemma_o पीसा lemma_c भर
 Morpho reached
@@ -3850,6 +4112,7 @@ lemma_o करी lemma_c कार्य
 Morpho reached
 o_stem आख्य c_stem आख्यान c_stemchar_dist 2 c_stemchar_ratio 0.8
 lemma_o आख्य lemma_c आख्यान
+Not in spell
 o_stem जनसंख्य c_stem जनंख्य c_stemchar_dist 1 c_stemchar_ratio 0.9230769230769231
 lemma_o जनसंख्या lemma_c जनंख्या
 I am here
@@ -3859,6 +4122,7 @@ lemma_o कफी lemma_c काफी
 Morpho reached
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem बिहार c_stem मिथिल c_stemchar_dist 4 c_stemchar_ratio 0.2
 lemma_o बिहार lemma_c मिथिला
 Morpho reached
@@ -3889,6 +4153,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
@@ -3933,6 +4198,7 @@ o_stem हिस्स c_stem भाग c_stemchar_dist 5 c_stemchar_ratio 0.0
 lemma_o हिस्सा lemma_c भाग
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem महत्वपूर्ण c_stem महत्त्वपूर्ण c_stemchar_dist 2 c_stemchar_ratio 0.9090909090909091
 lemma_o महत्वपूर्ण lemma_c महत्त्वपूर्ण
 I am here
@@ -3951,6 +4217,7 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem यहॉं c_stem उच्चक c_stemchar_dist 5 c_stemchar_ratio 0.0
 lemma_o यहॉँ lemma_c उच्चक
 o_stem न्यायाधीश c_stem याधीश c_stemchar_dist 4 c_stemchar_ratio 0.7142857142857143
@@ -3988,14 +4255,18 @@ I am here
 o_pos[0] ADJ c_pos[0] ADJ
 o_stem मर c_stem मच्छर c_stemchar_dist 3 c_stemchar_ratio 0.5714285714285714
 lemma_o मर lemma_c मच्छर
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem मोतीलाल c_stemchar_dist 7 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c मोतीलाल
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem आफ c_stem ऑफ c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o आफ lemma_c ऑफ
 Morpho reached
@@ -4006,6 +4277,7 @@ o_stem ज़ c_stem २ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c २
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem आफ c_stem ऑफ c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o आफ lemma_c ऑफ
 Morpho reached
@@ -4017,6 +4289,7 @@ lemma_o टेक्नालॉजी lemma_c टेक्नालाजी
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem बिरल c_stemchar_dist 4 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c बिरला
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
@@ -4029,8 +4302,10 @@ lemma_o टेक्नालॉजी lemma_c टेक्नालाजी
 Morpho reached
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
@@ -4060,10 +4335,13 @@ lemma_o मा lemma_c में
 Morpho reached
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem विधिक c_stem विविध c_stemchar_dist 2 c_stemchar_ratio 0.6
 lemma_o विधिक lemma_c विविध
 I am here
@@ -4166,8 +4444,6 @@ o_stem परम c_stem ओर c_stemchar_dist 2 c_stemchar_ratio 0.4
 lemma_o परम lemma_c ओर
 o_stem की c_stem का c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o का lemma_c का
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem पुरुश c_stem पुरुष c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o पुरुश lemma_c पुरुष
 Morpho reached
@@ -4176,6 +4452,7 @@ lemma_o पूरन lemma_c पुरन
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
@@ -4199,12 +4476,14 @@ lemma_o आपक lemma_c यह
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem गाल c_stem गल c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o गाली lemma_c गली
 I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem किम c_stem किलोमीटर c_stemchar_dist 5 c_stemchar_ratio 0.5454545454545454
 lemma_o किमी lemma_c किलोमीटर
 I am here
@@ -4217,6 +4496,7 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem चित्रकाव्य c_stem चित्रकार c_stemchar_dist 3 c_stemchar_ratio 0.7777777777777778
 lemma_o चित्रकाव्य lemma_c चित्रकारी
+Not in spell
 o_stem बन c_stem बन c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o बन lemma_c बन
 I am here
@@ -4273,6 +4553,7 @@ o_stem शिलिंग c_stem शिवलिंग c_stemchar_dist 1 c_stemc
 lemma_o शिलिंग lemma_c शिवलिंग
 o_stem पत्थर c_stem पत्थर c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o पत्थरो lemma_c पत्थर
+Not in spell
 o_stem आवेज c_stem आवाज c_stemchar_dist 1 c_stemchar_ratio 0.75
 lemma_o आवेजा lemma_c आवाजा
 I am here
@@ -4286,6 +4567,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem पत्थर c_stem पत्थर c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o पत्थरो lemma_c पत्थर
+Not in spell
 o_stem ठिनठिन c_stem ठिनठि c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o ठिनठिन lemma_c ठिनठिनी
 I am here
@@ -4324,6 +4606,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem कस c_stem सक c_stemchar_dist 2 c_stemchar_ratio 0.5
 lemma_o कस lemma_c सक
+Not in spell
 o_stem वृक्ष c_stem वृक्ष c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o वृक्ष lemma_c वृक्ष
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
@@ -4348,6 +4631,7 @@ lemma_o दरमा lemma_c दरिमा
 Morpho reached
 o_stem पत्थर c_stem पत्थर c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o पत्थरो lemma_c पत्थर
+Not in spell
 o_stem आवेज c_stem आवाज c_stemchar_dist 1 c_stemchar_ratio 0.75
 lemma_o आवेजा lemma_c आवाजा
 I am here
@@ -4363,6 +4647,7 @@ o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o है lemma_c है
 o_stem पत्थर c_stem पत्थर c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o पत्थरो lemma_c पत्थर
+Not in spell
 o_stem ठिनठिन c_stem ठिनठि c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o ठिनठिन lemma_c ठिनठिनी
 I am here
@@ -4425,14 +4710,17 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem कस c_stem सक c_stemchar_dist 2 c_stemchar_ratio 0.5
 lemma_o कस lemma_c सक
+Not in spell
 o_stem किम c_stem किलोमीटर c_stemchar_dist 5 c_stemchar_ratio 0.5454545454545454
 lemma_o किमी lemma_c किलोमीटर
 I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem लक्ष्मणगढ़ c_stem लक्ष्मणगढ c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o लक्ष्मणगढ़ lemma_c लक्ष्मणगढ
+Not in spell
 o_stem महेशुर c_stem महेशपुर c_stemchar_dist 1 c_stemchar_ratio 0.9230769230769231
 lemma_o महेशुर lemma_c महेशपुर
+Not in spell
 o_stem किम c_stem किलोमीटर c_stemchar_dist 5 c_stemchar_ratio 0.5454545454545454
 lemma_o किमी lemma_c किलोमीटर
 I am here
@@ -4449,8 +4737,10 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem महेशुर c_stem महेश्पुर c_stemchar_dist 2 c_stemchar_ratio 0.8571428571428571
 lemma_o महेशुर lemma_c महेश्पुर
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem किम c_stem किलोमीटर c_stemchar_dist 5 c_stemchar_ratio 0.5454545454545454
 lemma_o किमी lemma_c किलोमीटर
 I am here
@@ -4461,6 +4751,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem धीरिय c_stem धिरिय c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o धीरिया lemma_c धिरिया
+Not in spell
 o_stem अर्जुन c_stem अर्जुनगढ c_stemchar_dist 2 c_stemchar_ratio 0.8571428571428571
 lemma_o अर्जुन lemma_c अर्जुनगढ
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
@@ -4476,8 +4767,10 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem लक्ष्मणगढ़ c_stem लक्ष्मणगढ c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o लक्ष्मणगढ़ lemma_c लक्ष्मणगढ
+Not in spell
 o_stem महेशुर c_stem महेशपुर c_stemchar_dist 1 c_stemchar_ratio 0.9230769230769231
 lemma_o महेशुर lemma_c महेशपुर
+Not in spell
 o_stem किम c_stem किलोमीटर c_stemchar_dist 5 c_stemchar_ratio 0.5454545454545454
 lemma_o किमी lemma_c किलोमीटर
 I am here
@@ -4601,8 +4894,10 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem मेहरबानग c_stem मेहरानगढ़ c_stemchar_dist 2 c_stemchar_ratio 0.875
 lemma_o मेहरबानगी lemma_c मेहरानगढ़
+Not in spell
 o_stem बिल्कुल c_stem बिल्‍कुल c_stemchar_dist 1 c_stemchar_ratio 0.9333333333333333
 lemma_o बिल्कुल lemma_c बिल्‍कुल
 Morpho reached
@@ -4611,6 +4906,7 @@ lemma_o राजस्थान lemma_c राजस्‍थान
 Morpho reached
 o_stem किल c_stem किल c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o किला lemma_c किला
+Not in spell
 o_stem ईस्व c_stem ईस्‍व c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o ईस्वी lemma_c ईस्‍वी
 Morpho reached
@@ -4620,6 +4916,7 @@ I am here
 o_pos[0] VERB c_pos[0] VERB
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem नह c_stem नह c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o नही lemma_c नहीं
 Morpho reached
@@ -4637,10 +4934,13 @@ o_stem नह c_stem नह c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o नही lemma_c नहीं
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem पीतरोग c_stem भड़तीतर c_stemchar_dist 5 c_stemchar_ratio 0.5
 lemma_o पीतरोग lemma_c भुतीतर
+Not in spell
 o_stem है c_stem था c_stemchar_dist 2 c_stemchar_ratio 0.0
 lemma_o है lemma_c था
 Morpho reached
@@ -4732,6 +5032,7 @@ o_stem बिक c_stem बीक c_stemchar_dist 1 c_stemchar_ratio 0.666666666
 lemma_o बिक lemma_c बीका
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
 o_stem बंद c_stem बगलबंद c_stemchar_dist 3 c_stemchar_ratio 0.6666666666666666
@@ -4745,20 +5046,26 @@ lemma_o नागरी lemma_c देवनागरी
 Morpho reached
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem सलाईय c_stem लाईय c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o सलाई lemma_c लाई
 I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
@@ -4769,16 +5076,20 @@ I am here
 o_pos[0] ADJ c_pos[0] ADJ
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem विकिपीडिय c_stem विकिमीडिय c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o विकिपीडिया lemma_c विकिमीडिया
 I am here
 o_pos[0] ADJ c_pos[0] ADJ
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem स्वमित्व c_stem स्वामित्व c_stemchar_dist 1 c_stemchar_ratio 0.9411764705882353
 lemma_o स्वमित्व lemma_c स्वामित्व
 I am here
@@ -4787,8 +5098,10 @@ o_stem ज़ c_stem ५ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ५
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem का c_stem कह c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o का lemma_c कह
 Here, diff lemma
@@ -4805,6 +5118,7 @@ lemma_o शसन lemma_c शासन
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem किम c_stem किलोमीटर c_stemchar_dist 5 c_stemchar_ratio 0.5454545454545454
 lemma_o किमी lemma_c किलोमीटर
 I am here
@@ -4816,6 +5130,7 @@ o_stem बाज c_stem बाजीराव c_stemchar_dist 4 c_stemchar_ratio
 lemma_o बाजी lemma_c बाजीराव
 o_stem पादुक c_stem पादुकोण c_stemchar_dist 2 c_stemchar_ratio 0.8333333333333334
 lemma_o पादुक lemma_c पादुकोण
+Not in spell
 o_stem मोह c_stem मोह c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o मोह lemma_c मोहे
 Morpho reached
@@ -4878,10 +5193,13 @@ I am here
 o_pos[0] AUX c_pos[0] AUX
 o_stem मह c_stem महल c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मह lemma_c महल
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem बगीच c_stem बगीच c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o बगीचा lemma_c बगीच
 I am here
@@ -4899,43 +5217,53 @@ lemma_o वादा lemma_c वादवा
 Morpho reached
 o_stem स्थानत c_stem स्थान c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o स्थानत lemma_c स्थान
+Not in spell
 o_stem मौव c_stem 18व c_stemchar_dist 2 c_stemchar_ratio 0.3333333333333333
 lemma_o मौवीं lemma_c 18वाँ
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem थाल c_stem तल c_stemchar_dist 2 c_stemchar_ratio 0.4
 lemma_o थाली lemma_c तलाई
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem रागसागर c_stem रंगसागर c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o रागसागर lemma_c रंगसागर
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem स्वरुप c_stem स्वारुप c_stemchar_dist 1 c_stemchar_ratio 0.9230769230769231
 lemma_o स्वरुप lemma_c स्वारुप
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem स्वतंत्र c_stem स्वंतंत्र c_stemchar_dist 1 c_stemchar_ratio 0.9411764705882353
 lemma_o स्वतन्त्रता lemma_c स्वंतंत्रता
 I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem देशभक्त c_stem देशभक्‍ c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o देशभक्ति lemma_c देशभक्िित
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem अन्य c_stem अन्यत्र c_stemchar_dist 3 c_stemchar_ratio 0.7272727272727273
 lemma_o अन्य lemma_c अन्यत्र
 Morpho reached
@@ -4952,17 +5280,21 @@ I am here
 o_pos[0] VERB c_pos[0] VERB
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem रागसागर c_stem रंगसागर c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o रागसागर lemma_c रंगसागर
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem बप्प c_stem बप्पा c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o बप्पा lemma_c बप्पाी
 Morpho reached
@@ -4986,10 +5318,13 @@ lemma_o शताब्दीय lemma_c शताब्दी
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem उपलब्धत c_stem उपलब्ध c_stemchar_dist 1 c_stemchar_ratio 0.9230769230769231
 lemma_o उपलब्धत lemma_c उपलब्ध
+Not in spell
 o_stem मौव c_stem 19व c_stemchar_dist 2 c_stemchar_ratio 0.3333333333333333
 lemma_o मौवीं lemma_c 19वां
 Morpho reached
@@ -5028,13 +5363,16 @@ lemma_o हैन lemma_c हैदन
 Morpho reached
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem अक्तूबर c_stem अक्टूबर c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o अक्तूबर lemma_c अक्टूबर
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem सिराजुद्दीन c_stem नासिरुद्दीन c_stemchar_dist 4 c_stemchar_ratio 0.8181818181818182
 lemma_o सिराजुद्दीन lemma_c नासिरुद्दीन
 Morpho reached
@@ -5047,6 +5385,7 @@ lemma_o रेह lemma_c रह
 Here, diff lemma
 o_stem ज़ c_stem ५ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ५
+Not in spell
 o_stem अक्तूबर c_stem अक्टूबर c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o अक्तूबर lemma_c अक्टूबर
 Morpho reached
@@ -5065,44 +5404,57 @@ lemma_o बेरी lemma_c बेरि
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem कुन c_stem कुदन c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o कुन lemma_c कुदन
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem बिदर c_stem बिदसर c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o बिदर lemma_c बिदसर
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem लालासव c_stem लालास c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o लालासव lemma_c लालासि
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem कालसर c_stem यालसर c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o कालसर lemma_c यालसर
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem भाद c_stem भादवास c_stemchar_dist 3 c_stemchar_ratio 0.6666666666666666
 lemma_o भाद lemma_c भादवासि
 o_stem ज़ c_stem और c_stemchar_dist 2 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c और
+Not in spell
 o_stem करिय c_stem झकरिय c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o करिया lemma_c झकरिया
 Morpho reached
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem राज c_stem ऱाज c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 lemma_o राज lemma_c ऱाज
 Morpho reached
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem पिपराह c_stem पिपराल c_stemchar_dist 1 c_stemchar_ratio 0.8333333333333334
 lemma_o पिपराही lemma_c पिपराली
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem गंगाराम c_stem गुंगार c_stemchar_dist 3 c_stemchar_ratio 0.7692307692307693
 lemma_o गंगाराम lemma_c गुंगारा
 Morpho reached
@@ -5149,6 +5501,7 @@ lemma_o मलहोत्रा lemma_c रायमलोत
 Morpho reached
 o_stem मालजाद c_stem जगमालज c_stemchar_dist 4 c_stemchar_ratio 0.6666666666666666
 lemma_o मालजादी lemma_c जगमालजी
+Not in spell
 o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o है lemma_c है
 o_stem सुन्नकरण c_stem लुन्करण c_stemchar_dist 2 c_stemchar_ratio 0.8
@@ -5167,6 +5520,7 @@ lemma_o लुन lemma_c लुनावत
 Morpho reached
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem शाखांए c_stem शाख c_stemchar_dist 3 c_stemchar_ratio 0.6666666666666666
 lemma_o शाखांय lemma_c शाखा
 I am here
@@ -5180,8 +5534,10 @@ lemma_o रायल lemma_c रायसल
 Morpho reached
 o_stem जेष्ठ c_stem जेस्ठ c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o जेष्ठ lemma_c जेस्ठ
+Not in spell
 o_stem लालपा c_stem लाड्खा c_stemchar_dist 3 c_stemchar_ratio 0.5454545454545454
 lemma_o लालपानी lemma_c लाड्खानी
+Not in spell
 o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o है lemma_c है
 o_stem रायल c_stem रायसल c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
@@ -5212,12 +5568,16 @@ lemma_o चालिया lemma_c चावंङिया
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem नभोदेश c_stem भोदेसर c_stemchar_dist 3 c_stemchar_ratio 0.6666666666666666
 lemma_o नभोदेश lemma_c भोदेसर
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem कुसमाज c_stem छाजुसर c_stemchar_dist 6 c_stemchar_ratio 0.3333333333333333
 lemma_o कुसमाजु lemma_c छाजुसर
+Not in spell
 o_stem रायल c_stem रायसल c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o रायल lemma_c रायसल
 Morpho reached
@@ -5245,6 +5605,7 @@ o_stem सें c_stem सेंसवास c_stemchar_dist 4 c_stemchar_ratio
 lemma_o सेँ lemma_c सेंसवास
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem जांगल c_stem जांटवल c_stemchar_dist 2 c_stemchar_ratio 0.7272727272727273
 lemma_o जांगली lemma_c जांटवली
 Morpho reached
@@ -5304,10 +5665,13 @@ lemma_o खंडला lemma_c खंडेला
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem ४ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ४
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem बन c_stem बन c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o बन lemma_c बना
 Here, diff lemma
@@ -5321,6 +5685,7 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem लैंड c_stem लैंडसैट c_stemchar_dist 3 c_stemchar_ratio 0.7272727272727273
 lemma_o लैंड lemma_c लैंडसैट
 o_stem मोज़ैक c_stem मोसैक c_stemchar_dist 1 c_stemchar_ratio 0.8
@@ -5400,6 +5765,7 @@ lemma_o घूरा lemma_c घूरखा
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem घोंट c_stem घोंटूआ c_stemchar_dist 2 c_stemchar_ratio 0.8
 lemma_o घोंटू lemma_c घोंटूआ
 Morpho reached
@@ -5415,6 +5781,7 @@ o_stem फॉरेनहाइट c_stem फॉरेनाइट c_stemchar_di
 lemma_o फॉरेनहाइट lemma_c फॉरेनाइट
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem इलाम c_stem ईलाम c_stemchar_dist 1 c_stemchar_ratio 0.75
 lemma_o इलाम lemma_c ईलाम
 Morpho reached
@@ -5427,6 +5794,7 @@ lemma_o अनुसर lemma_c अनुसार
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ऑफ़ c_stem ऑफ़ c_stemchar_dist 2 c_stemchar_ratio 0.4
 lemma_o ऑफ़ lemma_c ऑफ़
 Morpho reached
@@ -5435,8 +5803,10 @@ lemma_o साइंसेस lemma_c साइंसेज़
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o है lemma_c है
 o_stem गूगल c_stem मुगल c_stemchar_dist 2 c_stemchar_ratio 0.5
@@ -5447,11 +5817,13 @@ lemma_o भीमसिंह lemma_c भैरोंसिंह
 Morpho reached
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem अक्तूबर c_stem अक्टूबर c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o अक्तूबर lemma_c अक्टूबर
 Morpho reached
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem क्षमाक्षेत्र c_stem विमानक्षेत्र c_stemchar_dist 4 c_stemchar_ratio 0.75
 lemma_o क्षमाक्षेत्र lemma_c विमानक्षेत्र
 I am here
@@ -5468,13 +5840,16 @@ o_stem सांग c_stem सांगानेर c_stemchar_dist 4 c_stemchar
 lemma_o सांगा lemma_c सांगानेर
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem शेव्ड c_stem पेव्ड c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o शेव्ड lemma_c पेव्ड
 Morpho reached
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem फी c_stem फुट c_stemchar_dist 2 c_stemchar_ratio 0.4
 lemma_o फी lemma_c फुट
+Not in spell
 o_stem कस्टम्स c_stem कस्टम c_stemchar_dist 2 c_stemchar_ratio 0.8333333333333334
 lemma_o कस्टम lemma_c कस्टम
 I am here
@@ -5501,11 +5876,13 @@ o_stem सुमेर c_stem सुमेरपुर c_stemchar_dist 3 c_stemc
 lemma_o सुमेर lemma_c सुमेरपुर
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem जालोर c_stem जालौर c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o जालोर lemma_c जालौर
 Morpho reached
 o_stem लिय c_stem लिय c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o लिय lemma_c लिये
+Not in spell
 o_stem क c_stem का c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 lemma_o क lemma_c का
 Morpho reached
@@ -5549,8 +5926,10 @@ I am here
 o_pos[0] AUX c_pos[0] AUX
 o_stem ज़ c_stem ५ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ५
+Not in spell
 o_stem ज़ c_stem ५ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ५
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
 o_stem अक्तूबर c_stem अक्टूबर c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
@@ -5603,6 +5982,7 @@ lemma_o इंका lemma_c यह
 Morpho reached
 o_stem जाँतिय c_stem जातिय c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o जाँतियो lemma_c जातियो
+Not in spell
 o_stem हरिजन c_stem हरिजन c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o हरिजन lemma_c हरिजनो
 Morpho reached
@@ -5619,6 +5999,7 @@ o_stem संज c_stem सामाजिक c_stemchar_dist 5 c_stemchar_ratio
 lemma_o संजा lemma_c सामाजिक
 o_stem जाँतिय c_stem जातिय c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o जाँतियो lemma_c जातियो
+Not in spell
 o_stem हरिजन c_stem हरिजन c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o हरिजन lemma_c हरिजनो
 Morpho reached
@@ -5690,12 +6071,16 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
@@ -5728,13 +6113,16 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem माथेरान c_stem माथेर c_stemchar_dist 2 c_stemchar_ratio 0.8333333333333334
 lemma_o माथेरान lemma_c माथेरा
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem कुमारत c_stem कुमावत c_stemchar_dist 1 c_stemchar_ratio 0.8333333333333334
 lemma_o कुमारत lemma_c कुमावत
 o_stem खे c_stem , c_stemchar_dist 2 c_stemchar_ratio 0.0
@@ -5745,24 +6133,29 @@ lemma_o तेरी lemma_c खेतेरी
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़रवार c_stem मरवार c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o ज़रवारा lemma_c मरवारा
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem तिरिय c_stem तिमरिय c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o तिरिया lemma_c तिमरिया
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem माविय c_stem मावलिय c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o माविया lemma_c मावलिया
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem जाँतिय c_stem जातिय c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o जाँतियो lemma_c जातियो
+Not in spell
 o_stem हरिजन c_stem हरिजन c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o हरिजन lemma_c हरिजनो
 Morpho reached
@@ -5776,6 +6169,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem ब्राह्मण c_stem ब्राह्मण c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o ब्राह्मण lemma_c ब्राह्मणो
 I am here
@@ -5797,13 +6191,16 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem माथेरान c_stem माथेर c_stemchar_dist 2 c_stemchar_ratio 0.8333333333333334
 lemma_o माथेरान lemma_c माथेरा
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem कुमारत c_stem कुमावत c_stemchar_dist 1 c_stemchar_ratio 0.8333333333333334
 lemma_o कुमारत lemma_c कुमावत
 o_stem खे c_stem , c_stemchar_dist 2 c_stemchar_ratio 0.0
@@ -5814,18 +6211,22 @@ lemma_o तेरी lemma_c खेतेरी
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem मारवाड c_stem मारवाड c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o मारवाडी lemma_c मारवाडा
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem तिरिय c_stem तिमरिय c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o तिरिया lemma_c तिमरिया
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem माविय c_stem मालव c_stemchar_dist 3 c_stemchar_ratio 0.6666666666666666
 lemma_o माविया lemma_c मालवी
+Not in spell
 o_stem समान c_stem समाज c_stemchar_dist 1 c_stemchar_ratio 0.75
 lemma_o समान lemma_c समाज
 Morpho reached
@@ -5844,13 +6245,16 @@ o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o है lemma_c है
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem माथेरान c_stem माथेर c_stemchar_dist 2 c_stemchar_ratio 0.8333333333333334
 lemma_o माथेरान lemma_c माथेरा
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem कुमारत c_stem कुम्हार c_stemchar_dist 3 c_stemchar_ratio 0.7692307692307693
 lemma_o कुमारत lemma_c कुम्हार
 o_stem खे c_stem , c_stemchar_dist 2 c_stemchar_ratio 0.0
@@ -5861,16 +6265,19 @@ lemma_o तेरी lemma_c खेतेरी
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem मारवाड c_stem मारवाड c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o मारवाडी lemma_c मारवाडा
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem तिरिय c_stem तिमरिय c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o तिरिया lemma_c तिमरिया
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem का c_stem चाक c_stemchar_dist 2 c_stemchar_ratio 0.4
 lemma_o का lemma_c चाक
 Morpho reached
@@ -5881,30 +6288,38 @@ lemma_o फाईल lemma_c लाइफ
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem फाईल c_stem लाइफ c_stemchar_dist 3 c_stemchar_ratio 0.25
 lemma_o फाईल lemma_c लाइफ
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem मंत्र c_stem मंदिर c_stemchar_dist 2 c_stemchar_ratio 0.6
 lemma_o मंत्र lemma_c मंदिर
 Morpho reached
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem मंडल c_stem जिल c_stemchar_dist 3 c_stemchar_ratio 0.2857142857142857
 lemma_o मंडल lemma_c जिला
 I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem नूपुर c_stem अनूपपुर c_stemchar_dist 2 c_stemchar_ratio 0.8333333333333334
 lemma_o नूपुर lemma_c अनूपपुर
 Morpho reached
@@ -5913,21 +6328,28 @@ lemma_o सैट lemma_c सात
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem सिंगर c_stem सिंगरौल c_stemchar_dist 2 c_stemchar_ratio 0.8333333333333334
 lemma_o सिंगरी lemma_c सिंगरौली
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem जनपद c_stem जिल c_stemchar_dist 3 c_stemchar_ratio 0.2857142857142857
 lemma_o जनपद lemma_c जिला
+Not in spell
 o_stem पृष्ठ c_stem पृष्ठभूम c_stemchar_dist 3 c_stemchar_ratio 0.7692307692307693
 lemma_o पृष्ठ lemma_c पृष्ठभूमी
 o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
@@ -5968,25 +6390,31 @@ lemma_o दशी lemma_c सदी
 Morpho reached
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem सासेज c_stem फासेज़ c_stemchar_dist 2 c_stemchar_ratio 0.7272727272727273
 lemma_o सासेज lemma_c फासेज़
 Morpho reached
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem फार्मसिस्ट c_stem फ़ासिस्ट्स c_stemchar_dist 6 c_stemchar_ratio 0.7
 lemma_o फार्मसिस्ट lemma_c फ़ासिस्ट
 Morpho reached
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem फ्रांकोलीनस c_stem फ्रांकाइस c_stemchar_dist 4 c_stemchar_ratio 0.7
 lemma_o फ्रांकोलीनस lemma_c फ्रांकाइसे
 Morpho reached
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem क्लासिसिज्म c_stem फ़ासिज्म c_stemchar_dist 5 c_stemchar_ratio 0.631578947368421
 lemma_o क्लासिसिज्म lemma_c फ़ासिज्म
 Morpho reached
@@ -5999,16 +6427,22 @@ lemma_o अक्तूबर lemma_c अक्टूबर
 Morpho reached
 o_stem ज़ c_stem १ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c १
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem ५ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ५
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
@@ -6023,21 +6457,27 @@ o_stem हैं c_stem है c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o है lemma_c है
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem अप c_stem अप c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o अपना lemma_c अपना
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem पर c_stem प c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 lemma_o पर lemma_c प
 Morpho reached
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem स c_stem से c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 lemma_o स lemma_c से
 Morpho reached
@@ -6050,8 +6490,10 @@ lemma_o गिर lemma_c चल
 Here, diff lemma
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem प c_stem पर c_stemchar_dist 1 c_stemchar_ratio 0.6666666666666666
 lemma_o प lemma_c पर
 Morpho reached
@@ -6092,8 +6534,10 @@ o_stem संज्ञाएँ c_stem संज्ञ c_stemchar_dist 3 c_stemc
 lemma_o संज्ञा lemma_c संज्ञा
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem घोड़ c_stem घर c_stemchar_dist 2 c_stemchar_ratio 0.4
 lemma_o घोिा lemma_c घर
 I am here
@@ -6104,6 +6548,7 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem ज़ी c_stem ज़ c_stemchar_dist 2 c_stemchar_ratio 0.0
 lemma_o ज़ी lemma_c ज़ी
 Morpho reached
@@ -6119,10 +6564,12 @@ lemma_o ज़ी lemma_c ज़ी
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem देख c_stem देख c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o देख lemma_c देख
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem लिमक c_stem लिम्क c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o लिमका lemma_c लिम्का
 Morpho reached
@@ -6135,12 +6582,14 @@ Morpho reached
 Same lemma 
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem सम्म c_stem सम्मन c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o सम्मित lemma_c सम्मनित
 I am here
 o_pos[0] ADJ c_pos[0] ADJ
 o_stem डीड c_stem डीड c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o डीड lemma_c डीडी
+Not in spell
 o_stem मेट्र c_stem मैट्र c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मेट्रो lemma_c मैट्रो
 Morpho reached
@@ -6164,10 +6613,13 @@ lemma_o का lemma_c कि
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
 o_stem है c_stem था c_stemchar_dist 2 c_stemchar_ratio 0.0
@@ -6180,6 +6632,7 @@ o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem रेह c_stem रह c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o रेह lemma_c रह
 I am here
@@ -6201,8 +6654,10 @@ lemma_o इंजीनियर lemma_c इंजिनियर्स
 Morpho reached
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem आफ c_stem ऑफ c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o आफ lemma_c ऑफ
 Morpho reached
@@ -6211,8 +6666,10 @@ lemma_o इंजीनियर lemma_c इंजिनियर्स
 Morpho reached
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem प्लेसमैंट c_stem प्लेसमेंट c_stemchar_dist 1 c_stemchar_ratio 0.8888888888888888
 lemma_o प्लेसमैंट lemma_c प्लेसमेंट
 I am here
@@ -6225,13 +6682,16 @@ lemma_o इंजीनियर lemma_c इंजीनीयर
 Morpho reached
 o_stem ज़ c_stem ४ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ४
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 Morpho reached
 o_stem ज़ c_stem ९ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ९
+Not in spell
 o_stem ज़ c_stem २ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c २
+Not in spell
 o_stem ज़ c_stem व c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c व
 o_stem के c_stem में c_stemchar_dist 2 c_stemchar_ratio 0.4
@@ -6245,6 +6705,7 @@ lemma_o मा lemma_c में
 Morpho reached
 o_stem ज़ c_stem ९ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ९
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
@@ -6270,6 +6731,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem अभ्यर्थ c_stem अभियार्थिय c_stemchar_dist 4 c_stemchar_ratio 0.7058823529411765
 lemma_o अभ्यर्थी lemma_c अभियार्थियो
+Not in spell
 o_stem मे c_stem में c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o मा lemma_c में
 I am here
@@ -6299,6 +6761,7 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem अभ्यर्थ c_stem अभियार्थ c_stemchar_dist 2 c_stemchar_ratio 0.8
 lemma_o अभ्यर्थी lemma_c अभियार्थी
+Not in spell
 o_stem लैंब्स c_stem लैब्स c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o लैंब lemma_c लैब्स
 Morpho reached
@@ -6311,6 +6774,7 @@ lemma_o फ़ैलोशिप lemma_c फैलोशिप
 Morpho reached
 o_stem कस c_stem सक c_stemchar_dist 2 c_stemchar_ratio 0.5
 lemma_o कस lemma_c सक
+Not in spell
 o_stem कॉलेज c_stem कॉलेज c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o कॉलेज lemma_c कॉलेजो
 I am here
@@ -6321,10 +6785,13 @@ I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem उत्तराखण्ड c_stem उत्तराखंड c_stemchar_dist 2 c_stemchar_ratio 0.8421052631578947
 lemma_o उत्तराखण्ड lemma_c उत्तराखंड
 Morpho reached
@@ -6401,10 +6868,13 @@ lemma_o है lemma_c था
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem बंगाल c_stem बांग्ल c_stemchar_dist 2 c_stemchar_ratio 0.7272727272727273
 lemma_o बंगाली lemma_c बांग्ला
 Morpho reached
@@ -6417,13 +6887,16 @@ lemma_o गुल lemma_c मीर
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem टीकाकार c_stem टीकाकर c_stemchar_dist 1 c_stemchar_ratio 0.9230769230769231
 lemma_o टीकाकार lemma_c टीकाकर
+Not in spell
 o_stem टाईम्स c_stem टाइम्स c_stemchar_dist 1 c_stemchar_ratio 0.8333333333333334
 lemma_o टाईम lemma_c टाइम्स
 Morpho reached
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem फ़रवर c_stem फ़रवर c_stemchar_dist 2 c_stemchar_ratio 0.6666666666666666
 lemma_o फ़रवरी lemma_c फ़रवरी
 Morpho reached
@@ -6432,14 +6905,17 @@ lemma_o फ़रवरी lemma_c फ़रवरी
 Morpho reached
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem लाव c_stem आलाव c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o लावा lemma_c आलावा
 I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem पोग c_stem पोग c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o पोग lemma_c पोगो
 I am here
@@ -6454,6 +6930,7 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem . c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c .
+Not in spell
 o_stem पोग c_stem पोग c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o पोग lemma_c पोगो
 Morpho reached
@@ -6462,6 +6939,7 @@ lemma_o पोग lemma_c पोगो
 Morpho reached
 o_stem कारन c_stem कारण c_stemchar_dist 1 c_stemchar_ratio 0.75
 lemma_o कारन lemma_c कारण
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
 o_stem पोग c_stem पोग c_stemchar_dist 0 c_stemchar_ratio 1.0
@@ -6476,8 +6954,10 @@ o_stem इमारत c_stem इमारात c_stemchar_dist 1 c_stemchar_ra
 lemma_o इमारत lemma_c इमारात
 o_stem ज़ c_stem २ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c २
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem वाढ c_stem वार्ष c_stemchar_dist 3 c_stemchar_ratio 0.5
 lemma_o वाढ lemma_c वार्ष
 Morpho reached
@@ -6487,6 +6967,7 @@ I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem ज़ c_stem ८ c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c ८
+Not in spell
 o_stem स्टार c_stem स्तर c_stemchar_dist 2 c_stemchar_ratio 0.6666666666666666
 lemma_o स्टार lemma_c स्तर
 I am here
@@ -6513,35 +6994,40 @@ lemma_o हेरल्ड lemma_c हफेल्ड
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem आस्ट्रिय c_stem ऑस्ट्रिय c_stemchar_dist 1 c_stemchar_ratio 0.875
 lemma_o आस्ट्रिया lemma_c ऑस्ट्रिया
 Morpho reached
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem के c_stem का c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o का lemma_c का
 I am here
 o_pos[0] ADP c_pos[0] ADP
 o_stem के c_stem की c_stemchar_dist 1 c_stemchar_ratio 0.5
 lemma_o का lemma_c का
-I am here
-o_pos[0] ADP c_pos[0] ADP
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem एव c_stem एवं c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o एव lemma_c एवं
 Morpho reached
 o_stem इंजीनीयरिंग c_stem इंजिनीयरिंग c_stemchar_dist 1 c_stemchar_ratio 0.9090909090909091
 lemma_o इंजीनीयरिंग lemma_c इंजिनीयरिंग
+Not in spell
 o_stem यूपीएस c_stem यूबीएस c_stemchar_dist 1 c_stemchar_ratio 0.8333333333333334
 lemma_o यूपीएस lemma_c यूबीएस
 Morpho reached
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem यूनियन c_stem यूनिअन c_stemchar_dist 1 c_stemchar_ratio 0.8333333333333334
 lemma_o यूनियन lemma_c यूनिअन
 Morpho reached
@@ -6550,6 +7036,7 @@ lemma_o आफ lemma_c ऑफ
 Morpho reached
 o_stem ज़ c_stem " c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c "
+Not in spell
 o_stem हैं c_stem है c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o है lemma_c है
 o_stem यहॉं c_stem यह c_stemchar_dist 2 c_stemchar_ratio 0.6666666666666666
@@ -6621,24 +7108,32 @@ Here, diff lemma
 TENSE 1.2 c_pos[0] == VERB and o_toks[0].lemma != c_toks[0].lemma
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem ज़ c_stem , c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c COMMA
+Not in spell
 o_stem ज़ c_stem ( c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c (
+Not in spell
 o_stem ज़ c_stem ) c_stemchar_dist 1 c_stemchar_ratio 0.0
 lemma_o ज़ lemma_c )
+Not in spell
 o_stem अलावाबैगबैगबैग c_stem अलाव c_stemchar_dist 10 c_stemchar_ratio 0.4444444444444444
 lemma_o अलावाबैगबैगबैग lemma_c अलावा
+Not in spell
 o_stem समाज c_stem जात c_stemchar_dist 3 c_stemchar_ratio 0.2857142857142857
 lemma_o समाज lemma_c जाति
 I am here
 o_pos[0] NOUN c_pos[0] NOUN
 o_stem उपजात c_stem उपजात c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o उपजाति lemma_c उपजाति
+Not in spell
 o_stem नगर c_stem धनगर c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o नगर lemma_c धनगर
 Morpho reached
@@ -6650,6 +7145,7 @@ lemma_o कर lemma_c करत
 Here, diff lemma
 o_stem उपजात c_stem उपजात c_stemchar_dist 0 c_stemchar_ratio 1.0
 lemma_o उपजाति lemma_c उपजाति
+Not in spell
 o_stem नगर c_stem धनगर c_stemchar_dist 1 c_stemchar_ratio 0.8571428571428571
 lemma_o नगर lemma_c धनगर
 Morpho reached
@@ -6658,6 +7154,7 @@ lemma_o निखर lemma_c नीखर
 Morpho reached
 o_stem करत c_stem कर c_stemchar_dist 1 c_stemchar_ratio 0.8
 lemma_o करत lemma_c कर
+Not in spell
 o_stem बघेल c_stem पाल c_stemchar_dist 3 c_stemchar_ratio 0.2857142857142857
 lemma_o बघेल lemma_c पाल
 Morpho reached

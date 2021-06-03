@@ -99,18 +99,22 @@ def expand(w):
     print([i for i in w])
     pass
 
-def contract_char(token):
+def normalise_char(token):
     ''' returns token after changing expanded characters with dot to single character'''
     expanded1 = 'ड' + '़'
     token = token.replace(expanded1, 'ड़')
     expanded2 = 'ढ' + '़'
     token = token.replace(expanded2, 'ढ़')
+    matra1 = 'ॊ'
+    token = token.replace(matra1,'ो')
+    matra2 = 'ॆ'
+    token = token.replace(matra2,'े')
     return token
 # def process_padhai(token):
 #
 #     return token
-
-l = ('छोड़ा','छोड़ा','बढ़ते','बढ़ते')
+#'छोड़ा','छोड़ा','बढ़ते','बढ़ते',
+l = ('कॊई','कोई','के', 'कॆ','यद्यपि','यद्यपी')
 # for w in l:
 #     print([x for x in w])
 #
@@ -120,5 +124,5 @@ a = 'ड'+'़'
 print(a)
 expand(a)
 for x in l:
-    x = contract_char(x)
+    x = normalise_char(x)
     expand(x)

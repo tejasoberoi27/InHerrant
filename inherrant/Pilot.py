@@ -3,13 +3,17 @@ from inherrant.alignment import Alignment
 import inherrant
 import Levenshtein
 
-def contract_char(text):
-    ''' returns text after changing expanded characters with dot to single character'''
+def normalise_char(token):
+    ''' returns token after changing expanded characters with dot to single character'''
     expanded1 = 'ड' + '़'
-    text = text.replace(expanded1, 'ड़')
+    token = token.replace(expanded1, 'ड़')
     expanded2 = 'ढ' + '़'
-    text = text.replace(expanded2, 'ढ़')
-    return text
+    token = token.replace(expanded2, 'ढ़')
+    matra1 = 'ॊ'
+    token = token.replace(matra1,'ो')
+    matra2 = 'ॆ'
+    token = token.replace(matra2,'े')
+    return token
 
 def align(orig, cor, lev=False):
     return Alignment(orig, cor, lev)
@@ -315,11 +319,17 @@ if __name__ == '__main__':
     # s1 = "जय नारायण व्यास विद्यालय में लगभग 1600 विद्यार्थी विभिन्न विषयों पर पढ़ाई कर रेह है ."
     # s2 = "जय नारायण व्यास विद्यालय में लगभग 1600 विद्यार्थी विभिन्न विषयों पर पढ़ाई कर रहे हैं ."
 
-    s1 = "अलाउद्दीन बंदी बना लिया गया किंतु संजर ने कुछ समय उपरात उसे मुक्त कर गोर का राज्य उसे वापस कर दिया . "
-    s2 = "अलाउद्दीन बंदी बना लिया गया किंतु संजर ने कुछ समय उपरांत उसे मुक्त कर गोर का राज्य उसे वापस कर दिया ."
+    # s1 = "अलाउद्दीन बंदी बना लिया गया किंतु संजर ने कुछ समय उपरात उसे मुक्त कर गोर का राज्य उसे वापस कर दिया . "
+    # s2 = "अलाउद्दीन बंदी बना लिया गया किंतु संजर ने कुछ समय उपरांत उसे मुक्त कर गोर का राज्य उसे वापस कर दिया ."
 
-    s1 = contract_char(s1)
-    s2 = contract_char(s2)
+    # s1 = "यद्यपि यज्ञ को वातावरण प्रदुषण लिये समाधान माना जाता है पर ईस बात के कॉई अधिकारिक वैज्ञानिक प्रमाण उपलब्ध नही है ."
+    # s2 = "यद्यपी यज्ञ कॊ वातावरण प्रदुषणकॆ लियॆ समाधान माना जाता है पर इस बात कॆ कॊई अधिकारिक वैज्ञानिक प्रमाण ऊपलब्ध नही है ."
+
+    s1 = "उस गाड़ी के एंजिन ख़राब है "
+    s2 = "उस गाड़ी का एंजिन ख़राब है "
+
+    s1 = normalise_char(s1)
+    s2 = normalise_char(s2)
 
     doc1 = nlp(s1)
     doc2 = nlp(s2)

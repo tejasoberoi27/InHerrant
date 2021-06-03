@@ -253,7 +253,7 @@ def get_two_sided_type(o_toks, c_toks):
     c_stemchar_dist = Levenshtein.distance(o_stem, c_stem)
     c_stemchar_ratio = Levenshtein.ratio(o_stem, c_stem)
     print("o_stem", o_stem, "c_stem", c_stem, "c_stemchar_dist", c_stemchar_dist, "c_stemchar_ratio", c_stemchar_ratio)
-
+    print("o_num", o_num, "c_num", c_num)
     print("lemma_o", o_toks[0].lemma, "lemma_c", c_toks[0].lemma)
 
     # Word Order; only matches exact reordering.
@@ -293,7 +293,9 @@ def get_two_sided_type(o_toks, c_toks):
         # print("Reached")
         # Gender Edits
         # if the edit has both tense and gender different, then classify as gender edit
-        if (c_pos[0] in main_pos or c_pos[0] == 'AUX') and o_toks[0].lemma == c_toks[0].lemma:
+        if (c_pos[0] in (main_pos + ['AUX', 'ADP'])) and o_toks[0].lemma == c_toks[0].lemma:
+            if c_pos[0]=='ADP':
+                return "ADP-INFL"
             if opposite_gen(o_feats[0], c_feats[0]) and c_pos[0] != "NOUN":
                 if c_pos[0] == 'AUX':
                     c_pos[0] = 'VERB'
@@ -301,7 +303,6 @@ def get_two_sided_type(o_toks, c_toks):
             if c_pos[0] in main_pos or c_pos[0] == 'AUX':
                 if c_pos[0] == 'AUX':
                     c_pos[0] = 'VERB'
-
             if opposite_num(o_feats[0], c_feats[0]):
                 return str(c_pos[0]) + "-NUM"
             else:
