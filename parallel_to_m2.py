@@ -92,7 +92,7 @@ if __name__ == "__main__":
             # Loop through the corrected texts
             for cor_id, cor in enumerate(cors):
                 cor = cor.strip()
-                cor = contract_char(cor)
+                cor = normalise_char(cor)
                 # If the texts are the same, write a noop edit
                 if orig.text.strip() == cor:
                     out_m2.write(noop_edit(cor_id)+"\n")
