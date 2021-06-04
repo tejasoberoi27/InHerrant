@@ -91,7 +91,7 @@ def are_stems_similar(o_stem, c_stem):
     return c_stemchar_dist <= 1 or c_stemchar_ratio >= 0.8
 
 
-def are_lemmas_similar(o_tok, c_tok):
+def are_tokens_similar(o_tok, c_tok):
     """ Returns true if the lemmas are equal or stems are similar"""
     o_stem = stemmer.stem(o_tok.text)
     c_stem = stemmer.stem(c_tok.text)
@@ -268,10 +268,12 @@ def get_two_sided_type(o_toks, c_toks):
     c_stem = stemmer.stem(c_toks[0].text)
     c_stemchar_dist = Levenshtein.distance(o_stem, c_stem)
     c_stemchar_ratio = Levenshtein.ratio(o_stem, c_stem)
+    print("o_pos",o_pos)
+    print("c_pos",c_pos)
     print("o_stem", o_stem, "c_stem", c_stem, "c_stemchar_dist", c_stemchar_dist, "c_stemchar_ratio", c_stemchar_ratio)
     print("o_num", o_num, "c_num", c_num)
     print("lemma_o", o_toks[0].lemma, "lemma_c", c_toks[0].lemma)
-
+    print("o_feats",o_feats,"c_feats",c_feats)
     # Word Order; only matches exact reordering.
     if exact_reordering(o_toks, c_toks):
         return "WO"
@@ -309,7 +311,7 @@ def get_two_sided_type(o_toks, c_toks):
         # print("Reached")
         # Gender Edits
         # if the edit has both tense and gender different, then classify as gender edit
-        if (c_pos[0] in (main_pos + ['AUX', 'ADP'])) and are_lemmas_similar(o_toks[0], c_toks[0]):
+        if (c_pos[0] in (main_pos + ['AUX', 'ADP'])) and are_tokens_similar(o_toks[0], c_toks[0]):
             if c_pos[0] == 'ADP':
                 return "ADP-INFL"
             if opposite_gen(o_feats[0], c_feats[0]) and c_pos[0] != "NOUN":
@@ -337,7 +339,7 @@ def get_two_sided_type(o_toks, c_toks):
                 return "VERB-TENSE"
 
         # Single token replacement of a word with a upos tag of NOUN, different lemma
-        if o_pos[0] == c_pos[0] == "VERB" and o_toks[0].lemma != c_toks[0].lemma:
+        if o_pos[0] == c_pos[0] and c_pos[0] in ("VERB","AUX") and o_toks[0].lemma != c_toks[0].lemma:
             print("Here, diff lemma")
             exceptions_tense = (
                 ('है', 'था', 'होगा'), ('हैं', 'थे', 'होंगे'), ('है', 'थी', 'होगी'), ('हैं', 'थीं', 'होंगी'),
@@ -351,6 +353,8 @@ def get_two_sided_type(o_toks, c_toks):
                 if set.intersection(set(exs_o_tense), set(exs_c_tense)):
                     print("TENSE 1.2 c_pos[0] == VERB and o_toks[0].lemma != c_toks[0].lemma")
                     return "VERB-TENSE"
+            if is_tense_aux(o_toks[0],c_toks[0]):
+                return "VERB-TENSE"
 
             # checking if stem is same but suffixes indicate change in tense
             if are_stems_similar(o_stem, c_stem) and opposite_tense(o_feats[0], c_feats[0]):
@@ -371,14 +375,14 @@ def get_two_sided_type(o_toks, c_toks):
             print("o_pos[0]", o_pos[0], "c_pos[0]", c_pos[0])
             if c_pos[0] == "AUX":
                 c_pos[0] = "VERB"
-            if c_pos[0] == "VERB" and are_lemmas_similar(o_toks[0], c_toks[0]):
+            if c_pos[0] == "VERB" and are_tokens_similar(o_toks[0], c_toks[0]):
                 return "VERB-FORM"
             return c_pos[0]
         if o_toks[0].deprel == "punct" and c_toks[0].deprel == "punct":
             return "PUNCT"
         print("Morpho reached")
         # 3. MORPHOLOGY
-        if are_lemmas_similar(o_toks[0], c_toks[0]):
+        if are_tokens_similar(o_toks[0], c_toks[0]):
             print("Same lemma ")
             # Same POS on both sides
             if o_pos[0] == c_pos[0]:
@@ -414,17 +418,17 @@ def get_two_sided_type(o_toks, c_toks):
         # 4. GENERAL
         # Auxiliaries with different lemmas
         # Also checking that stems are not similar
-        if (not are_lemmas_similar(o_toks[0], c_toks[0])) and o_dep[0].startswith(
+        if (not are_tokens_similar(o_toks[0], c_toks[0])) and o_dep[0].startswith(
                 "aux") and c_dep[0].startswith("aux"):
             s = "if o_dep[0].startswith(\"aux\") and c_dep[0].startswith(\"aux\"):"
-            # print(s)
+            print(s)
             if not opposite_gen(o_feats[0], c_feats[0]) and not opposite_num(o_feats[0], c_feats[0]):
                 print("Tokens", o_toks[0], c_toks[0])
                 if (is_tense_aux(o_toks[0], c_toks[0])):
                     print("TENSE 1.7")
                     return "VERB-TENSE"
 
-        if are_lemmas_similar(o_toks[0], c_toks[0]) and \
+        if are_tokens_similar(o_toks[0], c_toks[0]) and \
                 o_pos[0] in morph_list and \
                 c_pos[0] in morph_list:
             return "MORPH"
@@ -452,7 +456,7 @@ def get_two_sided_type(o_toks, c_toks):
             print("len(set(o_pos + c_pos)) <= 2")
             # Final verbs with the same lemma are tense; e.g. eat -> has eaten
             if o_pos[0] in ("VERB", "AUX") and \
-                    are_lemmas_similar(o_toks[0], c_toks[0]) \
+                    are_tokens_similar(o_toks[0], c_toks[0]) \
                     and not opposite_gen(o_feats[0], c_feats[0]) \
                     and not opposite_num(o_feats[0], c_feats[0]):
                 s = "if len(set(o_pos+c_pos)) == 1:," + "if o_pos[0] == VERB and o_toks[0].lemma == c_toks[0].lemma:"
@@ -465,7 +469,7 @@ def get_two_sided_type(o_toks, c_toks):
             if o_pos[i] == "NOUN":
                 for j in range(len(c_pos)):
                     if c_pos[j] == "NOUN":
-                        if are_lemmas_similar(o_toks[i], c_toks[j]):
+                        if are_tokens_similar(o_toks[i], c_toks[j]):
                             if opposite_num(o_feats[i], c_feats[j]):
                                 return "NOUN-NUM"
                         lemma_char_ratio = Levenshtein.ratio(o_toks[i].text, c_toks[j].text)
@@ -477,7 +481,7 @@ def get_two_sided_type(o_toks, c_toks):
             if o_pos[i] == "PRON":
                 for j in range(len(c_pos)):
                     if c_pos[j] == "PRON":
-                        if are_lemmas_similar(o_toks[i], c_toks[j]):
+                        if are_tokens_similar(o_toks[i], c_toks[j]):
                             if opposite_num(o_feats[i], c_feats[j]):
                                 return "PRON-NUM"
                             if opposite_gen(o_feats[i], c_feats[j]):
@@ -488,7 +492,7 @@ def get_two_sided_type(o_toks, c_toks):
             if o_pos[i] in ("VERB", "AUX"):
                 for j in range(len(c_pos)):
                     if c_pos[j] == o_pos[i]:
-                        if are_lemmas_similar(o_toks[i], c_toks[j]):
+                        if are_tokens_similar(o_toks[i], c_toks[j]):
                             if opposite_num(o_feats[i], c_feats[j]):
                                 return "VERB-NUM"
                             if opposite_gen(o_feats[i], c_feats[j]):
@@ -501,7 +505,7 @@ def get_two_sided_type(o_toks, c_toks):
             if o_pos[i] == "ADP":
                 for j in range(len(c_pos)):
                     if c_pos[j] == "ADP":
-                        if are_lemmas_similar(o_toks[i], c_toks[j]):
+                        if are_tokens_similar(o_toks[i], c_toks[j]):
                             return "ADP-INFL"
                         else:
                             return "ADP"
@@ -524,6 +528,6 @@ def get_two_sided_type(o_toks, c_toks):
         for i in range(len(o_toks)):
             if o_pos[i] in morph_list:
                 for j in range(len(c_pos)):
-                    if c_pos[j] in morph_list and o_pos[i] != c_pos[j] and are_lemmas_similar(o_toks[i], c_toks[j]):
+                    if c_pos[j] in morph_list and o_pos[i] != c_pos[j] and are_tokens_similar(o_toks[i], c_toks[j]):
                         return "MORPH"
     return "OTHER"
