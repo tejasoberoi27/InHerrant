@@ -4,6 +4,7 @@ from .hindi_stemmer import HindiStemmer
 
 INDIC = 'ऀँंःऄअआइईउऊऋऌऍऎएऐऑऒओऔकखगघङचछजझञटठडढणतथदधनऩपफबभमयरऱलळऴवशषसहऺऻ़ऽािीुूृॄॅॆेैॉॊोौ्ॎॏॐ॓॔ॕॖॗक़ख़ग़ज़ड़ढ़फ़य़ॠॡॢॣ'
 
+
 def is_spelling(o_tok: str, c_tok: str) -> bool:
     for orig_pair in (('ये', 'ए'), ('यी', 'ई'), ('या', 'आ'), ('यीं', 'ईं'), ('आ', 'वा')):
         for pair in (orig_pair, orig_pair[::-1]):
@@ -12,6 +13,7 @@ def is_spelling(o_tok: str, c_tok: str) -> bool:
             'क़ख़ग़ज़ड़ढ़फ़य़'
             # क
     return False
+
 
 def get_gen(feats):
     if 'Gender' in feats:
@@ -279,15 +281,13 @@ def get_two_sided_type(o_toks, c_toks):
     c_stem = stemmer.stem(c_toks[0].text)
     c_stemchar_dist = Levenshtein.distance(o_stem, c_stem)
     c_stemchar_ratio = Levenshtein.ratio(o_stem, c_stem)
-    print("o_pos",o_pos)
-    print("c_pos",c_pos)
+    print("o_pos", o_pos)
+    print("c_pos", c_pos)
     print("o_stem", o_stem, "c_stem", c_stem, "c_stemchar_dist", c_stemchar_dist, "c_stemchar_ratio", c_stemchar_ratio)
     print("o_num", o_num, "c_num", c_num)
     print("lemma_o", o_toks[0].lemma, "lemma_c", c_toks[0].lemma)
-    print("o_feats",o_feats,"c_feats",c_feats)
+    print("o_feats", o_feats, "c_feats", c_feats)
     # Word Order; only matches exact reordering.
-
-
 
     if exact_reordering(o_toks, c_toks):
         return "WO"
@@ -355,7 +355,7 @@ def get_two_sided_type(o_toks, c_toks):
                 return "VERB-TENSE"
 
         # Single token replacement of a word with a upos tag of NOUN, different lemma
-        if o_pos[0] == c_pos[0] and c_pos[0] in ("VERB","AUX") and o_toks[0].lemma != c_toks[0].lemma:
+        if o_pos[0] == c_pos[0] and c_pos[0] in ("VERB", "AUX") and o_toks[0].lemma != c_toks[0].lemma:
             print("Here, diff lemma")
             exceptions_tense = (
                 ('है', 'था', 'होगा'), ('हैं', 'थे', 'होंगे'), ('है', 'थी', 'होगी'), ('हैं', 'थीं', 'होंगी'),
@@ -369,10 +369,13 @@ def get_two_sided_type(o_toks, c_toks):
                 if set.intersection(set(exs_o_tense), set(exs_c_tense)):
                     print("TENSE 1.2 c_pos[0] == VERB and o_toks[0].lemma != c_toks[0].lemma")
                     return "VERB-TENSE"
-            if opposite_tense(o_feats[0],c_feats[0]):
+            if (o_pos[0] == "AUX" and c_pos[0] == "AUX" and is_tense_aux(o_toks[0], c_toks[0])) or opposite_tense(
+                    o_feats[0], c_feats[0]):
                 print("TENSE 1.25")
                 return "VERB-TENSE"
-
+            # if opposite_tense(o_feats[0], c_feats[0]):
+            #     print("TENSE 1.25")
+            #     return "VERB-TENSE"
             # checking if stem is same but suffixes indicate change in tense
             if are_stems_similar(o_stem, c_stem) and opposite_tense(o_feats[0], c_feats[0]):
                 print("TENSE 1.3 c_pos[0] == VERB and o_toks[0].lemma != c_toks[0].lemma")
@@ -385,7 +388,9 @@ def get_two_sided_type(o_toks, c_toks):
         char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
         if o_pos[0] == 'NOUN' and c_pos[0] == 'NOUN' and char_ratio >= 0.5 and opposite_gen(o_feats[0], c_feats[0]):
             return "NOUN-GEN"
-        if (c_pos[0] in list_pos) and (o_pos[0] == c_pos[0] or {o_pos[0],c_pos[0]}.issubset({"VERB","AUX"})) and not opposite_tense(o_feats[0],c_feats[0]):
+        if (c_pos[0] in list_pos) and (
+                o_pos[0] == c_pos[0] or {o_pos[0], c_pos[0]}.issubset({"VERB", "AUX"})) and not opposite_tense(
+            o_feats[0], c_feats[0]):
             # hai -> hoon
             print("I am here")
             print("o_pos[0]", o_pos[0], "c_pos[0]", c_pos[0])
@@ -416,6 +421,7 @@ def get_two_sided_type(o_toks, c_toks):
                         s = "same lemma if o_dep[0].startswith(\"aux\") and \
                             c_dep[0].startswith(\"aux\"):"
                         print(s)
+                        # Sometimes stanza can give wrong feature. eg. tha getting classified as feminine
                         exceptions = (('है', 'हैं'), ('था', 'थे', 'थी', 'थीं'), ('हुआ', 'हुई', 'हुए', 'हुईं'),
                                       ('रहा', 'रहे', 'रही', 'रहीं', 'रहो'), ('चुका', 'चुके', 'चुकी', 'चुकीं'),
                                       ('लिया', 'लिए', 'ली', 'लीं'), ('पाया', 'पाए', 'पायी', 'पायीं'),
@@ -475,7 +481,7 @@ def get_two_sided_type(o_toks, c_toks):
     # print(o_toks[0].lemma,c_toks[0].lemma)
     # print(not(opposite_gen(o_feats[0], c_feats[0])))
     # print(not(opposite_num(o_feats[0],c_feats[0])))
-    if (len(o_toks) + len(c_toks) > 2):
+    if len(o_toks) + len(c_toks) > 2:
         if len(set(o_pos + c_pos)) <= 2 and set(o_pos + c_pos).issubset({"VERB", "AUX"}):
             print("len(set(o_pos + c_pos)) <= 2")
             # Final verbs with the same lemma are tense; e.g. eat -> has eaten
