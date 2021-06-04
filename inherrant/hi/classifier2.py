@@ -2,6 +2,12 @@ from pathlib import Path
 import Levenshtein
 from .hindi_stemmer import HindiStemmer
 
+def is_spelling(o_tok: str, c_tok: str) -> bool:
+    for orig_pair in (('ये', 'ए'), ('यी', 'ई'), ('या', 'आ'), ('यीं', 'ईं'), ('आ', 'वा')):
+        for pair in (orig_pair, orig_pair[::-1]):
+            if o_tok.endswith(pair[0]) and c_tok.endswith(pair[1]):
+                return o_tok[:-len(pair[0])] == c_tok[:-len(pair[1])]
+    return False
 
 def get_gen(feats):
     if 'Gender' in feats:
@@ -275,6 +281,9 @@ def get_two_sided_type(o_toks, c_toks):
     print("lemma_o", o_toks[0].lemma, "lemma_c", c_toks[0].lemma)
     print("o_feats",o_feats,"c_feats",c_feats)
     # Word Order; only matches exact reordering.
+
+
+
     if exact_reordering(o_toks, c_toks):
         return "WO"
 
@@ -284,13 +293,15 @@ def get_two_sided_type(o_toks, c_toks):
     # 1:1 replacements (very common)
     if len(o_toks) == len(c_toks) == 1:
 
+        if is_spelling(o_toks[0].text, c_toks[0].text):
+            return "SPELL"
+        char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
+        char_dist = Levenshtein.distance(o_toks[0].text, c_toks[0].text)
         # 2. SPELLING AND INFLECTION
         # Spelling errors take precedence over POS errors; this rule is ordered
         # Check a GB English dict for both orig and lower case.
         # E.g. "cat" is in the dict, but "Cat" is not.
         if o_toks[0].text not in spell:
-            char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
-            char_dist = Levenshtein.distance(o_toks[0].text, c_toks[0].text)
             print("Not in spell")
             # print("Character Ratio ", char_ratio)
             # Ratio > 0.5 means both side share at least half the same chars.
@@ -432,6 +443,14 @@ def get_two_sided_type(o_toks, c_toks):
                 o_pos[0] in morph_list and \
                 c_pos[0] in morph_list:
             return "MORPH"
+
+        # Ratio > 0.5 means both side share at least half the same chars.
+        # WARNING: THIS IS AN APPROXIMATION.
+        if char_ratio > 0.5 or char_dist == 1:
+            return "SPELL"
+        # Tricky cases
+        else:
+            return "OTHER"
 
     # Multi-token replacements (uncommon)
     # All auxiliaries    
