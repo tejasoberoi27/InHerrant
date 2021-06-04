@@ -2,16 +2,25 @@ from pathlib import Path
 import Levenshtein
 from .hindi_stemmer import HindiStemmer
 
-INDIC = 'ऀँंःऄअआइईउऊऋऌऍऎएऐऑऒओऔकखगघङचछजझञटठडढणतथदधनऩपफबभमयरऱलळऴवशषसहऺऻ़ऽािीुूृॄॅॆेैॉॊोौ्ॎॏॐ॓॔ॕॖॗक़ख़ग़ज़ड़ढ़फ़य़ॠॡॢॣ'
-
-
 def is_spelling(o_tok: str, c_tok: str) -> bool:
     for orig_pair in (('ये', 'ए'), ('यी', 'ई'), ('या', 'आ'), ('यीं', 'ईं'), ('आ', 'वा')):
         for pair in (orig_pair, orig_pair[::-1]):
             if o_tok.endswith(pair[0]) and c_tok.endswith(pair[1]):
                 return o_tok[:-len(pair[0])] == c_tok[:-len(pair[1])]
-            'क़ख़ग़ज़ड़ढ़फ़य़'
-            # क
+    char_set1 = "कखगजडढफयनँुिशणगझछशोओ"
+    char_set2 = "क़ख़ग़ज़ड़ढ़फ़य़ऩंूीसनघजचषौऔ"
+    f1 = lambda s, c1, c2: s.replace(c1, c2)
+    f2 = lambda s1, s2, c1, c2: f1(s1, c1, c2) == s2 or f1(s1, c2, c1) == s2
+    for char1, char2 in zip(char_set1, char_set2):
+        if f2(o_tok, c_tok, char1, char2):
+            return True
+    dep_vowels = "ंँऺऻ़ऽािीुूृॄॅॆेैॉॊोौ्ॎॏ्ः"
+    for dep_vowel in dep_vowels:
+        f3 = lambda s1, s2: f1(s1, dep_vowel, '') == s2 or f1(s2, dep_vowel, '') == s1
+        if f3(o_tok,c_tok):
+            return True
+    return False
+
     return False
 
 

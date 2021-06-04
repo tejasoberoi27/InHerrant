@@ -3,8 +3,7 @@ from inherrant.hi.hindi_stemmer import HindiStemmer
 import stanza
 import inherrant
 
-
-nlp = stanza.Pipeline('hi',use_gpu=True)
+nlp = stanza.Pipeline('hi', use_gpu=True)
 stemmer = HindiStemmer()
 set_lemma = set()
 set_stem = set()
@@ -22,7 +21,6 @@ set_stem = set()
 #                                       ('रहा', 'रहे', 'रही', 'रहीं', 'रहो'), ('चुका', 'चुके', 'चुकी', 'चुकीं'),
 #                                       ('लिया', 'लिए', 'ली', 'लीं'), ('पाया', 'पाए', 'पायी', 'पायीं'),
 #                                       ('गया', 'गयी', 'गई', 'गए', 'गये', 'गयीं', 'गईं'))
-
 
 
 #
@@ -149,5 +147,31 @@ set_stem = set()
 # x = 'क' + 'ऄ'
 # print(x)
 
+
+
+
+def f(o_tok,c_tok):
+    char_set1 = "कखगजडढफयनँुिशणगझछशोओ"
+    char_set2 = "क़ख़ग़ज़ड़ढ़फ़य़ऩंूीसनघजचषौऔ"
+    f1 = lambda s, c1, c2: s.replace(c1, c2)
+    f2 = lambda s1, s2, c1, c2: f1(s1, c1, c2) == s2 or f1(s1, c2, c1) == s2
+    for char1, char2 in zip(char_set1, char_set2):
+        # print(char1, char2)
+        if f2(o_tok, c_tok, char1, char2):
+            return True
+    dep_vowels = "ंँऺऻ़ऽािीुूृॄॅॆेैॉॊोौ्ॎॏ्ः"
+    for dep_vowel in dep_vowels:
+        # print(dep_vowel)
+        f3 = lambda s1, s2: f1(s1, dep_vowel, '') == s2 or f1(s2, dep_vowel, '') == s1
+        if f3(o_tok,c_tok):
+            return True
+    return False
+
+# print(f('अँकल','अँकल'),f('अकल','अंकल'),f('ओर','और'),f('संस्कत','संस्कृत'))
+
+
+# for i in char_set2:
+#     print(i)
+# ""
 # ('ँ', 'ं'), ()
-print(u'\u0940')
+# print(u'\u0940')
