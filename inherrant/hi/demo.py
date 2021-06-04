@@ -95,9 +95,9 @@ import inherrant
 # print(x==y)
 
 def expand(w):
-    print("w",w)
-    print([i for i in w])
-    pass
+    print(w,"expands to",[i for i in w])
+    # assert (len([i for i in w])==1)
+    return
 
 def normalise_char(token):
     ''' returns token after changing expanded characters with dot to single character'''
@@ -114,15 +114,25 @@ def normalise_char(token):
 #
 #     return token
 #'छोड़ा','छोड़ा','बढ़ते','बढ़ते',
-l = ('कॊई','कोई','के', 'कॆ','यद्यपि','यद्यपी')
-# for w in l:
-#     print([x for x in w])
-#
-#
-#     w.replace('ड़',)
-a = 'ड'+'़'
-print(a)
-expand(a)
-for x in l:
-    x = normalise_char(x)
-    expand(x)
+# l = ('कॊई','कोई','के', 'कॆ','यद्यपि','यद्यपी')
+# l = ('सक़ते','सकते','अंकल','अँकल')
+# # for w in l:
+# #     print([x for x in w])
+# #
+# #
+# #     w.replace('ड़',)
+# a = 'ड'+'़'
+# print(a)
+# expand(a)
+# for x in l:
+#     x = normalise_char(x)
+#     expand(x)
+
+INDIC = 'ऀँंःऄअआइईउऊऋऌऍऎएऐऑऒओऔकखगघङचछजझञटठडढणतथदधनऩपफबभमयरऱलळऴवशषसहऺऻ़ऽािीुूृॄॅॆेैॉॊोौ्ॎॏॐ॓॔ॕॖॗक़ख़ग़ज़ड़ढ़फ़य़ॠॡॢॣ'
+list_char = []
+for x in INDIC:
+    list_char.append(x)
+    # expand(x)
+print(list_char)
+x = 'क'+'ऄ'
+print(x)

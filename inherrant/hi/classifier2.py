@@ -2,11 +2,15 @@ from pathlib import Path
 import Levenshtein
 from .hindi_stemmer import HindiStemmer
 
+INDIC = 'ऀँंःऄअआइईउऊऋऌऍऎएऐऑऒओऔकखगघङचछजझञटठडढणतथदधनऩपफबभमयरऱलळऴवशषसहऺऻ़ऽािीुूृॄॅॆेैॉॊोौ्ॎॏॐ॓॔ॕॖॗक़ख़ग़ज़ड़ढ़फ़य़ॠॡॢॣ'
+
 def is_spelling(o_tok: str, c_tok: str) -> bool:
     for orig_pair in (('ये', 'ए'), ('यी', 'ई'), ('या', 'आ'), ('यीं', 'ईं'), ('आ', 'वा')):
         for pair in (orig_pair, orig_pair[::-1]):
             if o_tok.endswith(pair[0]) and c_tok.endswith(pair[1]):
                 return o_tok[:-len(pair[0])] == c_tok[:-len(pair[1])]
+            'क़ख़ग़ज़ड़ढ़फ़य़'
+            # क
     return False
 
 def get_gen(feats):
@@ -364,7 +368,7 @@ def get_two_sided_type(o_toks, c_toks):
                 if set.intersection(set(exs_o_tense), set(exs_c_tense)):
                     print("TENSE 1.2 c_pos[0] == VERB and o_toks[0].lemma != c_toks[0].lemma")
                     return "VERB-TENSE"
-            if is_tense_aux(o_toks[0],c_toks[0]) and opposite_tense(o_feats,c_feats):
+            if opposite_tense(o_feats,c_feats):
                 return "VERB-TENSE"
 
             # checking if stem is same but suffixes indicate change in tense
