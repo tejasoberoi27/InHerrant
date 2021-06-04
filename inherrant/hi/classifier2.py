@@ -353,7 +353,7 @@ def get_two_sided_type(o_toks, c_toks):
                 if set.intersection(set(exs_o_tense), set(exs_c_tense)):
                     print("TENSE 1.2 c_pos[0] == VERB and o_toks[0].lemma != c_toks[0].lemma")
                     return "VERB-TENSE"
-            if is_tense_aux(o_toks[0],c_toks[0]):
+            if is_tense_aux(o_toks[0],c_toks[0]) and opposite_tense(o_feats,c_feats):
                 return "VERB-TENSE"
 
             # checking if stem is same but suffixes indicate change in tense
