@@ -1,0 +1,427 @@
+Loading resources...
+Processing parallel files...
+Classification begins
+o_toks[0] गाय
+c_toks[0] काली
+o_pos ['NOUN', 'ADJ']
+c_pos ['ADJ', 'NOUN']
+o_stem गाय c_stem काल c_stemchar_dist 2 c_stemchar_ratio 0.3333333333333333
+o_num ['Sing', 'Sing'] c_num ['Sing', 'Sing']
+lemma_o गाय lemma_c काला
+o_feats [{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Person': '3', 'Tense': ''}, {'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Person': '3', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Tense': ''}, {'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Tense': ''}]
+Classification begins
+o_toks[0] हवा
+c_toks[0] ठंडी
+o_pos ['NOUN', 'ADJ']
+c_pos ['ADJ', 'NOUN']
+o_stem हव c_stem ठंड c_stemchar_dist 3 c_stemchar_ratio 0.0
+o_num ['Sing', 'Sing'] c_num ['Sing', 'Sing']
+lemma_o हवा lemma_c ठंडा
+o_feats [{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Person': '3', 'Tense': ''}, {'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Person': '3', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Tense': ''}, {'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Tense': ''}]
+Classification begins
+o_toks[0] बड़ी-बड़ी
+c_toks[0] बड़े-बड़े
+o_pos ['NOUN']
+c_pos ['VERB']
+o_stem बड़ी-बड़ c_stem बड़े-बड़ c_stemchar_dist 1 c_stemchar_ratio 0.8333333333333334
+o_num ['Sing'] c_num ['']
+lemma_o बड़ी-बड़ी lemma_c बुे-ब
+o_feats [{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Person': '3', 'Tense': ''}] c_feats [{'Case': 'Nom', 'VerbForm': 'Inf', 'Gender': '', 'Number': '', 'Tense': ''}]
+Stems are similar
+Tokens are similar
+Morpho reached
+Stems are similar
+Tokens are similar
+Same lemma 
+Stems are similar
+Tokens are similar
+Stems are similar
+Tokens are similar
+Classification begins
+o_toks[0] होटलें
+c_toks[0] होटल
+o_pos ['NOUN']
+c_pos ['NOUN']
+o_stem होटल c_stem होटल c_stemchar_dist 0 c_stemchar_ratio 1.0
+o_num ['Plur'] c_num ['Plur']
+lemma_o होटल lemma_c होटल
+o_feats [{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Plur', 'Person': '3', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Plur', 'Person': '3', 'Tense': ''}]
+SPELL 1.2
+Not in spell
+Classification begins
+o_toks[0] देखी
+c_toks[0] देखे
+o_pos ['VERB']
+c_pos ['VERB']
+o_stem देख c_stem देख c_stemchar_dist 0 c_stemchar_ratio 1.0
+o_num ['Sing'] c_num ['Plur']
+lemma_o देख lemma_c देख
+o_feats [{'Aspect': 'Perf', 'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part', 'Voice': 'Act', 'Tense': ''}] c_feats [{'Aspect': 'Perf', 'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part', 'Voice': 'Act', 'Tense': ''}]
+Tokens are similar
+Have opposite gender
+Classification begins
+o_toks[0] बड़ा-सा
+c_toks[0] बड़ी-सी
+o_pos ['ADJ']
+c_pos ['ADJ']
+o_stem बड़ा-स c_stem बड़ी-स c_stemchar_dist 1 c_stemchar_ratio 0.8
+o_num [''] c_num ['']
+lemma_o बड़ा-सा lemma_c बुी-सी
+o_feats [{'Case': 'Nom', 'Gender': '', 'Number': '', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': '', 'Number': '', 'Tense': ''}]
+Stems are similar
+Tokens are similar
+Classification begins
+o_toks[0] ताज़ी
+c_toks[0] ताज़ा
+o_pos ['ADJ']
+c_pos ['ADJ']
+o_stem ताज़ c_stem ताज़ c_stemchar_dist 0 c_stemchar_ratio 1.0
+o_num ['Plur'] c_num ['Plur']
+lemma_o ताजी lemma_c ताजा
+o_feats [{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Plur', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Plur', 'Tense': ''}]
+SPELL 1.2
+Not in spell
+Classification begins
+o_toks[0] की
+c_toks[0] का
+o_pos ['ADP']
+c_pos ['ADP']
+o_stem की c_stem का c_stemchar_dist 1 c_stemchar_ratio 0.5
+o_num ['Sing'] c_num ['Sing']
+lemma_o का lemma_c का
+o_feats [{'AdpType': 'Post', 'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Tense': ''}] c_feats [{'AdpType': 'Post', 'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'Tense': ''}]
+Tokens are similar
+Classification begins
+o_toks[0] बुरी
+c_toks[0] बुरा
+o_pos ['ADJ']
+c_pos ['ADJ']
+o_stem बुर c_stem बुर c_stemchar_dist 0 c_stemchar_ratio 1.0
+o_num ['Sing'] c_num ['Sing']
+lemma_o बुरा lemma_c बुरा
+o_feats [{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'Tense': ''}]
+Tokens are similar
+Have opposite gender
+Classification begins
+o_toks[0] विशाल
+c_toks[0] तेज़
+o_pos ['ADJ']
+c_pos ['ADJ']
+o_stem विशाल c_stem तेज़ c_stemchar_dist 5 c_stemchar_ratio 0.0
+o_num [''] c_num ['']
+lemma_o विशाल lemma_c तेज
+o_feats [{}] c_feats [{}]
+Classification begins
+o_toks[0] घोर
+c_toks[0] घनिष्ठ
+o_pos ['ADJ']
+c_pos ['ADJ']
+o_stem घोर c_stem घनिष्ठ c_stemchar_dist 5 c_stemchar_ratio 0.2222222222222222
+o_num [''] c_num ['']
+lemma_o घोर lemma_c घनिष्ठ
+o_feats [{'Case': 'Nom', 'Gender': '', 'Number': '', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': '', 'Number': '', 'Tense': ''}]
+Classification begins
+o_toks[0] वीभत्स
+c_toks[0] भयानक
+o_pos ['ADJ']
+c_pos ['ADJ']
+o_stem वीभत्स c_stem भयानक c_stemchar_dist 6 c_stemchar_ratio 0.18181818181818182
+o_num [''] c_num ['']
+lemma_o वीभत्स lemma_c भयानक
+o_feats [{'Case': 'Nom', 'Gender': '', 'Number': '', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': '', 'Number': '', 'Tense': ''}]
+Classification begins
+o_toks[0] तीब्र
+c_toks[0] अधिक
+o_pos ['ADJ']
+c_pos ['DET']
+o_stem तीब्र c_stem अधिक c_stemchar_dist 5 c_stemchar_ratio 0.0
+o_num [''] c_num ['']
+lemma_o तीब्र lemma_c अधिक
+o_feats [{'Case': 'Nom', 'Gender': '', 'Number': '', 'Tense': ''}] c_feats [{'PronType': 'Ind', 'Gender': '', 'Number': '', 'Tense': ''}]
+Morpho reached
+Classification begins
+o_toks[0] बुद्धि
+c_toks[0] बुदृधि
+o_pos ['NOUN']
+c_pos ['NOUN']
+o_stem बुद्ध c_stem बुदृध c_stemchar_dist 1 c_stemchar_ratio 0.8
+o_num ['Sing'] c_num ['Sing']
+lemma_o बुद्धि lemma_c बुदृधि
+o_feats [{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Person': '3', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Person': '3', 'Tense': ''}]
+Stems are similar
+Tokens are similar
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+Classification begins
+o_toks[0] विशाल
+c_toks[0] सूक्ष्म
+o_pos ['ADJ']
+c_pos ['ADJ']
+o_stem विशाल c_stem सूक्ष्म c_stemchar_dist 7 c_stemchar_ratio 0.0
+o_num [''] c_num ['']
+lemma_o विशाल lemma_c सूक्ष्म
+o_feats [{}] c_feats [{}]
+Classification begins
+o_toks[0] सबसे
+c_toks[0] अधिक
+o_pos ['ADV']
+c_pos ['DET']
+o_stem सबस c_stem अधिक c_stemchar_dist 4 c_stemchar_ratio 0.0
+o_num [''] c_num ['']
+lemma_o सबसे lemma_c अधिक
+o_feats [{'AdvType': 'Deg', 'Gender': '', 'Number': '', 'Tense': ''}] c_feats [{'PronType': 'Ind', 'Gender': '', 'Number': '', 'Tense': ''}]
+Morpho reached
+Classification begins
+o_toks[0] का
+c_toks[0] की
+o_pos ['ADP']
+c_pos ['ADP']
+o_stem का c_stem की c_stemchar_dist 1 c_stemchar_ratio 0.5
+o_num ['Sing'] c_num ['Sing']
+lemma_o का lemma_c का
+o_feats [{'AdpType': 'Post', 'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'Tense': ''}] c_feats [{'AdpType': 'Post', 'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Tense': ''}]
+Tokens are similar
+Classification begins
+o_toks[0] निरीक्षण
+c_toks[0] जाँच
+o_pos ['NOUN']
+c_pos ['NOUN']
+o_stem निरीक्षण c_stem जाँच c_stemchar_dist 8 c_stemchar_ratio 0.0
+o_num ['Sing'] c_num ['Sing']
+lemma_o निरीक्षण lemma_c जाँच
+o_feats [{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Person': '3', 'Tense': ''}]
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+Classification begins
+o_toks[0] किया
+c_toks[0] की
+o_pos ['VERB']
+c_pos ['VERB']
+o_stem किय c_stem की c_stemchar_dist 2 c_stemchar_ratio 0.4
+o_num ['Sing'] c_num ['Sing']
+lemma_o कर lemma_c कर
+o_feats [{'Aspect': 'Perf', 'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part', 'Voice': 'Act', 'Tense': ''}] c_feats [{'Aspect': 'Perf', 'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part', 'Voice': 'Act', 'Tense': ''}]
+Tokens are similar
+Have opposite gender
+Classification begins
+Classification begins
+o_toks[0] बड़ाईपन
+c_toks[0] बड़प्पन
+o_pos ['NOUN']
+c_pos ['NOUN']
+o_stem बड़ाईपन c_stem बड़प्पन c_stemchar_dist 2 c_stemchar_ratio 0.6666666666666666
+o_num ['Sing'] c_num ['Sing']
+lemma_o बड़ाईपन lemma_c बड़प्पन
+o_feats [{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'Tense': ''}]
+SPELL 1.2
+Not in spell
+Classification begins
+o_toks[0] एक
+c_toks[0] दूध
+o_pos ['NUM', 'NOUN', 'ADP']
+c_pos ['NOUN', 'ADP', 'NUM']
+o_stem एक c_stem दूध c_stemchar_dist 3 c_stemchar_ratio 0.0
+o_num ['', '', ''] c_num ['Sing', 'Sing', 'Sing']
+lemma_o एक lemma_c दूध
+o_feats [{'NumType': 'Card', 'Gender': '', 'Number': '', 'Tense': ''}, {'NumType': 'Card', 'Gender': '', 'Number': '', 'Tense': ''}, {'NumType': 'Card', 'Gender': '', 'Number': '', 'Tense': ''}] c_feats [{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'Tense': ''}, {'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'Tense': ''}, {'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'Tense': ''}]
+Classification begins
+o_toks[0] दो
+c_toks[0] दो।
+o_pos ['NUM', 'PUNCT']
+c_pos ['VERB']
+o_stem दो c_stem दो। c_stemchar_dist 1 c_stemchar_ratio 0.8
+o_num ['', ''] c_num ['Sing']
+lemma_o दो lemma_c दो।
+o_feats [{'NumType': 'Card', 'Gender': '', 'Number': '', 'Tense': ''}, {'NumType': 'Card', 'Gender': '', 'Number': '', 'Tense': ''}] c_feats [{'Mood': 'Sub', 'Number': 'Sing', 'VerbForm': 'Fin', 'Voice': 'Act', 'Gender': '', 'Tense': ''}]
+Classification begins
+Classification begins
+o_toks[0] दहाड़
+c_toks[0] चिंघाड़
+o_pos ['NOUN']
+c_pos ['NOUN']
+o_stem दहाड़ c_stem चिंघाड़ c_stemchar_dist 4 c_stemchar_ratio 0.4
+o_num ['Sing'] c_num ['Sing']
+lemma_o दहाड़ lemma_c चिंघाड़
+o_feats [{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Person': '3', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Person': '3', 'Tense': ''}]
+I am here
+o_pos[0] NOUN c_pos[0] NOUN
+Classification begins
+Classification begins
+o_toks[0] मोटी
+c_toks[0] मोटा
+o_pos ['ADJ']
+c_pos ['ADJ']
+o_stem मोट c_stem मोट c_stemchar_dist 0 c_stemchar_ratio 1.0
+o_num ['Sing'] c_num ['Sing']
+lemma_o मोटा lemma_c मोटा
+o_feats [{'Gender': 'Fem', 'Number': 'Sing', 'Tense': ''}] c_feats [{'Gender': 'Masc', 'Number': 'Sing', 'Tense': ''}]
+Tokens are similar
+Have opposite gender
+Classification begins
+o_toks[0] नई
+c_toks[0] नया
+o_pos ['ADJ']
+c_pos ['ADJ']
+o_stem नई c_stem नय c_stemchar_dist 1 c_stemchar_ratio 0.5
+o_num ['Sing'] c_num ['Sing']
+lemma_o नया lemma_c नया
+o_feats [{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'Tense': ''}]
+Tokens are similar
+Have opposite gender
+Classification begins
+o_toks[0] खरीदी
+c_toks[0] खरीदा
+o_pos ['VERB']
+c_pos ['VERB']
+o_stem खरीद c_stem खरीद c_stemchar_dist 0 c_stemchar_ratio 1.0
+o_num ['Sing'] c_num ['Sing']
+lemma_o खरीद lemma_c खरीद
+o_feats [{'Aspect': 'Perf', 'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part', 'Voice': 'Act', 'Tense': ''}] c_feats [{'Aspect': 'Perf', 'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part', 'Voice': 'Act', 'Tense': ''}]
+Tokens are similar
+Have opposite gender
+Classification begins
+o_toks[0] आगामी
+c_toks[0] भावी
+o_pos ['ADJ']
+c_pos ['ADJ']
+o_stem आगाम c_stem भाव c_stemchar_dist 3 c_stemchar_ratio 0.2857142857142857
+o_num [''] c_num ['']
+lemma_o आगामी lemma_c भावी
+o_feats [{'Case': 'Nom', 'Gender': '', 'Number': '', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': '', 'Number': '', 'Tense': ''}]
+Classification begins
+o_toks[0] है
+c_toks[0] हैं
+o_pos ['AUX']
+c_pos ['AUX']
+o_stem है c_stem हैं c_stemchar_dist 1 c_stemchar_ratio 0.8
+o_num ['Sing'] c_num ['Plur']
+lemma_o है lemma_c है
+o_feats [{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin', 'Voice': 'Act', 'Gender': ''}] c_feats [{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin', 'Voice': 'Act', 'Gender': ''}]
+SPELL 1.1
+Classification begins
+o_toks[0] सघन
+c_toks[0] गहरी
+o_pos ['ADJ']
+c_pos ['ADJ']
+o_stem सघन c_stem गहर c_stemchar_dist 3 c_stemchar_ratio 0.0
+o_num [''] c_num ['Sing']
+lemma_o सघन lemma_c गहरा
+o_feats [{}] c_feats [{'Gender': 'Fem', 'Number': 'Sing', 'Tense': ''}]
+Classification begins
+Classification begins
+o_toks[0] श्रेष्ठतम
+c_toks[0] श्रेष्ठ
+o_pos ['ADJ']
+c_pos ['ADJ']
+o_stem श्रेष्ठतम c_stem श्रेष्ठ c_stemchar_dist 2 c_stemchar_ratio 0.875
+o_num [''] c_num ['']
+lemma_o श्रेष्ठतम lemma_c श्रेष्ठ
+o_feats [{}] c_feats [{}]
+Stems are similar
+Tokens are similar
+Classification begins
+o_toks[0] मोटे-मोटे
+c_toks[0] बड़े-बड़े
+o_pos ['ADJ']
+c_pos ['VERB']
+o_stem मोटे-मोट c_stem बड़े-बड़ c_stemchar_dist 6 c_stemchar_ratio 0.2857142857142857
+o_num [''] c_num ['']
+lemma_o मोटेममोटा lemma_c बुे-ब
+o_feats [{'Case': 'Nom', 'Gender': '', 'Number': '', 'Tense': ''}] c_feats [{'Case': 'Nom', 'VerbForm': 'Inf', 'Gender': '', 'Number': '', 'Tense': ''}]
+Morpho reached
+Classification begins
+o_toks[0] विचित्र
+c_toks[0] अद्भुत
+o_pos ['ADJ']
+c_pos ['ADJ']
+o_stem विचित्र c_stem अद्भुत c_stemchar_dist 7 c_stemchar_ratio 0.15384615384615385
+o_num [''] c_num ['']
+lemma_o विचित्र lemma_c अद्भुत
+o_feats [{'Case': 'Nom', 'Gender': '', 'Number': '', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': '', 'Number': '', 'Tense': ''}]
+Classification begins
+o_toks[0] भारी
+c_toks[0] बहुत
+o_pos ['ADJ']
+c_pos ['ADV']
+o_stem भार c_stem बहुत c_stemchar_dist 4 c_stemchar_ratio 0.0
+o_num [''] c_num ['']
+lemma_o भारी lemma_c बहुत
+o_feats [{}] c_feats [{'AdvType': 'Deg', 'Gender': '', 'Number': '', 'Tense': ''}]
+Morpho reached
+Classification begins
+o_toks[0] उच्च
+c_toks[0] विशाल
+o_pos ['ADJ']
+c_pos ['ADJ']
+o_stem उच्च c_stem विशाल c_stemchar_dist 5 c_stemchar_ratio 0.0
+o_num [''] c_num ['']
+lemma_o उच्च lemma_c विशाल
+o_feats [{}] c_feats [{}]
+Classification begins
+o_toks[0] अपने
+c_toks[0] नियत
+o_pos ['PRON']
+c_pos ['ADJ']
+o_stem अप c_stem नियत c_stemchar_dist 4 c_stemchar_ratio 0.0
+o_num [''] c_num ['']
+lemma_o अपना lemma_c नियत
+o_feats [{'Case': 'Acc', 'Gender': 'Masc', 'PronType': 'Prs', 'Number': '', 'Tense': ''}] c_feats [{'Case': 'Acc', 'Gender': '', 'Number': '', 'Tense': ''}]
+Morpho reached
+Classification begins
+o_toks[0] विख्यात
+c_toks[0] कुख्यात
+o_pos ['ADJ']
+c_pos ['ADJ']
+o_stem विख्यात c_stem कुख्यात c_stemchar_dist 2 c_stemchar_ratio 0.7142857142857143
+o_num [''] c_num ['']
+lemma_o विख्यात lemma_c कुख्यात
+o_feats [{'Case': 'Nom', 'Gender': '', 'Number': '', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': '', 'Number': '', 'Tense': ''}]
+Classification begins
+Classification begins
+o_toks[0] वीभत्स
+c_toks[0] भयानक
+o_pos ['ADJ']
+c_pos ['ADJ']
+o_stem वीभत्स c_stem भयानक c_stemchar_dist 6 c_stemchar_ratio 0.18181818181818182
+o_num [''] c_num ['']
+lemma_o वीभत्स lemma_c भयानक
+o_feats [{}] c_feats [{}]
+Classification begins
+o_toks[0] दिन
+c_toks[0] दिनभर
+o_pos ['NOUN', 'PART']
+c_pos ['NOUN']
+o_stem दिन c_stem दिनभर c_stemchar_dist 2 c_stemchar_ratio 0.75
+o_num ['Sing', 'Sing'] c_num ['Sing']
+lemma_o दिन lemma_c दिनभर
+o_feats [{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'Tense': ''}, {'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Person': '3', 'Tense': ''}]
+Classification begins
+o_toks[0] बेशुमार
+c_toks[0] बहुत
+o_pos ['ADJ']
+c_pos ['DET']
+o_stem बेशुमार c_stem बहुत c_stemchar_dist 5 c_stemchar_ratio 0.36363636363636365
+o_num [''] c_num ['']
+lemma_o बेशुमार lemma_c बहुत
+o_feats [{'Case': 'Nom', 'Gender': '', 'Number': '', 'Tense': ''}] c_feats [{'PronType': 'Ind', 'Gender': '', 'Number': '', 'Tense': ''}]
+Morpho reached
+Classification begins
+o_toks[0] के
+c_toks[0] की
+o_pos ['ADP']
+c_pos ['ADP']
+o_stem के c_stem की c_stemchar_dist 1 c_stemchar_ratio 0.5
+o_num ['Sing'] c_num ['Sing']
+lemma_o का lemma_c का
+o_feats [{'AdpType': 'Post', 'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'Tense': ''}] c_feats [{'AdpType': 'Post', 'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Tense': ''}]
+Tokens are similar
+Classification begins
+o_toks[0] बायाँ
+c_toks[0] बाईं
+o_pos ['NOUN']
+c_pos ['ADJ']
+o_stem बाय c_stem बाईं c_stemchar_dist 2 c_stemchar_ratio 0.5714285714285714
+o_num ['Sing'] c_num ['']
+lemma_o बायाँ lemma_c बाईं
+o_feats [{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'Tense': ''}] c_feats [{'Case': 'Nom', 'Gender': '', 'Number': '', 'Tense': ''}]
+Morpho reached

@@ -2,6 +2,7 @@ from pathlib import Path
 import Levenshtein
 from .hindi_stemmer import HindiStemmer
 
+
 def is_spelling(o_tok: str, c_tok: str) -> bool:
     for orig_pair in (('ये', 'ए'), ('यी', 'ई'), ('या', 'आ'), ('यीं', 'ईं'), ('आ', 'वा')):
         for pair in (orig_pair, orig_pair[::-1]):
@@ -17,7 +18,7 @@ def is_spelling(o_tok: str, c_tok: str) -> bool:
     dep_vowels = "ंँऺऻ़ऽािीुूृॄॅॆेैॉॊोौ्ॎॏ्ः"
     for dep_vowel in dep_vowels:
         f3 = lambda s1, s2: f1(s1, dep_vowel, '') == s2 or f1(s2, dep_vowel, '') == s1
-        if f3(o_tok,c_tok):
+        if f3(o_tok, c_tok):
             return True
     return False
 
@@ -51,6 +52,7 @@ def opposite_gen(o_feats, c_feats):
         return False
     else:
         if {'Masc', 'Fem'}.issubset({get_gen(o_feats), get_gen(c_feats)}):
+            print("Have opposite gender")
             return True
         else:
             return False
@@ -62,6 +64,7 @@ def opposite_num(o_feats, c_feats):
         return False
     else:
         if {'Sing', 'Plur'}.issubset({get_num(o_feats), get_num(c_feats)}):
+            print("Have opposite number")
             return True
         else:
             return False
@@ -70,6 +73,7 @@ def opposite_num(o_feats, c_feats):
 def opposite_tense(o_feats, c_feats):
     """ Returns true if the tense of both tokens is different, empty string included"""
     if get_tense(o_feats) != get_tense(c_feats):
+        print("Have opposite tense")
         return True
     else:
         return False
@@ -107,10 +111,15 @@ def are_stems_similar(o_stem, c_stem):
     f4 = lambda stem1, stem2: f3(stem1, stem2) or f3(stem2, stem1)
     # print("o_stem",o_stem,"c_stem",c_stem,"f4 o/p",f4(o_stem, c_stem))
     if f4(o_stem, c_stem):
+        print("Stems are similar")
         return True
     c_stemchar_ratio = Levenshtein.ratio(o_stem, c_stem)
     c_stemchar_dist = Levenshtein.distance(o_stem, c_stem)
-    return c_stemchar_dist <= 1 or c_stemchar_ratio >= 0.8
+    if c_stemchar_dist <= 1 or c_stemchar_ratio >= 0.8:
+        print("Stems are similar")
+        return True
+    else:
+        return False
 
 
 def are_tokens_similar(o_tok, c_tok):
@@ -118,6 +127,7 @@ def are_tokens_similar(o_tok, c_tok):
     o_stem = stemmer.stem(o_tok.text)
     c_stem = stemmer.stem(c_tok.text)
     if (o_tok.lemma == c_tok.lemma) or are_stems_similar(o_stem, c_stem):
+        print("Tokens are similar")
         return True
     return False
 
@@ -163,6 +173,7 @@ def is_only_orth_change(o_toks: list, c_toks: list) -> bool:
 # Input: An Edit object
 # Output: The same Edit object with an updated error type
 def classify(edit):
+    print("Classification begins")
     # Nothing to nothing is a detected but not corrected edit
     if not edit.o_toks and not edit.c_toks:
         edit.type = "UNK"
@@ -234,11 +245,32 @@ def load_word_list(path):
         return set([word.strip() for word in word_list])
 
 
+def normalise_char(token):
+    ''' returns token after changing expanded characters with dot to single character'''
+    expanded1 = 'ड' + '़'
+    token = token.replace('ड़', expanded1)
+    expanded2 = 'ढ' + '़'
+    token = token.replace('ढ़', expanded2)
+    matra1 = 'ॊ'
+    token = token.replace(matra1, 'ो')
+    matra2 = 'ॆ'
+    token = token.replace(matra2, 'े')
+    return token
+
+
+def normalise_dict(old_spell):
+    normalised_spell = set()
+    for tok in old_spell:
+        normalised_spell.add(normalise_char(tok))
+    return normalised_spell
+
+
 base_dir = Path(__file__).resolve().parent
 stemmer = HindiStemmer()
 main_pos = ['NOUN', 'PRON', 'VERB', 'ADJ']
 spell = load_word_list(base_dir / "resources" / "hi_IN.txt")
-conj_list = load_word_list(base_dir/"resources" / "conj_list_filtered.txt")
+spell = normalise_dict(spell)
+conj_list = load_word_list(base_dir / "resources" / "conj_list_filtered.txt")
 # print(conj_list)
 # list_spell = list(spell)
 # dict = sorted(list_spell)
@@ -294,6 +326,8 @@ def get_two_sided_type(o_toks, c_toks):
     c_stem = stemmer.stem(c_toks[0].text)
     c_stemchar_dist = Levenshtein.distance(o_stem, c_stem)
     c_stemchar_ratio = Levenshtein.ratio(o_stem, c_stem)
+    print("o_toks[0]", o_toks[0].text)
+    print("c_toks[0]", c_toks[0].text)
     print("o_pos", o_pos)
     print("c_pos", c_pos)
     print("o_stem", o_stem, "c_stem", c_stem, "c_stemchar_dist", c_stemchar_dist, "c_stemchar_ratio", c_stemchar_ratio)
@@ -311,6 +345,7 @@ def get_two_sided_type(o_toks, c_toks):
     # 1:1 replacements (very common)
     if len(o_toks) == len(c_toks) == 1:
         if is_spelling(o_toks[0].text, c_toks[0].text):
+            print("SPELL 1.1")
             return "SPELL"
         if {o_toks[0].text, c_toks[0].text}.issubset(conj_list):
             return "CONJ"
@@ -321,6 +356,7 @@ def get_two_sided_type(o_toks, c_toks):
         # Check a GB English dict for both orig and lower case.
         # E.g. "cat" is in the dict, but "Cat" is not.
         if o_toks[0].text not in spell:
+            print("SPELL 1.2")
             print("Not in spell")
             # print("Character Ratio ", char_ratio)
             # Ratio > 0.5 means both side share at least half the same chars.
@@ -395,9 +431,8 @@ def get_two_sided_type(o_toks, c_toks):
                 print("TENSE 1.3 c_pos[0] == VERB and o_toks[0].lemma != c_toks[0].lemma")
                 return "VERB-TENSE"
             return "VERB"
-        # if c_pos[0] == "CONJ":
-        #     return "CONJ"
-        if o_pos in ["ADJ", "NUM"] and c_pos[0] in ["ADJ", "NUM"]:
+
+        if o_pos[0] in ["ADJ", "NUM"] and c_pos[0] in ["ADJ", "NUM"]:
             return "ADJ"
         char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
         if o_pos[0] == 'NOUN' and c_pos[0] == 'NOUN' and char_ratio >= 0.5 and opposite_gen(o_feats[0], c_feats[0]):
@@ -472,6 +507,7 @@ def get_two_sided_type(o_toks, c_toks):
         # Ratio > 0.5 means both side share at least half the same chars.
         # WARNING: THIS IS AN APPROXIMATION.
         if char_ratio > 0.5 or char_dist == 1:
+            print("SPELL 1.3")
             return "SPELL"
         # Tricky cases
         else:

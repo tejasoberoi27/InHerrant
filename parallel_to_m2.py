@@ -54,13 +54,13 @@ def noop_edit(id=0):
 def normalise_char(token):
     ''' returns token after changing expanded characters with dot to single character'''
     expanded1 = 'ड' + '़'
-    token = token.replace(expanded1, 'ड़')
+    token = token.replace('ड़',expanded1)
     expanded2 = 'ढ' + '़'
-    token = token.replace(expanded2, 'ढ़')
+    token = token.replace('ढ़',expanded2)
     matra1 = 'ॊ'
-    token = token.replace(matra1,'ो')
+    token = token.replace(matra1, 'ो')
     matra2 = 'ॆ'
-    token = token.replace(matra2,'े')
+    token = token.replace(matra2, 'े')
     return token
 
 if __name__ == "__main__":

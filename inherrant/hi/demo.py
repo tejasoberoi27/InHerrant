@@ -175,3 +175,4 @@ def f(o_tok,c_tok):
 # ""
 # ('ँ', 'ं'), ()
 # print(u'\u0940')
+print(len('है'))

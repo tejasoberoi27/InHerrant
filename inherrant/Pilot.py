@@ -3,13 +3,17 @@ from inherrant.alignment import Alignment
 import inherrant
 import Levenshtein
 
+def expand(w):
+    print(w, "expands to", [i for i in w])
+    return
 
 def normalise_char(token):
     ''' returns token after changing expanded characters with dot to single character'''
+    expand(token)
     expanded1 = 'ड' + '़'
-    token = token.replace(expanded1, 'ड़')
+    token = token.replace('ड़',expanded1)
     expanded2 = 'ढ' + '़'
-    token = token.replace(expanded2, 'ढ़')
+    token = token.replace('ढ़',expanded2)
     matra1 = 'ॊ'
     token = token.replace(matra1, 'ो')
     matra2 = 'ॆ'
@@ -380,8 +384,20 @@ if __name__ == '__main__':
     # s2 = "जैसा करोगे, वैसा ही भरोगे।"
     # s1 = "जितना गुड़ डालोगे वही मीठा होगा।"
     # s2 = "जितना गुड़ डालोगे उतना ही मीठा होगा।"
-    s1 ="15 जनवरी 2019 को एयरटेल भारत के अंडमान व निकोबार का पहला 4 नेटवर्क बना ।"
-    s2 = "15 जनवरी 2019 को एयरटेल भारत के अंडमान और निकोबार का पहला 4 नेटवर्क बना ।"
+    # s1 ="15 जनवरी 2019 को एयरटेल भारत के अंडमान व निकोबार का पहला 4 नेटवर्क बना ।"
+    # s2 = "15 जनवरी 2019 को एयरटेल भारत के अंडमान और निकोबार का पहला 4 नेटवर्क बना ।"
+
+    # s1 = "दिल्ली में बहुत चौड़ा सड़कें हैं।"
+    # s2 = "दिल्ली में बहुत चौड़ीं सड़कें हैं।"
+    # s1 = "तुम अच्छी हो"
+    # s2 = "तुम अच्छे हो"
+    # s1 = "बारिशें अनोखे चलेंगी"
+    # s2 = "बारिशें अनोखी चलेंगी"
+    s1 = "अक़्ल बड़ा या भैंस ? "
+    s2 = "अक़्ल बड़ी या भैंस ? "
+    # s1 = "शेरनी चढ़ा या कुत्ता ? "
+    # s2 = "शेरनी चढ़ी या कुत्ता ? "
+
     s1 = normalise_char(s1)
     s2 = normalise_char(s2)
 
