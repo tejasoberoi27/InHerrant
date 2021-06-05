@@ -200,6 +200,8 @@ def get_one_sided_type(toks):
     if set(dep).issubset({"aux", "aux:pass"}):
         return "VERB-TENSE"
     if len(toks) == 1:
+        if toks[0] in conj_list:
+            return "CONJ"
         if pos[0] in list_pos:
             return pos[0]
         if pos[0] in ["NUM"]:
@@ -236,6 +238,8 @@ base_dir = Path(__file__).resolve().parent
 stemmer = HindiStemmer()
 main_pos = ['NOUN', 'PRON', 'VERB', 'ADJ']
 spell = load_word_list(base_dir / "resources" / "hi_IN.txt")
+conj_list = load_word_list(base_dir/"resources" / "conj_list_filtered.txt")
+# print(conj_list)
 # list_spell = list(spell)
 # dict = sorted(list_spell)
 # print(dict)
@@ -306,9 +310,10 @@ def get_two_sided_type(o_toks, c_toks):
 
     # 1:1 replacements (very common)
     if len(o_toks) == len(c_toks) == 1:
-
         if is_spelling(o_toks[0].text, c_toks[0].text):
             return "SPELL"
+        if {o_toks[0].text, c_toks[0].text}.issubset(conj_list):
+            return "CONJ"
         char_ratio = Levenshtein.ratio(o_toks[0].text, c_toks[0].text)
         char_dist = Levenshtein.distance(o_toks[0].text, c_toks[0].text)
         # 2. SPELLING AND INFLECTION
