@@ -537,13 +537,14 @@ def get_two_sided_type(o_toks, c_toks):
             # Final verbs with the same lemma are tense; e.g. eat -> has eaten
             if are_tokens_similar(o_toks[0], c_toks[0]):
                 print("tokens are similar")
-            if are_tokens_similar(o_toks[0], c_toks[0]) \
+            if (are_tokens_similar(o_toks[0], c_toks[0]) \
                     and not opposite_gen(o_feats[0], c_feats[0]) \
-                    and not opposite_num(o_feats[0], c_feats[0]):
+                    and not opposite_num(o_feats[0], c_feats[0])) or (opposite_tense(o_feats[0], c_feats[0])):
                 s = "if len(set(o_pos+c_pos)) == 1:," + "if o_pos[0] == VERB and o_toks[0].lemma == c_toks[0].lemma:"
                 print(s)
                 print("TENSE 1.9")
                 return "VERB-TENSE"
+
 
     if len(o_toks) + len(c_toks) > 2:
         for i in range(len(o_toks)):
