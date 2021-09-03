@@ -1,0 +1,25 @@
+﻿,Proposed Edit InHerrant,Incorrect Sentence,Correct Sentence,True Label Before (Multi-Class),True Label (Multi-Class),"Edit Quality (g,b,a)","Edit Extraction Quality (a,b)",InHerrant Annotation Correct
+0,"Orig: [4, 5, ['गया']], Cor: [4, 5, ['गए']], Type: 'R:VERB-NUM'","उन्हें दो रन मिल गया।
+","उन्हें दो रन मिल गए।
+",R:VERB-NUM,R:VERB-NUM,g,a,YES
+1,"Orig: [4, 5, ['आँख']], Cor: [4, 5, ['आँखें']], Type: 'R:NOUN-NUM'","रामचरितमानस पढ़कर पाठक की आँख खुल गई।
+","रामचरितमानस पढ़कर पाठक की आँखें खुल गईं।
+",R:NOUN-NUM,R:NOUN-NUM,g,a,YES
+2,"Orig: [6, 7, ['गई']], Cor: [6, 7, ['गईं']], Type: 'R:SPELL'","रामचरितमानस पढ़कर पाठक की आँख खुल गई।
+","रामचरितमानस पढ़कर पाठक की आँखें खुल गईं।
+",R:VERB-NUM,R:SPELL,g,a,NO
+3,"Orig: [1, 2, ['पीतले']], Cor: [1, 2, ['पीतल']], Type: 'R:SPELL'","मैंने पीतले खरीदे।
+","मैंने पीतल खरीदा।
+",R:NOUN-NUM,R:SPELL,a,a,NO
+4,"Orig: [2, 3, ['खरीदे']], Cor: [2, 3, ['खरीदा']], Type: 'R:VERB-NUM'","मैंने पीतले खरीदे।
+","मैंने पीतल खरीदा।
+",R:VERB-NUM,R:VERB-NUM,g,a,YES
+5,"Orig: [6, 9, ['फूलों', 'को', 'देखा']], Cor: [6, 8, ['फूल', 'देखे']], Type: 'R:OTHER'","गुलाब के पौधे पर मैंने कई फूलों को देखा।
+","गुलाब के पौधे पर मैंने कई फूल देखे।
+",R:OTHER,R:OTHER,g,a,YES
+6,"Orig: [1, 2, ['कई']], Cor: [1, 1, []], Type: 'U:DET'","डाकू कई हज़ारों रुपये लूट कर ले गए।
+","डाकू हज़ारों रुपये लूट कर ले गए।
+",U:DET,U:DET,g,a,YES
+7,"Orig: [3, 4, ['दिया']], Cor: [3, 4, ['दिए']], Type: 'R:VERB-NUM'","उसने हस्ताक्षर कर दिया।
+","उसने हस्ताक्षर कर दिए।
+",R:VERB-NUM,R:VERB-NUM,g,a,YES

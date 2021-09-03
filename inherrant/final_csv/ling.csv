@@ -1,0 +1,149 @@
+﻿,Proposed Edit InHerrant,Proposed Edit Ankur's Errant,Incorrect Sentence,Correct Sentence,True Label (Multi-Class),"Edit Quality (g,b,a)","Edit Extraction Quality (a,b)",True Label Before (Multi-Class),InHerrant Annotation Correct,"Edit Quality (g,b,a) Ankur",Ankur Annotation Correct
+0,"Orig: [3, 4, ['आती']], Cor: [3, 4, ['आता']], Type: 'R:VERB-GEN'","Orig: [3, 4, ['आती']], Cor: [3, 4, ['आता']], Type: 'R:VERB-GEN'","मुझे बहुत गुस्सा आती है।
+","मुझे बहुत गुस्सा आता है।
+",R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO
+1,"Orig: [7, 8, ['उठा।']], Cor: [7, 8, ['उठी।']], Type: 'R:SPELL'","Orig: [7, 8, ['उठा।']], Cor: [7, 8, ['उठी।']], Type: 'R:SPELL'","बिजली का बटन दबाते ही बत्ती जल उठा।
+","बिजली का बटन दबाते ही बत्ती जल उठी।
+",R:SPELL,,,,NO,,NO
+2,"Orig: [3, 4, ['आई']], Cor: [3, 4, ['आए']], Type: 'R:VERB-GEN'","Orig: [3, 4, ['आई']], Cor: [3, 4, ['आए']], Type: 'R:VERB-GEN'","सीता और राम आई।
+","सीता और राम आए।
+",R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO
+3,"Orig: [1, 2, ['उसकी']], Cor: [1, 2, ['उसके']], Type: 'R:PRON-GEN'","Orig: [1, 2, ['उसकी']], Cor: [1, 2, ['उसके']], Type: 'R:PRON-GEN'","मैंने उसकी मस्तक पर टीका लगायी।
+","मैंने उसके मस्तक पर टीका लगाया।
+",R:PRON-GEN,g,a,R:PRON-GEN,YES,g,NO
+4,"Orig: [5, 6, ['लगायी']], Cor: [5, 6, ['लगाया']], Type: 'R:VERB-GEN'","Orig: [5, 6, ['लगायी']], Cor: [5, 6, ['लगाया']], Type: 'R:VERB-GEN'","मैंने उसकी मस्तक पर टीका लगायी।
+","मैंने उसके मस्तक पर टीका लगाया।
+",R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO
+5,"Orig: [5, 6, ['बोली']], Cor: [5, 6, ['बोला']], Type: 'R:MORPH'","Orig: [5, 6, ['बोली']], Cor: [5, 6, ['बोला']], Type: 'R:MORPH'","राधा ने मोहन से झूठ बोली थी।
+","राधा ने मोहन से झूठ बोला था।
+",R:MORPH,g,a,R:VERB-GEN,YES,g,NO
+6,"Orig: [6, 7, ['थी']], Cor: [6, 7, ['था']], Type: 'R:VERB-GEN'","Orig: [6, 7, ['थी']], Cor: [6, 7, ['था']], Type: 'R:VERB-GEN'","राधा ने मोहन से झूठ बोली थी।
+","राधा ने मोहन से झूठ बोला था।
+",R:VERB-GEN,a,a,R:VERB-GEN,NO,a,NO
+7,"Orig: [4, 5, ['दिखाई']], Cor: [4, 5, ['दिखाया']], Type: 'R:VERB-GEN'","Orig: [4, 5, ['दिखाई']], Cor: [4, 5, ['दिखाया']], Type: 'R:VERB-GEN'","राजू ने मुझे मथुरा दिखाई।
+","राजू ने मुझे मथुरा दिखाया।
+",R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO
+8,"Orig: [4, 5, ['बोला']], Cor: [4, 5, ['बोली']], Type: 'R:MORPH'","Orig: [4, 5, ['बोला']], Cor: [4, 5, ['बोली']], Type: 'R:MORPH'","रानी मधुर स्वर में बोला।
+","रानी मधुर स्वर में बोली।
+",R:MORPH,g,a,R:VERB-GEN,YES,b,NO
+9,"Orig: [3, 4, ['उठाई']], Cor: [3, 4, ['उठाया']], Type: 'R:VERB-GEN'","Orig: [3, 4, ['उठाई']], Cor: [3, 4, ['उठाया']], Type: 'R:VERB-GEN'","उसने अपना पर्स उठाई।
+","उसने अपना पर्स उठाया।
+",R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO
+10,"Orig: [3, 4, ['अच्छी']], Cor: [3, 4, ['अच्छा']], Type: 'R:ADJ-GEN'","Orig: [3, 4, ['अच्छी']], Cor: [3, 4, ['अच्छा']], Type: 'R:ADJ-GEN'","जादूगर का जादू अच्छी थी।
+","जादूगर का जादू अच्छा था।
+",R:ADJ-GEN,g,a,R:ADJ-GEN,YES,g,NO
+11,"Orig: [4, 5, ['थी']], Cor: [4, 5, ['था']], Type: 'R:VERB-GEN'","Orig: [4, 5, ['थी']], Cor: [4, 5, ['था']], Type: 'R:VERB-GEN'","जादूगर का जादू अच्छी थी।
+","जादूगर का जादू अच्छा था।
+",R:VERB-GEN,a,a,R:VERB-GEN,NO,a,NO
+12,"Orig: [2, 3, ['अच्छा']], Cor: [2, 3, ['अच्छी']], Type: 'R:ADJ-GEN'","Orig: [2, 3, ['अच्छा']], Cor: [2, 3, ['अच्छी']], Type: 'R:ADJ-GEN'","वसंत ऋतु अच्छा लगता है।
+","वसंत ऋतु अच्छी लगती है।
+",R:ADJ-GEN,g,a,R:ADJ-GEN,YES,g,NO
+13,"Orig: [3, 4, ['लगता']], Cor: [3, 4, ['लगती']], Type: 'R:VERB-GEN'","Orig: [3, 4, ['लगता']], Cor: [3, 4, ['लगती']], Type: 'R:VERB-GEN'","वसंत ऋतु अच्छा लगता है।
+","वसंत ऋतु अच्छी लगती है।
+",R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO
+14,"Orig: [7, 8, ['खुला']], Cor: [7, 8, ['खुली']], Type: 'R:VERB-GEN'","Orig: [7, 8, ['खुला']], Cor: [7, 8, ['खुली']], Type: 'R:VERB-GEN'","आज बाज़ार में एक भी दुकान नहीं खुला।
+","आज बाज़ार में एक भी दुकान नहीं खुली।
+",R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO
+15,"Orig: [0, 1, ['उसका']], Cor: [0, 1, ['उसकी']], Type: 'R:PRON-GEN'","Orig: [0, 1, ['उसका']], Cor: [0, 1, ['उसकी']], Type: 'R:PRON-GEN'","उसका संतान अच्छा है।
+","उसकी संतान अच्छी है।
+",R:PRON-GEN,g,a,R:PRON-GEN,YES,g,NO
+16,"Orig: [2, 3, ['अच्छा']], Cor: [2, 3, ['अच्छी']], Type: 'R:ADJ-GEN'","Orig: [2, 3, ['अच्छा']], Cor: [2, 3, ['अच्छी']], Type: 'R:ADJ-GEN'","उसका संतान अच्छा है।
+","उसकी संतान अच्छी है।
+",R:ADJ-GEN,g,a,R:ADJ-GEN,YES,g,NO
+17,"Orig: [4, 5, ['रहे']], Cor: [4, 5, ['रही']], Type: 'R:VERB-GEN'","Orig: [4, 5, ['रहे']], Cor: [4, 5, ['रही']], Type: 'R:VERB-GEN'","कल माता जी आ रहे हैं।
+","कल माता जी आ रही हैं।
+",R:VERB-GEN,a,a,R:VERB-GEN,NO,a,NO
+18,"Orig: [3, 4, ['खाया']], Cor: [3, 4, ['खाई']], Type: 'R:VERB-GEN'","Orig: [3, 4, ['खाया']], Cor: [3, 4, ['खाई']], Type: 'R:VERB-GEN'","बालक ने रोटी खाया।
+","बालक ने रोटी खाई।
+",R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO
+19,"Orig: [1, 2, ['नया']], Cor: [1, 2, ['नई']], Type: 'R:ADJ-GEN'","Orig: [1, 2, ['नया']], Cor: [1, 2, ['नई']], Type: 'R:ADJ-GEN'","मैं नया पोशाक पहनूगा।
+","मैं नई पोशाक पहनूँगा।
+",R:ADJ-GEN,g,a,R:ADJ-GEN,YES,g,NO
+20,"Orig: [3, 4, ['पहनूगा']], Cor: [3, 4, ['पहनूँगा']], Type: 'R:SPELL'","Orig: [3, 4, ['पहनूगा']], Cor: [3, 4, ['पहनूँगा']], Type: 'R:SPELL'","मैं नया पोशाक पहनूगा।
+","मैं नई पोशाक पहनूँगा।
+",R:SPELL,g,a,R:SPELL,YES,g,NO
+21,"Orig: [4, 5, ['पढ़ा']], Cor: [4, 5, ['पढ़ी']], Type: 'R:SPELL'","Orig: [4, 5, ['पढ़ा']], Cor: [4, 5, ['पढ़ी']], Type: 'R:SPELL'","पिता जी ने पुस्तक पढ़ा।
+","पिता जी ने पुस्तक पढ़ी।
+",R:SPELL,g,a,R:VERB-GEN,NO,g,NO
+22,"Orig: [0, 1, ['हमारे']], Cor: [0, 1, ['हमारी']], Type: 'R:PRON-GEN'","Orig: [0, 1, ['हमारे']], Cor: [0, 1, ['हमारी']], Type: 'R:PRON-GEN'","हमारे माता जी बाज़ार गए हैं।
+","हमारी माता जी बाज़ार गई हैं।
+",R:PRON-GEN,g,a,R:PRON-GEN,YES,g,NO
+23,"Orig: [4, 5, ['गए']], Cor: [4, 5, ['गई']], Type: 'R:VERB-GEN'","Orig: [4, 5, ['गए']], Cor: [4, 5, ['गई']], Type: 'R:VERB-GEN'","हमारे माता जी बाज़ार गए हैं।
+","हमारी माता जी बाज़ार गई हैं।
+",R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO
+24,"Orig: [3, 4, ['जाएगी']], Cor: [3, 4, ['जाएगा']], Type: 'R:VERB-GEN'","Orig: [3, 4, ['जाएगी']], Cor: [3, 4, ['जाएगा']], Type: 'R:VERB-GEN'","अब मानसून आ जाएगी।
+","अब मानसून आ जाएगा।
+",R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO
+25,"Orig: [2, 3, ['सीखना']], Cor: [2, 3, ['सीखनी']], Type: 'R:VERB-GEN'","Orig: [2, 3, ['सीखना']], Cor: [2, 3, ['सीखनी']], Type: 'R:VERB-GEN'","बहुत-सी बातें सीखना पड़ता है।
+","बहुत-सी बातें सीखनी पड़ती हैं।
+",R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO
+26,"Orig: [3, 4, ['पड़ता']], Cor: [3, 4, ['पड़ती']], Type: 'R:SPELL'","Orig: [3, 4, ['पड़ता']], Cor: [3, 4, ['पड़ती']], Type: 'R:SPELL'","बहुत-सी बातें सीखना पड़ता है।
+","बहुत-सी बातें सीखनी पड़ती हैं।
+",R:SPELL,a,a,R:VERB-GEN,NO,a,NO
+27,"Orig: [4, 5, ['है']], Cor: [4, 5, ['हैं']], Type: 'R:VERB-NUM'","Orig: [4, 5, ['है']], Cor: [4, 5, ['हैं']], Type: 'R:VERB-NUM'","बहुत-सी बातें सीखना पड़ता है।
+","बहुत-सी बातें सीखनी पड़ती हैं।
+",R:VERB-NUM,a,a,R:VERB-GEN,NO,a,NO
+28,"Orig: [4, 5, ['लगनी']], Cor: [4, 5, ['लगना']], Type: 'R:VERB-FORM'","Orig: [4, 5, ['लगनी']], Cor: [4, 5, ['लगना']], Type: 'R:VERB'","इस कार्य में देर लगनी स्वाभाविक है।
+","इस कार्य में देर लगना स्वाभाविक है।
+",R:VERB-FORM,a,a,R:VERB-GEN,NO,a,NO
+29,"Orig: [4, 5, ['गया']], Cor: [4, 5, ['गई']], Type: 'R:VERB-GEN'","Orig: [4, 5, ['गया']], Cor: [4, 5, ['गई']], Type: 'R:VERB-GEN'","जून और जुलाई आ गया।
+","जून और जुलाई आ गई।
+",R:VERB-GEN,b,a,R:VERB-GEN,NO,b,NO
+30,"Orig: [0, 1, ['तुम्हारी']], Cor: [0, 1, ['तुम्हारा']], Type: 'R:PRON'","Orig: [0, 1, ['तुम्हारी']], Cor: [0, 1, ['तुम्हारा']], Type: 'R:PRON'","तुम्हारी सूट अच्छी है।
+","तुम्हारा सूट अच्छा है।
+",R:PRON,a,a,R:PRON-GEN,NO,a,NO
+31,"Orig: [2, 3, ['अच्छी']], Cor: [2, 3, ['अच्छा']], Type: 'R:ADJ-GEN'","Orig: [2, 3, ['अच्छी']], Cor: [2, 3, ['अच्छा']], Type: 'R:ADJ-GEN'","तुम्हारी सूट अच्छी है।
+","तुम्हारा सूट अच्छा है।
+",R:ADJ-GEN,g,a,R:ADJ-GEN,YES,g,NO
+32,"Orig: [4, 5, ['आती']], Cor: [4, 5, ['आता']], Type: 'R:VERB-GEN'","Orig: [4, 5, ['आती']], Cor: [4, 5, ['आता']], Type: 'R:VERB-GEN'","बुढ़िया को बहुत क्रोध आती है।
+","बुढ़िया को बहुत क्रोध आता है।
+",R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO
+33,"Orig: [2, 3, ['विद्\u200cयार्जन']], Cor: [2, 3, ['विद्यार्जन']], Type: 'R:SPELL'","Orig: [2, 3, ['विद्\u200cयार्जन']], Cor: [2, 3, ['विद्यार्जन']], Type: 'R:SPELL'","मेरा लक्ष्य विद्‌यार्जन होगी।
+","मेरा लक्ष्य विद्यार्जन होगा।
+",R:SPELL,,,,NO,,NO
+34,"Orig: [3, 4, ['होगी']], Cor: [3, 4, ['होगा']], Type: 'R:VERB-GEN'","Orig: [3, 4, ['होगी']], Cor: [3, 4, ['होगा']], Type: 'R:VERB-GEN'","मेरा लक्ष्य विद्‌यार्जन होगी।
+","मेरा लक्ष्य विद्यार्जन होगा।
+",R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO
+35,"Orig: [5, 6, ['किया']], Cor: [5, 6, ['की']], Type: 'R:VERB-GEN'","Orig: [5, 6, ['किया']], Cor: [5, 6, ['की']], Type: 'R:VERB-GEN'","अध्यापक ने प्रधानाचार्य से भेंट किया।
+","अध्यापक ने प्रधानाचार्य से भेंट की।
+",R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO
+36,"Orig: [3, 4, ['विद्वान']], Cor: [3, 4, ['विदुषी']], Type: 'R:OTHER'","Orig: [3, 4, ['विद्वान']], Cor: [3, 4, ['विदुषी']], Type: 'R:OTHER'","यह महिला बहुत विद्वान है।
+","यह महिला बहुत विदुषी है।
+",R:OTHER,a,a,R:ADJ-GEN,NO,a,NO
+37,"Orig: [4, 5, ['सुनाया']], Cor: [4, 5, ['सुनाई']], Type: 'R:VERB-GEN'","Orig: [4, 5, ['सुनाया']], Cor: [4, 5, ['सुनाई']], Type: 'R:VERB-GEN'","दादा जी ने कहानी सुनाया।
+","दादा जी ने कहानी सुनाई।
+",R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO
+38,"Orig: [1, 2, ['अपना']], Cor: [1, 2, ['अपनी']], Type: 'R:PRON-GEN'","Orig: [1, 2, ['अपना']], Cor: [1, 2, ['अपनी']], Type: 'R:PRON-GEN'","मैंने अपना कलम राम को दिया है।
+","मैंने अपनी कलम राम को दी है।
+",R:PRON-GEN,g,a,R:PRON-GEN,YES,g,NO
+39,"Orig: [5, 6, ['दिया']], Cor: [5, 6, ['दी']], Type: 'R:VERB-GEN'","Orig: [5, 6, ['दिया']], Cor: [5, 6, ['दी']], Type: 'R:VERB-GEN'","मैंने अपना कलम राम को दिया है।
+","मैंने अपनी कलम राम को दी है।
+",R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO
+40,"Orig: [0, 1, ['मेरा']], Cor: [0, 1, ['मेरी']], Type: 'R:PRON-GEN'","Orig: [0, 1, ['मेरा']], Cor: [0, 1, ['मेरी']], Type: 'R:PRON-GEN'","मेरा कमीज फट गया है।
+","मेरी कमीज फट गई है।
+",R:PRON-GEN,g,a,R:PRON-GEN,YES,g,NO
+41,"Orig: [3, 4, ['गया']], Cor: [3, 4, ['गई']], Type: 'R:VERB-GEN'","Orig: [3, 4, ['गया']], Cor: [3, 4, ['गई']], Type: 'R:VERB-GEN'","मेरा कमीज फट गया है।
+","मेरी कमीज फट गई है।
+",R:VERB-GEN,b,a,R:VERB-GEN,NO,b,NO
+42,"Orig: [4, 5, ['पुस्तक']], Cor: [4, 5, ['पुस्तकें']], Type: 'R:NOUN-NUM'","Orig: [4, 5, ['पुस्तक']], Cor: [4, 5, ['पुस्तकें']], Type: 'R:NOUN-NUM'","एक व्यक्ति को दो पुस्तक नहीं मिलेगा।
+","एक व्यक्ति को दो पुस्तकें नहीं मिलेंगी।
+",R:NOUN-NUM,g,a,R:NOUN-NUM,YES,g,NO
+43,"Orig: [6, 7, ['मिलेगा']], Cor: [6, 7, ['मिलेंगी']], Type: 'R:VERB-GEN'","Orig: [6, 7, ['मिलेगा']], Cor: [6, 7, ['मिलेंगी']], Type: 'R:VERB-GEN'","एक व्यक्ति को दो पुस्तक नहीं मिलेगा।
+","एक व्यक्ति को दो पुस्तकें नहीं मिलेंगी।
+",R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO
+44,"Orig: [3, 4, ['रहा']], Cor: [3, 4, ['रही']], Type: 'R:VERB-GEN'","Orig: [3, 4, ['रहा']], Cor: [3, 4, ['रही']], Type: 'R:VERB-GEN'","राधा खाना बना रहा है।
+","राधा खाना बना रही है।
+",R:VERB-GEN,a,a,R:VERB-GEN,NO,a,NO
+45,"Orig: [0, 1, ['उसका']], Cor: [0, 1, ['उसकी']], Type: 'R:PRON-GEN'","Orig: [0, 1, ['उसका']], Cor: [0, 1, ['उसकी']], Type: 'R:PRON-GEN'","उसका पतंग कट गया।
+","उसकी पतंग कट गई है।
+",R:PRON-GEN,g,a,R:PRON-GEN,YES,g,NO
+46,"Orig: [3, 4, ['गया']], Cor: [3, 5, ['गई', 'है']], Type: 'R:VERB-GEN'","Orig: [3, 4, ['गया']], Cor: [3, 5, ['गई', 'है']], Type: 'R:VERB-GEN'","उसका पतंग कट गया।
+","उसकी पतंग कट गई है।
+",R:VERB-GEN,a,a,R:VERB-GEN,NO,a,NO
+47,"Orig: [4, 5, ['कवि']], Cor: [4, 5, ['कवयित्री']], Type: 'R:NOUN'","Orig: [4, 5, ['कवि']], Cor: [4, 5, ['कवयित्री']], Type: 'R:NOUN'","महादेवी वर्मा वेदना की कवि थीं।
+","महादेवी वर्मा वेदना की कवयित्री थीं।
+",R:NOUN,a,a,R:NOUN-GEN,NO,a,NO
+48,"Orig: [0, 1, ['हमारे']], Cor: [0, 1, ['हमारी']], Type: 'R:PRON-GEN'","Orig: [0, 1, ['हमारे']], Cor: [0, 1, ['हमारी']], Type: 'R:PRON-GEN'","हमारे वस्तुओं का ध्यान रखना।
+","हमारी वस्तुओं का ध्यान रखना।
+",R:PRON-GEN,g,a,R:PRON-GEN,YES,g,NO
+49,"Orig: [3, 4, ['गया']], Cor: [3, 4, ['गई']], Type: 'R:VERB-GEN'","Orig: [3, 4, ['गया']], Cor: [3, 4, ['गई']], Type: 'R:VERB-GEN'",उमा अपने ससुराल गया है।,उमा अपने ससुराल गई है।,R:VERB-GEN,g,a,R:VERB-GEN,YES,g,NO

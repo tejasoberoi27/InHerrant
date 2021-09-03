@@ -1,0 +1,34 @@
+﻿,Proposed Edit InHerrant,Incorrect Sentence,Correct Sentence,True Label Before (Multi-Class),True Label (Multi-Class),"Edit Quality (g,b,a)","Edit Extraction Quality (a,b)",InHerrant Annotation Correct
+0,"Orig: [1, 2, ['ने']], Cor: [1, 1, []], Type: 'U:ADP'","शीला ने पढ़ती है।
+","शीला पढ़ती है।
+",U:ADP,U:ADP,g,a,YES
+1,"Orig: [2, 3, ['को']], Cor: [2, 3, ['से']], Type: 'R:ADP'","उसने राम को पूछा।
+","उसने राम से पूछा।
+",R:ADP,R:ADP,g,a,YES
+2,"Orig: [3, 5, ['पूछा', '।']], Cor: [3, 4, ['पूछा।']], Type: 'R:ORTH'","उसने राम को पूछा।
+","उसने राम से पूछा।
+",,R:ORTH,,b,NO
+3,"Orig: [5, 5, []], Cor: [5, 6, ['उन्होंने']], Type: 'M:PRON'","पिता जी घर आए और खाना खाया।
+","पिता जी घर आए और उन्होंने खाना खाया।
+",M:PRON,M:PRON,g,a,YES
+4,"Orig: [0, 1, ['वे']], Cor: [0, 1, ['उन्होंने']], Type: 'R:PRON-NUM'","वे अभी-अभी खाना खाए हैं।
+","उन्होंने अभी-अभी खाना खाया है।
+",R:PRON,R:PRON-NUM,g,a,NO
+5,"Orig: [3, 4, ['खाए']], Cor: [3, 4, ['खाया']], Type: 'R:VERB-NUM'","वे अभी-अभी खाना खाए हैं।
+","उन्होंने अभी-अभी खाना खाया है।
+",R:VERB-NUM,R:VERB-NUM,g,b,YES
+6,"Orig: [4, 5, ['हैं']], Cor: [4, 5, ['है']], Type: 'R:SPELL'","वे अभी-अभी खाना खाए हैं।
+","उन्होंने अभी-अभी खाना खाया है।
+",R:VERB-NUM,R:SPELL,g,a,NO
+7,"Orig: [0, 1, ['आपने']], Cor: [0, 1, ['आप']], Type: 'R:PRON'","आपने मुसकरा दिया।
+","आप मुसकरा दिए।
+",R:PRON,R:PRON,g,a,YES
+8,"Orig: [2, 3, ['दिया']], Cor: [2, 3, ['दिए']], Type: 'R:VERB-FORM'","आपने मुसकरा दिया।
+","आप मुसकरा दिए।
+",R:VERB,R:VERB-FORM,g,a,NO
+9,"Orig: [2, 3, ['को']], Cor: [2, 2, []], Type: 'U:ADP'","मैं बाज़ार को जा रहा हूँ।
+","मैं बाज़ार जा रहा हूँ।
+",U:ADP,U:ADP,g,a,YES
+10,"Orig: [3, 3, []], Cor: [3, 4, ['का']], Type: 'M:ADP'","उन्होंने एक मित्र परिचय दिया।
+","उन्होंने एक मित्र का परिचय दिया।
+",M:ADP,M:ADP,g,a,YES

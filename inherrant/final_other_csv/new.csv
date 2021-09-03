@@ -1,0 +1,32 @@
+﻿,Proposed Edit InHerrant,Incorrect Sentence,Correct Sentence,True Label Before (Multi-Class),True Label (Multi-Class),"Edit Quality (g,b,a)","Edit Extraction Quality (a,b)",InHerrant Annotation Correct
+0,"Orig: [1, 2, ['उदाहरन']], Cor: [1, 2, ['उदाहरण']], Type: 'R:SPELL'","इसका उदाहरन दो।
+","इसका उदाहरण दो।
+",R:SPELL,R:SPELL,g,a,YES
+1,"Orig: [2, 4, ['दो', '।']], Cor: [2, 3, ['दो।']], Type: 'R:ORTH'","इसका उदाहरन दो।
+","इसका उदाहरण दो।
+",R:ORTH,R:ORTH,g,a,YES
+2,"Orig: [7, 7, []], Cor: [7, 8, ['।']], Type: 'M:PUNCT'","मैंने आज बहुत अच्छा खाना खाया था
+","मैंने आज बहुत अच्छा खाना खाया था।
+",M:PUNCT,M:PUNCT,g,a,YES
+3,"Orig: [4, 4, []], Cor: [4, 5, [',']], Type: 'M:PUNCT'","राकेश आपनी सारी सम्पति भूमि और मन-मर्यादा खो गया
+","राकेश आपनी सारी सम्पति, भूमि और मन-मर्यादा खो गया।
+",M:PUNCT,M:PUNCT,g,a,YES
+4,"Orig: [9, 9, []], Cor: [10, 11, ['।']], Type: 'M:PUNCT'","राकेश आपनी सारी सम्पति भूमि और मन-मर्यादा खो गया
+","राकेश आपनी सारी सम्पति, भूमि और मन-मर्यादा खो गया।
+",M:PUNCT,M:PUNCT,g,a,YES
+5,"Orig: [2, 2, []], Cor: [2, 3, [',']], Type: 'M:PUNCT'","वो बच्चा जो कल रो रहा था आज हस रहा है
+","वो बच्चा, जो कल रो रहा था, आज हस रहा है।
+",M:PUNCT,M:PUNCT,g,a,YES
+6,"Orig: [7, 7, []], Cor: [8, 9, [',']], Type: 'M:PUNCT'","वो बच्चा जो कल रो रहा था आज हस रहा है
+","वो बच्चा, जो कल रो रहा था, आज हस रहा है।
+",M:PUNCT,M:PUNCT,g,a,YES
+7,"Orig: [11, 11, []], Cor: [13, 14, ['।']], Type: 'M:PUNCT'","वो बच्चा जो कल रो रहा था आज हस रहा है
+","वो बच्चा, जो कल रो रहा था, आज हस रहा है।
+",M:PUNCT,M:PUNCT,g,a,YES
+8,"Orig: [1, 1, []], Cor: [1, 2, ['!']], Type: 'M:PUNCT'","अरे तुम कब आये।
+","अरे! तुम कब आये?
+",M:PUNCT,M:PUNCT,g,a,YES
+9,"Orig: [4, 5, ['।']], Cor: [5, 6, ['?']], Type: 'R:SPELL'","अरे तुम कब आये।
+","अरे! तुम कब आये?
+",R:PUNCT,R:SPELL,g,a,NO
+10,"Orig: [5, 5, []], Cor: [4, 5, ['।']], Type: 'M:PUNCT'",वह कभी कभी आता है,वह कभी-कभी आता है।,M:PUNCT,M:PUNCT,g,a,YES

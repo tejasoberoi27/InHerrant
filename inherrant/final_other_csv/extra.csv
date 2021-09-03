@@ -1,0 +1,58 @@
+﻿,Proposed Edit InHerrant,Incorrect Sentence,Correct Sentence,True Label Before (Multi-Class),True Label (Multi-Class),"Edit Quality (g,b,a)","Edit Extraction Quality (a,b)",InHerrant Annotation Correct
+0,"Orig: [3, 4, ['गायक']], Cor: [3, 4, ['गायिका']], Type: 'R:NOUN-GEN'","वह एक प्रसिद्ध गायक है।
+","वह एक प्रसिद्ध गायिका है ।
+",R:NOUN-GEN,R:NOUN-GEN,g,a,YES
+1,"Orig: [1, 2, ['की']], Cor: [1, 2, ['का']], Type: 'R:ADP-INFL'","सीमा की पुत्री 6 साल की है।
+","सीमा का पुत्र 6 साल का है।
+",R:ADP,R:ADP-INFL,g,a,NO
+2,"Orig: [2, 3, ['पुत्री']], Cor: [2, 3, ['पुत्र']], Type: 'R:SPELL'","सीमा की पुत्री 6 साल की है।
+","सीमा का पुत्र 6 साल का है।
+",R:NOUN-GEN,R:SPELL,g,a,NO
+3,"Orig: [5, 6, ['की']], Cor: [5, 6, ['का']], Type: 'R:ADP-INFL'","सीमा की पुत्री 6 साल की है।
+","सीमा का पुत्र 6 साल का है।
+",R:ADP,R:ADP-INFL,g,a,NO
+4,"Orig: [2, 3, ['खुले']], Cor: [2, 3, ['खुला']], Type: 'R:VERB-FORM'","वह दरवाज़ा खुले है। 
+","वह दरवाज़ा खुला है। 
+",R:VERB-NUM,R:VERB-FORM,b,a,NO
+5,"Orig: [2, 5, ['पी', 'चुकी', 'है']], Cor: [2, 3, ['पिया']], Type: 'R:VERB-GEN'","उसने पानी पी चुकी है।
+","उसने पानी पिया।
+",R:VERB-TENSE,R:VERB-GEN,b,a,NO
+6,"Orig: [3, 6, ['मिल', 'चुकी', 'है']], Cor: [3, 4, ['मिली']], Type: 'R:VERB-TENSE'","मुझे यह घड़ी मिल चुकी है।
+","मुझे यह घड़ी मिली।
+",R:VERB-TENSE,R:VERB-TENSE,g,a,YES
+7,"Orig: [3, 5, ['भाग', 'गया']], Cor: [3, 4, ['भागता']], Type: 'R:VERB-TENSE'","मैं तुमसे तेज़ भाग गया हूँ।
+","मैं तुमसे तेज़ भागता हूँ।
+",R:VERB-TENSE,R:VERB-TENSE,g,a,YES
+8,"Orig: [5, 7, ['कर', 'रही']], Cor: [5, 6, ['करती']], Type: 'R:VERB-TENSE'","वह हमेशा अपना काम पूरा कर रही है।
+","वह हमेशा अपना काम पूरा करती है।
+",R:VERB-TENSE,R:VERB-TENSE,g,a,YES
+9,"Orig: [1, 1, []], Cor: [1, 2, ['हमेशा']], Type: 'M:ADV'","वह अपना काम स्वयं करती है।
+","वह हमेशा अपना काम स्वयं करती है।
+",M:ADV,M:ADV,g,a,YES
+10,"Orig: [1, 1, []], Cor: [1, 2, ['रोज़']], Type: 'M:NOUN'","मैं काम पर जाता हूँ।
+","मैं रोज़ काम पर जाता हूँ।
+",M:ADV,M:NOUN,b,a,NO
+11,"Orig: [2, 2, []], Cor: [2, 3, ['तेज़']], Type: 'M:ADJ'","वह बहुत भागता है।
+","वह बहुत तेज़ भागता है।
+",M:ADV,M:ADJ,b,a,NO
+12,"Orig: [2, 2, []], Cor: [2, 3, ['रोज']], Type: 'M:NOUN'","मैं यहाँ आता हूँ।
+","मैं यहाँ रोज आता हूँ।
+",M:ADV,M:NOUN,b,a,NO
+13,"Orig: [2, 2, []], Cor: [2, 4, ['दो', 'बार']], Type: 'M:OTHER'","वह वहाँ गयी।
+","वह वहाँ दो बार गयी।
+",M:ADV,M:OTHER,b,a,NO
+14,"Orig: [2, 2, []], Cor: [2, 3, ['अक्सर']], Type: 'M:ADV'","मैं यहाँ आता हूँ।
+","मैं यहाँ अक्सर आता हूँ।
+",M:ADV,M:ADV,g,a,YES
+15,"Orig: [0, 0, []], Cor: [0, 1, ['वह']], Type: 'M:DET'","पुस्तक मेरी है।
+","वह पुस्तक मेरी है।
+",M:DET,M:DET,g,a,YES
+16,"Orig: [0, 0, []], Cor: [0, 1, ['इस']], Type: 'M:DET'","दुनिया में ये लोग आदर से बात नहीं करते।
+","इस दुनिया में सब लोग आदर से बात नहीं करते।
+",M:DET,M:DET,g,a,YES
+17,"Orig: [0, 1, ['वहाँ']], Cor: [0, 0, []], Type: 'U:PRON'","वहाँ के पौधे में पानी नहीं है।
+","उस पौधे में पानी नहीं है।
+",U:PRON,U:PRON,g,b,YES
+18,"Orig: [1, 1, []], Cor: [1, 2, ['उस']], Type: 'M:DET'","तुम जगह बैठो।
+","तुम उस जगह बैठो।
+",M:DET,M:DET,g,a,YES

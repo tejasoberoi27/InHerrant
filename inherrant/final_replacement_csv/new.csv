@@ -1,0 +1,50 @@
+﻿,Proposed Edit InHerrant,Proposed Edit Ankur's Errant,Incorrect Sentence,Correct Sentence,True Label Before (Multi-Class),True Label (Multi-Class),"Edit Quality (g,b,a)","Edit Extraction Quality (a,b)",InHerrant Annotation Correct,"Edit Quality (g,b,a) Ankur",Ankur Annotation Correct
+0,"Orig: [2, 3, ['दवाब']], Cor: [2, 3, ['दबाव']], Type: 'R:NOUN'","Orig: [2, 3, 'दवाब'], Cor: [2, 3, 'दबाव'], Type: 'R:NOUN'","वह मुझपर दवाब बना रहा है।
+","वह मुझपर दबाव बना रहा है।
+",R:SPELL,R:NOUN,g,a,NO,g,NO
+1,"Orig: [2, 3, ['प्रशाद']], Cor: [2, 3, ['प्रसाद']], Type: 'R:SPELL'","Orig: [2, 3, 'प्रशाद'], Cor: [2, 3, 'प्रसाद'], Type: 'R:SPELL'","मंदिर में प्रशाद बट रहा है।
+","मंदिर में प्रसाद बट रहा है।
+",R:SPELL,R:SPELL,g,a,YES,g,NO
+2,"Orig: [2, 3, ['नास']], Cor: [2, 3, ['नाश']], Type: 'R:SPELL'","Orig: [2, 3, 'नास'], Cor: [2, 3, 'नाश'], Type: 'R:NOUN'","पाप का नास ज़रूर होगा। 
+","पाप का नाश ज़रूर होगा।
+",R:SPELL,R:SPELL,g,a,YES,g,NO
+3,"Orig: [1, 2, ['प्रान']], Cor: [1, 2, ['प्राण']], Type: 'R:SPELL'","Orig: [1, 2, 'प्रान'], Cor: [1, 2, 'प्राण'], Type: 'R:SPELL'","उसके प्रान निकल गए।
+","उसके प्राण निकल गए।
+",R:SPELL,R:SPELL,g,a,YES,g,NO
+4,"Orig: [2, 3, ['प्रमान']], Cor: [2, 3, ['प्रमाण']], Type: 'R:SPELL'","Orig: [2, 3, 'प्रमान'], Cor: [2, 3, 'प्रमाण'], Type: 'R:SPELL'","क़ानून को प्रमान चाहिए।
+","क़ानून को प्रमाण चाहिए।
+",R:SPELL,R:SPELL,g,a,YES,g,NO
+5,"Orig: [2, 3, ['आर्शीवाद']], Cor: [2, 3, ['आशीर्वाद']], Type: 'R:SPELL'","Orig: [2, 3, 'आर्शीवाद'], Cor: [2, 3, 'आशीर्वाद'], Type: 'R:NOUN'","उसे मेरा आर्शीवाद देना।
+","उसे मेरा आशीर्वाद देना।
+",R:SPELL,R:SPELL,g,a,YES,g,NO
+6,"Orig: [2, 3, ['बहिन']], Cor: [2, 3, ['बहन']], Type: 'R:SPELL'","Orig: [2, 3, 'बहिन'], Cor: [2, 3, 'बहन'], Type: 'R:NOUN'","वह अपनी बहिन के पास गया।
+","वह अपनी बहन के पास गया।
+",R:SPELL,R:SPELL,g,a,YES,g,NO
+7,"Orig: [0, 1, ['दिवाली']], Cor: [0, 1, ['दीवाली']], Type: 'R:SPELL'","Orig: [0, 1, 'दिवाली'], Cor: [0, 1, 'दीवाली'], Type: 'R:PROPN'","दिवाली का उत्सव है।
+","दीवाली का उत्सव है।
+",R:SPELL,R:SPELL,g,a,YES,g,NO
+8,"Orig: [1, 2, ['दिवार']], Cor: [1, 2, ['दीवार']], Type: 'R:SPELL'","Orig: [1, 2, 'दिवार'], Cor: [1, 2, 'दीवार'], Type: 'R:NOUN'","उस दिवार पे एक चित्र है।
+","उस दीवार पे एक चित्र है।
+",R:SPELL,R:SPELL,g,a,YES,g,NO
+9,"Orig: [2, 3, ['महिने']], Cor: [2, 3, ['महीने']], Type: 'R:SPELL'","Orig: [2, 3, 'महिने'], Cor: [2, 3, 'महीने'], Type: 'R:NOUN'","जून के महिने में गर्मी होती है।
+","जून के महीने में गर्मी होती है।
+",R:SPELL,R:SPELL,g,a,YES,g,NO
+10,"Orig: [1, 2, ['चाकु']], Cor: [1, 2, ['चाकू']], Type: 'R:SPELL'","Orig: [1, 2, 'चाकु'], Cor: [1, 2, 'चाकू'], Type: 'R:SPELL'","यह चाकु बहुत तेज़ है।
+","यह चाकू बहुत तेज़ है।
+",R:SPELL,R:SPELL,g,a,YES,g,NO
+11,"Orig: [0, 1, ['गुरू']], Cor: [0, 1, ['गुरु']], Type: 'R:SPELL'","Orig: [0, 1, 'गुरू'], Cor: [0, 1, 'गुरु'], Type: 'R:PROPN'","गुरू के चरण पकड़ो।
+","गुरु के चरण पकड़ो।
+",R:SPELL,R:SPELL,g,a,YES,g,NO
+12,"Orig: [1, 2, ['मुंह']], Cor: [1, 2, ['मुँह']], Type: 'R:SPELL'","Orig: [1, 2, 'मुंह'], Cor: [1, 2, 'मुँह'], Type: 'R:NOUN:INFL'","उसके मुंह में कुछ है।
+","उसके मुँह में कुछ है।
+",R:SPELL,R:SPELL,g,a,YES,g,NO
+13,"Orig: [5, 6, ['।']], Cor: [5, 6, ['?']], Type: 'R:SPELL'","Orig: [5, 6, '।'], Cor: [5, 6, '?'], Type: 'R:SPELL'","क्या आप मेरे साथ चलेंगे।
+","क्या आप मेरे साथ चलेंगे?
+",R:PUNCT,R:SPELL,g,a,NO,g,NO
+14,"Orig: [4, 5, ['सत्य']], Cor: [4, 5, ['”सत्य']], Type: 'R:SPELL'","Orig: [4, 5, 'सत्य'], Cor: [4, 5, '”सत्य'], Type: 'R:SPELL'","महात्मा गाँधी ने कहा सत्य ही ईश्वर है।
+","महात्मा गाँधी ने कहा ”सत्य ही ईश्वर है|”
+",M:PUNCT,R:SPELL,b,a,NO,b,NO
+15,"Orig: [7, 9, ['है', '।']], Cor: [7, 8, ['है|”']], Type: 'R:OTHER'","Orig: [7, 8, 'है।'], Cor: [7, 8, 'है|”'], Type: 'R:SPELL'","महात्मा गाँधी ने कहा सत्य ही ईश्वर है।
+","महात्मा गाँधी ने कहा ”सत्य ही ईश्वर है|”
+",M:PUNCT,R:OTHER,b,a,NO,b,NO
+16,"Orig: [1, 3, ['कभी', 'कभी']], Cor: [1, 2, ['कभी-कभी']], Type: 'R:OTHER'","Orig: [1, 3, 'कभी कभी'], Cor: [1, 2, 'कभी-कभी'], Type: 'R:MULTI'",वह कभी कभी आता है,वह कभी-कभी आता है।,M:PUNCT,R:OTHER,b,a,NO,b,YES

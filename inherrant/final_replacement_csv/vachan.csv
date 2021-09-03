@@ -1,0 +1,107 @@
+﻿,Proposed Edit InHerrant,Proposed Edit Ankur's Errant,Incorrect Sentence,Correct Sentence,True Label Before (Multi-Class),True Label (Multi-Class),"Edit Quality (g,b,a)","Edit Extraction Quality (a,b)",InHerrant Annotation Correct,"Edit Quality (g,b,a) Ankur",Ankur Annotation Correct
+0,"Orig: [3, 4, ['होता']], Cor: [3, 4, ['होते']], Type: 'R:VERB-NUM'","Orig: [3, 4, 'होता'], Cor: [3, 4, 'होते'], Type: 'R:VERB:INFL'","इसमें पैसे खर्च होता है।
+","इसमें पैसे खर्च होते हैं।
+",R:VERB-NUM,R:VERB-NUM,g,a,YES,a,YES
+1,"Orig: [4, 5, ['है']], Cor: [4, 5, ['हैं']], Type: 'R:SPELL'","Orig: [4, 5, 'है'], Cor: [4, 5, 'हैं'], Type: 'R:VERB:INFL'","इसमें पैसे खर्च होता है।
+","इसमें पैसे खर्च होते हैं।
+",R:VERB-NUM,R:SPELL,g,a,NO,g,NO
+2,"Orig: [4, 5, ['गई']], Cor: [4, 5, ['गया']], Type: 'R:VERB-GEN'","Orig: [4, 5, 'गई।'], Cor: [4, 5, 'गया।'], Type: 'R:SPELL'","लगता है मानसून आ गई।
+","लगता है मानसून आ गया।
+",R:VERB-GEN,R:VERB-GEN,g,a,YES,g,NO
+3,"Orig: [4, 5, ['रही']], Cor: [4, 5, ['रहे']], Type: 'R:VERB-GEN'","Orig: [4, 5, 'रही'], Cor: [4, 5, 'रहे'], Type: 'R:VERB:INFL'","लड़के और लड़कियाँ पढ़ रही हैं।
+","लड़के और लड़कियाँ पढ़ रहे हैं।
+",R:VERB-GEN,R:VERB-GEN,g,a,YES,a,YES
+4,"Orig: [2, 3, ['आँख']], Cor: [2, 3, ['आँखों']], Type: 'R:NOUN-NUM'","Orig: [2, 3, 'आँख'], Cor: [2, 3, 'आँखों'], Type: 'R:NOUN:INFL'","सीता की आँख से आँसू बह रहा है।
+","सीता की आँखों से आँसू बह रहे हैं।
+",R:NOUN-NUM,R:NOUN-NUM,g,a,YES,a,YES
+5,"Orig: [6, 7, ['रहा']], Cor: [6, 7, ['रहे']], Type: 'R:VERB-NUM'","Orig: [6, 7, 'रहा'], Cor: [6, 7, 'रहे'], Type: 'R:VERB:INFL'","सीता की आँख से आँसू बह रहा है।
+","सीता की आँखों से आँसू बह रहे हैं।
+",R:VERB-NUM,R:VERB-NUM,g,a,YES,a,YES
+6,"Orig: [7, 8, ['है']], Cor: [7, 8, ['हैं']], Type: 'R:SPELL'","Orig: [7, 8, 'है'], Cor: [7, 8, 'हैं'], Type: 'R:VERB:INFL'","सीता की आँख से आँसू बह रहा है।
+","सीता की आँखों से आँसू बह रहे हैं।
+",R:VERB-NUM,R:SPELL,g,a,NO,g,NO
+7,"Orig: [0, 1, ['अनेकों']], Cor: [0, 1, ['अनेक']], Type: 'R:DET'","Orig: [0, 1, 'अनेकों'], Cor: [0, 1, 'अनेक'], Type: 'R:SPELL'","अनेकों स्त्री-पुरुष वहाँ आए थे।
+","अनेक स्त्री-पुरुष वहाँ आए थे।
+",R:ADJ-NUM,R:DET,a,a,NO,a,NO
+8,"Orig: [2, 3, ['जोड़ा']], Cor: [2, 3, ['जोड़े']], Type: 'R:SPELL'","Orig: [2, 3, 'जोड़ा।'], Cor: [2, 3, 'जोड़े।'], Type: 'R:SPELL'","उन्होंने हाथ जोड़ा।
+","उन्होंने हाथ जोड़े।
+",R:VERB-NUM,R:SPELL,g,a,NO,g,NO
+9,"Orig: [3, 4, ['आएँगे']], Cor: [3, 4, ['आएगा']], Type: 'R:VERB-NUM'","Orig: [3, 4, 'आएँगे'], Cor: [3, 4, 'आएगा'], Type: 'R:SPELL'","हर एक आदमी आएँगे।
+","हर एक आदमी आएगा।
+",R:VERB-NUM,R:VERB-NUM,g,a,YES,g,NO
+10,"Orig: [3, 4, ['सोने']], Cor: [3, 4, ['सोना']], Type: 'R:ADJ-NUM'","Orig: [3, 4, 'सोने'], Cor: [3, 4, 'सोना'], Type: 'R:ADJ:INFL'","उनके पास बहुत सोने हैं।
+","उनके पास बहुत सोना है।
+",R:NOUN-NUM,R:ADJ-NUM,b,a,NO,b,NO
+11,"Orig: [4, 5, ['हैं']], Cor: [4, 5, ['है']], Type: 'R:SPELL'","Orig: [4, 5, 'हैं'], Cor: [4, 5, 'है'], Type: 'R:VERB:INFL'","उनके पास बहुत सोने हैं।
+","उनके पास बहुत सोना है।
+",R:VERB-NUM,R:SPELL,g,a,NO,g,NO
+12,"Orig: [2, 3, ['बुरे']], Cor: [2, 3, ['बुरा']], Type: 'R:ADJ-NUM'","Orig: [2, 3, 'बुरे'], Cor: [2, 3, 'बुरा'], Type: 'R:ADJ:INFL'","प्रत्येक चित्र बुरे नहीं होते।
+","प्रत्येक चित्र बुरा नहीं होता।
+",R:ADJ-NUM,R:ADJ-NUM,g,a,YES,a,YES
+13,"Orig: [4, 5, ['होते']], Cor: [4, 5, ['होता']], Type: 'R:VERB-NUM'","Orig: [4, 5, 'होते'], Cor: [4, 5, 'होता'], Type: 'R:VERB:INFL'","प्रत्येक चित्र बुरे नहीं होते।
+","प्रत्येक चित्र बुरा नहीं होता।
+",R:VERB-NUM,R:VERB-NUM,g,a,YES,a,YES
+14,"Orig: [1, 2, ['इसका']], Cor: [1, 2, ['इसके']], Type: 'R:PRON'","Orig: [1, 2, 'इसका'], Cor: [1, 2, 'इसके'], Type: 'R:PRON:INFL'","तुम इसका दाम देते जाओ।
+","तुम इसके दाम देते जाओ।
+",R:PRON-NUM,R:PRON,a,a,NO,a,NO
+15,"Orig: [1, 2, ['आपका']], Cor: [1, 2, ['आपके']], Type: 'R:PRON'","Orig: [1, 2, 'आपका'], Cor: [1, 2, 'आपके'], Type: 'R:PRON:INFL'","मैं आपका दर्शन करने आया हूँ।
+","मैं आपके दर्शन करने आया हूँ।
+",R:PRON-NUM,R:PRON,a,a,NO,a,NO
+16,"Orig: [2, 3, ['के']], Cor: [2, 3, ['का']], Type: 'R:ADP-INFL'","Orig: [2, 3, 'के'], Cor: [2, 3, 'का'], Type: 'R:ADP:INFL'","इस कलम के दाम मिल गए हैं।
+","इस कलम का दाम मिल गया है।
+",R:ADP,R:ADP-INFL,g,a,NO,g,YES
+17,"Orig: [5, 6, ['गए']], Cor: [5, 6, ['गया']], Type: 'R:VERB-NUM'","Orig: [5, 6, 'गए'], Cor: [5, 6, 'गया'], Type: 'R:VERB:INFL'","इस कलम के दाम मिल गए हैं।
+","इस कलम का दाम मिल गया है।
+",R:VERB-NUM,R:VERB-NUM,g,a,YES,a,YES
+18,"Orig: [6, 7, ['हैं']], Cor: [6, 7, ['है']], Type: 'R:SPELL'","Orig: [6, 7, 'हैं'], Cor: [6, 7, 'है'], Type: 'R:VERB:INFL'","इस कलम के दाम मिल गए हैं।
+","इस कलम का दाम मिल गया है।
+",R:VERB-NUM,R:SPELL,g,a,NO,g,NO
+19,"Orig: [2, 3, ['वर्षाएँ']], Cor: [2, 3, ['वर्षा']], Type: 'R:SPELL'","Orig: [2, 3, 'वर्षाएँ'], Cor: [2, 3, 'वर्षा'], Type: 'R:SPELL'","आजकल खूब वर्षाएँ हो रही हैं।
+","आजकल खूब वर्षा हो रही है।
+",R:NOUN-NUM,R:SPELL,a,a,NO,a,NO
+20,"Orig: [5, 6, ['हैं']], Cor: [5, 6, ['है']], Type: 'R:SPELL'","Orig: [5, 6, 'हैं'], Cor: [5, 6, 'है'], Type: 'R:VERB:INFL'","आजकल खूब वर्षाएँ हो रही हैं।
+","आजकल खूब वर्षा हो रही है।
+",R:VERB-NUM,R:SPELL,g,a,NO,g,NO
+21,"Orig: [1, 2, ['लड़की']], Cor: [1, 2, ['लड़कियाँ']], Type: 'R:SPELL'","Orig: [1, 2, 'लड़की'], Cor: [1, 2, 'लड़कियाँ'], Type: 'R:NOUN:INFL'","दो लड़की चित्र बना रही हैं।
+","दो लड़कियाँ चित्र बना रही हैं।
+",R:NOUN-NUM,R:SPELL,a,a,NO,a,NO
+22,"Orig: [3, 4, ['जोड़ा']], Cor: [3, 4, ['जोड़े']], Type: 'R:SPELL'","Orig: [3, 4, 'जोड़ा।'], Cor: [3, 4, 'जोड़े।'], Type: 'R:SPELL'","मोहन ने हाथ जोड़ा।
+","मोहन ने हाथ जोड़े।
+",R:VERB-NUM,R:SPELL,g,a,NO,g,NO
+23,"Orig: [3, 4, ['सकेंगे']], Cor: [3, 4, ['सकोगे']], Type: 'R:VERB-TENSE'","Orig: [3, 4, 'सकेंगे'], Cor: [3, 4, 'सकोगे'], Type: 'R:VERB:FORM'","क्या आप जा सकेंगे ?
+","क्या आप जा सकोगे ?
+",R:VERB-NUM,R:VERB-TENSE,b,a,NO,b,NO
+24,"Orig: [1, 2, ['का']], Cor: [1, 2, ['के']], Type: 'R:ADP-INFL'","Orig: [1, 2, 'का'], Cor: [1, 2, 'के'], Type: 'R:ADP:INFL'","मोहन का प्राण निकलने वाला है।
+","मोहन के प्राण निकलने वाले हैं।
+",R:ADP,R:ADP-INFL,g,a,NO,g,YES
+25,"Orig: [4, 5, ['वाला']], Cor: [4, 5, ['वाले']], Type: 'R:VERB-NUM'","Orig: [4, 5, 'वाला'], Cor: [4, 5, 'वाले'], Type: 'R:VERB:INFL'","मोहन का प्राण निकलने वाला है।
+","मोहन के प्राण निकलने वाले हैं।
+",R:VERB-NUM,R:VERB-NUM,g,a,YES,a,YES
+26,"Orig: [5, 6, ['है']], Cor: [5, 6, ['हैं']], Type: 'R:SPELL'","Orig: [5, 6, 'है'], Cor: [5, 6, 'हैं'], Type: 'R:VERB:INFL'","मोहन का प्राण निकलने वाला है।
+","मोहन के प्राण निकलने वाले हैं।
+",R:VERB-NUM,R:SPELL,g,a,NO,g,NO
+27,"Orig: [1, 2, ['इस']], Cor: [1, 2, ['इन']], Type: 'R:DET'","Orig: [1, 2, 'इस'], Cor: [1, 2, 'इन'], Type: 'R:SPELL'","लोग इस फूल की माला पहनते हैं।
+","लोग इन फूलों की माला पहनते हैं।
+",R:DET,R:DET,g,a,YES,g,NO
+28,"Orig: [2, 3, ['फूल']], Cor: [2, 3, ['फूलों']], Type: 'R:NOUN-NUM'","Orig: [2, 3, 'फूल'], Cor: [2, 3, 'फूलों'], Type: 'R:NOUN:INFL'","लोग इस फूल की माला पहनते हैं।
+","लोग इन फूलों की माला पहनते हैं।
+",R:NOUN-NUM,R:NOUN-NUM,g,a,YES,a,YES
+29,"Orig: [2, 3, ['अनेकों']], Cor: [2, 3, ['अनेक']], Type: 'R:DET'","Orig: [2, 3, 'अनेकों'], Cor: [2, 3, 'अनेक'], Type: 'R:SPELL'","सभा में अनेकों विद्वान आए थे।
+","सभा में अनेक विद्वान आए थे।
+",R:ADJ-NUM,R:DET,a,a,NO,a,NO
+30,"Orig: [1, 2, ['आप']], Cor: [1, 2, ['आपने']], Type: 'R:PRON'","Orig: [1, 2, 'आप'], Cor: [1, 2, 'आपने'], Type: 'R:PRON:INFL'","क्या आप खा लिये हैं?
+","क्या आपने खा लिया है?
+",R:PRON,R:PRON,g,a,YES,g,NO
+31,"Orig: [3, 4, ['लिये']], Cor: [3, 4, ['लिया']], Type: 'R:VERB-FORM'","Orig: [3, 4, 'लिये'], Cor: [3, 4, 'लिया'], Type: 'R:MORPH'","क्या आप खा लिये हैं?
+","क्या आपने खा लिया है?
+",R:VERB,R:VERB-FORM,a,a,NO,a,NO
+32,"Orig: [4, 5, ['हैं']], Cor: [4, 5, ['है']], Type: 'R:SPELL'","Orig: [4, 5, 'हैं'], Cor: [4, 5, 'है'], Type: 'R:VERB:INFL'","क्या आप खा लिये हैं?
+","क्या आपने खा लिया है?
+",R:VERB-NUM,R:SPELL,b,a,NO,b,NO
+33,"Orig: [2, 3, ['बच्चा']], Cor: [2, 3, ['बच्चे']], Type: 'R:NOUN-NUM'","Orig: [2, 3, 'बच्चा'], Cor: [2, 3, 'बच्चे'], Type: 'R:NOUN:INFL'","मेले में बच्चा खो गया।
+","मेले में बच्चे खो गया।
+",R:NOUN-NUM,R:NOUN-NUM,g,a,YES,a,YES
+34,"Orig: [1, 2, ['सब']], Cor: [1, 2, ['सबों']], Type: 'R:MORPH'","Orig: [1, 2, 'सब'], Cor: [1, 2, 'सबों'], Type: 'R:MORPH'","इन सब को जाना है।
+","इन सबों को जाना है।
+",R:NOUN-NUM,R:MORPH,g,a,YES,a,NO
+35,"Orig: [1, 2, ['कितने']], Cor: [1, 2, ['कितना']], Type: 'R:DET'","Orig: [1, 2, 'कितने'], Cor: [1, 2, 'कितना'], Type: 'R:SPELL'",उसे कितने संतरे चाहिए।,उसे कितना संतरे चाहिए।,R:DET,R:DET,g,a,YES,g,NO

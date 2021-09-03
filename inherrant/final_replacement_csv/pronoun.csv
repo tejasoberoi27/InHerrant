@@ -1,0 +1,65 @@
+﻿,Proposed Edit InHerrant,Proposed Edit Ankur's Errant,Incorrect Sentence,Correct Sentence,True Label Before (Multi-Class),True Label (Multi-Class),"Edit Quality (g,b,a)","Edit Extraction Quality (a,b)",InHerrant Annotation Correct,"Edit Quality (g,b,a) Ankur",Ankur Annotation Correct
+0,"Orig: [2, 3, ['मेरी']], Cor: [2, 3, ['अपनी']], Type: 'R:PRON'","Orig: [2, 3, 'मेरी'], Cor: [2, 3, 'अपनी'], Type: 'R:PRON'","मेरा ध्यान मेरी माँ की ओर था।
+","मेरा ध्यान अपनी माँ की ओर था।
+",R:PRON,R:PRON,g,a,YES,g,NO
+1,"Orig: [0, 1, ['इनने']], Cor: [0, 1, ['इन्होंने']], Type: 'R:SPELL'","Orig: [0, 1, 'इनने'], Cor: [0, 1, 'इन्होंने'], Type: 'R:SPELL'","इनने आपका घर देखा है।
+","इन्होंने आपका घर देखा है।
+",R:SPELL,R:SPELL,g,a,YES,g,NO
+2,"Orig: [0, 1, ['वह']], Cor: [0, 1, ['वे']], Type: 'R:PRON-NUM'","Orig: [0, 1, 'वह'], Cor: [0, 1, 'वे'], Type: 'R:PRON'","वह अच्छे आदमी नहीं हैं।
+","वे अच्छे आदमी नहीं हैं।
+",R:PRON-NUM,R:PRON-NUM,g,a,YES,g,NO
+3,"Orig: [1, 2, ['तुम्हारे']], Cor: [1, 2, ['अपने']], Type: 'R:PRON'","Orig: [1, 2, 'तुम्हारे'], Cor: [1, 2, 'अपने'], Type: 'R:PRON'","तुम तुम्हारे घर जाओ।
+","तुम अपने घर जाओ।
+",R:PRON,R:PRON,g,a,YES,g,NO
+4,"Orig: [0, 1, ['हमारे']], Cor: [0, 1, ['अपने']], Type: 'R:PRON'","Orig: [0, 1, 'हमारे'], Cor: [0, 1, 'अपने'], Type: 'R:PRON'","हमारे राष्ट्र में भ्रष्यचार देखकर मुझे बड़ा दुख होता है।
+","अपने राष्ट्र में भ्रष्यचार देखकर मुझे बड़ा दुख होता है।
+",R:PRON,R:PRON,g,a,YES,g,NO
+5,"Orig: [2, 3, ['कौन']], Cor: [2, 3, ['क्या']], Type: 'R:PRON'","Orig: [2, 3, 'कौन'], Cor: [2, 3, 'क्या'], Type: 'R:PRON'","दूध में कौन पड़ गया है ?
+","दूध में क्या पड़ गया है ?
+",R:PRON,R:PRON,g,a,YES,g,NO
+6,"Orig: [1, 2, ['मेरे']], Cor: [1, 2, ['मेरी']], Type: 'R:PRON-GEN'","Orig: [1, 2, 'मेरे'], Cor: [1, 2, 'मेरी'], Type: 'R:PRON:INFL'","तुम मेरे तरफ़ क्यों चले आ रहे हो ?
+","तुम मेरी तरफ़ क्यों चले आ रहे हो ?
+",R:PRON-GEN,R:PRON-GEN,g,a,YES,a,YES
+7,"Orig: [6, 7, ['उसके']], Cor: [7, 8, ['उनके']], Type: 'R:PRON-NUM'","Orig: [6, 7, 'उसके'], Cor: [7, 8, 'उनके'], Type: 'R:PRON'","जो लोग बाढ़ पीड़ित हैं, उसके परिवारों को सहायता देना सरकार का दायित्व है।
+","जो लोग बाढ़ से पीड़ित हैं, उनके परिवारों को सहायता देना सरकार का दायित्व है।
+",R:PRON-NUM,R:PRON-NUM,g,a,YES,g,NO
+8,"Orig: [2, 3, ['कौन']], Cor: [2, 3, ['कुछ']], Type: 'R:PRON'","Orig: [2, 3, 'कौन'], Cor: [2, 3, 'कुछ'], Type: 'R:PRON'","चाय में कौन गिर गया है।
+","चाय में कुछ गिर गया है।
+",R:PRON,R:PRON,g,a,YES,g,NO
+9,"Orig: [0, 1, ['यह']], Cor: [0, 1, ['ये']], Type: 'R:SPELL'","Orig: [0, 1, 'यह'], Cor: [0, 1, 'ये'], Type: 'R:SPELL'","यह अच्छे फल नहीं है।
+","ये अच्छे फल नहीं हैं।
+",R:DET,R:SPELL,g,a,NO,g,NO
+10,"Orig: [4, 5, ['है']], Cor: [4, 5, ['हैं']], Type: 'R:SPELL'","Orig: [4, 5, 'है'], Cor: [4, 5, 'हैं'], Type: 'R:VERB:INFL'","यह अच्छे फल नहीं है।
+","ये अच्छे फल नहीं हैं।
+",R:VERB-NUM,R:SPELL,g,a,NO,g,NO
+11,"Orig: [1, 2, ['तुम्हारी']], Cor: [1, 2, ['अपनी']], Type: 'R:PRON'","Orig: [1, 2, 'तुम्हारी'], Cor: [1, 2, 'अपनी'], Type: 'R:PRON'","तुम तुम्हारी पुस्तक ले आओ।
+","तुम अपनी पुस्तक ले आओ।
+",R:PRON,R:PRON,g,a,YES,g,NO
+12,"Orig: [1, 2, ['तुम्हारा']], Cor: [1, 2, ['तुम्हारे']], Type: 'R:PRON'","Orig: [1, 2, 'तुम्हारा'], Cor: [1, 2, 'तुम्हारे'], Type: 'R:MORPH'","कल तुम्हारा पापा जी मिले थे।
+","कल तुम्हारे पापा जी मिले थे।
+",R:PRON,R:PRON,g,a,YES,g,NO
+13,"Orig: [0, 1, ['मैंने']], Cor: [0, 1, ['मुझे']], Type: 'R:PRON'","Orig: [0, 1, 'मैंने'], Cor: [0, 1, 'मुझे'], Type: 'R:PRON:INFL'","मैंने निबंध लिखना है।
+","मुझे निबंध लिखना है।
+",R:PRON,R:PRON,g,a,YES,g,NO
+14,"Orig: [1, 2, ['उन्हें']], Cor: [1, 2, ['उनकी']], Type: 'R:PRON'","Orig: [1, 2, 'उन्हें'], Cor: [1, 2, 'उनकी'], Type: 'R:PRON:INFL'","यह उन्हें समझ में नहीं आएगा।
+","यह उनकी समझ में नहीं आएगा।
+",R:PRON,R:PRON,g,a,YES,g,NO
+15,"Orig: [0, 1, ['वो']], Cor: [0, 1, ['वह']], Type: 'R:SPELL'","Orig: [0, 1, 'वो'], Cor: [0, 1, 'वह'], Type: 'R:PRON:INFL'","वो तो कल आएगा।
+","वह तो कल आएगा।
+",R:PRON,R:SPELL,g,a,NO,g,NO
+16,"Orig: [1, 2, ['हमारा']], Cor: [1, 2, ['अपना']], Type: 'R:PRON'","Orig: [1, 2, 'हमारा'], Cor: [1, 2, 'अपना'], Type: 'R:PRON'","हमें हमारा काम स्वयं करना चाहिए।
+","हमें अपना काम स्वयं करना चाहिए।
+",R:PRON,R:PRON,g,a,YES,g,NO
+17,"Orig: [4, 5, ['आपका']], Cor: [4, 5, ['तुम्हारा']], Type: 'R:PRON'","Orig: [4, 5, 'आपका'], Cor: [4, 5, 'तुम्हारा'], Type: 'R:PRON'","तुम्हारा पत्र मिला, आपका धन्यवाद।
+","तुम्हारा पत्र मिला, तुम्हारा धन्‍्यवाद।
+",R:PRON,R:PRON,g,a,YES,g,NO
+18,"Orig: [5, 6, ['धन्यवाद।']], Cor: [5, 6, ['धन्\u200d्यवाद।']], Type: 'R:SPELL'","Orig: [5, 6, 'धन्यवाद।'], Cor: [5, 6, 'धन्\u200d्यवाद।'], Type: 'R:SPELL'","तुम्हारा पत्र मिला, आपका धन्यवाद।
+","तुम्हारा पत्र मिला, तुम्हारा धन्‍्यवाद।
+",,R:SPELL,,,NO,,NO
+19,"Orig: [1, 2, ['हमारे']], Cor: [1, 2, ['अपने']], Type: 'R:PRON'","Orig: [1, 2, 'हमारे'], Cor: [1, 2, 'अपने'], Type: 'R:PRON'","हम हमारे पिता जी की आज्ञा का पालन करते हैं।
+","हम अपने पिता जी की आज्ञा का पालन करते हैं।
+",R:PRON,R:PRON,g,a,YES,g,NO
+20,"Orig: [1, 2, ['मेरा']], Cor: [1, 2, ['अपना']], Type: 'R:PRON'","Orig: [1, 2, 'मेरा'], Cor: [1, 2, 'अपना'], Type: 'R:PRON'","मैंने मेरा काम कर लिया है।
+","मैंने अपना काम कर लिया है।
+",R:PRON,R:PRON,g,a,YES,g,NO
+21,"Orig: [0, 1, ['उसके']], Cor: [0, 1, ['उसकी']], Type: 'R:PRON-GEN'","Orig: [0, 1, 'उसके'], Cor: [0, 1, 'उसकी'], Type: 'R:PRON:INFL'",उसके आँख से आँसू निकल पड़ा।,उसकी आँख से आँसू निकल पड़ा।,R:PRON-GEN,R:PRON-GEN,g,a,YES,a,YES

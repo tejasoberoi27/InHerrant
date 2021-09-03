@@ -1,0 +1,8 @@
+﻿,Proposed Edit InHerrant,Proposed Edit Ankur's Errant,Incorrect Sentence,Correct Sentence,True Label Before (Multi-Class),True Label (Multi-Class),"Edit Quality (g,b,a)","Edit Extraction Quality (a,b)",InHerrant Annotation Correct,"Edit Quality (g,b,a) Ankur",Ankur Annotation Correct
+0,"Orig: [2, 3, ['बरसाते']], Cor: [1, 2, ['बरसते']], Type: 'R:SPELL'","Orig: [2, 3, 'बरसाते'], Cor: [1, 2, 'बरसते'], Type: 'R:SPELL'","मेघ पानी बरसाते हैं।
+","मेघ बरसते हैं।
+",U:VERB,R:SPELL,a,a,NO,a,NO
+1,"Orig: [3, 5, ['के', 'बीच']], Cor: [3, 4, ['में']], Type: 'R:ADP'","Orig: [3, 5, 'के बीच'], Cor: [3, 4, 'में'], Type: 'R:MULTI'","पिछले कुछ वर्षों के बीच भारत और पाकिस्तान के हर बीच शत्रुता बढ़ी है।
+","पिछले कुछ वर्षों में भारत और पाकिस्तान के बीच शत्रुता बढ़ी है।
+",R:ADP,R:ADP,g,a,YES,b,YES
+2,"Orig: [2, 4, ['ताकतवर', 'दूध']], Cor: [2, 4, ['दूध', 'ताकतवर']], Type: 'R:WO'","Orig: [2, 4, 'ताकतवर दूध'], Cor: [2, 4, 'दूध ताकतवर'], Type: 'R:WO'",भैंस का ताकतवर दूध होता है।,भैंस का दूध ताकतवर होता है।,R:WO,R:WO,g,b,YES,g,NO

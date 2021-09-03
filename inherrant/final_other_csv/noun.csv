@@ -1,0 +1,34 @@
+﻿,Proposed Edit InHerrant,Incorrect Sentence,Correct Sentence,True Label Before (Multi-Class),True Label (Multi-Class),"Edit Quality (g,b,a)","Edit Extraction Quality (a,b)",InHerrant Annotation Correct
+0,"Orig: [3, 4, ['के']], Cor: [3, 3, []], Type: 'U:ADP'","मैं मिठाई खरीदने के हेतु बाज़ार गई थी।
+","मैं मिठाई खरीदने हेतु बाज़ार गई थी।
+",U:ADP,U:ADP,g,a,YES
+1,"Orig: [3, 4, ['भाई']], Cor: [3, 3, []], Type: 'U:NOUN'","मोहन मेरा अनुज भाई है।
+","मोहन मेरा अनुज है।
+",U:NOUN,U:NOUN,g,a,YES
+2,"Orig: [2, 5, ['बुनते', 'हुए', 'बना']], Cor: [2, 3, ['बुन']], Type: 'R:VERB-GEN'","मकड़ी जाला बुनते हुए बना रही है।
+","मकड़ी जाला बुन रही है।
+",R:VERB,R:VERB-GEN,b,a,NO
+3,"Orig: [5, 6, ['बहन']], Cor: [5, 5, []], Type: 'U:NOUN'","रौनक, किरण की अनुजा बहन है।
+","रौनक, किरण की अनुजा है।
+",U:NOUN,U:NOUN,g,a,YES
+4,"Orig: [4, 5, ['अच्छाई']], Cor: [4, 5, ['भलाई']], Type: 'R:NOUN'","इसी कार्य में तुम्हारी अच्छाई है।
+","इसी कार्य में तुम्हारी भलाई है।
+",R:NOUN,R:NOUN,g,a,YES
+5,"Orig: [1, 2, ['कपड़ा']], Cor: [1, 2, ['कपड़े']], Type: 'R:SPELL'","चूहा कपड़ा कुतरकर फाड़ दिया।
+","चूहा कपड़े कुतर गया।
+",R:NOUN-NUM,R:SPELL,g,a,NO
+6,"Orig: [2, 5, ['कुतरकर', 'फाड़', 'दिया']], Cor: [2, 4, ['कुतर', 'गया']], Type: 'R:VERB-TENSE'","चूहा कपड़ा कुतरकर फाड़ दिया।
+","चूहा कपड़े कुतर गया।
+",R:VERB,R:VERB-TENSE,g,a,NO
+7,"Orig: [0, 2, ['रूपवती', 'सुमन']], Cor: [0, 2, ['सुमन', 'रूपवती']], Type: 'R:WO'","रूपवती सुमन बहुत सुंदर हैं।
+","सुमन रूपवती है।
+",R:WO,R:WO,g,a,YES
+8,"Orig: [2, 4, ['बहुत', 'सुंदर']], Cor: [2, 2, []], Type: 'U:OTHER'","रूपवती सुमन बहुत सुंदर हैं।
+","सुमन रूपवती है।
+",U:ADJ,U:OTHER,a,a,NO
+9,"Orig: [4, 5, ['हैं']], Cor: [2, 3, ['है']], Type: 'R:SPELL'","रूपवती सुमन बहुत सुंदर हैं।
+","सुमन रूपवती है।
+",R:VERB-NUM,R:SPELL,b,a,NO
+10,"Orig: [4, 5, ['गुलामी']], Cor: [4, 4, []], Type: 'U:NOUN'","यह लोगों की दासता गुलामी का परिणाम है।
+","यह लोगों की दासता का परिणाम है।
+",U:NOUN,U:NOUN,g,a,YES

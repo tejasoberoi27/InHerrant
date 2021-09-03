@@ -1,0 +1,22 @@
+﻿,Proposed Edit InHerrant,Incorrect Sentence,Correct Sentence,True Label Before (Multi-Class),True Label (Multi-Class),"Edit Quality (g,b,a)","Edit Extraction Quality (a,b)",InHerrant Annotation Correct
+0,"Orig: [1, 2, ['उसकी']], Cor: [1, 2, ['उसके']], Type: 'R:PRON-GEN'","मैंने उसकी मस्तक पर टीका लगायी।
+","मैंने उसके मस्तक पर टीका लगाया।
+",R:PRON-GEN,R:PRON-GEN,g,a,YES
+1,"Orig: [5, 6, ['लगायी']], Cor: [5, 6, ['लगाया']], Type: 'R:VERB-GEN'","मैंने उसकी मस्तक पर टीका लगायी।
+","मैंने उसके मस्तक पर टीका लगाया।
+",R:VERB-GEN,R:VERB-GEN,g,a,YES
+2,"Orig: [3, 4, ['उठाई']], Cor: [3, 4, ['उठाया']], Type: 'R:VERB-GEN'","उसने अपना पर्स उठाई।
+","उसने अपना पर्स उठाया।
+",R:VERB-GEN,R:VERB-GEN,g,a,YES
+3,"Orig: [3, 4, ['अच्छी']], Cor: [3, 4, ['अच्छा']], Type: 'R:ADJ-GEN'","जादूगर का जादू अच्छी थी।
+","जादूगर का जादू अच्छा था।
+",R:ADJ-GEN,R:ADJ-GEN,g,a,YES
+4,"Orig: [4, 5, ['थी']], Cor: [4, 5, ['था']], Type: 'R:VERB-GEN'","जादूगर का जादू अच्छी थी।
+","जादूगर का जादू अच्छा था।
+",R:VERB-GEN,R:VERB-GEN,a,a,NO
+5,"Orig: [4, 5, ['गया']], Cor: [4, 5, ['गई']], Type: 'R:VERB-GEN'","जून और जुलाई आ गया।
+","जून और जुलाई आ गई।
+",R:VERB-GEN,R:VERB-GEN,b,a,NO
+6,"Orig: [5, 6, ['किया']], Cor: [5, 6, ['की']], Type: 'R:VERB-GEN'","अध्यापक ने प्रधानाचार्य से भेंट किया।
+","अध्यापक ने प्रधानाचार्य से भेंट की।
+",R:VERB-GEN,R:VERB-GEN,g,a,YES

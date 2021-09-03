@@ -1,0 +1,22 @@
+﻿,Proposed Edit InHerrant,Incorrect Sentence,Correct Sentence,True Label Before (Multi-Class),True Label (Multi-Class),"Edit Quality (g,b,a)","Edit Extraction Quality (a,b)",InHerrant Annotation Correct
+0,"Orig: [1, 3, ['अवश्य', 'ही']], Cor: [1, 1, []], Type: 'U:OTHER'","वह अवश्य ही मेरे घर आएगा।
+","वह मेरे घर अवश्य आएगा।
+",U:OTHER,U:OTHER,g,a,YES
+1,"Orig: [5, 5, []], Cor: [3, 4, ['अवश्य']], Type: 'M:ADV'","वह अवश्य ही मेरे घर आएगा।
+","वह मेरे घर अवश्य आएगा।
+",M:ADV,M:ADV,g,a,YES
+2,"Orig: [2, 3, ['ही']], Cor: [2, 2, []], Type: 'U:OTHER'","वह स्वयं ही अपना काम कर लेगा।
+","वह स्वयं अपना काम कर लेगा।
+",U:OTHER,U:OTHER,g,a,YES
+3,"Orig: [1, 2, ['लगभग']], Cor: [1, 1, []], Type: 'U:OTHER'","उसे लगभग पूरे अंक प्राप्त हुए।
+","उसे पूरे अंक प्राप्त हुए।
+",U:ADV,U:OTHER,b,a,NO
+4,"Orig: [1, 2, ['आसानीपूर्वक']], Cor: [1, 3, ['आसानी', 'से']], Type: 'R:OTHER'","उसने आसानीपूर्वक काम समाप्त कर लिया।
+","उसने आसानी से काम समाप्त कर लिया।
+",R:ADV,R:OTHER,a,a,NO
+5,"Orig: [5, 7, ['तब', 'भी']], Cor: [5, 7, ['तथापि', 'वह']], Type: 'R:PRON'","यद्यपि वह मेहनती है, तब भी सफलता प्राप्त नहीं करता।
+","यद्यपि वह मेहनती है, तथापि वह सफलता प्राप्त नहीं करता।
+",R:OTHER,R:PRON,a,b,NO
+6,"Orig: [3, 3, []], Cor: [3, 4, ['उतना']], Type: 'M:DET'","जितना गुड़ डालोगे वही मीठा होगा।
+","जितना गुड़ डालोगे उतना ही मीठा होगा।
+",M:DET,M:DET,g,a,YES
